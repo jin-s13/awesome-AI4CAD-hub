@@ -1,0 +1,321 @@
+schema_version: awesome-hub.surveys.v1
+generated_at: '2026-06-30T04:33:19Z'
+topics:
+- id: method
+  label: method
+  label_zh: 方法
+  description: New AI methods for CAD generation, reconstruction, editing, retrieval,
+    or reasoning.
+  description_zh: 新的世界模型架构、训练目标、推理方法，或规划/控制算法。
+  paper_count: 63
+  top_tags:
+  - CV
+  - AI
+  - LG
+  - GR
+  - CL
+  - SE
+  - RO
+  - CG
+  component_averages:
+    citation_impact: 0.0
+    citation_velocity: 0.0
+    graph_prestige: 0.0
+    methodology_quality: 51.3
+    recency: 100.0
+    reproducibility: 44.2
+    topical_relevance: 23.8
+  top_papers:
+  - id: cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026
+    title: 'CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization'
+    year: 2026
+    score: 60.6
+    url: https://arxiv.org/abs/2605.01171v3
+  - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
+    title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
+    year: 2026
+    score: 60.0
+    url: https://arxiv.org/abs/2605.10873v2
+  - id: towards-high-fidelity-cad-generation-via-llm-driven-program-2026
+    title: Towards High-Fidelity CAD Generation via LLM-Driven Program Generation
+      and Text-Based B-Rep Primitive Grounding
+    year: 2026
+    score: 58.6
+    url: https://arxiv.org/abs/2603.11831v2
+  - id: mamba-cad-state-space-model-for-3d-computer-aided-design-ge-2026
+    title: 'Mamba-CAD: State Space Model For 3D Computer-Aided Design Generative Modeling'
+    year: 2026
+    score: 58.5
+    url: https://arxiv.org/abs/2603.00439v1
+  - id: brep2shape-boundary-and-shape-representation-alignment-via-2026
+    title: 'Brep2Shape: Boundary and Shape Representation Alignment via Self-Supervised
+      Transformers'
+    year: 2026
+    score: 54.7
+    url: https://arxiv.org/abs/2602.07429v2
+  - id: fllumaone-a-code-native-multimodal-cad-dataset-with-executa-2026
+    title: 'FllumaOne: A Code-Native Multimodal CAD Dataset with Executable Programs
+      and Kernel-Validated Feature Histories'
+    year: 2026
+    score: 52.2
+    url: https://arxiv.org/abs/2606.17696v1
+  - id: geofusion-cad-structure-aware-diffusion-with-geometric-stat-2026
+    title: 'GeoFusion-CAD: Structure-Aware Diffusion with Geometric State Space for
+      Parametric 3D Design'
+    year: 2026
+    score: 51.3
+    url: https://arxiv.org/abs/2603.21978v1
+  - id: cadfs-a-big-cad-program-dataset-and-framework-for-computer-2026
+    title: 'CADFS: A Big CAD Program Dataset and Framework for Computer-Aided Design
+      with Large Language Models'
+    year: 2026
+    score: 50.1
+    url: https://arxiv.org/abs/2605.01925v1
+  related_work_outline:
+  - 'New AI methods for CAD generation, reconstruction, editing, retrieval, or reasoning.:
+    synthesize 63 papers and separate core contributions from supporting evidence.'
+  - 'Representative papers: CADFit: Precise Mesh-to-CAD Program Generation with Hybrid
+    Optimization, CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation,
+    Towards High-Fidelity CAD Generation via LLM-Driven Program Generation and Text-Based
+    B-Rep Primitive Grounding.'
+  - 'Recurring tags: CV, AI, LG, GR, CL.'
+  - 'Open questions: compare claims, datasets, baselines, reproducibility signals,
+    and limitations before drafting final prose.'
+  related_work_outline_zh:
+  - 围绕新的世界模型架构、训练目标、推理方法，或规划/控制算法，综合 63 篇论文，并区分核心贡献与支撑证据。
+  - '代表论文：CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization,
+    CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation, Towards
+    High-Fidelity CAD Generation via LLM-Driven Program Generation and Text-Based
+    B-Rep Primitive Grounding。'
+  - 高频标签：CV, AI, LG, GR, CL。
+  - 开放问题：在撰写最终综述前，对比论文主张、数据集、基线、可复现性信号和局限性。
+  literature_review:
+    scope_methodology: Grouped 63 papers under method by research line, using each
+      paper's problem setting, modeling target, evidence type, and reported limitations
+      to identify cross-paper patterns.
+    line_of_work_matrix:
+    - line: Method representation and objective design
+      paper_count: 50
+      what_it_solves: turning world-model ideas into concrete representations, losses,
+        architectures, and training recipes
+      what_remains_open: which algorithmic choices transfer beyond the reported task
+        family and objective design
+      representative_papers:
+      - id: cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026
+        title: 'CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization'
+        year: 2026
+        score: 60.6
+      - id: towards-high-fidelity-cad-generation-via-llm-driven-program-2026
+        title: Towards High-Fidelity CAD Generation via LLM-Driven Program Generation
+          and Text-Based B-Rep Primitive Grounding
+        year: 2026
+        score: 58.6
+      - id: mamba-cad-state-space-model-for-3d-computer-aided-design-ge-2026
+        title: 'Mamba-CAD: State Space Model For 3D Computer-Aided Design Generative
+          Modeling'
+        year: 2026
+        score: 58.5
+    - line: Method evidence and ablation protocol
+      paper_count: 15
+      what_it_solves: separating method contribution from dataset, baseline, metric,
+        and implementation effects
+      what_remains_open: whether evidence isolates the proposed method rather than
+        surrounding system choices
+      representative_papers:
+      - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
+        title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
+        year: 2026
+        score: 60.0
+      - id: geofusion-cad-structure-aware-diffusion-with-geometric-stat-2026
+        title: 'GeoFusion-CAD: Structure-Aware Diffusion with Geometric State Space
+          for Parametric 3D Design'
+        year: 2026
+        score: 51.3
+      - id: muse-benchmarking-manufacturable-functional-and-assemblab-2026
+        title: 'MUSE: Benchmarking Manufacturable, Functional, and Assemblable Text-to-CAD
+          Generation'
+        year: 2026
+        score: 50.0
+    consensus:
+    - The main body of work is organized around Method representation and objective
+      design, Method evidence and ablation protocol, with a shared goal to turn world-model
+      ideas into concrete architectures, objectives, planners, and training recipes.
+    - A common pattern is to propose a modeling choice, isolate it with ablations
+      or baselines, and test whether it changes downstream behavior, rather than treating
+      paper titles or tags as the unit of comparison.
+    disagreements:
+    - The substantive split is between representation/objective choices, planning
+      interfaces, and evidence protocols; those choices change the input-output contract,
+      evidence standard, and failure modes.
+    - The unresolved boundary is which algorithmic choices transfer beyond the reported
+      task family and objective design; another recurring gap is whether evidence
+      isolates the proposed method rather than surrounding system choices.
+    open_questions:
+    - Which representation choices remain useful when the downstream task, controller,
+      or data distribution changes?
+    - Do current evaluation protocols measure decision utility directly, or mostly
+      proxy quality signals?
+    trend_evolution: Within the current frontier, the field is shifting from isolated
+      demonstrations toward evidence about when turn world-model ideas into concrete
+      architectures, objectives, planners, and training recipes.
+    timeline:
+    - year: 2026
+      paper_count: 63
+      representative_papers:
+      - 'CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization'
+      - 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
+      - Towards High-Fidelity CAD Generation via LLM-Driven Program Generation and
+        Text-Based B-Rep Primitive Grounding
+    references:
+    - id: cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026
+      title: 'CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization'
+      year: 2026
+      score: 60.6
+      role: method
+    - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
+      title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
+      year: 2026
+      score: 60.0
+      role: method
+    - id: towards-high-fidelity-cad-generation-via-llm-driven-program-2026
+      title: Towards High-Fidelity CAD Generation via LLM-Driven Program Generation
+        and Text-Based B-Rep Primitive Grounding
+      year: 2026
+      score: 58.6
+      role: method
+    - id: mamba-cad-state-space-model-for-3d-computer-aided-design-ge-2026
+      title: 'Mamba-CAD: State Space Model For 3D Computer-Aided Design Generative
+        Modeling'
+      year: 2026
+      score: 58.5
+      role: method
+    - id: brep2shape-boundary-and-shape-representation-alignment-via-2026
+      title: 'Brep2Shape: Boundary and Shape Representation Alignment via Self-Supervised
+        Transformers'
+      year: 2026
+      score: 54.7
+      role: method
+    - id: fllumaone-a-code-native-multimodal-cad-dataset-with-executa-2026
+      title: 'FllumaOne: A Code-Native Multimodal CAD Dataset with Executable Programs
+        and Kernel-Validated Feature Histories'
+      year: 2026
+      score: 52.2
+      role: method
+    - id: geofusion-cad-structure-aware-diffusion-with-geometric-stat-2026
+      title: 'GeoFusion-CAD: Structure-Aware Diffusion with Geometric State Space
+        for Parametric 3D Design'
+      year: 2026
+      score: 51.3
+      role: method
+    - id: cadfs-a-big-cad-program-dataset-and-framework-for-computer-2026
+      title: 'CADFS: A Big CAD Program Dataset and Framework for Computer-Aided Design
+        with Large Language Models'
+      year: 2026
+      score: 50.1
+      role: method
+  literature_review_zh:
+    范围与方法: 按研究路线归纳 63 篇方法相关论文，依据问题设定、建模对象、证据类型和已报告局限识别跨论文模式。
+    研究路线矩阵:
+    - 路线: 方法表示与目标设计
+      论文数: 50
+      解决的问题: 把世界模型想法落实为具体表示、损失函数、架构和训练配方
+      尚未覆盖: 哪些算法选择能迁移到报告任务族和目标设计之外
+      代表论文:
+      - id: cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026
+        title: 'CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization'
+        year: 2026
+        score: 60.6
+      - id: towards-high-fidelity-cad-generation-via-llm-driven-program-2026
+        title: Towards High-Fidelity CAD Generation via LLM-Driven Program Generation
+          and Text-Based B-Rep Primitive Grounding
+        year: 2026
+        score: 58.6
+      - id: mamba-cad-state-space-model-for-3d-computer-aided-design-ge-2026
+        title: 'Mamba-CAD: State Space Model For 3D Computer-Aided Design Generative
+          Modeling'
+        year: 2026
+        score: 58.5
+    - 路线: 方法证据与消融协议
+      论文数: 15
+      解决的问题: 区分方法贡献与数据集、基线、指标和实现因素
+      尚未覆盖: 证据是否真正隔离了方法贡献，而不是周边系统选择
+      代表论文:
+      - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
+        title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
+        year: 2026
+        score: 60.0
+      - id: geofusion-cad-structure-aware-diffusion-with-geometric-stat-2026
+        title: 'GeoFusion-CAD: Structure-Aware Diffusion with Geometric State Space
+          for Parametric 3D Design'
+        year: 2026
+        score: 51.3
+      - id: muse-benchmarking-manufacturable-functional-and-assemblab-2026
+        title: 'MUSE: Benchmarking Manufacturable, Functional, and Assemblable Text-to-CAD
+          Generation'
+        year: 2026
+        score: 50.0
+    共识:
+    - 这个主题的主体由方法表示与目标设计、方法证据与消融协议构成，共同目标是把世界模型想法落实为架构、目标函数、规划接口和训练配方。
+    - 常见范式是提出一个建模选择，再用消融或基线隔离其贡献，并验证它是否改变下游行为，而不是把论文标题或标签当作比较单位。
+    分歧:
+    - 论文之间的实质分歧集中在表示/目标设计、规划接口和证据协议；这些选择决定输入输出约定、证据标准和失败模式。
+    - 尚未解决的边界包括哪些算法选择能迁移到报告任务族和目标设计之外；另一个反复出现的问题是证据是否真正隔离了方法贡献，而不是周边系统选择。
+    开放问题:
+    - 当下游任务、控制器或数据分布变化时，哪些表示选择仍然有效？
+    - 现有评测是在直接度量决策效用，还是主要度量视觉质量、预测误差等代理信号？
+    趋势演进: 当前前沿正在从单篇演示转向回答把世界模型想法落实为架构、目标函数、规划接口和训练配方在什么条件下真正成立。
+    时间线:
+    - year: 2026
+      paper_count: 63
+      representative_papers:
+      - 'CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization'
+      - 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
+      - Towards High-Fidelity CAD Generation via LLM-Driven Program Generation and
+        Text-Based B-Rep Primitive Grounding
+    参考论文:
+    - id: cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026
+      title: 'CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization'
+      year: 2026
+      score: 60.6
+      role: method
+    - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
+      title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
+      year: 2026
+      score: 60.0
+      role: method
+    - id: towards-high-fidelity-cad-generation-via-llm-driven-program-2026
+      title: Towards High-Fidelity CAD Generation via LLM-Driven Program Generation
+        and Text-Based B-Rep Primitive Grounding
+      year: 2026
+      score: 58.6
+      role: method
+    - id: mamba-cad-state-space-model-for-3d-computer-aided-design-ge-2026
+      title: 'Mamba-CAD: State Space Model For 3D Computer-Aided Design Generative
+        Modeling'
+      year: 2026
+      score: 58.5
+      role: method
+    - id: brep2shape-boundary-and-shape-representation-alignment-via-2026
+      title: 'Brep2Shape: Boundary and Shape Representation Alignment via Self-Supervised
+        Transformers'
+      year: 2026
+      score: 54.7
+      role: method
+    - id: fllumaone-a-code-native-multimodal-cad-dataset-with-executa-2026
+      title: 'FllumaOne: A Code-Native Multimodal CAD Dataset with Executable Programs
+        and Kernel-Validated Feature Histories'
+      year: 2026
+      score: 52.2
+      role: method
+    - id: geofusion-cad-structure-aware-diffusion-with-geometric-stat-2026
+      title: 'GeoFusion-CAD: Structure-Aware Diffusion with Geometric State Space
+        for Parametric 3D Design'
+      year: 2026
+      score: 51.3
+      role: method
+    - id: cadfs-a-big-cad-program-dataset-and-framework-for-computer-2026
+      title: 'CADFS: A Big CAD Program Dataset and Framework for Computer-Aided Design
+        with Large Language Models'
+      year: 2026
+      score: 50.1
+      role: method

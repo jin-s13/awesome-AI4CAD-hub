@@ -1,0 +1,325 @@
+# =============================================================================
+# awesome-hub-generator 配置文件
+# 用户只需编辑此文件，其余自动生成
+# =============================================================================
+
+project:
+  name: "Awesome AI4CAD Hub"
+  description: "A curated hub for AI papers, datasets, tools, and research for CAD, parametric design, B-Rep modeling, and engineering geometry."
+  github_url: "https://github.com/jin-s13/awesome-AI4CAD-hub"
+  site_url: "https://jin-s13.github.io/awesome-AI4CAD-hub"
+  generator_repo: "jin-s13/awesome-hub-generator"
+
+research:
+  # === 搜索关键词（支持引号包裹短语） ===
+  keywords:
+    - "AI for CAD"
+    - "computer-aided design"
+    - "neural CAD"
+    - "generative CAD"
+    - "parametric CAD"
+    - "B-Rep"
+    - "boundary representation"
+    - "constructive solid geometry"
+    - "CSG"
+    - "sketch extrusion"
+    - "CAD generation"
+    - "CAD reconstruction"
+    - "text-to-CAD"
+    - "image-to-CAD"
+    - "point cloud to CAD"
+    - "CAD program"
+
+  # === 论文分类体系（动态，按领域配置） ===
+  # LLM 会为每篇论文分配一个或多个 paper_type 标签。不同领域可自定义。
+  taxonomy:
+    # 论文类型标签（多选）
+    paper_types:
+      - label: "method"
+        description: "New AI methods for CAD generation, reconstruction, editing, retrieval, or reasoning."
+      - label: "benchmark"
+        description: "CAD datasets, evaluation tasks, geometric validity metrics, or design benchmarks."
+      - label: "system"
+        description: "Runnable CAD systems, toolkits, agents, pipelines, plugins, or design platforms."
+      - label: "theory"
+        description: "Geometric modeling theory, representation analysis, constraints, or formal design reasoning."
+      - label: "survey"
+        description: "Surveys, taxonomies, tutorials, position papers, or roadmap papers for AI4CAD."
+      - label: "application"
+        description: "Applied CAD workflows such as mechanical design, manufacturing, architecture, CAE, CAM, or 3D printing."
+    # 分析维度：LLM 提取的论文属性
+    dimensions:
+      - name: "techniques"
+        description: "key techniques or methods used"
+      - name: "representations"
+        description: "CAD representations such as B-Rep, CSG, sketches, curves, surfaces, meshes, point clouds, or CAD command sequences"
+      - name: "inputs"
+        description: "input types (e.g., text, image, point cloud)"
+      - name: "outputs"
+        description: "output types (e.g., parametric CAD, B-Rep solids, sketches, CAD programs, drawings, meshes, or manufacturing plans)"
+
+  # === 相关性判断标准（LLM 语义过滤用） ===
+  # LLM 根据这些标准判断论文是否与本项目相关
+  relevance_criteria:
+    include:
+      - "CAD model generation, reconstruction, or retrieval (text-to-CAD, img2CAD, etc.)"
+      - "B-Rep / CSG / parametric modeling / sketch-and-extrude / CAD programs"
+      - "AI systems for engineering drawing understanding, mechanical design, manufacturing, CAE/CAM, or 3D printing"
+      - "Shape abstraction, shape parsing, reverse engineering for CAD"
+      - "Geometric modeling (NURBS, splines, curves/surfaces for design)"
+      - "CAD-specific datasets, benchmarks, or tools"
+    exclude:
+      - "General 3D reconstruction / NeRF / Gaussian splatting / scene reconstruction"
+      - "General AI/ML, LLM agents, RAG, coding assistants, software engineering"
+      - "Robotics, embodied AI, world models, autonomous driving"
+      - "NLP, speech, OCR, document parsing, financial/time-series"
+      - "General computer vision (detection, segmentation, image generation)"
+      - "3D scene understanding / scene graph / indoor-outdoor reconstruction"
+      - "Spatial intelligence / foundation models for 3D without CAD-specific contribution"
+
+  # === 负向关键词（命中直接排除） ===
+  negative_keywords:
+    # 医学
+    - "medical imaging"
+    - "weather forecast"
+    - "protein folding"
+    - "drug discovery"
+    - "cancer detection"
+    - "breast cancer"
+    - "thyroid cancer"
+    - "coronary artery"
+    - "cardiovascular"
+    - "mammogr"
+    - "radiology"
+    - "clinical diagnosis"
+    - "dental"
+    - "caries"
+    - "molar"
+    - "tumor"
+    - "lesion segmentation"
+    - "ECG"
+    - "EEG"
+    - "blood pressure"
+    - "diabetes"
+    - "COVID"
+    - "pneumonia"
+    - "skin lesion"
+    # 金融
+    - "financial"
+    - "stock market"
+    - "trading"
+    - "cryptocurr"
+    - "look-ahead bias"
+    # 机器人/操控
+    - "dexterous manipulation"
+    - "humanoid"
+    - "grasping"
+    - "robot manipulation"
+    # 环境/气候
+    - "climate"
+    - "weather"
+    # 微流控/生物
+    - "microfluidic"
+    - "live-cell"
+    # 其他不相关
+    - "anomaly detection"
+    - "defect detection"
+    - "point cloud registration"
+    - "articulated pose"
+    - "category-level pose"
+    - "egocentric"
+    - "sim-to-real"
+
+  # === 领域加分词（额外加权） ===
+  domain_boost_keywords:
+    - "neural CAD"
+    - "generative CAD"
+    - "text-to-CAD"
+    - "B-Rep"
+    - "CSG"
+    - "parametric design"
+    - "sketch extrusion"
+    - "CAD program"
+    - "point cloud"
+    - "mesh"
+
+  # === arXiv 分类过滤 ===
+  arxiv_categories:
+    - "cs.CV"
+    - "cs.GR"
+    - "cs.LG"
+    - "cs.AI"
+
+  # === 全量构建的起始日期 ===
+  date_from: "2020-01-01"
+
+  # === 每日搜索的天数范围 ===
+  daily_search_days: 3
+
+  # === 数据源开关 ===
+  sources:
+    arxiv: true
+    huggingface_daily: false
+    huggingface_trending: false
+    huggingface_datasets: false
+    upstream_awesome: false
+    alphaxiv: false             # 可选增强源；默认关闭，无需额外 key
+
+  # === 数据集发现 ===
+  datasets:
+    huggingface: false
+    huggingface_limit_per_keyword: 20
+    derive_from_papers: true
+
+  # === AlphaXiv 可选增强源 ===
+  # 默认不启用；如有兼容 JSON endpoint，可配置 endpoint，无需影响 arXiv/HF/awesome 主流程
+  alphaxiv:
+    enabled: false
+    endpoint: ""
+
+  # === 上游 awesome 项目 ===
+  upstream_awesome:
+    # 可选：显式指定高质量 awesome repo，优先于 GitHub Search，适合规避匿名限流
+    repos: []
+    auto_discover: false
+
+  # === 自动发现 GitHub 已有 awesome 项目 ===
+  auto_discover:
+    enabled: false
+    min_stars: 5
+    max_sources: 10
+
+  # === 种子论文自动发现 ===
+  # 展示池中的论文自动作为种子，通过 Semantic Scholar API 获取其 references
+  # references 中的论文加入 candidate 池，经 LLM 筛选后可晋升到展示池
+  seed_discovery:
+    enabled: true
+    api: "semantic_scholar"
+    max_references_per_paper: 50      # 每篇种子最多获取多少条 references
+    max_seeds_per_run: 10             # 每次 update 最多扩展多少篇种子
+    initial_seed_arxiv_ids:           # 初始化时手动指定的种子论文
+      - "2104.01268"                  # DeepCAD
+      - "2305.16303"                  # SkexGen
+
+  # === Candidate 论文池 ===
+  # 所有数据源的论文先进入 candidate 池，经 LLM 相关性筛选后晋升到展示池
+  candidate_pool:
+    enabled: true
+    db_path: "data/candidates.db"     # SQLite 数据库路径
+    promote_batch_size: 20            # 每次最多晋升多少篇（控制 LLM 成本）
+
+  # === 人工维护 ===
+  # 通过 overrides 文件覆盖自动流程的结果
+  overrides:
+    enabled: true
+    file: "data/papers.overrides.yaml"
+
+  # === 评分配置 ===
+  scoring:
+    base_score: 1.5            # 基础分
+    weight_coefficient: 2.5    # 权重系数
+    max_score_per_keyword: 10  # 每个关键词最高分
+    filter_min_score: 5.0      # 低于此分数的论文被过滤
+    author_bonus:              # 专家作者加分
+      enabled: false
+      bonus_points: 5.0
+      expert_authors: []
+
+  # === Read-first 排序配置 ===
+  # 在保留 score.total 的同时，生成可解释的 score.read_first_score
+  ranking:
+    enabled: true
+    weights:
+      topical_relevance: 0.25     # 与研究方向/关键词/分类体系的贴合度
+      citation_impact: 0.15       # OpenAlex-shaped 引用影响力信号
+      graph_prestige: 0.15        # 局部引用图 PageRank 风格声望
+      citation_velocity: 0.10     # 年均引用速度，降低旧论文天然优势
+      methodology_quality: 0.15   # 方法、实验、结果等技术信号
+      reproducibility: 0.15       # 代码、数据、项目页、benchmark 等复现信号
+      recency: 0.05               # 近期论文加权
+    citation_graph:
+      enabled: true               # 有 OpenAlex-shaped 元数据时启用；缺失时自动跳过
+      fetch_openalex: false        # 可选：实时查询 OpenAlex；默认关闭以保持离线构建稳定
+      timeout: 20
+      workers: 6                   # OpenAlex 并发请求数；网络较稳时可调到 10
+      api_key: ""                   # 可选；也可用 OPENALEX_API_KEY 环境变量
+      mailto: ""                   # 可选：OpenAlex polite pool 邮箱
+
+  # === 深度分析配置 ===
+  deep_analysis:
+    enabled: true               # 是否对高分论文做 PDF 深度分析
+    min_score: 30               # 最低评分门槛
+    pdf_parser: "mineru"       # pymupdf（本地）或 mineru（云端）
+    max_papers_per_run: 10      # 每次运行最多分析多少篇
+
+  # === LLM 解读/TLDR 补齐 ===
+  # 每日更新会用 refresh_interpretations_parallel.py 补齐缺失字段：
+  # tldr / reasoning / analysis / title_cn / abstract_cn / tldr_cn / analysis_cn。
+  # 只补缺失项，不覆盖已有字段；未配置 ARK_API_KEY 时自动跳过。
+  interpretations:
+    enabled: true
+    workers: 10                 # 并发 LLM 调用数
+    daily_limit: 0               # 0=不限；可设为 50/100 控制单次成本
+    checkpoint_interval: 5
+    force_analysis: false        # true=无视分数门槛，为所有缺 analysis 的论文生成深度分析
+    sleep: 0.0
+
+  # === 深度研究队列 ===
+  # 对 read_first_score 高的论文生成 research_runs.yaml 和 resource/{paper}/research.md
+  deep_research:
+    enabled: true
+    min_read_first_score: 70
+    max_papers_per_run: 10
+
+  # === 元数据富化配置 ===
+  enrichment:
+    enabled: false
+    max_concurrent: 10           # 并发数
+    request_timeout: 30          # 单篇超时（秒）
+    extract_affiliations: true   # 是否提取机构
+    extract_figures: true        # 是否提取图片
+    extract_methods: true        # 是否提取方法名
+
+  # === 论文分级配置 ===
+  grading:
+    enabled: true
+    must_read_min_score: 40      # 必读门槛
+    worth_reading_min_score: 20  # 值得看门槛
+    # 低于 worth_reading_min_score 的为"可跳过"
+
+  # === 跨天去重历史记录 ===
+  history:
+    enabled: true
+    retention_days: 30           # 保留天数
+    min_papers_per_run: 20       # 最少论文数（不足时回填）
+    weekend_mode: true           # 周末模式
+
+  # === 图片本地化 ===
+  image_localization:
+    enabled: true
+    check_reachability: true     # 检查图片可达性
+    download_fallback: true      # 不可达时下载到本地
+    pdf_extract_fallback: true   # 从 PDF 提取作为最终 fallback
+
+  # === 关键词趋势追踪 ===
+  keyword_tracking:
+    enabled: true
+    report_frequency: "weekly"  # daily / weekly / monthly / always
+
+website:
+  sections:
+    papers: true
+    surveys: true
+    datasets: true
+    tools: true
+  nav:
+    - label: "Home"
+      href: "/"
+    - label: "Papers"
+      href: "/papers"
+    - label: "Datasets"
+      href: "/datasets"
+    - label: "Tools"
+      href: "/tools"
+  footer: |
+    Built with <a href="https://github.com/jin-s13/awesome-hub-generator">awesome-hub-generator</a>.

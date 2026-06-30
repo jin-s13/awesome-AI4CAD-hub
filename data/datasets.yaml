@@ -1,0 +1,425 @@
+- id: paper-benchcad-a-comprehensive-industry-standard-benchmark-for-p-2026
+  name: BenchCAD
+  description: Industrial Computer-Aided Design (CAD) code generation requires models
+    to produce executable parametric programs from visual or textual inputs. Beyond
+    recognizing the outer shape of a part, this task involves understanding its 3D
+    structure,...
+  tags:
+  - AI
+  - CV
+  - SE
+  links:
+    paper: https://arxiv.org/abs/2605.10865v2
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: BenchCAD: A Comprehensive, Industry-Standard Benchmark
+    for Programmatic CAD'
+  related_papers:
+  - id: benchcad-a-comprehensive-industry-standard-benchmark-for-p-2026
+    title: 'BenchCAD: A Comprehensive, Industry-Standard Benchmark for Programmatic
+      CAD'
+    url: https://arxiv.org/abs/2605.10865v2
+  name_zh: Unnamed Dataset
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
+  name: CADBench
+  description: Recovering editable CAD programs from images or 3D observations is
+    central to AI-assisted design, but progress is difficult to measure because existing
+    evaluations are fragmented across datasets, modalities, and metrics. We introduce
+    CADBen...
+  tags:
+  - CV
+  - AI
+  links:
+    paper: https://arxiv.org/abs/2605.10873v2
+    code: https://github.com/anniedoris/CADBench.
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: CADBench: A Multimodal Benchmark for AI-Assisted CAD
+    Program Generation'
+  related_papers:
+  - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
+    title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
+    url: https://arxiv.org/abs/2605.10873v2
+  name_zh: Unnamed Dataset
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-cadevolve-creating-realistic-cad-via-program-evolution-2026
+  name: CADEvolve
+  description: 'Computer-Aided Design (CAD) delivers rapid, editable modeling for
+    engineering and manufacturing. Recent AI progress now makes full automation feasible
+    for various CAD tasks. However, progress is bottlenecked by data: public corpora
+    mostly c...'
+  tags:
+  - GR
+  links:
+    paper: https://arxiv.org/abs/2602.16317v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: CADEvolve: Creating Realistic CAD via Program Evolution'
+  related_papers:
+  - id: cadevolve-creating-realistic-cad-via-program-evolution-2026
+    title: 'CADEvolve: Creating Realistic CAD via Program Evolution'
+    url: https://arxiv.org/abs/2602.16317v1
+  name_zh: Unnamed Dataset
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-cadfs-a-big-cad-program-dataset-and-framework-for-computer-2026
+  name: CADFS
+  description: We introduce CADFS, a data-centric framework that enables large vision-language
+    models to generate complex CAD design histories. Existing generative CAD systems
+    are restricted to sketch-extrude operations due to simplified representations
+    a...
+  tags:
+  - CV
+  - GR
+  links:
+    paper: https://arxiv.org/abs/2605.01925v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: CADFS: A Big CAD Program Dataset and Framework for Computer-Aided
+    Design with Large Language Models'
+  related_papers:
+  - id: cadfs-a-big-cad-program-dataset-and-framework-for-computer-2026
+    title: 'CADFS: A Big CAD Program Dataset and Framework for Computer-Aided Design
+      with Large Language Models'
+    url: https://arxiv.org/abs/2605.01925v1
+  name_zh: Unnamed Dataset
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026
+  name: CADFit
+  description: Despite recent progress, recovering parametric CAD construction sequences
+    from geometric input, such as meshes or point clouds, is a key challenge for design
+    and manufacturing, as existing CAD reconstruction and generation methods are large...
+  tags:
+  - CV
+  - LG
+  links:
+    paper: https://arxiv.org/abs/2605.01171v3
+    code: https://github.com/ghadinehme/CADFit.
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: CADFit: Precise Mesh-to-CAD Program Generation with
+    Hybrid Optimization'
+  related_papers:
+  - id: cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026
+    title: 'CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization'
+    url: https://arxiv.org/abs/2605.01171v3
+  name_zh: Unnamed Dataset
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-dreamcad-scaling-multi-modal-cad-generation-using-different-2026
+  name: DreamCAD
+  description: Computer-Aided Design (CAD) relies on structured and editable geometric
+    representations, yet existing generative methods are constrained by small annotated
+    datasets with explicit design histories or boundary representation (BRep) labels.
+    Me...
+  tags:
+  - CV
+  - AI
+  links:
+    paper: https://arxiv.org/abs/2603.05607v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: DreamCAD: Scaling Multi-modal CAD Generation using Differentiable
+    Parametric Surfaces'
+  related_papers:
+  - id: dreamcad-scaling-multi-modal-cad-generation-using-different-2026
+    title: 'DreamCAD: Scaling Multi-modal CAD Generation using Differentiable Parametric
+      Surfaces'
+    url: https://arxiv.org/abs/2603.05607v1
+  name_zh: Unnamed Dataset
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-extrusion-segmentation-strategy-to-improve-cad-reconstructio-2026
+  name: Extrusion Segmentation Strategy to improve CAD Reconstruction from Point Cloud
+  description: Computer-Aided Design is ubiquitous in todays world, as almost every
+    manufactured object begins as a digital model across industries. At the same time,
+    advances in 3D sensing have made point clouds a dominant form of raw 3D data.
+    Recovering...
+  tags:
+  - CV
+  - AI
+  links:
+    paper: https://arxiv.org/abs/2605.08971v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Extrusion Segmentation Strategy to improve CAD Reconstruction
+    from Point Cloud'
+  related_papers:
+  - id: extrusion-segmentation-strategy-to-improve-cad-reconstructio-2026
+    title: Extrusion Segmentation Strategy to improve CAD Reconstruction from Point
+      Cloud
+    url: https://arxiv.org/abs/2605.08971v1
+  name_zh: Unnamed Dataset
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-fllumaone-a-code-native-multimodal-cad-dataset-with-executa-2026
+  name: FllumaOne
+  description: Parametric computer-aided design records both final geometry and the
+    ordered construction history that determines how a part can be edited. Datasets
+    for editable CAD research should therefore expose modeling operations, parameters,
+    and feat...
+  tags:
+  - AI
+  - GR
+  links:
+    paper: https://arxiv.org/abs/2606.17696v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: FllumaOne: A Code-Native Multimodal CAD Dataset with
+    Executable Programs and Kernel-Validated Feature Histories'
+  related_papers:
+  - id: fllumaone-a-code-native-multimodal-cad-dataset-with-executa-2026
+    title: 'FllumaOne: A Code-Native Multimodal CAD Dataset with Executable Programs
+      and Kernel-Validated Feature Histories'
+    url: https://arxiv.org/abs/2606.17696v1
+  name_zh: Unnamed Dataset
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-mf-uavpose6d-a-model-free-monocular-6-dof-pose-estimation-f-2026
+  name: MF-UAVPose6D
+  description: For uncrewed aerial vehicles (UAVs), estimating six-degree-of-freedom
+    (6-DoF) poses is essential for airspace situational awareness, target tracking,
+    and counter-UAV operations. However, non-cooperative targets usually lack computer-aided
+    d...
+  tags:
+  - CV
+  - RO
+  links:
+    paper: https://arxiv.org/abs/2606.29697v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: MF-UAVPose6D: A Model-Free Monocular 6-DoF Pose Estimation
+    Framework for Fixed-Wing UAVs'
+  related_papers:
+  - id: mf-uavpose6d-a-model-free-monocular-6-dof-pose-estimation-f-2026
+    title: 'MF-UAVPose6D: A Model-Free Monocular 6-DoF Pose Estimation Framework for
+      Fixed-Wing UAVs'
+    url: https://arxiv.org/abs/2606.29697v1
+  name_zh: Unnamed Dataset
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-mamba-cad-state-space-model-for-3d-computer-aided-design-ge-2026
+  name: Mamba-CAD
+  description: Computer-Aided Design (CAD) generative modeling has a strong and long-term
+    application in the industry. Recently, the parametric CAD sequence as the design
+    logic of an object has been widely mined by sequence models. However, the industrial...
+  tags:
+  - CV
+  - AI
+  links:
+    paper: https://arxiv.org/abs/2603.00439v1
+    code: https://github.com/Sunny-Hack/Code-for-Mamba-CAD-AAAI-2025-.
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Mamba-CAD: State Space Model For 3D Computer-Aided Design
+    Generative Modeling'
+  related_papers:
+  - id: mamba-cad-state-space-model-for-3d-computer-aided-design-ge-2026
+    title: 'Mamba-CAD: State Space Model For 3D Computer-Aided Design Generative Modeling'
+    url: https://arxiv.org/abs/2603.00439v1
+  name_zh: Unnamed Dataset
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-masked-brep-autoencoder-via-hierarchical-graph-transformer-2026
+  name: Masked BRep Autoencoder via Hierarchical Graph Transformer
+  description: We introduce a novel self-supervised learning framework that automatically
+    learns representations from input computer-aided design (CAD) models for downstream
+    tasks, including part classification, modeling segmentation, and machining featur...
+  tags:
+  - GR
+  - LG
+  links:
+    paper: https://arxiv.org/abs/2603.14927v2
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Masked BRep Autoencoder via Hierarchical Graph Transformer'
+  related_papers:
+  - id: masked-brep-autoencoder-via-hierarchical-graph-transformer-2026
+    title: Masked BRep Autoencoder via Hierarchical Graph Transformer
+    url: https://arxiv.org/abs/2603.14927v2
+  name_zh: Unnamed Dataset
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-physics-in-the-loop-a-hybrid-agentic-architecture-for-valid-2026
+  name: Physics-in-the-Loop
+  description: Large Language Models (LLMs) can generate Computer-Aided Design (CAD),
+    yet lack physical comprehension required for reliable engineering design. Instead
+    of attempting to implicitly learn physical laws from data, we propose a Hybrid
+    Agentic-...
+  tags:
+  - CV
+  links:
+    paper: https://arxiv.org/abs/2605.19717v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Physics-in-the-Loop: A Hybrid Agentic Architecture for
+    Validated CAD Engineering Design'
+  related_papers:
+  - id: physics-in-the-loop-a-hybrid-agentic-architecture-for-valid-2026
+    title: 'Physics-in-the-Loop: A Hybrid Agentic Architecture for Validated CAD Engineering
+      Design'
+    url: https://arxiv.org/abs/2605.19717v1
+  name_zh: Unnamed Dataset
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-pointer-cad-v2-plan-then-construct-cad-generation-with-dime-2026
+  name: Pointer-CAD v2
+  description: Computer-aided design (CAD) plays a fundamental role in modern manufacturing
+    by providing the high precision required for industrial production. Recent large
+    language model based approaches formulate CAD generation as a sequence prediction
+    ...
+  tags:
+  - CV
+  links:
+    paper: https://arxiv.org/abs/2606.29301v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Pointer-CAD v2: Plan-Then-Construct CAD Generation with
+    Dimension-Aware Parametric Precision'
+  related_papers:
+  - id: pointer-cad-v2-plan-then-construct-cad-generation-with-dime-2026
+    title: 'Pointer-CAD v2: Plan-Then-Construct CAD Generation with Dimension-Aware
+      Parametric Precision'
+    url: https://arxiv.org/abs/2606.29301v1
+  name_zh: Unnamed Dataset
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-pointer-cad-unifying-b-rep-and-command-sequences-via-pointe-2026
+  name: Pointer-CAD
+  description: Constructing computer-aided design (CAD) models is labor-intensive
+    but essential for engineering and manufacturing. Recent advances in Large Language
+    Models (LLMs) have inspired the LLM-based CAD generation by representing CAD as
+    command se...
+  tags:
+  - CV
+  - CL
+  links:
+    paper: https://arxiv.org/abs/2603.04337v2
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Pointer-CAD: Unifying B-Rep and Command Sequences via
+    Pointer-based Edges  Faces Selection'
+  related_papers:
+  - id: pointer-cad-unifying-b-rep-and-command-sequences-via-pointe-2026
+    title: 'Pointer-CAD: Unifying B-Rep and Command Sequences via Pointer-based Edges  Faces
+      Selection'
+    url: https://arxiv.org/abs/2603.04337v2
+  - id: pointer-cad-v2-plan-then-construct-cad-generation-with-dime-2026
+    title: 'Pointer-CAD v2: Plan-Then-Construct CAD Generation with Dimension-Aware
+      Parametric Precision'
+    url: https://arxiv.org/abs/2606.29301v1
+  name_zh: Unnamed Dataset
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-step-llm-generating-cad-step-models-from-natural-language-w-2026
+  name: STEP-LLM
+  description: Computer-aided design (CAD) is vital to modern manufacturing, yet model
+    creation remains labor-intensive and expertise-heavy. To enable non-experts to
+    translate intuitive design intent into manufacturable artifacts, recent large
+    language mo...
+  tags:
+  - AI
+  links:
+    paper: https://arxiv.org/abs/2601.12641v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: STEP-LLM: Generating CAD STEP Models from Natural Language
+    with Large Language Models'
+  related_papers:
+  - id: step-llm-generating-cad-step-models-from-natural-language-w-2026
+    title: 'STEP-LLM: Generating CAD STEP Models from Natural Language with Large
+      Language Models'
+    url: https://arxiv.org/abs/2601.12641v1
+  name_zh: Unnamed Dataset
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-text2cad-bench-a-benchmark-for-llm-based-text-to-parametric-2026
+  name: Text2CAD-Bench
+  description: Text-to-CAD generation aims to create parametric CAD models from natural
+    language, enabling rapid prototyping and intuitive design workflows. However,
+    existing benchmarks focus on basic primitives and simple sketch-extrude sequences,
+    lackin...
+  tags:
+  - LG
+  links:
+    paper: https://arxiv.org/abs/2605.18430v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Text2CAD-Bench: A Benchmark for LLM-based Text-to-Parametric
+    CAD Generation'
+  related_papers:
+  - id: text2cad-bench-a-benchmark-for-llm-based-text-to-parametric-2026
+    title: 'Text2CAD-Bench: A Benchmark for LLM-based Text-to-Parametric CAD Generation'
+    url: https://arxiv.org/abs/2605.18430v1
+  name_zh: Unnamed Dataset
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-towards-high-fidelity-cad-generation-via-llm-driven-program-2026
+  name: Towards High-Fidelity CAD Generation via LLM-Driven Program Generation and
+    Text-Based B-Rep Primitive Grounding
+  description: 'The field of Computer-Aided Design (CAD) generation has made significant
+    progress in recent years. Existing methods typically fall into two separate categories:
+    parametric CAD modeling and direct boundary representation (B-Rep) synthesis.
+    I...'
+  tags:
+  - CV
+  links:
+    paper: https://arxiv.org/abs/2603.11831v2
+    code: https://github.com/JohanStackk/FutureCAD
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Towards High-Fidelity CAD Generation via LLM-Driven
+    Program Generation and Text-Based B-Rep Primitive Grounding'
+  related_papers:
+  - id: towards-high-fidelity-cad-generation-via-llm-driven-program-2026
+    title: Towards High-Fidelity CAD Generation via LLM-Driven Program Generation
+      and Text-Based B-Rep Primitive Grounding
+    url: https://arxiv.org/abs/2603.11831v2
+  name_zh: Unnamed Dataset
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-unicad-a-unified-benchmark-and-universal-model-for-multi-mo-2026
+  name: UniCAD
+  description: Computer-Aided Design (CAD) underpins modern engineering and manufacturing
+    by enabling the creation of precise, editable 3D models. However, CAD research
+    typically studies tasks in isolation, and multi-modal, multi-task learning for
+    CAD is ...
+  tags:
+  - CV
+  - AI
+  links:
+    paper: https://arxiv.org/abs/2606.05058v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: UniCAD: A Unified Benchmark and Universal Model for
+    Multi-Modal Multi-Task CAD'
+  related_papers:
+  - id: unicad-a-unified-benchmark-and-universal-model-for-multi-mo-2026
+    title: 'UniCAD: A Unified Benchmark and Universal Model for Multi-Modal Multi-Task
+      CAD'
+    url: https://arxiv.org/abs/2606.05058v1
+  name_zh: Unnamed Dataset
+  year: 2026
+  preview: /assets/placeholder.svg

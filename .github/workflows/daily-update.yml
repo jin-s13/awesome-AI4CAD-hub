@@ -1,0 +1,163 @@
+# 每日增量更新（含 teaser 抓取）
+# 此文件应放在下游 awesome-*-hub 仓库的 .github/workflows/ 目录下
+# 使用前需要配置以下 GitHub Secrets:
+#   - ARK_API_KEY: LLM API key (用于论文评分和分析)
+#   - MINERU_API_KEY: MinerU API key (可选，用于 PDF 图表提取)
+#   - OPENALEX_API_KEY: OpenAlex API key (可选，用于引用数据)
+#   - OPENALEX_MAILTO: OpenAlex polite pool email (可选)
+
+name: Daily Update
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'data/**'
+      - 'assets/**'
+      - 'resource/**'
+      - 'backups/**'
+      - 'website/**'
+  schedule:
+    # 每天北京时间 8:00 (UTC 0:00)
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    inputs:
+      search_days:
+        description: '搜索最近 N 天（gap-fill 模式，留空则用配置默认值）'
+        required: false
+        default: ''
+        type: string
+      skip_build:
+        description: '跳过网站构建'
+        required: false
+        default: false
+        type: boolean
+      skip_update:
+        description: '跳过数据更新，仅用现有 data 构建网站'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout site repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout generator (as submodule or sibling)
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ vars.GENERATOR_REPO || 'jin-s13/awesome-hub-generator' }}
+          ref: main
+          path: awesome-hub-generator
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ hashFiles('awesome-hub-generator/requirements.txt') }}
+
+      - name: Install dependencies
+        run: |
+          pip install -r awesome-hub-generator/requirements.txt
+          # 安装 poppler-utils (用于 teaser 图提取)
+          sudo apt-get update && sudo apt-get install -y poppler-utils
+
+      - name: Restore data cache
+        if: github.event_name != 'push'
+        uses: actions/cache@v4
+        with:
+          path: |
+            data
+            assets
+            resource
+          key: site-data-${{ github.run_id }}
+          restore-keys: |
+            site-data-
+
+      - name: Run daily update
+        if: github.event_name != 'push' && github.event.inputs.skip_update != 'true'
+        env:
+          ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
+          ARK_API_BASE_URL: ${{ secrets.ARK_API_BASE_URL || 'https://ark.cn-beijing.volces.com/api/v3' }}
+          ARK_MODEL_NAME: ${{ secrets.ARK_MODEL_NAME || 'deepseek-v4-flash-260425' }}
+          SMART_MODEL_NAME: ${{ secrets.SMART_MODEL_NAME || secrets.ARK_MODEL_NAME || 'deepseek-v4-flash-260425' }}
+          MINERU_API_KEY: ${{ secrets.MINERU_API_KEY }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
+        run: |
+          cd ${{ github.workspace }}
+          SEARCH_DAYS_ARGS=""
+          if [ -n "${{ github.event.inputs.search_days }}" ]; then
+            SEARCH_DAYS_ARGS="--search-days ${{ github.event.inputs.search_days }}"
+          fi
+          python awesome-hub-generator/scripts/update.py $SEARCH_DAYS_ARGS --data-dir data --output website --skip-build
+
+      - name: Refresh repository README
+        if: github.event_name != 'push' && github.event.inputs.skip_update != 'true'
+        run: |
+          cd ${{ github.workspace }}
+          python awesome-hub-generator/scripts/repo_readme.py --config awesome.yaml --data-dir data --output-dir .
+
+      - name: Build site
+        if: github.event.inputs.skip_build != 'true'
+        run: |
+          cd ${{ github.workspace }}
+          python awesome-hub-generator/scripts/build.py --data-dir data --output website --render-only --skip-build
+          cd ${{ github.workspace }}/website
+          npm install
+          npm run build
+
+      - name: Publish GitHub Pages branch
+        if: github.event.inputs.skip_build != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          rm -rf /tmp/awesome-hub-pages
+          git worktree add --detach /tmp/awesome-hub-pages
+          cd /tmp/awesome-hub-pages
+          git switch --orphan gh-pages
+          git rm -r --ignore-unmatch .
+          cp -R "${{ github.workspace }}/website/dist/." .
+          touch .nojekyll
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No GitHub Pages changes to publish"
+          else
+            git commit -m "chore: deploy pages ${{ github.sha }}"
+            git push -f origin gh-pages
+          fi
+
+      - name: Commit data changes
+        if: github.event_name != 'push' && github.event.inputs.skip_update != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f data/ assets/ resource/ README.md AWESOME.md || true
+          if git diff --staged --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "chore: daily update $(date -u +%Y-%m-%d)"
+            git push
+          fi

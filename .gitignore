@@ -1,0 +1,11 @@
+website/
+website/node_modules/
+website/dist/
+website/.astro/
+website/data/llm_cache.db
+data/llm_cache.db
+backups/
+.env
+*.pyc
+__pycache__/
+.DS_Store

@@ -5,6 +5,8 @@
 #   - MINERU_API_KEY: MinerU API key (可选，用于 PDF 图表提取)
 #   - OPENALEX_API_KEY: OpenAlex API key (可选，用于引用数据)
 #   - OPENALEX_MAILTO: OpenAlex polite pool email (可选)
+#   - SEMANTIC_SCHOLAR_API_KEY: Semantic Scholar API key (可选，用于 references 扩展)
+#   - GH_DISCOVERY_TOKEN: GitHub PAT (可选，用于提高 upstream awesome 发现额度)
 
 name: Daily Update
 
@@ -103,9 +105,13 @@ jobs:
           ARK_API_BASE_URL: ${{ secrets.ARK_API_BASE_URL || 'https://ark.cn-beijing.volces.com/api/coding/v3' }}
           ARK_MODEL_NAME: ${{ secrets.ARK_MODEL_NAME || 'deepseek-v4-flash' }}
           SMART_MODEL_NAME: ${{ secrets.SMART_MODEL_NAME || secrets.ARK_MODEL_NAME || 'deepseek-v4-pro' }}
+          ARK_TIMEOUT_SECONDS: ${{ vars.ARK_TIMEOUT_SECONDS || '60' }}
+          ARK_SURVEY_TIMEOUT_SECONDS: ${{ vars.ARK_SURVEY_TIMEOUT_SECONDS || '180' }}
           MINERU_API_KEY: ${{ secrets.MINERU_API_KEY }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
+          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+          SEMANTIC_SCHOLAR_REQUEST_INTERVAL_SECONDS: ${{ vars.SEMANTIC_SCHOLAR_REQUEST_INTERVAL_SECONDS || '1.0' }}
           GH_TOKEN: ${{ secrets.GH_DISCOVERY_TOKEN || github.token }}
         run: |
           cd ${{ github.workspace }}

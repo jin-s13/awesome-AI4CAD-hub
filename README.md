@@ -50,7 +50,10 @@ and publishes GitHub Pages.
 
 Required repository secret: `ARK_API_KEY`.
 Optional secrets: `ARK_API_BASE_URL`, `ARK_MODEL_NAME`, `SMART_MODEL_NAME`,
-`MINERU_API_KEY`, `OPENALEX_API_KEY`, `OPENALEX_MAILTO`.
+`MINERU_API_KEY`, `OPENALEX_API_KEY`, `OPENALEX_MAILTO`,
+`SEMANTIC_SCHOLAR_API_KEY`, `GH_DISCOVERY_TOKEN`.
+Optional repository variables: `ARK_TIMEOUT_SECONDS`, `ARK_SURVEY_TIMEOUT_SECONDS`,
+`SEMANTIC_SCHOLAR_REQUEST_INTERVAL_SECONDS`.
 The workflow also passes the built-in GitHub token as `GH_TOKEN` so upstream awesome-list
 discovery does not fall back to anonymous GitHub Search limits.
 

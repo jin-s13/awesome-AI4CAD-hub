@@ -106,6 +106,7 @@ jobs:
           MINERU_API_KEY: ${{ secrets.MINERU_API_KEY }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
+          GH_TOKEN: ${{ secrets.GH_DISCOVERY_TOKEN || github.token }}
         run: |
           cd ${{ github.workspace }}
           SEARCH_DAYS_ARGS=""

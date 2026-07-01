@@ -4,6 +4,7 @@ website/dist/
 website/.astro/
 website/data/llm_cache.db
 data/llm_cache.db
+data/github_discovery_cache.json
 backups/
 .env
 *.pyc

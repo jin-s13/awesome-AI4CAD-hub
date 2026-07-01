@@ -20,9 +20,12 @@
     title: 'BenchCAD: A Comprehensive, Industry-Standard Benchmark for Programmatic
       CAD'
     url: https://arxiv.org/abs/2605.10865v2
+    title_zh: BenchCAD：面向程序化CAD的全面、行业标准基准测试
   name_zh: Unnamed Dataset
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/benchcad-a-comprehensive-industry-standard-benchmark-for-p-2026/teaser.png
+  description_zh: BenchCAD包含17900个CadQuery程序，覆盖106个工业零件族，用于评估多模态LLM的程序化CAD能力。
+  notes_zh: 派生自论文：BenchCAD：面向程序化CAD的全面、行业标准基准测试
 - id: paper-cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
   name: CADBench
   description: Recovering editable CAD programs from images or 3D observations is
@@ -44,9 +47,12 @@
   - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
     title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
     url: https://arxiv.org/abs/2605.10873v2
+    title_zh: CADBench：面向AI辅助CAD程序生成的多模态基准
   name_zh: Unnamed Dataset
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026/teaser.png
+  description_zh: CADBench是统一多模态基准，评估从图像和3D数据生成CAD程序，含1.8万样本、5种模态、6项指标。
+  notes_zh: 派生自论文：CADBench：面向AI辅助CAD程序生成的多模态基准
 - id: paper-cadevolve-creating-realistic-cad-via-program-evolution-2026
   name: CADEvolve
   description: 'Computer-Aided Design (CAD) delivers rapid, editable modeling for
@@ -65,9 +71,12 @@
   - id: cadevolve-creating-realistic-cad-via-program-evolution-2026
     title: 'CADEvolve: Creating Realistic CAD via Program Evolution'
     url: https://arxiv.org/abs/2602.16317v1
+    title_zh: CADEvolve：通过程序演化创建真实感CAD
   name_zh: Unnamed Dataset
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/cadevolve-creating-realistic-cad-via-program-evolution-2026/teaser.png
+  description_zh: CADEvolve通过VLM引导的演化生成复杂CAD程序，创建大型数据集，在Image2CAD上达到SOTA。
+  notes_zh: 派生自论文：CADEvolve：通过程序演化创建真实感CAD
 - id: paper-cadfs-a-big-cad-program-dataset-and-framework-for-computer-2026
   name: CADFS
   description: We introduce CADFS, a data-centric framework that enables large vision-language
@@ -89,9 +98,12 @@
     title: 'CADFS: A Big CAD Program Dataset and Framework for Computer-Aided Design
       with Large Language Models'
     url: https://arxiv.org/abs/2605.01925v1
+    title_zh: CADFS：一个大型CAD程序数据集和框架，用于基于大语言模型的计算机辅助设计
   name_zh: Unnamed Dataset
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/cadfs-a-big-cad-program-dataset-and-framework-for-computer-2026/teaser.png
+  description_zh: 提出CADFS：45万CAD模型（15种操作）和FeatureScript框架，实现文本/图像到CAD。
+  notes_zh: 派生自论文：CADFS：一个大型CAD程序数据集和框架，用于基于大语言模型的计算机辅助设计
 - id: paper-cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026
   name: CADFit
   description: Despite recent progress, recovering parametric CAD construction sequences
@@ -112,9 +124,12 @@
   - id: cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026
     title: 'CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization'
     url: https://arxiv.org/abs/2605.01171v3
+    title_zh: CADFit：基于混合优化的精确网格到CAD程序生成
   name_zh: Unnamed Dataset
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026/teaser.png
+  description_zh: CADFit利用混合优化从网格恢复可编辑参数化CAD构建序列，在准确性和有效性上超越现有方法。
+  notes_zh: 派生自论文：CADFit：基于混合优化的精确网格到CAD程序生成
 - id: paper-dreamcad-scaling-multi-modal-cad-generation-using-different-2026
   name: DreamCAD
   description: Computer-Aided Design (CAD) relies on structured and editable geometric
@@ -136,9 +151,12 @@
     title: 'DreamCAD: Scaling Multi-modal CAD Generation using Differentiable Parametric
       Surfaces'
     url: https://arxiv.org/abs/2603.05607v1
+    title_zh: 'DreamCAD: 利用可微分参数曲面扩展多模态CAD生成'
   name_zh: Unnamed Dataset
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/dreamcad-scaling-multi-modal-cad-generation-using-different-2026/teaser.png
+  description_zh: DreamCAD利用可微分参数曲面从点级监督生成可编辑BRep，实现多模态CAD生成并达到最先进结果。
+  notes_zh: '派生自论文：DreamCAD: 利用可微分参数曲面扩展多模态CAD生成'
 - id: paper-extrusion-segmentation-strategy-to-improve-cad-reconstructio-2026
   name: Extrusion Segmentation Strategy to improve CAD Reconstruction from Point Cloud
   description: Computer-Aided Design is ubiquitous in todays world, as almost every
@@ -160,9 +178,12 @@
     title: Extrusion Segmentation Strategy to improve CAD Reconstruction from Point
       Cloud
     url: https://arxiv.org/abs/2605.08971v1
+    title_zh: 基于挤出分割策略的点云CAD重建改进方法
   name_zh: Unnamed Dataset
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/extrusion-segmentation-strategy-to-improve-cad-reconstructio-2026/teaser.png
+  description_zh: 提出挤出分割策略，分解CAD模型为单个挤出体，提升点云CAD重建性能。
+  notes_zh: 派生自论文：基于挤出分割策略的点云CAD重建改进方法
 - id: paper-fllumaone-a-code-native-multimodal-cad-dataset-with-executa-2026
   name: FllumaOne
   description: Parametric computer-aided design records both final geometry and the
@@ -184,9 +205,14 @@
     title: 'FllumaOne: A Code-Native Multimodal CAD Dataset with Executable Programs
       and Kernel-Validated Feature Histories'
     url: https://arxiv.org/abs/2606.17696v1
+    title_zh: FllumaOne：一个代码原生的多模态CAD数据集，包含可执行程序和内核验证的特征历史
   name_zh: Unnamed Dataset
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/fllumaone-a-code-native-multimodal-cad-dataset-with-executa-2026/teaser.png
+  description_zh: 参数化计算机辅助设计不仅记录最终几何形状，还记录有序的构建历史，该历史决定了零件如何被编辑。用于可编辑CAD研究的数据集应同时暴露建模操作、参数和特征依赖关系以及经过验证的几何形状。我们介绍了FllumaOne，一个代码原生的多模态CAD数据集，其模型由基于Qt/C++
+    OpenCASCADE的CAD系统Flluma中的可执行Python程序生成。每个样本将其程序与结构化特征树、面向训练的中间表示、STEP几何、表面点云、自然语言描述、元数据和八种标准可见边缘渲染图对齐。主要发布版本FllumaOne-100K包含100,000个通过四种模板级复杂度区间接受的样本。程序仅在通过内核几何、实体有效性和导出检查后执行并保留；发布报告还记录了模态完整性和分割级别重复测试。基于Qwen2.5-Coder-1.5B
+    LoRA的基线模型在80,000个样本上训练，在保留的10,000样本测试集上实现了99.98%的Python语法有效性、99.97%的Flluma构建成功率和99.14%的STEP导出有效性。对于转换为表面点云的9,909个预测，平均归一化倒角距离为0.002124。该数据集支持条件化CAD重建、可执行程序合成、特征树预测、B-Rep分析、检索、设计补全和可编辑逆向工程。
+  notes_zh: 派生自论文：FllumaOne：一个代码原生的多模态CAD数据集，包含可执行程序和内核验证的特征历史
 - id: paper-mf-uavpose6d-a-model-free-monocular-6-dof-pose-estimation-f-2026
   name: MF-UAVPose6D
   description: For uncrewed aerial vehicles (UAVs), estimating six-degree-of-freedom
@@ -231,9 +257,12 @@
   - id: mamba-cad-state-space-model-for-3d-computer-aided-design-ge-2026
     title: 'Mamba-CAD: State Space Model For 3D Computer-Aided Design Generative Modeling'
     url: https://arxiv.org/abs/2603.00439v1
+    title_zh: 'Mamba-CAD: 用于三维计算机辅助设计生成建模的状态空间模型'
   name_zh: Unnamed Dataset
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/mamba-cad-state-space-model-for-3d-computer-aided-design-ge-2026/teaser.png
+  description_zh: Mamba-CAD使用状态空间模型进行自监督生成建模，处理长参数化CAD序列，并创建了77,078个模型的新数据集。
+  notes_zh: '派生自论文：Mamba-CAD: 用于三维计算机辅助设计生成建模的状态空间模型'
 - id: paper-masked-brep-autoencoder-via-hierarchical-graph-transformer-2026
   name: Masked BRep Autoencoder via Hierarchical Graph Transformer
   description: We introduce a novel self-supervised learning framework that automatically
@@ -252,9 +281,12 @@
   - id: masked-brep-autoencoder-via-hierarchical-graph-transformer-2026
     title: Masked BRep Autoencoder via Hierarchical Graph Transformer
     url: https://arxiv.org/abs/2603.14927v2
+    title_zh: Masked BRep Autoencoder via Hierarchical Graph Transformer
   name_zh: Unnamed Dataset
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/masked-brep-autoencoder-via-hierarchical-graph-transformer-2026/teaser.png
+  description_zh: 我们提出了一种新颖的自监督学习框架，能够自动从输入的计算机辅助设计（CAD）模型中学习表示，用于下游任务，包括零件分类、建模分割和加工特征识别。为了训练我们的网络，我们构建了一个大规模、无标注的边界表示（BRep）模型数据集。我们算法的成功依赖于两个关键组件。第一个是掩码图自编码器，它通过重建BRep中随机掩码的几何和属性来进行表示学习，从而增强泛化能力。第二个是层次化图Transformer架构，通过跨尺度互注意力块优雅地融合全局和局部学习，以建模长程几何依赖关系，并通过图神经网络块聚合局部拓扑信息。在训练自编码器后，我们将其解码器替换为在少量标注数据上训练的任务特定网络，用于下游任务。我们在各种任务上进行了实验，即使使用少量标注数据也取得了高性能，证明了我们模型的实用性和泛化能力。与其他方法相比，我们的模型在相同训练数据量下，尤其是在训练数据非常有限时，在下游任务上表现显著更好。
+  notes_zh: 派生自论文：Masked BRep Autoencoder via Hierarchical Graph Transformer
 - id: paper-physics-in-the-loop-a-hybrid-agentic-architecture-for-valid-2026
   name: Physics-in-the-Loop
   description: Large Language Models (LLMs) can generate Computer-Aided Design (CAD),
@@ -275,9 +307,12 @@
     title: 'Physics-in-the-Loop: A Hybrid Agentic Architecture for Validated CAD Engineering
       Design'
     url: https://arxiv.org/abs/2605.19717v1
+    title_zh: 物理在环：一种用于验证CAD工程设计的混合智能体架构
   name_zh: Unnamed Dataset
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/physics-in-the-loop-a-hybrid-agentic-architecture-for-valid-2026/teaser.png
+  description_zh: 一种将基于物理的工具嵌入LLM驱动的CAD生成中的混合智能体架构，用于验证工程设计。
+  notes_zh: 派生自论文：物理在环：一种用于验证CAD工程设计的混合智能体架构
 - id: paper-pointer-cad-v2-plan-then-construct-cad-generation-with-dime-2026
   name: Pointer-CAD v2
   description: Computer-aided design (CAD) plays a fundamental role in modern manufacturing
@@ -298,9 +333,14 @@
     title: 'Pointer-CAD v2: Plan-Then-Construct CAD Generation with Dimension-Aware
       Parametric Precision'
     url: https://arxiv.org/abs/2606.29301v1
+    title_zh: Pointer-CAD v2：基于先规划后构建的维度感知参数精确CAD生成
   name_zh: Unnamed Dataset
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/pointer-cad-v2-plan-then-construct-cad-generation-with-dime-2026/teaser.png
+  description_zh: 计算机辅助设计（CAD）通过提供工业生产所需的高精度，在现代制造业中发挥着基础性作用。近期基于大语言模型的方法将CAD生成建模为序列预测问题，并取得了令人瞩目的成果。然而，现有方法与评估协议主要强调视觉相似性，而忽略了精确的几何参数与正确的度量尺度。在形状层面可忽略的微小数值偏差仍可能违反工业公差要求，而当前采用命令序列表示的自回归范式为了简化大语言模型的预测，对数值参数进行了激进量化，进一步加剧了这一问题。在本工作中，我们提出了Pointer-CAD
+    v2。与v1版本（arXiv:2603.04337）相比，本版本直接预测连续值，无需量化数值参数，从而消除了量化误差。具体而言，我们提出了一种统一框架，通过“先规划后构建”范式将参数推理与几何构建解耦。我们的方法首先生成一个包含显式度量尺度参数的结构化设计规划。这些参数被组织成字典，并通过指针机制在序列生成过程中直接引用，从而消除了离散化误差并确保了维度一致的执行。此外，我们构建了一个带有规划级标注的大规模新数据集，并引入了三个层次化的几何精度度量指标，以在顶点、边和面层级评估参数保真度。大量实验表明，Pointer-CAD
+    v2持续优于现有基线，并在几何精度上取得了显著提升，从而为精度关键的工程应用提供了可靠的CAD生成。
+  notes_zh: 派生自论文：Pointer-CAD v2：基于先规划后构建的维度感知参数精确CAD生成
 - id: paper-pointer-cad-unifying-b-rep-and-command-sequences-via-pointe-2026
   name: Pointer-CAD
   description: Constructing computer-aided design (CAD) models is labor-intensive
@@ -322,13 +362,19 @@
     title: 'Pointer-CAD: Unifying B-Rep and Command Sequences via Pointer-based Edges  Faces
       Selection'
     url: https://arxiv.org/abs/2603.04337v2
+    title_zh: Pointer-CAD：通过基于指针的边和面选择统一B-Rep与命令序列
   - id: pointer-cad-v2-plan-then-construct-cad-generation-with-dime-2026
     title: 'Pointer-CAD v2: Plan-Then-Construct CAD Generation with Dimension-Aware
       Parametric Precision'
     url: https://arxiv.org/abs/2606.29301v1
+    title_zh: Pointer-CAD v2：基于先规划后构建的维度感知参数精确CAD生成
   name_zh: Unnamed Dataset
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/pointer-cad-v2-plan-then-construct-cad-generation-with-dime-2026/teaser.png
+  description_zh: 计算机辅助设计（CAD）通过提供工业生产所需的高精度，在现代制造业中发挥着基础性作用。近期基于大语言模型的方法将CAD生成建模为序列预测问题，并取得了令人瞩目的成果。然而，现有方法与评估协议主要强调视觉相似性，而忽略了精确的几何参数与正确的度量尺度。在形状层面可忽略的微小数值偏差仍可能违反工业公差要求，而当前采用命令序列表示的自回归范式为了简化大语言模型的预测，对数值参数进行了激进量化，进一步加剧了这一问题。在本工作中，我们提出了Pointer-CAD
+    v2。与v1版本（arXiv:2603.04337）相比，本版本直接预测连续值，无需量化数值参数，从而消除了量化误差。具体而言，我们提出了一种统一框架，通过“先规划后构建”范式将参数推理与几何构建解耦。我们的方法首先生成一个包含显式度量尺度参数的结构化设计规划。这些参数被组织成字典，并通过指针机制在序列生成过程中直接引用，从而消除了离散化误差并确保了维度一致的执行。此外，我们构建了一个带有规划级标注的大规模新数据集，并引入了三个层次化的几何精度度量指标，以在顶点、边和面层级评估参数保真度。大量实验表明，Pointer-CAD
+    v2持续优于现有基线，并在几何精度上取得了显著提升，从而为精度关键的工程应用提供了可靠的CAD生成。
+  notes_zh: 派生自论文：Pointer-CAD：通过基于指针的边和面选择统一B-Rep与命令序列
 - id: paper-step-llm-generating-cad-step-models-from-natural-language-w-2026
   name: STEP-LLM
   description: Computer-aided design (CAD) is vital to modern manufacturing, yet model
@@ -349,9 +395,13 @@
     title: 'STEP-LLM: Generating CAD STEP Models from Natural Language with Large
       Language Models'
     url: https://arxiv.org/abs/2601.12641v1
+    title_zh: STEP-LLM：利用大型语言模型从自然语言生成CAD STEP模型
   name_zh: Unnamed Dataset
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/step-llm-generating-cad-step-models-from-natural-language-w-2026/teaser.png
+  description_zh: 计算机辅助设计（CAD）对现代制造业至关重要，但模型创建仍然劳动密集且需要专业知识。为使非专家能够将直观的设计意图转化为可制造的工件，近期基于大型语言模型的文本到CAD工作主要关注命令序列或基于脚本的格式（如CadQuery）。然而，这些格式依赖于内核，缺乏制造领域的通用性。相比之下，产品数据交换标准（STEP，ISO
+    10303）文件是一种广泛采用的、中性的边界表示（B-rep）格式，可直接兼容制造，但其图结构、交叉引用的特性给自回归语言模型带来了独特挑战。为解决这一问题，我们整理了一个包含约4万个STEP-描述对的数据集，并针对STEP的图结构格式引入了新颖的预处理方法，包括基于深度优先搜索的重新序列化，在保持局部性的同时线性化交叉引用，以及链式思维（CoT）风格的结构化注释以引导全局一致性。我们集成了检索增强生成，将预测基于相关示例进行监督微调，并通过强化学习结合基于倒角距离的几何奖励来优化生成质量。实验表明，我们的STEP-LLM在几何保真度上相较于Text2CAD基线持续提升，这些改进源于我们框架的多个阶段：RAG模块显著增强了完整性和可渲染性，基于DFS的重新序列化提高了整体准确性，而强化学习进一步减少了几何差异。指标和视觉比较均证实STEP-LLM生成的形状比Text2CAD具有更高的保真度。这些结果展示了从自然语言驱动STEP模型生成的可行性，显示了其在制造领域民主化CAD设计的潜力。
+  notes_zh: 派生自论文：STEP-LLM：利用大型语言模型从自然语言生成CAD STEP模型
 - id: paper-text2cad-bench-a-benchmark-for-llm-based-text-to-parametric-2026
   name: Text2CAD-Bench
   description: Text-to-CAD generation aims to create parametric CAD models from natural
@@ -371,9 +421,12 @@
   - id: text2cad-bench-a-benchmark-for-llm-based-text-to-parametric-2026
     title: 'Text2CAD-Bench: A Benchmark for LLM-based Text-to-Parametric CAD Generation'
     url: https://arxiv.org/abs/2605.18430v1
+    title_zh: Text2CAD-Bench：基于LLM的文本到参数化CAD生成的基准测试
   name_zh: Unnamed Dataset
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/text2cad-bench-a-benchmark-for-llm-based-text-to-parametric-2026/teaser.png
+  description_zh: 提出Text2CAD-Bench基准，系统评估文本到参数化CAD生成的几何复杂度与实际领域。
+  notes_zh: 派生自论文：Text2CAD-Bench：基于LLM的文本到参数化CAD生成的基准测试
 - id: paper-towards-high-fidelity-cad-generation-via-llm-driven-program-2026
   name: Towards High-Fidelity CAD Generation via LLM-Driven Program Generation and
     Text-Based B-Rep Primitive Grounding
@@ -396,9 +449,12 @@
     title: Towards High-Fidelity CAD Generation via LLM-Driven Program Generation
       and Text-Based B-Rep Primitive Grounding
     url: https://arxiv.org/abs/2603.11831v2
+    title_zh: 面向高保真CAD生成：基于LLM驱动的程序生成与文本B-Rep基元接地
   name_zh: Unnamed Dataset
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/towards-high-fidelity-cad-generation-via-llm-driven-program-2026/teaser.png
+  description_zh: FutureCAD利用LLM和B-Rep接地从文本生成高保真CAD脚本，在真实数据集上达到最先进性能。
+  notes_zh: 派生自论文：面向高保真CAD生成：基于LLM驱动的程序生成与文本B-Rep基元接地
 - id: paper-unicad-a-unified-benchmark-and-universal-model-for-multi-mo-2026
   name: UniCAD
   description: Computer-Aided Design (CAD) underpins modern engineering and manufacturing
@@ -420,6 +476,363 @@
     title: 'UniCAD: A Unified Benchmark and Universal Model for Multi-Modal Multi-Task
       CAD'
     url: https://arxiv.org/abs/2606.05058v1
+    title_zh: UniCAD：面向多模态多任务CAD的统一基准与通用模型
   name_zh: Unnamed Dataset
   year: 2026
+  preview: /assets/papers/unicad-a-unified-benchmark-and-universal-model-for-multi-mo-2026/teaser.png
+  description_zh: UniCAD提出统一基准与多模态大模型，实现多种CAD任务的最先进结果。
+  notes_zh: 派生自论文：UniCAD：面向多模态多任务CAD的统一基准与通用模型
+- id: paper-img2cadseq-image-to-cad-generation-via-sequence-based-diffu-2026
+  name: Img2CADSeq
+  description: Img2CADSeq uses a multi-stage pipeline with hierarchical codebook and
+    VQ-Diffusion to generate CAD BRep sequences from single-view images, outperforming
+    SOTA on new datasets.
+  tags:
+  - CV
+  links:
+    paper: https://arxiv.org/abs/2605.13293v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Img2CADSeq: Image-to-CAD Generation via Sequence-Based
+    Diffusion'
+  related_papers:
+  - id: img2cadseq-image-to-cad-generation-via-sequence-based-diffu-2026
+    title: 'Img2CADSeq: Image-to-CAD Generation via Sequence-Based Diffusion'
+    url: https://arxiv.org/abs/2605.13293v1
+    title_zh: Img2CADSeq：基于序列扩散的图像到CAD生成
+  name_zh: Img2CADSeq
+  description_zh: Img2CADSeq通过多阶段流水线、分层码本和VQ-Diffusion从单视图图像生成CAD BRep序列，在新数据集上超越现有方法。
+  notes_zh: 派生自论文：Img2CADSeq：基于序列扩散的图像到CAD生成
+  year: 2026
+  preview: /assets/papers/img2cadseq-image-to-cad-generation-via-sequence-based-diffu-2026/teaser.png
+- id: paper-text-to-cad-evaluation-with-cadtests-2026
+  name: Text-to-CAD Evaluation with CADTests
+  description: Introduces CADTestBench, a test-based benchmark for evaluating Text-to-CAD
+    models using executable software tests.
+  tags:
+  - CV
+  - AI
+  - LG
+  - RO
+  links:
+    paper: https://arxiv.org/abs/2605.07807v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Text-to-CAD Evaluation with CADTests'
+  related_papers:
+  - id: text-to-cad-evaluation-with-cadtests-2026
+    title: Text-to-CAD Evaluation with CADTests
+    url: https://arxiv.org/abs/2605.07807v1
+    title_zh: 基于CADTests的文本到CAD评估
+  name_zh: 基于CADTests的文本到CAD评估
+  description_zh: 提出CADTestBench，首个基于可执行测试的文本到CAD评估基准。
+  notes_zh: 派生自论文：基于CADTests的文本到CAD评估
+  year: 2026
+  preview: /assets/papers/text-to-cad-evaluation-with-cadtests-2026/teaser.png
+- id: paper-slice-100k-a-multimodal-dataset-for-extrusion-based-3d-prin-2024
+  name: Slice-100K
+  description: 'Derived from paper: Slice-100K: A Multimodal Dataset for Extrusion-based
+    3D Printing'
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2407.04180
+    code: https://github.com/idealab-isu/Slice-100K
+    project: https://slice-100k.github.io/
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Slice-100K: A Multimodal Dataset for Extrusion-based
+    3D Printing'
+  related_papers:
+  - id: slice-100k-a-multimodal-dataset-for-extrusion-based-3d-prin-2024
+    title: 'Slice-100K: A Multimodal Dataset for Extrusion-based 3D Printing'
+    url: https://arxiv.org/abs/2407.04180
+  name_zh: Unnamed Dataset
+  year: 2024
+  preview: /assets/papers/slice-100k-a-multimodal-dataset-for-extrusion-based-3d-prin-2024/teaser.png
+- id: paper-fusion-360-gallery-a-dataset-and-environment-for-programmat-2020
+  name: Fusion 360 Gallery
+  description: 'Derived from paper: Fusion 360 Gallery: A Dataset and Environment
+    for Programmatic CAD Construction from Human Design Sequences (Reconstruction
+    Dataset)'
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2010.02392
+    project: https://github.com/AutodeskAILab/Fusion360GalleryDataset
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Fusion 360 Gallery: A Dataset and Environment for Programmatic
+    CAD Construction from Human Design Sequences (Reconstruction Dataset)'
+  related_papers:
+  - id: fusion-360-gallery-a-dataset-and-environment-for-programmat-2020
+    title: 'Fusion 360 Gallery: A Dataset and Environment for Programmatic CAD Construction
+      from Human Design Sequences (Reconstruction Dataset)'
+    url: https://arxiv.org/abs/2010.02392
+  - id: fusion-360-gallery-a-dataset-and-environment-for-programmat-2021
+    title: 'Fusion 360 Gallery: A Dataset and Environment for Programmatic CAD Construction
+      from Human Design Sequences'
+    url: ''
+  name_zh: Unnamed Dataset
+  year: 2020
+  preview: /assets/papers/fusion-360-gallery-a-dataset-and-environment-for-programmat-2020/teaser.png
+- id: paper-histcad-geometrically-constrained-parametric-history-based-2026
+  name: HistCAD
+  description: 'Derived from paper: HistCAD: Geometrically Constrained Parametric
+    History-based CAD Dataset'
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2602.19171
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: HistCAD: Geometrically Constrained Parametric History-based
+    CAD Dataset'
+  related_papers:
+  - id: histcad-geometrically-constrained-parametric-history-based-2026
+    title: 'HistCAD: Geometrically Constrained Parametric History-based CAD Dataset'
+    url: https://arxiv.org/abs/2602.19171
+  name_zh: Unnamed Dataset
+  year: 2026
+  preview: /assets/papers/histcad-geometrically-constrained-parametric-history-based-2026/teaser.png
+- id: paper-videocad-a-dataset-and-model-for-learning-long-horizon-3d-c-2025
+  name: VideoCAD
+  description: 'Derived from paper: VideoCAD: A Dataset and Model for Learning Long-Horizon
+    3D CAD UI Interactions from Video'
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2505.24838
+    code: https://github.com/ghadinehme/VideoCAD
+    project: https://ghadinehme.github.io/videocad.github.io/
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: VideoCAD: A Dataset and Model for Learning Long-Horizon
+    3D CAD UI Interactions from Video'
+  related_papers:
+  - id: videocad-a-dataset-and-model-for-learning-long-horizon-3d-c-2025
+    title: 'VideoCAD: A Dataset and Model for Learning Long-Horizon 3D CAD UI Interactions
+      from Video'
+    url: https://arxiv.org/abs/2505.24838
+  name_zh: Unnamed Dataset
+  year: 2025
+  preview: /assets/papers/videocad-a-dataset-and-model-for-learning-long-horizon-3d-c-2025/teaser.png
+- id: paper-archcad-400k-an-open-large-scale-architectural-cad-dataset-2025
+  name: ArchCAD-400K
+  description: 'Derived from paper: ArchCAD-400K: An Open Large-Scale Architectural
+    CAD Dataset and New Baseline for Panoptic Symbol Spotting'
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2503.22346
+    dataset: https://huggingface.co/datasets/jackluoluo/ArchCAD
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: ArchCAD-400K: An Open Large-Scale Architectural CAD
+    Dataset and New Baseline for Panoptic Symbol Spotting'
+  related_papers:
+  - id: archcad-400k-an-open-large-scale-architectural-cad-dataset-2025
+    title: 'ArchCAD-400K: An Open Large-Scale Architectural CAD Dataset and New Baseline
+      for Panoptic Symbol Spotting'
+    url: https://arxiv.org/abs/2503.22346
+  name_zh: Unnamed Dataset
+  year: 2025
+  preview: /assets/papers/archcad-400k-an-open-large-scale-architectural-cad-dataset-2025/teaser.png
+- id: paper-cad-estate-large-scale-cad-model-annotation-in-rgb-videos-2023
+  name: CAD-Estate
+  description: 'Derived from paper: CAD-Estate: Large-scale CAD Model Annotation in
+    RGB Videos'
+  tags: []
+  links:
+    paper: https://arxiv.org/pdf/2306.09011
+    code: https://github.com/google-research/cad-estate
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: CAD-Estate: Large-scale CAD Model Annotation in RGB
+    Videos'
+  related_papers:
+  - id: cad-estate-large-scale-cad-model-annotation-in-rgb-videos-2023
+    title: 'CAD-Estate: Large-scale CAD Model Annotation in RGB Videos'
+    url: https://arxiv.org/pdf/2306.09011
+  name_zh: Unnamed Dataset
+  year: 2023
+  preview: /assets/papers/cad-estate-large-scale-cad-model-annotation-in-rgb-videos-2023/teaser.png
+- id: paper-cadtalk-an-algorithm-and-benchmark-for-semantic-commenting-2023
+  name: CADTalk
+  description: 'Derived from paper: CADTalk: An Algorithm and Benchmark for Semantic
+    Commenting of CAD Programs'
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2311.16703
+    code: https://github.com/YYYYYHC/CADTalk
+    project: https://enigma-li.github.io/CADTalk/
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: CADTalk: An Algorithm and Benchmark for Semantic Commenting
+    of CAD Programs'
+  related_papers:
+  - id: cadtalk-an-algorithm-and-benchmark-for-semantic-commenting-2023
+    title: 'CADTalk: An Algorithm and Benchmark for Semantic Commenting of CAD Programs'
+    url: https://arxiv.org/abs/2311.16703
+  name_zh: Unnamed Dataset
+  year: 2023
+  preview: /assets/papers/cadtalk-an-algorithm-and-benchmark-for-semantic-commenting-2023/teaser.png
+- id: paper-shapenet-an-information-rich-3d-model-repository-2015
+  name: ShapeNet
+  description: ShapeNet is a large-scale, richly-annotated repository of 3D CAD models
+    organized under WordNet taxonomy for computer graphics and vision research.
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/1512.03012
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: ShapeNet: An Information-Rich 3D Model Repository'
+  related_papers:
+  - id: shapenet-an-information-rich-3d-model-repository-2015
+    title: 'ShapeNet: An Information-Rich 3D Model Repository'
+    url: https://arxiv.org/abs/1512.03012
+    title_zh: ShapeNet：一个信息丰富的3D模型存储库
+  name_zh: ShapeNet
+  description_zh: ShapeNet是大型、丰富标注的3D CAD模型库，基于WordNet分类，用于图形学与视觉研究。
+  notes_zh: 派生自论文：ShapeNet：一个信息丰富的3D模型存储库
+  year: 2015
+  preview: /assets/placeholder.svg
+- id: paper-query2cad-generating-cad-models-using-natural-language-quer-2024
+  name: Query2CAD
+  description: Query2CAD uses LLMs and self-refinement loops to generate CAD models
+    from natural language without supervised training, achieving 53.6% first-attempt
+    success.
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2406.00144
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Query2CAD: Generating CAD models using natural language
+    queries'
+  related_papers:
+  - id: query2cad-generating-cad-models-using-natural-language-quer-2024
+    title: 'Query2CAD: Generating CAD models using natural language queries'
+    url: https://arxiv.org/abs/2406.00144
+    title_zh: 'Query2CAD: 使用自然语言查询生成CAD模型'
+  name_zh: Query2CAD
+  description_zh: Query2CAD使用LLM和自我精炼循环从自然语言生成CAD模型，无需监督训练，首次尝试成功率为53.6%。
+  notes_zh: '派生自论文：Query2CAD: 使用自然语言查询生成CAD模型'
+  year: 2024
+  preview: /assets/placeholder.svg
+- id: paper-cad-translator-an-effective-drive-for-text-to-3d-parametric-2024
+  name: CAD Translator
+  description: A novel encoder-decoder framework for text-to-parametric CAD generation
+    using contrastive learning and fusion embeddings.
+  tags: []
+  links: {}
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: CAD Translator: An Effective Drive for Text to 3D Parametric
+    Computer-Aided Design Generative Modeling'
+  related_papers:
+  - id: cad-translator-an-effective-drive-for-text-to-3d-parametric-2024
+    title: 'CAD Translator: An Effective Drive for Text to 3D Parametric Computer-Aided
+      Design Generative Modeling'
+    url: ''
+    title_zh: CAD Translator：文本到三维参数化计算机辅助设计生成建模的有效驱动
+  name_zh: CAD Translator
+  description_zh: 一种使用对比学习和融合嵌入的文本到参数化CAD生成的新型编码器-解码器框架。
+  notes_zh: 派生自论文：CAD Translator：文本到三维参数化计算机辅助设计生成建模的有效驱动
+  year: 2024
+  preview: /assets/placeholder.svg
+- id: paper-seek-cad-a-self-refined-generative-modeling-for-3d-parametr-2025
+  name: Seek-CAD
+  description: Seek-CAD uses locally deployed DeepSeek-R1 with visual and CoT feedback
+    for training-free parametric CAD generation, introducing a new SSR dataset.
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2505.17702
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Seek-CAD: A Self-refined Generative Modeling for 3D
+    Parametric CAD Using Local Inference via DeepSeek'
+  related_papers:
+  - id: seek-cad-a-self-refined-generative-modeling-for-3d-parametr-2025
+    title: 'Seek-CAD: A Self-refined Generative Modeling for 3D Parametric CAD Using
+      Local Inference via DeepSeek'
+    url: https://arxiv.org/abs/2505.17702
+    title_zh: Seek-CAD：基于DeepSeek本地推理的自优化生成式三维参数化CAD建模
+  name_zh: Seek-CAD
+  description_zh: Seek-CAD利用本地部署的DeepSeek-R1，结合视觉和CoT反馈，实现无需训练的参数化CAD生成，并引入新SSR数据集。
+  notes_zh: 派生自论文：Seek-CAD：基于DeepSeek本地推理的自优化生成式三维参数化CAD建模
+  year: 2025
+  preview: /assets/placeholder.svg
+- id: paper-from-intent-to-execution-multimodal-chain-of-thought-reinfo-2025
+  name: From Intent to Execution
+  description: Proposes CAD-RL, a multimodal Chain-of-Thought reinforcement learning
+    framework for precise CAD code generation from natural language, with a new real-world
+    dataset ExeCAD.
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2508.10118
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: From Intent to Execution: Multimodal Chain-of-Thought
+    Reinforcement Learning for Precise CAD Code Generation'
+  related_papers:
+  - id: from-intent-to-execution-multimodal-chain-of-thought-reinfo-2025
+    title: 'From Intent to Execution: Multimodal Chain-of-Thought Reinforcement Learning
+      for Precise CAD Code Generation'
+    url: https://arxiv.org/abs/2508.10118
+    title_zh: 从意图到执行：面向精确CAD代码生成的多模态思维链强化学习
+  name_zh: 从意图到执行
+  description_zh: 提出CAD-RL多模态思维链强化学习框架，从自然语言生成精确CAD代码，含新数据集ExeCAD。
+  notes_zh: 派生自论文：从意图到执行：面向精确CAD代码生成的多模态思维链强化学习
+  year: 2025
+  preview: /assets/placeholder.svg
+- id: paper-pr-cad-progressive-refinement-for-unified-controllable-and-2026
+  name: PR-CAD
+  description: PR-CAD unifies text-to-CAD generation and editing via progressive refinement
+    with LLMs, achieving state-of-the-art controllability and faithfulness.
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2604.19773
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: PR-CAD: Progressive Refinement for Unified Controllable
+    and Faithful Text-to-CAD Generation with Large Language Models'
+  related_papers:
+  - id: pr-cad-progressive-refinement-for-unified-controllable-and-2026
+    title: 'PR-CAD: Progressive Refinement for Unified Controllable and Faithful Text-to-CAD
+      Generation with Large Language Models'
+    url: https://arxiv.org/abs/2604.19773
+    title_zh: 'PR-CAD: 基于大型语言模型的渐进式精炼实现统一可控且忠实的文本到CAD生成'
+  name_zh: PR-CAD
+  description_zh: PR-CAD通过渐进式精炼统一文本到CAD生成与编辑，实现最先进的可控性和忠实性
+  notes_zh: '派生自论文：PR-CAD: 基于大型语言模型的渐进式精炼实现统一可控且忠实的文本到CAD生成'
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-revisiting-cad-model-generation-by-learning-raster-sketch-2025
+  name: Revisiting CAD Model Generation by Learning Raster Sketch
+  description: 'Derived from paper: Revisiting CAD Model Generation by Learning Raster
+    Sketch'
+  tags: []
+  links:
+    paper: https://www.arxiv.org/abs/2503.00928
+    dataset: https://github.com/BunnySoCrazy/RECAD
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Revisiting CAD Model Generation by Learning Raster Sketch'
+  related_papers:
+  - id: revisiting-cad-model-generation-by-learning-raster-sketch-2025
+    title: Revisiting CAD Model Generation by Learning Raster Sketch
+    url: https://www.arxiv.org/abs/2503.00928
+  name_zh: Unnamed Dataset
+  year: 2025
   preview: /assets/placeholder.svg

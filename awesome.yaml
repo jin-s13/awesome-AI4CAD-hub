@@ -162,7 +162,7 @@ research:
     huggingface_daily: false
     huggingface_trending: false
     huggingface_datasets: false
-    upstream_awesome: false
+    upstream_awesome: true
     alphaxiv: false             # 可选增强源；默认关闭，无需额外 key
 
   # === 数据集发现 ===
@@ -180,12 +180,13 @@ research:
   # === 上游 awesome 项目 ===
   upstream_awesome:
     # 可选：显式指定高质量 awesome repo，优先于 GitHub Search，适合规避匿名限流
-    repos: []
-    auto_discover: false
+    repos:
+      - "BunnySoCrazy/Awesome-Neural-CAD"
+    auto_discover: true
 
   # === 自动发现 GitHub 已有 awesome 项目 ===
   auto_discover:
-    enabled: false
+    enabled: true
     min_stars: 5
     max_sources: 10
 
@@ -206,7 +207,7 @@ research:
   candidate_pool:
     enabled: true
     db_path: "data/candidates.db"     # SQLite 数据库路径
-    promote_batch_size: 20            # 每次最多晋升多少篇（控制 LLM 成本）
+    promote_batch_size: 300           # AI4CAD 初始化阶段一次性筛完候选池
 
   # === 人工维护 ===
   # 通过 overrides 文件覆盖自动流程的结果
@@ -311,7 +312,8 @@ website:
     papers: true
     surveys: true
     datasets: true
-    tools: true
+    tools: false
+    resources: false
   nav:
     - label: "Home"
       href: "/"
@@ -319,7 +321,5 @@ website:
       href: "/papers"
     - label: "Datasets"
       href: "/datasets"
-    - label: "Tools"
-      href: "/tools"
   footer: |
     Built with <a href="https://github.com/jin-s13/awesome-hub-generator">awesome-hub-generator</a>.

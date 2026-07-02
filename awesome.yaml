@@ -5,7 +5,7 @@
 
 project:
   name: "Awesome AI4CAD Hub"
-  description: "A curated hub for AI papers, datasets, tools, and research for CAD, parametric design, B-Rep modeling, and engineering geometry."
+  description: "A curated hub for AI papers, datasets, projects, and research for CAD, parametric design, B-Rep modeling, and engineering geometry."
   github_url: "https://github.com/jin-s13/awesome-AI4CAD-hub"
   site_url: "https://jin-s13.github.io/awesome-AI4CAD-hub"
   generator_repo: "jin-s13/awesome-hub-generator"
@@ -67,7 +67,7 @@ research:
       - "AI systems for engineering drawing understanding, mechanical design, manufacturing, CAE/CAM, or 3D printing"
       - "Shape abstraction, shape parsing, reverse engineering for CAD"
       - "Geometric modeling (NURBS, splines, curves/surfaces for design)"
-      - "CAD-specific datasets, benchmarks, or tools"
+      - "CAD-specific datasets, benchmarks, or projects"
     exclude:
       - "General 3D reconstruction / NeRF / Gaussian splatting / scene reconstruction"
       - "General AI/ML, LLM agents, RAG, coding assistants, software engineering"
@@ -312,7 +312,7 @@ website:
     papers: true
     surveys: true
     datasets: true
-    tools: false
+    projects: true
     resources: false
   nav:
     - label: "Home"

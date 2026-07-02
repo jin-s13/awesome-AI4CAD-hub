@@ -1,0 +1,40 @@
+schema_version: awesome-hub.taxonomy.v1
+generated_at: '2026-07-02T02:52:21Z'
+mode: propose
+nodes:
+- id: method
+  label: method
+  description: New AI methods for CAD generation, reconstruction, editing, retrieval,
+    or reasoning.
+  keywords:
+  - method
+- id: benchmark
+  label: benchmark
+  description: CAD datasets, evaluation tasks, geometric validity metrics, or design
+    benchmarks.
+  keywords:
+  - benchmark
+- id: system
+  label: system
+  description: Runnable CAD systems, toolkits, agents, pipelines, plugins, or design
+    platforms.
+  keywords:
+  - system
+- id: theory
+  label: theory
+  description: Geometric modeling theory, representation analysis, constraints, or
+    formal design reasoning.
+  keywords:
+  - theory
+- id: survey
+  label: survey
+  description: Surveys, taxonomies, tutorials, position papers, or roadmap papers
+    for AI4CAD.
+  keywords:
+  - survey
+- id: application
+  label: application
+  description: Applied CAD workflows such as mechanical design, manufacturing, architecture,
+    CAE, CAM, or 3D printing.
+  keywords:
+  - application

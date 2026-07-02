@@ -144,6 +144,14 @@
     CAD模型的1000万条注释，即A2Z，以解锁前所未有的BRep学习水平。A2Z包括：(i) 具有显著3D扫描特征的高分辨率网格，(ii) 3D手绘草图，附带(iii)
     BRep共边、角点和表面的几何与拓扑信息，以及(iv) 描述机械领域产品的文本描述和标签。创建这样精心结构化的大规模数据（需要近5TB存储空间）以支持前所未有的CAD学习/检索任务极具挑战性。我们使用新颖的指标、GPT-5、Gemini以及广泛的人工反馈机制评估了多模态注释的规模、质量和多样性。为此，我们还将由熟练专业人员设计的额外2.5万个电子外壳（如平板电脑、端口）CAD模型合并到A2Z数据集中。随后，我们在15万个CAD模型的子集上训练并基准测试了一个基础模型，用于从3D扫描中检测BRep共边和角点顶点，这是CAD逆向工程中的关键下游任务。注释数据集、指标和检查点将公开发布，以支持众多研究方向。
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - theory
+    - application
+    - method
+    confidence: 0.68
+    evidence: benchmark
 - id: arko-t-a-foundation-model-for-text-to-structured-3d-generat-2026
   title: 'Arko-T: A Foundation Model for Text-to-Structured 3D Generation'
   authors:
@@ -334,6 +342,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - system
+    - method
+    - application
+    confidence: 0.67
+    evidence: benchmark
 - id: articad-articulated-cad-assembly-design-via-multi-agent-cod-2026
   title: 'ArtiCAD: Articulated CAD Assembly Design via Multi-Agent Code Generation'
   authors:
@@ -547,6 +563,14 @@
     - Multi-Agent System
     - Connector
     - URDF
+  taxonomy:
+    primary: system
+    secondary:
+    - benchmark
+    - method
+    - theory
+    confidence: 0.67
+    evidence: system
 - id: autoregressive-generation-with-b-rep-holistic-token-sequence-2026
   title: AutoRegressive Generation with B-rep Holistic Token Sequence Representation
   authors:
@@ -740,6 +764,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - application
+    - benchmark
+    - theory
+    confidence: 0.67
+    evidence: method
 - id: bim-edit-benchmarking-large-language-models-for-ifc-based-b-2026
   title: 'BIM-Edit: Benchmarking Large Language Models for IFC-Based Building Information
     Modeling'
@@ -911,6 +943,14 @@
   abstract_cn: 大型语言模型（LLMs）越来越多地被应用于计算机辅助设计（CAD），以根据文本指令生成设计工件。在工程实践中，这不仅仅需要创建新的几何形状，模型还必须理解现有场景，正确编辑它们，并保留语义和关系。然而，许多CAD基准测试侧重于创建新模型而非编辑现有模型，并且主要评估几何正确性。我们提出了BIM-Edit，一个用于评估LLMs对以工业基础类（IFC）格式表示的建筑信息模型（BIM）进行自然语言编辑的基准测试。BIM提供了一个具有挑战性的测试平台，因为建筑模型将几何形状与语义和关系结构编码在一起。BIM-Edit包含324个编辑任务，涵盖11个真实建筑模型和36个合成场景。任务使用三种指令类别——直接、空间和拓扑——来表达，涵盖显式编辑和基于场景的编辑。我们从三个维度评估输出：几何准确性、语义有效性和拓扑一致性。在评估的LLMs中，表现最好的模型在三个指标上的平均得分仅为49.5%，且没有模型能完全解决超过3.4%的任务。这些结果表明，当前LLM的能力与结构化工程设计工作流程的要求之间存在显著差距。
   tldr_cn: 提出BIM-Edit基准，评估LLM对IFC格式BIM进行自然语言编辑，揭示显著性能差距。
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - method
+    - application
+    - theory
+    confidence: 0.69
+    evidence: benchmark
 - id: brepclip-contrastive-multimodal-pretraining-on-brep-primiti-2026
   title: 'BRepCLIP: Contrastive Multimodal Pretraining on BRep Primitives for CAD
     Understanding'
@@ -1114,6 +1154,14 @@
     - Discrete Vocabulary
     - Spatial and Semantic Descriptors
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - theory
+    - system
+    confidence: 0.38
+    evidence: method
 - id: brepmae-self-supervised-masked-brep-autoencoders-for-machin-2026
   title: 'BRepMAE: Self-Supervised Masked BRep Autoencoders for Machining Feature
     Recognition'
@@ -1303,6 +1351,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - theory
+    - system
+    confidence: 0.67
+    evidence: method
 - id: benchcad-a-comprehensive-industry-standard-benchmark-for-p-2026
   title: 'BenchCAD: A Comprehensive, Industry-Standard Benchmark for Programmatic
     CAD'
@@ -1516,6 +1572,14 @@
     - Fine-tuning
     - Reinforcement Learning
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - system
+    - method
+    - theory
+    confidence: 0.67
+    evidence: benchmark
 - id: brep2shape-boundary-and-shape-representation-alignment-via-2026
   title: 'Brep2Shape: Boundary and Shape Representation Alignment via Self-Supervised
     Transformers'
@@ -1721,6 +1785,14 @@
     - Bézier curves
     - Dual Transformer
     - Topology attention
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - theory
+    - system
+    confidence: 0.67
+    evidence: method
 - id: brepcoder-a-unified-multimodal-large-language-model-for-mul-2026
   title: 'BrepCoder: A Unified Multimodal Large Language Model for Multi-task B-rep
     Reasoning'
@@ -1916,6 +1988,14 @@
     - CAD
     - Python-like code
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - theory
+    - application
+    confidence: 0.68
+    evidence: method
 - id: brepforge-factorized-b-rep-synthesis-via-wireframe-composit-2026
   title: 'BrepForge: Factorized B-rep Synthesis via Wireframe Composition and Boundary-Conditioned
     Surface Instantiation'
@@ -2107,6 +2187,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - method
+    - theory
+    - survey
+    confidence: 0.37
+    evidence: benchmark
 - id: brepgaussian-cad-reconstruction-from-multi-view-images-with-2026
   title: 'BrepGaussian: CAD reconstruction from Multi-View Images with Gaussian Splatting'
   authors:
@@ -2299,6 +2387,14 @@
     - Two-stage learning framework
     - B-Rep representation
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - theory
+    confidence: 0.67
+    evidence: method
 - id: cad-feature-enhanced-machine-learning-for-manufacturing-effo-2026
   title: CAD-feature enhanced machine learning for manufacturing effort estimation
     on sheet metal bending parts
@@ -2497,6 +2593,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - method
+    - theory
+    - application
+    confidence: 0.67
+    evidence: benchmark
 - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
   title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
   authors:
@@ -2705,6 +2809,14 @@
     report: resource/cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026/research.md
     queued_at: '2026-07-01T08:13:40Z'
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - method
+    - system
+    - theory
+    confidence: 0.68
+    evidence: benchmark
 - id: cadevolve-creating-realistic-cad-via-program-evolution-2026
   title: 'CADEvolve: Creating Realistic CAD via Program Evolution'
   authors:
@@ -2902,6 +3014,14 @@
     - Fusion 360
     - MCB
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - application
+    - method
+    - system
+    confidence: 0.67
+    evidence: benchmark
 - id: cadfs-a-big-cad-program-dataset-and-framework-for-computer-2026
   title: 'CADFS: A Big CAD Program Dataset and Framework for Computer-Aided Design
     with Large Language Models'
@@ -3108,6 +3228,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: system
+    secondary:
+    - method
+    - benchmark
+    - theory
+    confidence: 0.67
+    evidence: system
 - id: cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026
   title: 'CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization'
   authors:
@@ -3308,6 +3436,14 @@
     report: resource/cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026/research.md
     queued_at: '2026-07-01T08:13:40Z'
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - method
+    - application
+    - system
+    confidence: 0.68
+    evidence: benchmark
 - id: cadreasoner-iterative-program-editing-for-cad-reverse-engin-2026
   title: 'CADReasoner: Iterative Program Editing for CAD Reverse Engineering'
   authors:
@@ -3507,6 +3643,14 @@
     tech_stack:
     - CadQuery
     - Python
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.68
+    evidence: method
 - id: cadsmith-multi-agent-cad-generation-with-programmatic-geome-2026
   title: 'CADSmith: Multi-Agent CAD Generation with Programmatic Geometric Validation'
   authors:
@@ -3645,6 +3789,14 @@
   title_cn: CADSmith：基于程序化几何验证的多智能体CAD生成
   abstract_cn: 现有的文本到CAD生成方法要么在单次生成中缺乏几何验证，要么依赖有损的视觉反馈而无法解决尺寸误差。我们提出CADSmith，一个多智能体流水线，能够从自然语言生成CadQuery代码。随后通过两个嵌套的修正循环进行迭代优化：内循环解决执行错误，外循环基于程序化几何验证。外循环结合了来自OpenCASCADE内核的精确测量（边界框尺寸、体积、实体有效性）以及来自独立视觉语言模型Judge的整体视觉评估。这提供了收敛到正确几何所需的数值精度和高层形状感知能力。该系统采用基于API文档的检索增强生成而非微调，随着底层CAD库的演进维护一个最新的数据库。我们在一个包含100个提示的自定义基准上进行了评估，该基准分为三个难度等级（T1至T3），并设置了三种消融配置。与零样本基线相比，CADSmith实现了100%的执行率（从95%提升），中位数F1分数从0.9707提升至0.9846，中位数IoU从0.8085提升至0.9629，平均倒角距离从28.37降至0.74，表明带有程序化几何反馈的闭环优化显著提高了LLM生成的CAD模型的质量和可靠性。
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - theory
+    confidence: 0.68
+    evidence: method
 - id: clarify-before-you-draw-proactive-agents-for-robust-text-to-2026
   title: 'Clarify Before You Draw: Proactive Agents for Robust Text-to-CAD Generation'
   authors:
@@ -3843,6 +3995,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: system
+    secondary:
+    - benchmark
+    - method
+    - theory
+    confidence: 0.67
+    evidence: system
 - id: compatibility-and-accuracy-verification-of-cadmesh-based-com-2026
   title: Compatibility and Accuracy Verification of CADmesh-Based Complex Geometry
     Modeling in Geant4
@@ -4018,6 +4178,14 @@
     11.0、CADmesh 1.3.0和FreeCAD 1.0构建开源实验环境。我们利用简单几何体和复杂工程模型设计了高、低精度梯度测试用例，系统评估了STL和OBJ格式的导入成功率、面片丢失率、体积误差及粒子输运剂量偏差。结果显示两种格式的导入成功率均为100%；高精度模型的体积误差率为0.018%，低精度模型为0.288%。两种格式共享相同的顶点面片数据结构。本研究设计了一种通用自适应接口，该接口将解析代码行数减少约70%，并保持了几何精度。此外，四面体网格加载时间比镶嵌实体长3.1倍，但模拟时间可从15194.3秒减少至77.28秒。
   tldr_cn: 评估Geant4中CADmesh导入：100%成功、低体积误差、通用接口减少代码行。
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - application
+    - system
+    - benchmark
+    confidence: 0.67
+    evidence: method
 - id: computer-aided-design-generation-by-cascaded-discrete-diffus-2026
   title: Computer-Aided Design Generation by Cascaded Discrete Diffusion Model
   authors:
@@ -4220,6 +4388,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - theory
+    confidence: 0.67
+    evidence: method
 - id: design-specification-tiling-for-icl-based-cad-code-generatio-2026
   title: Design-Specification Tiling for ICL-based CAD Code Generation
   authors:
@@ -4407,6 +4583,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - application
+    - system
+    confidence: 0.37
+    evidence: method
 - id: dreamcad-scaling-multi-modal-cad-generation-using-different-2026
   title: 'DreamCAD: Scaling Multi-modal CAD Generation using Differentiable Parametric
     Surfaces'
@@ -4607,6 +4791,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - method
+    - theory
+    - system
+    confidence: 0.68
+    evidence: benchmark
 - id: enhancing-creativity-in-3d-generative-design-via-a-triz-insp-2026
   title: Enhancing Creativity in 3D Generative Design via a TRIZ-Inspired Text-to-CAD
     Framework
@@ -4813,6 +5005,14 @@
     - 评估仅限于单一产品设计案例（椅子），缺乏对不同产品类型的更广泛验证。
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - system
+    - theory
+    - application
+    confidence: 0.67
+    evidence: method
 - id: extrusion-segmentation-strategy-to-improve-cad-reconstructio-2026
   title: Extrusion Segmentation Strategy to improve CAD Reconstruction from Point
     Cloud
@@ -4995,6 +5195,14 @@
     key_results: 挤出分割策略提升了用于点云CAD重建的深度学习模型的泛化能力和鲁棒性。
     limitations: []
     tech_stack: []
+  taxonomy:
+    primary: method
+    secondary:
+    - application
+    - benchmark
+    - system
+    confidence: 0.67
+    evidence: method
 - id: flatten-the-complex-joint-b-rep-generation-via-compositiona-2026
   title: 'Flatten The Complex: Joint B-Rep Generation via Compositional $k$-Cell Particles'
   authors:
@@ -5194,6 +5402,14 @@
     key_results: 该方法生成高保真CAD模型，与最先进方法相比具有更优的有效性和可编辑性。
     limitations: []
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - method
+    - theory
+    - application
+    confidence: 0.69
+    evidence: benchmark
 - id: fllumaone-a-code-native-multimodal-cad-dataset-with-executa-2026
   title: 'FllumaOne: A Code-Native Multimodal CAD Dataset with Executable Programs
     and Kernel-Validated Feature Histories'
@@ -5334,6 +5550,14 @@
     OpenCASCADE的CAD系统Flluma中的可执行Python程序生成。每个样本将其程序与结构化特征树、面向训练的中间表示、STEP几何、表面点云、自然语言描述、元数据和八种标准可见边缘渲染图对齐。主要发布版本FllumaOne-100K包含100,000个通过四种模板级复杂度区间接受的样本。程序仅在通过内核几何、实体有效性和导出检查后执行并保留；发布报告还记录了模态完整性和分割级别重复测试。基于Qwen2.5-Coder-1.5B
     LoRA的基线模型在80,000个样本上训练，在保留的10,000样本测试集上实现了99.98%的Python语法有效性、99.97%的Flluma构建成功率和99.14%的STEP导出有效性。对于转换为表面点云的9,909个预测，平均归一化倒角距离为0.002124。该数据集支持条件化CAD重建、可执行程序合成、特征树预测、B-Rep分析、检索、设计补全和可编辑逆向工程。
   seed_expanded: true
+  taxonomy:
+    primary: system
+    secondary:
+    - method
+    - benchmark
+    - theory
+    confidence: 0.66
+    evidence: system
 - id: fov-net-rotation-invariant-cad-b-rep-learning-via-field-of-2026
   title: 'FoV-Net: Rotation-Invariant CAD B-rep Learning via Field-of-View Ray Casting'
   authors:
@@ -5532,6 +5756,14 @@
     - LRF UV网格
     - FoV网格
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - theory
+    - system
+    confidence: 0.67
+    evidence: method
 - id: genai-workbench-ai-assisted-analysis-and-synthesis-of-engin-2026
   title: 'GENAI WORKBENCH: AI-Assisted Analysis and Synthesis of Engineering Systems
     from Multimodal Engineering Data'
@@ -5698,6 +5930,14 @@
     Workbench的概念框架，这是一个将系统工程原理融入设计师工作流的基于模型的系统工程（MBSE）环境。该工作台基于开源PLM平台构建，通过链接文档中的语义数据、物理B-rep几何和关系系统图，建立了统一的数字主线。该工作台支持AI辅助工作流：设计师可输入源文档，系统自动提取需求，并使用视觉语言模型生成初始系统架构（如设计结构矩阵DSM）。本文介绍了这一进行中框架的概念架构、拟议方法及预期影响，旨在促进更集成、数据驱动且信息丰富的工程设计方法。
   tldr_cn: 提出一个AI辅助的MBSE概念框架，通过多模态数据集成系统工程与CAD/CAM/CAE。
   seed_expanded: true
+  taxonomy:
+    primary: system
+    secondary:
+    - method
+    - application
+    - benchmark
+    confidence: 0.67
+    evidence: system
 - id: gift-bootstrapping-image-to-cad-program-synthesis-via-geome-2026
   title: 'GIFT: Bootstrapping Image-to-CAD Program Synthesis via Geometric Feedback'
   authors:
@@ -5900,6 +6140,14 @@
     key_results: GIFT在强监督基线上将平均IoU提高12%，推理计算减少80%，并且与更复杂的多模态系统保持竞争力。
     limitations: []
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - system
+    - method
+    - theory
+    confidence: 0.68
+    evidence: benchmark
 - id: geofusion-cad-structure-aware-diffusion-with-geometric-stat-2026
   title: 'GeoFusion-CAD: Structure-Aware Diffusion with Geometric State Space for
     Parametric 3D Design'
@@ -6104,6 +6352,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - theory
+    confidence: 0.68
+    evidence: method
 - id: greed-for-the-spheres-a-signed-distance-interpolation-metho-2026
   title: 'Greed for the Spheres: A Signed Distance Interpolation Method'
   authors:
@@ -6266,6 +6522,14 @@
   abstract_cn: 我们提出了一种从离散样本集插值有符号距离函数（SDF）数据的方法。与先前工作不同，我们的方法确保新的SDF数据值与输入数据以及彼此之间完全一致，使得扩充后的数据仍然对应于几何上可实现的曲面。我们将SDF的理论性质表达为硬几何约束，并构建了一种高效的一致SDF插值贪心算法，该算法通过强大的并行化GPU预处理进一步加速。我们通过三个实际应用评估了该方法的有用性：全局SDF细化（在未知真实值的情况下对SDF数据进行上采样）、网格重建（我们的方法能够利用粗糙输入SDF中的全局信息重建高细节曲面）以及伪SDF修复（许多流程如CSG布尔运算会产生伪SDF，必须将其转换为有效的SDF以供下游处理任务使用）。我们细化的SDF保证与输入一致，而先前的方法没有这种保证。
   tldr_cn: GPU预处理的贪心一致SDF插值算法，用于细化、网格重建和伪SDF修复
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - application
+    - benchmark
+    - system
+    confidence: 0.68
+    evidence: method
 - id: hidigen-hierarchical-diffusion-for-b-rep-generation-with-ex-2026
   title: 'HiDiGen: Hierarchical Diffusion for B-Rep Generation with Explicit Topological
     Constraints'
@@ -6454,6 +6718,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - system
+    - theory
+    - method
+    confidence: 0.68
+    evidence: benchmark
 - id: img2cadseq-image-to-cad-generation-via-sequence-based-diffu-2026
   title: 'Img2CADSeq: Image-to-CAD Generation via Sequence-Based Diffusion'
   authors:
@@ -6648,6 +6920,14 @@
     key_results: Img2CADSeq在图像到CAD生成任务中显著优于现有最先进方法，生成可直接用于商业CAD软件的标准STEP文件。
     limitations: []
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - theory
+    - system
+    confidence: 0.68
+    evidence: method
 - id: itercad-an-iterative-multimodal-agent-for-visually-grounded-2026
   title: 'IterCAD: An Iterative Multimodal Agent for Visually-Grounded CAD Generation
     and Editing'
@@ -6864,6 +7144,14 @@
     key_results: IterCAD取得了极具竞争力的性能，在代码可执行性和几何精度上显著优于现有方法，并展现出卓越的闭环迭代优化能力。
     limitations: []
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - method
+    - application
+    - system
+    confidence: 0.69
+    evidence: benchmark
 - id: kdh-cad-knowledge-data-hybrid-cad-learning-under-data-scarc-2026
   title: 'KDH-CAD: Knowledge-data hybrid CAD learning under data scarcity'
   authors:
@@ -7063,6 +7351,14 @@
     key_results: KDH-CAD在250个训练样本下达到92.6%的准确率，在1000个样本下达到95.8%，匹配或超越了通常需要多一个数量级数据的现有最优性能。
     limitations: []
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - method
+    - application
+    - system
+    confidence: 0.38
+    evidence: benchmark
 - id: learning-from-design-procedure-to-generate-cad-programs-for-2026
   title: Learning From Design Procedure To Generate CAD Programs for Data Augmentation
   authors:
@@ -7260,6 +7556,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - application
+    - method
+    - theory
+    confidence: 0.69
+    evidence: benchmark
 - id: learning-new-tasks-via-reusable-skills-skill-compositional-2026
   title: 'Learning New Tasks via Reusable Skills: Skill-Compositional Experts for
     Embodied Continual Learning'
@@ -7427,6 +7731,14 @@
   abstract_cn: 具身持续学习（ECL）旨在使机器人能够在闭环控制下持续获取新的操作任务，同时保留先前学习的行为。与传统的持续学习相比，ECL遭受更严重的灾难性遗忘。在闭环控制下累积的特征漂移通过顺序决策逐步传播，导致先前学习的行为退化。ECL的一个关键挑战在于如何在不断演变的任务中进行结构化的技能复用，因为现有方法主要关注技能学习，而没有明确组织它们以实现连贯的任务执行。为了解决这个问题，我们提出了SCE，一个用于ECL的技能组合专家框架。SCE通过组合技能基础（CSG）构建技能库，将任务演示分解为可复用的技能。在此基础上，双执行与转换专家（DETE）通过技能组合实现新任务学习，其中一个分支确保技能执行，另一个分支支持技能之间的转换以实现连贯行为。在LIBERO基准测试和真实世界操作任务上的实验表明，SCE持续提高了保留率和整体任务性能。进一步的特征漂移分析和消融研究验证了我们方法的有效性。项目网站：https://eqcy.github.io/sce/。
   tldr_cn: 提出技能组合专家（SCE）用于具身持续学习，使机器人复用技能并减少遗忘。
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - survey
+    - system
+    confidence: 0.67
+    evidence: method
 - id: leveraging-foundation-models-for-causal-generative-modeling-2026
   title: Leveraging Foundation Models for Causal Generative Modeling
   authors:
@@ -7591,6 +7903,14 @@
   abstract_cn: 因果生成建模对于开发能够进行反事实推理的可靠且透明的AI系统至关重要。现有方法侧重于在生成模型训练过程中整合因果约束，但往往缺乏一个统一的框架来利用预训练基础模型的零样本推理能力。我们提出了FM-CGM，一个利用预训练基础模型进行端到端视觉因果推理的模块化框架。FM-CGM通过三个核心组件形式化因果流程：概念提取器、概念操作器和反事实生成器。通过利用大型推理模型进行因果推断，以及文本到图像扩散模型进行生成，我们的方法实现了零样本因果发现、干预和反事实生成。我们随后开发了因果语义引导（CSG），一种基于交叉注意力的机制，确保语义干预传播到后代概念，同时保留不变区域。我们通过实验表明，我们的方法能够识别合理的因果结构，并适用于忠实的反事实图像生成。
   tldr_cn: 提出FM-CGM，利用基础模型进行零样本因果发现和反事实图像生成。
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - system
+    - method
+    - theory
+    confidence: 0.67
+    evidence: benchmark
 - id: muse-benchmarking-manufacturable-functional-and-assemblab-2026
   title: 'MUSE: Benchmarking Manufacturable, Functional, and Assemblable Text-to-CAD
     Generation'
@@ -7786,6 +8106,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - method
+    - theory
+    - system
+    confidence: 0.68
+    evidence: benchmark
 - id: mamba-cad-state-space-model-for-3d-computer-aided-design-ge-2026
   title: 'Mamba-CAD: State Space Model For 3D Computer-Aided Design Generative Modeling'
   authors:
@@ -7978,6 +8306,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - application
+    - benchmark
+    - theory
+    confidence: 0.68
+    evidence: method
 - id: masked-brep-autoencoder-via-hierarchical-graph-transformer-2026
   title: Masked BRep Autoencoder via Hierarchical Graph Transformer
   authors:
@@ -8116,6 +8452,14 @@
   title_cn: Masked BRep Autoencoder via Hierarchical Graph Transformer
   abstract_cn: 我们提出了一种新颖的自监督学习框架，能够自动从输入的计算机辅助设计（CAD）模型中学习表示，用于下游任务，包括零件分类、建模分割和加工特征识别。为了训练我们的网络，我们构建了一个大规模、无标注的边界表示（BRep）模型数据集。我们算法的成功依赖于两个关键组件。第一个是掩码图自编码器，它通过重建BRep中随机掩码的几何和属性来进行表示学习，从而增强泛化能力。第二个是层次化图Transformer架构，通过跨尺度互注意力块优雅地融合全局和局部学习，以建模长程几何依赖关系，并通过图神经网络块聚合局部拓扑信息。在训练自编码器后，我们将其解码器替换为在少量标注数据上训练的任务特定网络，用于下游任务。我们在各种任务上进行了实验，即使使用少量标注数据也取得了高性能，证明了我们模型的实用性和泛化能力。与其他方法相比，我们的模型在相同训练数据量下，尤其是在训练数据非常有限时，在下游任务上表现显著更好。
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - theory
+    - application
+    confidence: 0.67
+    evidence: method
 - id: memory-augmented-reinforcement-learning-agent-for-cad-genera-2026
   title: Memory-Augmented Reinforcement Learning Agent for CAD Generation
   authors:
@@ -8321,6 +8665,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - theory
+    - system
+    confidence: 0.68
+    evidence: method
 - id: pllm-pseudo-labeling-large-language-models-for-cad-program-2026
   title: 'PLLM: Pseudo-Labeling Large Language Models for CAD Program Synthesis'
   authors:
@@ -8504,6 +8856,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - theory
+    confidence: 0.67
+    evidence: method
 - id: physics-in-the-loop-a-hybrid-agentic-architecture-for-valid-2026
   title: 'Physics-in-the-Loop: A Hybrid Agentic Architecture for Validated CAD Engineering
     Design'
@@ -8695,6 +9055,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.67
+    evidence: method
 - id: pointer-cad-v2-plan-then-construct-cad-generation-with-dime-2026
   title: 'Pointer-CAD v2: Plan-Then-Construct CAD Generation with Dimension-Aware
     Parametric Precision'
@@ -8843,6 +9211,14 @@
     v2。与v1版本（arXiv:2603.04337）相比，本版本直接预测连续值，无需量化数值参数，从而消除了量化误差。具体而言，我们提出了一种统一框架，通过“先规划后构建”范式将参数推理与几何构建解耦。我们的方法首先生成一个包含显式度量尺度参数的结构化设计规划。这些参数被组织成字典，并通过指针机制在序列生成过程中直接引用，从而消除了离散化误差并确保了维度一致的执行。此外，我们构建了一个带有规划级标注的大规模新数据集，并引入了三个层次化的几何精度度量指标，以在顶点、边和面层级评估参数保真度。大量实验表明，Pointer-CAD
     v2持续优于现有基线，并在几何精度上取得了显著提升，从而为精度关键的工程应用提供了可靠的CAD生成。
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - application
+    - benchmark
+    - theory
+    confidence: 0.68
+    evidence: method
 - id: pointer-cad-unifying-b-rep-and-command-sequences-via-pointe-2026
   title: 'Pointer-CAD: Unifying B-Rep and Command Sequences via Pointer-based Edges  Faces
     Selection'
@@ -9057,6 +9433,14 @@
     - Command sequence representation
     - Data annotation pipeline
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - theory
+    - application
+    confidence: 0.68
+    evidence: method
 - id: r1-syntheticvl-is-synthetic-data-from-generative-models-rea-2026
   title: 'R1-SyntheticVL: Is Synthetic Data from Generative Models Ready for Multimodal
     Large Language Model?'
@@ -9226,6 +9610,14 @@
   abstract_cn: 在这项工作中，我们旨在开发有效的数据合成技术，自主合成多模态训练数据，以增强多模态大语言模型（MLLMs）解决复杂现实任务的能力。为此，我们提出了集体对抗数据合成（CADS），这是一种新颖且通用的方法，用于为MLLMs合成高质量、多样且具有挑战性的多模态数据。CADS的核心思想是利用集体智能确保高质量和多样化的生成，同时探索对抗学习以合成具有挑战性的样本，从而有效推动模型改进。具体而言，CADS包含两个循环阶段：集体对抗数据生成（CAD-Generate）和集体对抗数据判断（CAD-Judge）。CAD-Generate利用集体知识共同生成新的多样化多模态数据，而CAD-Judge则协作评估合成数据的质量。此外，CADS引入了对抗上下文优化机制，以优化生成上下文，鼓励生成具有挑战性和高价值的数据。通过CADS，我们构建了MMSynthetic-20K数据集并训练了我们的模型R1-SyntheticVL，该模型在多个基准测试中展现出优越性能。
   tldr_cn: 提出CADS集体对抗数据合成方法，为多模态大模型生成训练数据，在基准测试中表现优异。
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.67
+    evidence: method
 - id: step-llm-generating-cad-step-models-from-natural-language-w-2026
   title: 'STEP-LLM: Generating CAD STEP Models from Natural Language with Large Language
     Models'
@@ -9380,6 +9772,14 @@
   abstract_cn: 计算机辅助设计（CAD）对现代制造业至关重要，但模型创建仍然劳动密集且需要专业知识。为使非专家能够将直观的设计意图转化为可制造的工件，近期基于大型语言模型的文本到CAD工作主要关注命令序列或基于脚本的格式（如CadQuery）。然而，这些格式依赖于内核，缺乏制造领域的通用性。相比之下，产品数据交换标准（STEP，ISO
     10303）文件是一种广泛采用的、中性的边界表示（B-rep）格式，可直接兼容制造，但其图结构、交叉引用的特性给自回归语言模型带来了独特挑战。为解决这一问题，我们整理了一个包含约4万个STEP-描述对的数据集，并针对STEP的图结构格式引入了新颖的预处理方法，包括基于深度优先搜索的重新序列化，在保持局部性的同时线性化交叉引用，以及链式思维（CoT）风格的结构化注释以引导全局一致性。我们集成了检索增强生成，将预测基于相关示例进行监督微调，并通过强化学习结合基于倒角距离的几何奖励来优化生成质量。实验表明，我们的STEP-LLM在几何保真度上相较于Text2CAD基线持续提升，这些改进源于我们框架的多个阶段：RAG模块显著增强了完整性和可渲染性，基于DFS的重新序列化提高了整体准确性，而强化学习进一步减少了几何差异。指标和视觉比较均证实STEP-LLM生成的形状比Text2CAD具有更高的保真度。这些结果展示了从自然语言驱动STEP模型生成的可行性，显示了其在制造领域民主化CAD设计的潜力。
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - theory
+    - application
+    confidence: 0.37
+    evidence: method
 - id: step-parts-geometric-partitioning-of-boundary-representatio-2026
   title: 'STEP-Parts: Geometric Partitioning of Boundary Representations for Large-Scale
     CAD Processing'
@@ -9580,6 +9980,14 @@
     key_results: 该工具链在消费级CPU上不到六小时处理了ABC的DeepCAD子集中约18万个模型，分割结果可作为网格化鲁棒的监督信号用于隐式重建-分割网络和点云骨干网络。
     limitations: []
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - method
+    - theory
+    - system
+    confidence: 0.37
+    evidence: benchmark
 - id: self-improving-cad-generation-agents-with-finite-element-ana-2026
   title: Self-Improving CAD Generation Agents with Finite Element Analysis as Feedback
   authors:
@@ -9799,6 +10207,14 @@
     - Blueprint schema
     - 21-view image renderer
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - method
+    - system
+    - theory
+    confidence: 0.38
+    evidence: benchmark
 - id: spatially-accelerated-winding-numbers-for-curved-geometry-2026
   title: Spatially Accelerated Winding Numbers for Curved Geometry
   authors:
@@ -9967,6 +10383,14 @@
     Volume Hierarchy）扩展了对快速GWN评估的支持，该结构适用于任意二维NURBS曲线集合和三维裁剪NURBS曲面片，并在层次节点中高效存储预计算的矩数据。在查询层次结构时，对远处簇使用近似计算，同时对附近的NURBS基元进行直接评估，从而在保持查询点附近几何特征的同时实现亚线性复杂度。我们性能改进的核心在于预处理阶段对NURBS基元采用自适应细分策略，在保持包含性决策与直接评估相同精度的同时，创建更好的空间划分。我们通过大量二维和三维数据集展示了我们方法的性能和精度。
   tldr_cn: 利用预计算矩的包围体层次结构加速曲面NURBS几何上的广义缠绕数查询。
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - application
+    - theory
+    confidence: 0.68
+    evidence: method
 - id: swifti2v-efficient-high-resolution-image-to-video-generatio-2026
   title: 'SwiftI2V: Efficient High-Resolution Image-to-Video Generation via Conditional
     Segment-wise Generation'
@@ -10139,6 +10563,14 @@
     4090）上实现实用的2K I2V生成成为可能。
   tldr_cn: SwiftI2V通过条件分段生成高效生成高分辨率（2K）图像到视频，性能相当且GPU时间减少202倍。
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - method
+    - system
+    - theory
+    confidence: 0.67
+    evidence: benchmark
 - id: toolcad-exploring-tool-using-large-language-models-in-text-2026
   title: 'TOOLCAD: Exploring Tool-Using Large Language Models in Text-to-CAD Generation
     with Reinforcement Learning'
@@ -10331,6 +10763,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - system
+    - method
+    - theory
+    confidence: 0.68
+    evidence: benchmark
 - id: text-to-cad-evaluation-with-cadtests-2026
   title: Text-to-CAD Evaluation with CADTests
   authors:
@@ -10524,6 +10964,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - theory
+    - application
+    confidence: 0.68
+    evidence: method
 - id: text-to-cad-retrieval-a-strong-baseline-2026
   title: 'Text-to-CAD Retrieval: a Strong Baseline'
   authors:
@@ -10722,6 +11170,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - theory
+    - application
+    confidence: 0.68
+    evidence: method
 - id: text2cad-bench-a-benchmark-for-llm-based-text-to-parametric-2026
   title: 'Text2CAD-Bench: A Benchmark for LLM-based Text-to-Parametric CAD Generation'
   authors:
@@ -10912,6 +11368,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - application
+    - system
+    confidence: 0.67
+    evidence: method
 - id: topology-first-b-rep-meshing-2026
   title: Topology-First B-Rep Meshing
   authors:
@@ -11116,6 +11580,14 @@
     - 随着用户定义的容差增加，几何保真度降低，以精度换取拓扑保证。
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - application
+    - benchmark
+    - system
+    confidence: 0.67
+    evidence: method
 - id: towards-high-fidelity-cad-generation-via-llm-driven-program-2026
   title: Towards High-Fidelity CAD Generation via LLM-Driven Program Generation and
     Text-Based B-Rep Primitive Grounding
@@ -11323,6 +11795,14 @@
     report: resource/towards-high-fidelity-cad-generation-via-llm-driven-program-2026/research.md
     queued_at: '2026-07-01T08:13:40Z'
   seed_expanded: true
+  taxonomy:
+    primary: method
+    secondary:
+    - system
+    - benchmark
+    - theory
+    confidence: 0.68
+    evidence: method
 - id: uncertainty-decomposition-via-cyclical-sg-mcmc-and-soft-labe-2026
   title: Uncertainty Decomposition via Cyclical SG-MCMC and Soft-label Learning for
     Subjective NLP
@@ -11485,6 +11965,14 @@
     uncertainty）与分歧的Spearman相关性、以及选择性预测的风险-覆盖率曲线下面积（AURC）和ROC曲线下面积（AUROC）——表明独立轴可从单一后验中联合获得。事后温度缩放表现出双向效应，将硬标签校准与标注者JSD确立为独立维度，并激励将联合报告作为诚实协议。
   tldr_cn: 结合循环SG-MCMC与软标签学习进行主观NLP不确定性分解，在情感分类上优于基线。
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - method
+    - theory
+    - survey
+    confidence: 0.67
+    evidence: benchmark
 - id: unicad-a-unified-benchmark-and-universal-model-for-multi-mo-2026
   title: 'UniCAD: A Unified Benchmark and Universal Model for Multi-Modal Multi-Task
     CAD'
@@ -11677,6 +12165,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - method
+    - application
+    - system
+    confidence: 0.68
+    evidence: benchmark
 - id: zero-to-cad-agentic-synthesis-of-interpretable-cad-programs-2026
   title: 'Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale
     Without Real Data'
@@ -11876,6 +12372,14 @@
     limitations: []
     tech_stack: []
   seed_expanded: true
+  taxonomy:
+    primary: system
+    secondary:
+    - benchmark
+    - method
+    - theory
+    confidence: 0.66
+    evidence: system
 - id: slice-100k-a-multimodal-dataset-for-extrusion-based-3d-prin-2024
   title: 'Slice-100K: A Multimodal Dataset for Extrusion-based 3D Printing'
   authors: []
@@ -12006,6 +12510,13 @@
           rank: 100
           score: 24.5
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - survey
+    - application
+    confidence: 0.36
+    evidence: method
 - id: fusion-360-gallery-a-dataset-and-environment-for-programmat-2020
   title: 'Fusion 360 Gallery: A Dataset and Environment for Programmatic CAD Construction
     from Human Design Sequences (Reconstruction Dataset)'
@@ -12121,6 +12632,14 @@
           rank: 92
           score: 25.3
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.37
+    evidence: method
 - id: histcad-geometrically-constrained-parametric-history-based-2026
   title: 'HistCAD: Geometrically Constrained Parametric History-based CAD Dataset'
   authors: []
@@ -12246,6 +12765,14 @@
           rank: 114
           score: 22.4
   grade: skip
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - method
+    - system
+    - theory
+    confidence: 0.36
+    evidence: benchmark
 - id: videocad-a-dataset-and-model-for-learning-long-horizon-3d-c-2025
   title: 'VideoCAD: A Dataset and Model for Learning Long-Horizon 3D CAD UI Interactions
     from Video'
@@ -12377,6 +12904,14 @@
           rank: 115
           score: 22.4
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: archcad-400k-an-open-large-scale-architectural-cad-dataset-2025
   title: 'ArchCAD-400K: An Open Large-Scale Architectural CAD Dataset and New Baseline
     for Panoptic Symbol Spotting'
@@ -12505,6 +13040,14 @@
           rank: 161
           score: 18.1
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - survey
+    confidence: 0.37
+    evidence: method
 - id: scan2cad-learning-cad-model-alignment-in-rgb-d-scans-2018
   title: 'Scan2CAD: Learning CAD Model Alignment in RGB-D Scans'
   authors: []
@@ -12635,6 +13178,14 @@
           rank: 154
           score: 19.3
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: joint-embedding-of-3d-scan-and-cad-objects-2019
   title: Joint Embedding of 3D Scan and CAD Objects
   authors: []
@@ -12749,6 +13300,14 @@
           rank: 196
           score: 10.7
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: end-to-end-cad-model-retrieval-and-9dof-alignment-in-3d-scan-2019
   title: End-to-End CAD Model Retrieval and 9DoF Alignment in 3D Scans
   authors: []
@@ -12863,6 +13422,14 @@
           rank: 195
           score: 10.7
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: cad-deform-deformable-fitting-of-cad-models-to-3d-scans-2020
   title: 'CAD-Deform: Deformable Fitting of CAD Models to 3D Scans'
   authors: []
@@ -12992,6 +13559,14 @@
           rank: 81
           score: 27.3
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: scenecad-predicting-object-alignments-and-layouts-in-rgb-d-2020
   title: 'SceneCAD: Predicting Object Alignments and Layouts in RGB-D Scans'
   authors: []
@@ -13122,6 +13697,14 @@
           rank: 128
           score: 21.7
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: joinable-learning-bottom-up-assembly-of-parametric-cad-join-2021
   title: 'JoinABLe: Learning Bottom-up Assembly of Parametric CAD Joints'
   authors: []
@@ -13254,6 +13837,14 @@
           rank: 93
           score: 25.1
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: roca-robust-cad-model-retrieval-and-alignment-from-a-single-2021
   title: 'ROCA: Robust CAD Model Retrieval and Alignment from a Single Image'
   authors: []
@@ -13383,6 +13974,14 @@
           rank: 87
           score: 26.2
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: cad-estate-large-scale-cad-model-annotation-in-rgb-videos-2023
   title: 'CAD-Estate: Large-scale CAD Model Annotation in RGB Videos'
   authors: []
@@ -13512,6 +14111,14 @@
           rank: 148
           score: 19.5
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: cad-editor-a-locate-then-infill-framework-with-automated-tr-2025
   title: 'CAD-Editor: A Locate-then-Infill Framework with Automated Training Data
     Synthesis for Text-Based CAD Editing'
@@ -13639,6 +14246,14 @@
           rank: 112
           score: 22.5
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - survey
+    confidence: 0.37
+    evidence: method
 - id: brepnet-a-topological-message-passing-system-for-solid-mode-2021
   title: 'BRepNet: A Topological Message Passing System for Solid Models'
   authors: []
@@ -13754,6 +14369,13 @@
           rank: 151
           score: 19.5
   grade: skip
+  taxonomy:
+    primary: system
+    secondary:
+    - method
+    - survey
+    confidence: 0.65
+    evidence: system
 - id: uv-net-learning-from-boundary-representations-2020
   title: 'UV-Net: Learning from Boundary Representations'
   authors: []
@@ -13868,6 +14490,11 @@
           rank: 167
           score: 17.7
   grade: skip
+  taxonomy:
+    primary: theory
+    secondary: []
+    confidence: 0.36
+    evidence: theory
 - id: gat-cadnet-graph-attention-network-for-panoptic-symbol-spot-2026
   title: 'GAT-CADNet: Graph Attention Network for Panoptic Symbol Spotting in CAD
     Drawings'
@@ -13997,6 +14624,14 @@
   generation_notes:
   - generated_fallback_teaser
   - warning_unresolved_teaser_fallback
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: fus-gcn-efficient-b-rep-based-graph-convolutional-networks-2026
   title: 'FuS-GCN: Efficient B-rep based graph convolutional networks for 3D-CAD model
     classification and retrieval'
@@ -14114,6 +14749,14 @@
   generation_notes:
   - generated_fallback_teaser
   - warning_unresolved_teaser_fallback
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - survey
+    confidence: 0.37
+    evidence: method
 - id: robust-symmetry-detection-via-riemannian-langevin-dynamics-2024
   title: Robust Symmetry Detection via Riemannian Langevin Dynamics
   authors: []
@@ -14242,6 +14885,11 @@
           rank: 152
           score: 19.4
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: cadtalk-an-algorithm-and-benchmark-for-semantic-commenting-2023
   title: 'CADTalk: An Algorithm and Benchmark for Semantic Commenting of CAD Programs'
   authors: []
@@ -14369,6 +15017,14 @@
           rank: 149
           score: 19.5
   grade: skip
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - method
+    - system
+    - survey
+    confidence: 0.66
+    evidence: benchmark
 - id: each-sketch-will-be-followed-by-an-extrude-which-is-represe-2026
   title: 'Each sketch will be followed by an extrude, which is represented by 18 parameters:
     BWVTTTRRRRRRRRRSOO'
@@ -14492,6 +15148,11 @@
           rank: 189
           score: 13.3
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: fusion-360-gallery-a-dataset-and-environment-for-programmat-2021
   title: 'Fusion 360 Gallery: A Dataset and Environment for Programmatic CAD Construction
     from Human Design Sequences'
@@ -14626,6 +15287,14 @@
           rank: 188
           score: 13.8
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: parametric-cad-modeling-an-analysis-of-strategies-for-desig-2016
   title: 'Parametric CAD modeling: An analysis of strategies for design reusability'
   authors:
@@ -14796,6 +15465,14 @@
   abstract_cn: 在参数化设计场景中，CAD模型的质量在很大程度上决定了3D模型的灵活性和适应性（修改几何形状的难易程度）及其可重用性（在其他环境和应用中使用现有几何形状的能力）。在机械CAD系统的背景下，基于特征的参数化建模范式依赖于特征之间的父子依赖关系，允许采用多种方法来创建特定模型。尽管创建零件的策略几乎无限，但只有少数策略能保证适当的内部结构，从而产生真正可重用的CAD模型。本文分析了历史参数化设计的正式CAD建模策略和最佳实践：Delphi水平建模、显式参考建模和弹性建模。我们的研究考虑的因素包括避免创建不必要的特征依赖关系的理由、这些特征的选择标准和顺序，以及父子关系对模型修改的影响。我们通过一系列实验对这些策略进行了比较评估，使用了三个不同复杂程度的工业CAD模型。我们分析了模型的内部结构，并比较了它们在几何修改时的鲁棒性和灵活性。结果揭示了正式建模方法（尤其是弹性技术）相对于非结构化方法的显著优势，以及水平策略在众多建模情况下的意外问题。我们分析了三种用于历史参数化设计的正式CAD建模策略。使用三个不同复杂程度的工业CAD模型研究了用户性能。正式建模方法比非结构化方法具有显著优势。建模方法显著影响
   tldr_cn: 通过比较实验分析正式参数化CAD建模策略（水平、显式参考、弹性）以提升设计可重用性。
   grade: worth_reading
+  taxonomy:
+    primary: method
+    secondary:
+    - system
+    - application
+    - theory
+    confidence: 0.67
+    evidence: method
 - id: how-can-large-language-models-help-humans-in-design-and-manu-2023
   title: How Can Large Language Models Help Humans in Design and Manufacturing?
   authors:
@@ -14982,6 +15659,14 @@
   abstract_cn: 大型语言模型（LLMs，包括GPT-4）的进步为生成式设计提供了令人兴奋的新机遇。我们研究了这一工具在整个设计与制造工作流程中的应用。具体而言，我们审视了LLMs在以下任务中的实用性：将基于文本的提示转换为设计规范、将设计转化为制造指令、生成设计空间与设计变体、计算设计性能，以及基于性能搜索设计。通过一系列示例，我们突出了当前LLMs的优势与局限性。通过揭示这些局限性，我们希望促进这些模型的持续改进与进步。
   tldr_cn: 探索LLMs在设计与制造流程中的潜力，通过实例突出其优势与局限。
   grade: skip
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - application
+    - method
+    - system
+    confidence: 0.68
+    evidence: benchmark
 - id: shapenet-an-information-rich-3d-model-repository-2015
   title: 'ShapeNet: An Information-Rich 3D Model Repository'
   authors:
@@ -15149,6 +15834,14 @@
   abstract_cn: 我们提出ShapeNet：一个丰富标注的大规模物体3D CAD模型形状存储库。ShapeNet包含来自众多语义类别的3D模型，并按照WordNet分类体系组织。它是一个数据集集合，为每个3D模型提供多种语义标注，例如一致的刚性对齐、部件和双侧对称平面、物理尺寸、关键词以及其他计划中的标注。标注通过公开的网页界面提供，以实现物体属性的数据可视化，促进数据驱动的几何分析，并为计算机图形学和视觉研究提供大规模定量基准。在本技术报告撰写时，ShapeNet已索引超过300万个模型，其中22万个模型被分类到3,135个类别（WordNet同义词集）。在本报告中，我们整体描述ShapeNet项目，提供所有当前可用数据集的详细信息，并总结未来计划。
   tldr_cn: ShapeNet是大型、丰富标注的3D CAD模型库，基于WordNet分类，用于图形学与视觉研究。
   grade: worth_reading
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - theory
+    - application
+    confidence: 0.67
+    evidence: method
 - id: comparing-3d-cad-models-uses-methods-tools-and-perspectiv-2012
   title: 'Comparing 3D CAD models: Uses, methods, tools and perspectives'
   authors:
@@ -15290,6 +15983,14 @@
           rank: 192
           score: 11.4
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.66
+    evidence: method
 - id: text2cad-generating-sequential-cad-designs-from-beginner-to-2024
   title: 'Text2CAD: Generating Sequential CAD Designs from Beginner-to-Expert Level
     Text Prompts'
@@ -15485,6 +16186,14 @@
     - Transformer
     - DeepCAD
   grade: must_read
+  taxonomy:
+    primary: system
+    secondary:
+    - application
+    - benchmark
+    - method
+    confidence: 0.67
+    evidence: system
 - id: cad-system-use-and-engineering-performance-2026
   title: CAD system use and engineering performance
   authors:
@@ -15608,6 +16317,14 @@
           rank: 194
           score: 10.9
   grade: skip
+  taxonomy:
+    primary: system
+    secondary:
+    - method
+    - benchmark
+    - survey
+    confidence: 0.66
+    evidence: system
 - id: about-the-introduction-of-a-dialogue-based-interaction-withi-2013
   title: About the Introduction of a Dialogue-Based Interaction within CAD Systems
   authors:
@@ -15739,6 +16456,14 @@
           rank: 198
           score: 9.2
   grade: skip
+  taxonomy:
+    primary: system
+    secondary:
+    - method
+    - benchmark
+    - application
+    confidence: 0.66
+    evidence: system
 - id: investigating-the-use-of-controlled-natural-language-as-prob-2014
   title: Investigating the use of controlled natural language as problem definition
     input for computer-aided design
@@ -15872,6 +16597,14 @@
           rank: 179
           score: 15.8
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - theory
+    confidence: 0.36
+    evidence: method
 - id: cad-signet-cad-language-inference-from-point-clouds-using-l-2024
   title: 'CAD-SIGNet: CAD Language Inference from Point Clouds Using Layer-Wise Sketch
     Instance Guided Attention'
@@ -16083,6 +16816,14 @@
     limitations: []
     tech_stack: []
   grade: must_read
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - method
+    - application
+    - system
+    confidence: 0.38
+    evidence: benchmark
 - id: query2cad-generating-cad-models-using-natural-language-quer-2024
   title: 'Query2CAD: Generating CAD models using natural language queries'
   authors:
@@ -16302,6 +17043,14 @@
     - CAD macros
     - Custom dataset
   grade: must_read
+  taxonomy:
+    primary: system
+    secondary:
+    - method
+    - benchmark
+    - application
+    confidence: 0.66
+    evidence: system
 - id: llm4cad-multi-modal-large-language-models-for-3d-computer-a-2024
   title: 'LLM4CAD: Multi-Modal Large Language Models for 3D Computer-Aided Design
     Generation'
@@ -16513,6 +17262,14 @@
     - Amazon Mechanical Turk
     - Intersection over Union (IoU)
   grade: must_read
+  taxonomy:
+    primary: method
+    secondary:
+    - application
+    - benchmark
+    - system
+    confidence: 0.68
+    evidence: method
 - id: cad-translator-an-effective-drive-for-text-to-3d-parametric-2024
   title: 'CAD Translator: An Effective Drive for Text to 3D Parametric Computer-Aided
     Design Generative Modeling'
@@ -16717,6 +17474,14 @@
     limitations: []
     tech_stack: []
   grade: must_read
+  taxonomy:
+    primary: method
+    secondary:
+    - theory
+    - benchmark
+    - system
+    confidence: 0.67
+    evidence: method
 - id: cad-llama-leveraging-large-language-models-for-computer-aid-2025
   title: 'CAD-Llama: Leveraging Large Language Models for Computer-Aided Design Parametric
     3D Model Generation'
@@ -16923,6 +17688,14 @@
     limitations: []
     tech_stack: []
   grade: must_read
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.67
+    evidence: method
 - id: text-to-cadquery-a-new-paradigm-for-cad-generation-with-sca-2025
   title: 'Text-to-CadQuery: A New Paradigm for CAD Generation with Scalable Large
     Model Capabilities'
@@ -17130,6 +17903,14 @@
     - CadQuery
     - Text2CAD dataset
   grade: must_read
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - application
+    - theory
+    confidence: 0.68
+    evidence: method
 - id: seek-cad-a-self-refined-generative-modeling-for-3d-parametr-2025
   title: 'Seek-CAD: A Self-refined Generative Modeling for 3D Parametric CAD Using
     Local Inference via DeepSeek'
@@ -17328,6 +18109,14 @@
     limitations: []
     tech_stack: []
   grade: must_read
+  taxonomy:
+    primary: method
+    secondary:
+    - application
+    - benchmark
+    - system
+    confidence: 0.68
+    evidence: method
 - id: from-intent-to-execution-multimodal-chain-of-thought-reinfo-2025
   title: 'From Intent to Execution: Multimodal Chain-of-Thought Reinforcement Learning
     for Precise CAD Code Generation'
@@ -17543,6 +18332,14 @@
     limitations: []
     tech_stack: []
   grade: must_read
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - theory
+    - application
+    confidence: 0.68
+    evidence: method
 - id: pr-cad-progressive-refinement-for-unified-controllable-and-2026
   title: 'PR-CAD: Progressive Refinement for Unified Controllable and Faithful Text-to-CAD
     Generation with Large Language Models'
@@ -17762,6 +18559,14 @@
     limitations: []
     tech_stack: []
   grade: must_read
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - system
+    - method
+    - theory
+    confidence: 0.68
+    evidence: benchmark
 - id: brepmfr-enhancing-machining-feature-recognition-in-b-rep-mo-2026
   title: 'BrepMFR: Enhancing machining feature recognition in B-rep models through
     deep learning and domain adaptation'
@@ -17878,6 +18683,11 @@
           rank: 118
           score: 22.2
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: querycad-grounded-question-answering-for-cad-models-2024
   title: 'QueryCAD: Grounded Question Answering for CAD Models'
   authors: []
@@ -18007,6 +18817,14 @@
           rank: 107
           score: 23.2
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: learning-shape-abstractions-by-assembling-volumetric-primiti-2026
   title: Learning Shape Abstractions by Assembling Volumetric Primitives
   authors: []
@@ -18134,6 +18952,11 @@
           rank: 156
           score: 18.9
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: im2struct-recovering-3d-shape-structure-from-a-single-rgb-i-2026
   title: 'Im2Struct: Recovering 3D Shape Structure from a Single RGB Image'
   authors: []
@@ -18261,6 +19084,11 @@
           rank: 97
           score: 24.5
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: superquadrics-revisited-learning-3d-shape-parsing-beyond-cu-2019
   title: 'Superquadrics Revisited: Learning 3D Shape Parsing beyond Cuboids'
   authors: []
@@ -18390,6 +19218,11 @@
           rank: 174
           score: 16.4
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: learning-unsupervised-hierarchical-part-decomposition-of-3d-2026
   title: Learning Unsupervised Hierarchical Part Decomposition of 3D Objects from
     a Single RGB Image
@@ -18521,6 +19354,11 @@
           rank: 98
           score: 24.5
   grade: skip
+  taxonomy:
+    primary: survey
+    secondary: []
+    confidence: 0.36
+    evidence: survey
 - id: sweepnet-unsupervised-learning-shape-abstraction-via-neural-2024
   title: 'SweepNet: Unsupervised Learning Shape Abstraction via Neural Sweepers'
   authors: []
@@ -18651,6 +19489,11 @@
           rank: 86
           score: 26.2
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: improving-unsupervised-visual-program-inference-with-code-re-2023
   title: Improving Unsupervised Visual Program Inference with Code Rewriting Families
   authors: []
@@ -18777,6 +19620,11 @@
           rank: 109
           score: 23.1
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: shapelib-designing-a-library-of-procedural-3d-shape-abstrac-2025
   title: 'ShapeLib: Designing a library of procedural 3D shape abstractions with Large
     Language Models'
@@ -18903,6 +19751,14 @@
           rank: 193
           score: 11.3
   grade: skip
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - system
+    - theory
+    - application
+    confidence: 0.36
+    evidence: benchmark
 - id: light-sq-structure-aware-shape-abstraction-with-superquadri-2025
   title: 'Light-SQ: Structure-aware Shape Abstraction with Superquadrics for Generated
     Meshes'
@@ -19030,6 +19886,12 @@
           rank: 164
           score: 17.9
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: superdec-3d-scene-decomposition-with-superquadric-primitive-2025
   title: 'SuperDec: 3D Scene Decomposition with Superquadric Primitives'
   authors: []
@@ -19161,6 +20023,11 @@
           rank: 144
           score: 20.3
   grade: skip
+  taxonomy:
+    primary: survey
+    secondary: []
+    confidence: 0.36
+    evidence: survey
 - id: shapecraft-llm-agents-for-structured-textured-and-interact-2025
   title: 'ShapeCraft: LLM Agents for Structured, Textured and Interactive 3D Modeling'
   authors: []
@@ -19292,6 +20159,14 @@
           rank: 191
           score: 12.5
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - system
+    - theory
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: primitiveanything-human-crafted-3d-primitive-assembly-gener-2025
   title: 'PrimitiveAnything: Human-Crafted 3D Primitive Assembly Generation with Auto-Regressive
     Transformer'
@@ -19422,6 +20297,12 @@
           rank: 136
           score: 21.1
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: hit-hierarchical-transformers-for-unsupervised-3d-shape-abs-2025
   title: 'HiT: Hierarchical Transformers for Unsupervised 3D Shape Abstraction'
   authors: []
@@ -19550,6 +20431,12 @@
           rank: 184
           score: 14.9
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: csgnet-neural-shape-parser-for-constructive-solid-geometry-2017
   title: 'CSGNet: Neural Shape Parser for Constructive Solid Geometry'
   authors: []
@@ -19677,6 +20564,12 @@
           rank: 71
           score: 28.6
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: supervised-fitting-of-geometric-primitives-to-3d-point-cloud-2018
   title: Supervised Fitting of Geometric Primitives to 3D Point Clouds
   authors: []
@@ -19802,6 +20695,12 @@
           rank: 171
           score: 16.9
   grade: skip
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - theory
+    confidence: 0.36
+    evidence: benchmark
 - id: parsenet-a-parametric-surface-fitting-network-for-3d-point-2020
   title: 'ParSeNet: A Parametric Surface Fitting Network for 3D Point Clouds'
   authors: []
@@ -19931,6 +20830,12 @@
           rank: 96
           score: 24.6
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: ucsg-net-unsupervised-discovering-of-constructive-solid-g-2020
   title: UCSG-Net -- Unsupervised Discovering of Constructive Solid Geometry Tree
   authors: []
@@ -20060,6 +20965,11 @@
           rank: 85
           score: 26.5
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: pie-net-parametric-inference-of-point-cloud-edges-2020
   title: 'PIE-NET: Parametric Inference of Point Cloud Edges'
   authors: []
@@ -20187,6 +21097,11 @@
           rank: 104
           score: 24.1
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: bsp-net-generating-compact-meshes-via-binary-space-partitio-2019
   title: 'BSP-Net: Generating Compact Meshes via Binary Space Partitioning'
   authors: []
@@ -20302,6 +21217,11 @@
           rank: 186
           score: 14.1
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: cvxnet-learnable-convex-decomposition-2026
   title: 'CvxNet: Learnable Convex Decomposition'
   authors: []
@@ -20434,6 +21354,11 @@
           rank: 133
           score: 21.3
   grade: skip
+  taxonomy:
+    primary: survey
+    secondary: []
+    confidence: 0.36
+    evidence: survey
 - id: intuitive-and-efficient-roof-modeling-for-reconstruction-and-2021
   title: Intuitive and Efficient Roof Modeling for Reconstruction and Synthesis
   authors: []
@@ -20561,6 +21486,13 @@
           rank: 110
           score: 23.0
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - theory
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: pc2wf-3d-wireframe-reconstruction-from-raw-point-clouds-2021
   title: 'PC2WF: 3D Wireframe Reconstruction from Raw Point Clouds'
   authors: []
@@ -20686,6 +21618,11 @@
           rank: 132
           score: 21.4
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.36
+    evidence: method
 - id: csg-stump-a-learning-friendly-csg-like-representation-for-i-2021
   title: 'CSG-Stump: A Learning Friendly CSG-Like Representation for Interpretable
     Shape Parsing'
@@ -20820,6 +21757,13 @@
           rank: 131
           score: 21.4
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - theory
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: cpfn-cascaded-primitive-fitting-networks-for-high-resolutio-2026
   title: 'CPFN: Cascaded Primitive Fitting Networks for High-Resolution Point Clouds'
   authors: []
@@ -20947,6 +21891,14 @@
           rank: 119
           score: 22.2
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: hpnet-deep-primitive-segmentation-using-hybrid-representati-2026
   title: 'HPNet: Deep Primitive Segmentation Using Hybrid Representations'
   authors: []
@@ -21062,6 +22014,11 @@
           rank: 155
           score: 18.9
   grade: skip
+  taxonomy:
+    primary: theory
+    secondary: []
+    confidence: 0.36
+    evidence: theory
 - id: lc2wf-learning-to-construct-3d-building-wireframes-from-3d-l-2022
   title: LC2WF:Learning to Construct 3D Building Wireframes from 3D Line Clouds
   authors: []
@@ -21189,6 +22146,11 @@
           rank: 182
           score: 15.6
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: capri-net-learning-compact-cad-shapes-with-adaptive-primiti-2021
   title: 'CAPRI-Net: Learning Compact CAD Shapes with Adaptive Primitive Assembly'
   authors: []
@@ -21319,6 +22281,14 @@
           rank: 141
           score: 20.6
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: complexgen-cad-reconstruction-by-b-rep-chain-complex-genera-2022
   title: 'ComplexGen: CAD Reconstruction by B-Rep Chain Complex Generation'
   authors: []
@@ -21448,6 +22418,14 @@
           rank: 73
           score: 28.4
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.37
+    evidence: method
 - id: reconstructing-editable-prismatic-cad-from-rounded-voxel-mod-2022
   title: Reconstructing editable prismatic CAD from rounded voxel models
   authors: []
@@ -21577,6 +22555,14 @@
           rank: 169
           score: 17.0
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: unsupervised-learning-of-shape-programs-with-repeatable-impl-2026
   title: Unsupervised Learning of Shape Programs with Repeatable Implicit Parts
   authors: []
@@ -21704,6 +22690,11 @@
           rank: 178
           score: 15.9
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: extrudenet-unsupervised-inverse-sketch-and-extrude-for-shap-2022
   title: 'ExtrudeNet: Unsupervised Inverse Sketch-and-Extrude for Shape Parsing'
   authors: []
@@ -21836,6 +22827,12 @@
           rank: 134
           score: 21.2
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: point2cyl-reverse-engineering-3d-objects-from-point-clouds-2021
   title: 'Point2Cyl: Reverse Engineering 3D Objects from Point Clouds to Extrusion
     Cylinders'
@@ -21968,6 +22965,11 @@
           rank: 105
           score: 23.8
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: cadops-net-jointly-learning-cad-operation-types-and-steps-f-2022
   title: 'CADOps-Net: Jointly Learning CAD Operation Types and Steps from Boundary-Representations'
   authors: []
@@ -22092,6 +23094,14 @@
           rank: 165
           score: 17.8
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - theory
+    confidence: 0.36
+    evidence: method
 - id: reconstructing-compact-building-models-from-point-clouds-usi-2026
   title: Reconstructing compact building models from point clouds using deep implicit
     fields
@@ -22223,6 +23233,11 @@
           rank: 122
           score: 22.2
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: vitruvion-a-generative-model-of-parametric-cad-sketches-2021
   title: 'Vitruvion: A Generative Model of Parametric CAD Sketches'
   authors: []
@@ -22352,6 +23367,14 @@
           rank: 95
           score: 24.6
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: bpnet-bezier-primitive-segmentation-on-3d-point-clouds-2023
   title: 'BPNet: Bézier Primitive Segmentation on 3D Point Clouds'
   authors: []
@@ -22478,6 +23501,11 @@
           rank: 147
           score: 19.5
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: plankassembly-robust-3d-reconstruction-from-three-orthograp-2023
   title: 'PlankAssembly: Robust 3D Reconstruction from Three Orthographic Views with
     Learnt Shape Programs'
@@ -22606,6 +23634,11 @@
           rank: 150
           score: 19.5
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.36
+    evidence: method
 - id: secad-net-self-supervised-cad-reconstruction-by-learning-sk-2026
   title: 'SECAD-Net: Self-Supervised CAD Reconstruction by Learning Sketch-Extrude
     Operations'
@@ -22737,6 +23770,14 @@
           rank: 66
           score: 30.9
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: d2csg-unsupervised-learning-of-compact-csg-trees-with-dual-2026
   title: 'D2CSG: Unsupervised Learning of Compact CSG Trees with Dual Complements
     and Dropouts'
@@ -22865,6 +23906,11 @@
           rank: 120
           score: 22.2
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: split-and-fit-learning-b-reps-via-structure-aware-voronoi-p-2024
   title: 'Split-and-Fit: Learning B-Reps via Structure-Aware Voronoi Partitioning'
   authors: []
@@ -22990,6 +24036,11 @@
           rank: 153
           score: 19.4
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: polygnn-polyhedron-based-graph-neural-network-for-3d-buildi-2026
   title: 'PolyGNN: Polyhedron-based Graph Neural Network for 3D Building Reconstruction
     from Point Clouds'
@@ -23117,6 +24168,12 @@
           rank: 72
           score: 28.5
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: differentiable-convex-polyhedra-optimization-from-multi-view-2024
   title: Differentiable Convex Polyhedra Optimization from Multi-view Images
   authors: []
@@ -23245,6 +24302,11 @@
           rank: 127
           score: 21.8
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: dpa-net-structured-3d-abstraction-from-sparse-views-via-dif-2024
   title: 'DPA-Net: Structured 3D Abstraction from Sparse Views via Differentiable
     Primitive Assembly'
@@ -23372,6 +24434,11 @@
           rank: 190
           score: 12.8
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: sfmcad-unsupervised-cad-reconstruction-by-learning-sketch-b-2026
   title: 'SfmCAD: Unsupervised CAD Reconstruction by Learning Sketch-based Feature
     Modeling Operations'
@@ -23500,6 +24567,14 @@
           rank: 102
           score: 24.3
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - theory
+    confidence: 0.36
+    evidence: method
 - id: point2cad-reverse-engineering-cad-models-from-3d-point-clou-2026
   title: 'Point2CAD: Reverse Engineering CAD Models from 3D Point Clouds'
   authors: []
@@ -23630,6 +24705,14 @@
           rank: 77
           score: 27.8
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: cad-signet-cad-language-inference-from-point-clouds-using-l-2026
   title: 'CAD-SIGNet: CAD Language Inference from Point Clouds using Layer-wise Sketch
     Instance Guided Attention'
@@ -23754,6 +24837,14 @@
           rank: 101
           score: 24.3
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: draw-step-by-step-reconstructing-cad-construction-sequences-2026
   title: 'Draw Step by Step: Reconstructing CAD Construction Sequences from Point
     Clouds via Multimodal Diffusion'
@@ -23880,6 +24971,14 @@
           rank: 158
           score: 18.7
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: img2cad-reverse-engineering-3d-cad-models-from-images-throu-2024
   title: 'Img2CAD: Reverse Engineering 3D CAD Models from Images through VLM-Assisted
     Conditional Factorization'
@@ -24008,6 +25107,14 @@
           rank: 146
           score: 19.6
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: ps-cad-local-geometry-guidance-via-prompting-and-selection-2024
   title: 'PS-CAD: Local Geometry Guidance via Prompting and Selection for CAD Reconstruction'
   authors: []
@@ -24134,6 +25241,14 @@
           rank: 116
           score: 22.4
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - survey
+    confidence: 0.37
+    evidence: method
 - id: img2cad-conditioned-3d-cad-model-generation-from-single-ima-2024
   title: 'Img2CAD: Conditioned 3D CAD Model Generation from Single Image with Structured
     Visual Geometry'
@@ -24261,6 +25376,14 @@
           rank: 89
           score: 25.6
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: davinci-a-single-stage-architecture-for-constrained-cad-ske-2024
   title: 'DAVINCI: A Single-Stage Architecture for Constrained CAD Sketch Inference'
   authors: []
@@ -24390,6 +25513,14 @@
           rank: 172
           score: 16.8
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - application
+    - benchmark
+    - system
+    confidence: 0.36
+    evidence: method
 - id: cad-recode-reverse-engineering-cad-code-from-point-clouds-2024
   title: 'CAD-Recode: Reverse Engineering CAD Code from Point Clouds'
   authors: []
@@ -24517,6 +25648,14 @@
           rank: 94
           score: 24.6
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: picasso-a-feed-forward-framework-for-parametric-inference-o-2024
   title: 'PICASSO: A Feed-Forward Framework for Parametric Inference of CAD Sketches
     via Rendering Self-Supervision'
@@ -24642,6 +25781,14 @@
           rank: 173
           score: 16.8
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: cad-assistant-tool-augmented-vllms-as-generic-cad-task-solv-2024
   title: 'CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers'
   authors: []
@@ -24773,6 +25920,14 @@
           rank: 177
           score: 16.0
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: bgpseg-boundary-guided-primitive-instance-segmentation-of-p-2026
   title: 'BGPSeg: Boundary-Guided Primitive Instance Segmentation of Point Clouds'
   authors: []
@@ -24896,6 +26051,11 @@
           rank: 157
           score: 18.7
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: from-2d-cad-drawings-to-3d-parametric-models-a-vision-langu-2024
   title: 'From 2D CAD Drawings to 3D Parametric Models: A Vision-Language Approach'
   authors: []
@@ -25028,6 +26188,14 @@
           rank: 111
           score: 22.9
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: parametric-point-cloud-completion-for-polygonal-surface-reco-2025
   title: Parametric Point Cloud Completion for Polygonal Surface Reconstruction
   authors: []
@@ -25153,6 +26321,12 @@
           rank: 90
           score: 25.4
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: atlasnet-a-papier-mache-approach-to-learning-3d-surface-gen-2018
   title: 'AtlasNet: A Papier-Mâché Approach to Learning 3D Surface Generation'
   authors: []
@@ -25282,6 +26456,11 @@
           rank: 170
           score: 16.9
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.36
+    evidence: method
 - id: structurenet-hierarchical-graph-networks-for-3d-shape-gener-2019
   title: 'StructureNet: Hierarchical Graph Networks for 3D Shape Generation'
   authors: []
@@ -25412,6 +26591,12 @@
           rank: 125
           score: 22.1
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: sdm-net-deep-generative-network-for-structured-deformable-m-2026
   title: 'SDM-NET: Deep Generative Network for Structured Deformable Mesh'
   authors: []
@@ -25540,6 +26725,12 @@
           rank: 91
           score: 25.3
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: deepsvg-a-hierarchical-generative-network-for-vector-graphi-2020
   title: 'DeepSVG: A Hierarchical Generative Network for Vector Graphics Animation'
   authors: []
@@ -25671,6 +26862,12 @@
           rank: 166
           score: 17.7
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: computer-aided-design-as-language-2021
   title: Computer-aided design as language
   authors: []
@@ -25788,6 +26985,14 @@
           rank: 163
           score: 18.0
   grade: skip
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - system
+    - theory
+    - application
+    confidence: 0.36
+    evidence: benchmark
 - id: roof-gan-learning-to-generate-roof-geometry-and-relations-f-2020
   title: 'Roof-GAN: Learning to Generate Roof Geometry and Relations for Residential
     Houses'
@@ -25918,6 +27123,12 @@
           rank: 113
           score: 22.5
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: engineering-sketch-generation-for-computer-aided-design-2026
   title: Engineering Sketch Generation for Computer-Aided Design
   authors: []
@@ -26043,6 +27254,14 @@
           rank: 74
           score: 28.3
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - theory
+    confidence: 0.36
+    evidence: method
 - id: deepcad-a-deep-generative-network-for-computer-aided-design-2021
   title: 'DeepCAD: A Deep Generative Network for Computer-Aided Design Models'
   authors: []
@@ -26158,6 +27377,14 @@
           rank: 70
           score: 29.1
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: discovering-design-concepts-for-cad-sketches-2022
   title: Discovering Design Concepts for CAD Sketches
   authors: []
@@ -26284,6 +27511,14 @@
           rank: 126
           score: 22.0
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: skexgen-autoregressive-generation-of-cad-construction-seque-2022
   title: 'SkexGen: Autoregressive Generation of CAD Construction Sequences with Disentangled
     Codebooks'
@@ -26400,6 +27635,14 @@
           rank: 108
           score: 23.2
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: hierarchical-neural-coding-for-controllable-cad-model-genera-2023
   title: Hierarchical Neural Coding for Controllable CAD Model Generation
   authors: []
@@ -26530,6 +27773,14 @@
           rank: 67
           score: 30.7
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - survey
+    confidence: 0.37
+    evidence: method
 - id: sketchgen-generating-constrained-cad-sketches-2026
   title: 'SketchGen: Generating Constrained CAD Sketches'
   authors: []
@@ -26660,6 +27911,14 @@
           rank: 123
           score: 22.2
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: partnerf-generating-part-aware-editable-3d-shapes-without-3-2023
   title: 'PartNeRF: Generating Part-Aware Editable 3D Shapes without 3D Supervision'
   authors: []
@@ -26775,6 +28034,11 @@
           rank: 176
           score: 16.2
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: vq-cad-computer-aided-design-model-generation-with-vector-q-2026
   title: 'VQ-CAD: Computer-Aided Design model generation with vector quantized diffusion'
   authors: []
@@ -26904,6 +28168,14 @@
           rank: 75
           score: 28.3
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: solidgen-an-autoregressive-model-for-direct-b-rep-synthesis-2026
   title: 'SolidGen: An Autoregressive Model for Direct B-rep Synthesis'
   authors: []
@@ -27017,6 +28289,12 @@
           rank: 183
           score: 15.5
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: generating-3d-house-wireframes-with-semantics-2024
   title: Generating 3D House Wireframes with Semantics
   authors: []
@@ -27144,6 +28422,11 @@
           rank: 197
           score: 10.4
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: brepgen-a-b-rep-generative-diffusion-model-with-structured-2024
   title: 'BrepGen: A B-rep Generative Diffusion Model with Structured Latent Geometry'
   authors: []
@@ -27267,6 +28550,11 @@
           rank: 83
           score: 26.6
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: cadvlm-bridging-language-and-vision-in-the-generation-of-pa-2024
   title: 'CadVLM: Bridging Language and Vision in the Generation of Parametric CAD
     Sketches'
@@ -27394,6 +28682,14 @@
           rank: 145
           score: 20.0
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: text2cad-text-to-3d-cad-generation-via-technical-drawings-2024
   title: 'Text2CAD: Text to 3D CAD Generation via Technical Drawings'
   authors: []
@@ -27522,6 +28818,14 @@
           rank: 84
           score: 26.6
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: cad-mllm-unifying-multimodality-conditioned-cad-generation-2024
   title: 'CAD-MLLM: Unifying Multimodality-Conditioned CAD Generation With MLLM'
   authors: []
@@ -27649,6 +28953,14 @@
           rank: 162
           score: 18.0
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: dont-mesh-with-me-generating-constructive-solid-geometry-i-2024
   title: 'Don’t Mesh with Me: Generating Constructive Solid Geometry Instead of Meshes
     by Fine-Tuning a Code-Generation LLM'
@@ -27776,6 +29088,11 @@
           rank: 68
           score: 30.1
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.36
+    evidence: method
 - id: generating-cad-code-with-vision-language-models-for-3d-desig-2024
   title: Generating CAD Code with Vision-Language Models for 3D Designs
   authors: []
@@ -27900,6 +29217,14 @@
           rank: 129
           score: 21.5
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: flexcad-unified-and-versatile-controllable-cad-generation-w-2024
   title: 'FlexCAD: Unified and Versatile Controllable CAD Generation with Fine-tuned
     Large Language Models'
@@ -28029,6 +29354,14 @@
           rank: 88
           score: 25.9
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: revisiting-cad-model-generation-by-learning-raster-sketch-2025
   title: Revisiting CAD Model Generation by Learning Raster Sketch
   authors: []
@@ -28156,6 +29489,14 @@
           rank: 64
           score: 32.2
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: text-to-cad-generation-through-infusing-visual-feedback-in-l-2025
   title: Text-to-CAD Generation Through Infusing Visual Feedback in Large Language
     Models
@@ -28282,6 +29623,14 @@
           rank: 106
           score: 23.3
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: cad-gpt-synthesising-cad-construction-sequence-with-spatial-2024
   title: 'CAD-GPT: Synthesising CAD Construction Sequence with Spatial Reasoning-Enhanced
     Multimodal LLMs'
@@ -28413,6 +29762,14 @@
           rank: 185
           score: 14.9
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - theory
+    confidence: 0.36
+    evidence: method
 - id: caddreamer-cad-object-generation-from-single-view-images-2025
   title: 'CADDreamer: CAD object Generation from Single-view Images'
   authors: []
@@ -28540,6 +29897,14 @@
           rank: 130
           score: 21.4
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: cadcrafter-generating-computer-aided-design-models-from-unc-2025
   title: 'CADCrafter: Generating Computer-Aided Design Models from Unconstrained Images'
   authors: []
@@ -28668,6 +30033,14 @@
           rank: 76
           score: 28.1
   grade: skip
+  taxonomy:
+    primary: benchmark
+    secondary:
+    - system
+    - application
+    - method
+    confidence: 0.36
+    evidence: benchmark
 - id: dtgbrepgen-a-novel-b-rep-generative-model-through-decouplin-2025
   title: 'DTGBrepGen: A Novel B-rep Generative Model through Decoupling Topology and
     Geometry'
@@ -28794,6 +30167,11 @@
           rank: 79
           score: 27.5
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.25
+    evidence: method
 - id: clr-wire-towards-continuous-latent-representations-for-3d-c-2025
   title: 'CLR-Wire: Towards Continuous Latent Representations for 3D Curve Wireframe
     Generation'
@@ -28920,6 +30298,13 @@
           rank: 135
           score: 21.1
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - theory
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: hola-b-rep-generation-using-a-holistic-latent-representatio-2025
   title: 'HoLa: B-Rep Generation using a Holistic Latent Representation'
   authors: []
@@ -29046,6 +30431,12 @@
           rank: 137
           score: 20.9
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - theory
+    confidence: 0.36
+    evidence: method
 - id: stitch-a-shape-bottom-up-learning-for-b-rep-generation-2026
   title: 'Stitch-A-Shape: Bottom-up Learning for B-Rep Generation'
   authors: []
@@ -29167,6 +30558,12 @@
           rank: 160
           score: 18.7
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - survey
+    confidence: 0.36
+    evidence: method
 - id: cad-coder-text-to-cad-generation-with-chain-of-thought-and-2025
   title: 'CAD-Coder: Text-to-CAD Generation with Chain-of-Thought and Geometric Reward'
   authors: []
@@ -29293,6 +30690,14 @@
           rank: 99
           score: 24.5
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - theory
+    confidence: 0.36
+    evidence: method
 - id: geocad-local-geometry-controllable-cad-generation-2025
   title: 'GeoCAD: Local Geometry-Controllable CAD Generation'
   authors: []
@@ -29421,6 +30826,14 @@
           rank: 69
           score: 29.9
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method
 - id: autobrep-autoregressive-b-rep-generation-with-unified-topol-2025
   title: 'AutoBrep: Autoregressive B-Rep Generation with Unified Topology and Geometry'
   authors: []
@@ -29546,6 +30959,11 @@
           rank: 78
           score: 27.5
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.36
+    evidence: method
 - id: brepgpt-autoregressive-b-rep-generation-with-voronoi-half-p-2025
   title: 'BrepGPT: Autoregressive B-rep Generation with Voronoi Half-Patch'
   authors: []
@@ -29670,6 +31088,11 @@
           rank: 103
           score: 24.3
   grade: skip
+  taxonomy:
+    primary: method
+    secondary: []
+    confidence: 0.36
+    evidence: method
 - id: recad-reinforcement-learning-enhanced-parametric-cad-model-2025
   title: 'ReCAD: Reinforcement Learning Enhanced Parametric CAD Model Generation with
     Vision-Language Models'
@@ -29797,6 +31220,14 @@
           rank: 138
           score: 20.9
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - survey
+    confidence: 0.37
+    evidence: method
 - id: cadmium-fine-tuning-code-language-models-for-text-driven-se-2025
   title: 'CADmium: Fine-Tuning Code Language Models for Text-Driven Sequential CAD
     Design'
@@ -29924,3 +31355,11 @@
           rank: 124
           score: 22.1
   grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - system
+    - application
+    confidence: 0.36
+    evidence: method

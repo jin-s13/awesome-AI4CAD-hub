@@ -1,0 +1,18 @@
+- id: github-bunnysocrazy-awesome-neural-cad
+  name: Awesome-Neural-CAD
+  type: GitHub
+  category: GitHub project
+  description: A curated list of awesome Neural Computer-Aided Design (CAD) papers.
+  tags:
+  - 3d-models
+  - aigc
+  - awesome-list
+  - cad
+  - computer-graphics
+  - deep-neural-networks
+  stars: 194
+  links:
+    github: https://github.com/BunnySoCrazy/Awesome-Neural-CAD
+  sources:
+  - repo: BunnySoCrazy/Awesome-Neural-CAD
+    category: github_project

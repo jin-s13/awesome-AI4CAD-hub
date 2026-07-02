@@ -1,6 +1,6 @@
 # Awesome AI4CAD Hub: Traditional Awesome List
 
-A curated hub for AI papers, datasets, tools, and research for CAD, parametric design, B-Rep modeling, and engineering geometry.
+A curated hub for AI papers, datasets, projects, and research for CAD, parametric design, B-Rep modeling, and engineering geometry.
 
 - Web UI: [https://jin-s13.github.io/awesome-AI4CAD-hub/zh/](https://jin-s13.github.io/awesome-AI4CAD-hub/zh/)
 - Project README: [README.md](./README.md)

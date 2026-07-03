@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-07-02T02:52:23Z'
+generated_at: '2026-07-03T02:26:07Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -399,7 +399,7 @@ assignments:
   - benchmark
   - theory
   - application
-  confidence: 0.37
+  confidence: 0.67
   evidence: method
 - paper_id: step-parts-geometric-partitioning-of-boundary-representatio-2026
   primary: benchmark
@@ -1439,4 +1439,377 @@ assignments:
   - system
   - application
   confidence: 0.36
+  evidence: method
+- paper_id: topological-structures-for-geometric-modeling-boundary-repr-2026
+  primary: theory
+  secondary:
+  - method
+  - benchmark
+  - survey
+  confidence: 0.37
+  evidence: theory
+- paper_id: point2cad-reverse-engineering-cad-models-from-3d-point-clou-2023
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  - theory
+  confidence: 0.68
+  evidence: method
+- paper_id: 3d-parametric-wireframe-extraction-based-on-distance-fields-2021
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  - survey
+  confidence: 0.67
+  evidence: method
+- paper_id: how-3d-holistic-3d-wireframe-perception-from-a-single-image-2022
+  primary: method
+  secondary:
+  - system
+  - benchmark
+  - survey
+  confidence: 0.67
+  evidence: method
+- paper_id: rfeps-2022
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  - theory
+  confidence: 0.67
+  evidence: method
+- paper_id: nerve-neural-volumetric-edges-for-parametric-curve-extracti-2023
+  primary: method
+  secondary:
+  - theory
+  - survey
+  confidence: 0.66
+  evidence: method
+- paper_id: sepicnet-sharp-edges-recovery-by-parametric-inference-of-cu-2023
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  - survey
+  confidence: 0.67
+  evidence: method
+- paper_id: automatic-3d-cad-models-reconstruction-from-2d-orthographic-2023
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  - survey
+  confidence: 0.67
+  evidence: method
+- paper_id: surfaces-for-computer-aided-design-of-space-forms-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  - theory
+  confidence: 0.36
+  evidence: method
+- paper_id: geometric-modeling-of-solid-objects-by-using-a-face-adjacenc-2026
+  primary: theory
+  secondary:
+  - benchmark
+  confidence: 0.37
+  evidence: theory
+- paper_id: functional-programming-for-compiling-and-decompiling-compute-2018
+  primary: application
+  secondary:
+  - method
+  - benchmark
+  - system
+  confidence: 0.67
+  evidence: application
+- paper_id: inferring-cad-modeling-sequences-using-zone-graphs-2021
+  primary: system
+  secondary:
+  - method
+  - theory
+  - benchmark
+  confidence: 0.66
+  evidence: system
+- paper_id: a-quantitative-analysis-of-parametric-cad-model-complexity-a-2023
+  primary: theory
+  secondary:
+  - method
+  - benchmark
+  - system
+  confidence: 0.36
+  evidence: theory
+- paper_id: cadparser-a-learning-approach-of-sequence-modeling-for-b-re-2023
+  primary: method
+  secondary:
+  - application
+  - benchmark
+  - theory
+  confidence: 0.68
+  evidence: method
+- paper_id: complexgen-cad-reconstruction-by-b-rep-chain-complex-genera-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  - application
+  confidence: 0.37
+  evidence: method
+- paper_id: an-investigation-on-utilizing-large-language-model-for-indus-2024
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  - theory
+  confidence: 0.36
+  evidence: method
+- paper_id: large-language-models-for-computer-aided-design-llm4cad-fi-2025
+  primary: benchmark
+  secondary:
+  - method
+  - application
+  - system
+  confidence: 0.38
+  evidence: benchmark
+- paper_id: point-containment-algorithms-for-constructive-solid-geometry-2024
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  - survey
+  confidence: 0.36
+  evidence: method
+- paper_id: fr-csg-fast-and-reliable-modeling-for-constructive-solid-ge-2024
+  primary: method
+  secondary:
+  - benchmark
+  - theory
+  - system
+  confidence: 0.68
+  evidence: method
+- paper_id: mesh2brep-b-rep-reconstruction-via-robust-primitive-fitting-2025
+  primary: method
+  secondary:
+  - application
+  - theory
+  - benchmark
+  confidence: 0.67
+  evidence: method
+- paper_id: diffusion-cad-controllable-diffusion-model-for-generating-c-2025
+  primary: method
+  secondary:
+  - benchmark
+  - application
+  - system
+  confidence: 0.67
+  evidence: method
+- paper_id: topological-structures-for-geometric-modeling-2026
+  primary: theory
+  secondary:
+  - method
+  - benchmark
+  - survey
+  confidence: 0.36
+  evidence: theory
+- paper_id: inversecsg-2018
+  primary: method
+  secondary:
+  - theory
+  - benchmark
+  - system
+  confidence: 0.67
+  evidence: method
+- paper_id: sketch2cad-2020
+  primary: system
+  secondary:
+  - method
+  - application
+  - benchmark
+  confidence: 0.67
+  evidence: system
+- paper_id: neuronurbs-learning-efficient-surface-representations-for-3-2024
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  - theory
+  confidence: 0.67
+  evidence: method
+- paper_id: the-status-evolution-and-future-challenges-of-multimodal-l-2025
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  - application
+  confidence: 0.36
+  evidence: method
+- paper_id: cmt-a-cascade-mar-with-topology-predictor-for-multimodal-co-2025
+  primary: method
+  secondary:
+  - benchmark
+  - application
+  - system
+  confidence: 0.68
+  evidence: method
+- paper_id: graph-representation-of-3d-cad-models-for-machining-feature-2020
+  primary: method
+  secondary:
+  - application
+  - benchmark
+  - system
+  confidence: 0.67
+  evidence: method
+- paper_id: automate-2021
+  primary: benchmark
+  secondary:
+  - system
+  - method
+  - theory
+  confidence: 0.67
+  evidence: benchmark
+- paper_id: uv-net-learning-from-boundary-representations-2021
+  primary: benchmark
+  secondary:
+  - application
+  - theory
+  - method
+  confidence: 0.38
+  evidence: benchmark
+- paper_id: sketchgen-generating-constrained-cad-sketches-2021
+  primary: benchmark
+  secondary:
+  - application
+  - theory
+  - method
+  confidence: 0.68
+  evidence: benchmark
+- paper_id: neural-face-identification-in-a-2d-wireframe-projection-of-a-2022
+  primary: method
+  secondary:
+  - system
+  - benchmark
+  - application
+  confidence: 0.68
+  evidence: method
+- paper_id: self-supervised-representation-learning-for-cad-2022
+  primary: benchmark
+  secondary:
+  - method
+  - theory
+  - application
+  confidence: 0.68
+  evidence: benchmark
+- paper_id: d2csg-unsupervised-learning-of-compact-csg-trees-with-dual-2023
+  primary: method
+  secondary:
+  - application
+  - benchmark
+  - system
+  confidence: 0.37
+  evidence: method
+- paper_id: secad-net-self-supervised-cad-reconstruction-by-learning-sk-2023
+  primary: method
+  secondary:
+  - benchmark
+  - theory
+  - system
+  confidence: 0.68
+  evidence: method
+- paper_id: surface-and-edge-detection-for-primitive-fitting-of-point-cl-2023
+  primary: method
+  secondary:
+  - application
+  - benchmark
+  - theory
+  confidence: 0.67
+  evidence: method
+- paper_id: hg-cad-hierarchical-graph-learning-for-material-prediction-2023
+  primary: application
+  secondary:
+  - system
+  - benchmark
+  - method
+  confidence: 0.66
+  evidence: application
+- paper_id: text2cad-generating-sequential-cad-models-from-beginner-to-2024
+  primary: system
+  secondary:
+  - application
+  - benchmark
+  - method
+  confidence: 0.67
+  evidence: system
+- paper_id: 2025a-text-to-cad-generation-through-infusing-visual-feedba-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  - application
+  confidence: 0.36
+  evidence: method
+- paper_id: 2024-flexcad-unified-and-versatile-controllable-cad-genera-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  - application
+  confidence: 0.36
+  evidence: method
+- paper_id: cad-coder-an-open-source-vision-language-model-for-computer-2025
+  primary: benchmark
+  secondary:
+  - application
+  - method
+  - system
+  confidence: 0.37
+  evidence: benchmark
+- paper_id: sketchdnn-joint-continuous-discrete-diffusion-for-cad-sketc-2025
+  primary: application
+  secondary:
+  - method
+  - benchmark
+  - system
+  confidence: 0.65
+  evidence: application
+- paper_id: abc-a-big-cad-model-dataset-for-geometric-deep-learning-2018
+  primary: benchmark
+  secondary:
+  - method
+  - application
+  - system
+  confidence: 0.68
+  evidence: benchmark
+- paper_id: solidgen-an-autoregressive-model-for-direct-b-rep-synthesis-2022
+  primary: method
+  secondary:
+  - benchmark
+  - theory
+  - system
+  confidence: 0.68
+  evidence: method
+- paper_id: transcad-a-hierarchical-transformer-for-cad-sequence-infere-2024
+  primary: application
+  secondary:
+  - benchmark
+  - method
+  - system
+  confidence: 0.66
+  evidence: application
+- paper_id: gencad-image-conditioned-computer-aided-design-generation-w-2024
+  primary: method
+  secondary:
+  - application
+  - benchmark
+  - system
+  confidence: 0.68
+  evidence: method
+- paper_id: automated-cad-modeling-sequence-generation-from-text-descrip-2025
+  primary: method
+  secondary:
+  - benchmark
+  - application
+  - system
+  confidence: 0.67
   evidence: method

@@ -48,6 +48,11 @@
     title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
     url: https://arxiv.org/abs/2605.10873v2
     title_zh: CADBench：面向AI辅助CAD程序生成的多模态基准
+  - id: blenderllm-training-large-language-models-for-computer-aide-2024
+    title: 'BlenderLLM: Training Large Language Models for Computer-Aided Design with
+      Self-improvement'
+    url: https://arxiv.org/abs/2412.14203
+    title_zh: 'BlenderLLM: 通过自我改进训练大型语言模型用于计算机辅助设计'
   year: 2026
   preview: /assets/papers/cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026/teaser.png
   description_zh: CADBench是统一多模态基准，评估从图像和3D数据生成CAD程序，含1.8万样本、5种模态、6项指标。
@@ -700,7 +705,7 @@
   description_zh: ShapeNet是大型、丰富标注的3D CAD模型库，基于WordNet分类，用于图形学与视觉研究。
   notes_zh: 派生自论文：ShapeNet：一个信息丰富的3D模型存储库
   year: 2015
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/shapenet-an-information-rich-3d-model-repository-2015/teaser.png
 - id: paper-query2cad-generating-cad-models-using-natural-language-quer-2024
   name: Query2CAD
   description: Query2CAD uses LLMs and self-refinement loops to generate CAD models
@@ -723,7 +728,7 @@
   description_zh: Query2CAD使用LLM和自我精炼循环从自然语言生成CAD模型，无需监督训练，首次尝试成功率为53.6%。
   notes_zh: '派生自论文：Query2CAD: 使用自然语言查询生成CAD模型'
   year: 2024
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/query2cad-generating-cad-models-using-natural-language-quer-2024/teaser.png
 - id: paper-cad-translator-an-effective-drive-for-text-to-3d-parametric-2024
   name: CAD Translator
   description: A novel encoder-decoder framework for text-to-parametric CAD generation
@@ -768,7 +773,7 @@
   description_zh: Seek-CAD利用本地部署的DeepSeek-R1，结合视觉和CoT反馈，实现无需训练的参数化CAD生成，并引入新SSR数据集。
   notes_zh: 派生自论文：Seek-CAD：基于DeepSeek本地推理的自优化生成式三维参数化CAD建模
   year: 2025
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/seek-cad-a-self-refined-generative-modeling-for-3d-parametr-2025/teaser.png
 - id: paper-from-intent-to-execution-multimodal-chain-of-thought-reinfo-2025
   name: From Intent to Execution
   description: Proposes CAD-RL, a multimodal Chain-of-Thought reinforcement learning
@@ -792,7 +797,7 @@
   description_zh: 提出CAD-RL多模态思维链强化学习框架，从自然语言生成精确CAD代码，含新数据集ExeCAD。
   notes_zh: 派生自论文：从意图到执行：面向精确CAD代码生成的多模态思维链强化学习
   year: 2025
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/from-intent-to-execution-multimodal-chain-of-thought-reinfo-2025/teaser.png
 - id: paper-pr-cad-progressive-refinement-for-unified-controllable-and-2026
   name: PR-CAD
   description: PR-CAD unifies text-to-CAD generation and editing via progressive refinement
@@ -815,7 +820,7 @@
   description_zh: PR-CAD通过渐进式精炼统一文本到CAD生成与编辑，实现最先进的可控性和忠实性
   notes_zh: '派生自论文：PR-CAD: 基于大型语言模型的渐进式精炼实现统一可控且忠实的文本到CAD生成'
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/pr-cad-progressive-refinement-for-unified-controllable-and-2026/teaser.png
 - id: paper-revisiting-cad-model-generation-by-learning-raster-sketch-2025
   name: Revisiting CAD Model Generation by Learning Raster Sketch
   description: 'Derived from paper: Revisiting CAD Model Generation by Learning Raster
@@ -833,7 +838,7 @@
     title: Revisiting CAD Model Generation by Learning Raster Sketch
     url: https://www.arxiv.org/abs/2503.00928
   year: 2025
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/revisiting-cad-model-generation-by-learning-raster-sketch-2025/teaser.png
 - id: paper-how-3d-holistic-3d-wireframe-perception-from-a-single-image-2022
   name: HoW-3D
   description: This paper studies the problem of holistic 3D wireframe perception
@@ -857,7 +862,7 @@
   description_zh: 本文研究了整体三维线框感知（HoW-3D）问题，这是一个从单视图二维图像中同时感知可见和不可见三维线框的新任务。由于物体的非正面表面无法在单视图中直接观察，估计HoW-3D中的非视线（NLOS）几何结构是一个根本性的挑战性问题，在计算机视觉中仍未解决。我们通过提出ABC-HoW基准来研究HoW-3D问题，该基准基于来自ABC-dataset的CAD模型构建，包含12k张单视图图像及对应的整体三维线框模型。借助我们的大规模ABC-HoW基准，我们提出了一种新颖的深度空间格式塔（DSG）模型，该模型以学习可见的角点和线段为基础，然后遵循人类视觉系统的格式塔原理，从可见线索推断NLOS三维结构。在我们的实验中，我们证明了DSG模型在从单视图图像推断整体三维线框方面表现非常出色。与强基线方法相比，我们的DSG模型在检测单视图图像中的不可见线几何结构方面优于先前的线框检测器，甚至在以高保真点云作为输入的三维线框重建任务中，也与现有先进方法具有竞争力。
   notes_zh: 派生自论文：HoW-3D：从单张图像进行整体三维线框感知
   year: 2022
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/how-3d-holistic-3d-wireframe-perception-from-a-single-image-2022/teaser.png
 - id: paper-sepicnet-sharp-edges-recovery-by-parametric-inference-of-cu-2023
   name: SepicNet
   description: 3D scanning as a technique to digitize objects in reality and create
@@ -882,7 +887,7 @@
   description_zh: 三维扫描作为一种将现实物体数字化并创建其三维模型的技术，广泛应用于众多领域。尽管三维扫描的质量取决于扫描仪的技术特性，但其常见缺陷在于对物体精细细节或边缘的平滑处理。我们提出了SepicNet，一种新颖的深度网络，用于检测三维形状中的尖锐边缘并将其参数化为基本曲线。为了实现网络的端到端训练，我们以可微分的方式制定了曲线拟合过程。我们开发了一种自适应点云采样技术，该技术比均匀采样能更好地捕捉尖锐特征。实验在一个新引入的大规模数据集（包含5万个三维扫描）上进行，其中尖锐边缘标注是从其参数化CAD模型中提取的，结果表明该方法相较于现有最先进技术有显著提升。
   notes_zh: 派生自论文：SepicNet：通过曲线参数推断恢复三维形状中的尖锐边缘
   year: 2023
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/sepicnet-sharp-edges-recovery-by-parametric-inference-of-cu-2023/teaser.png
 - id: paper-automatic-3d-cad-models-reconstruction-from-2d-orthographic-2023
   name: Automatic 3D CAD models reconstruction from 2D orthographic drawings
   description: A two-stage method reconstructs 3D CAD models from 2D orthographic
@@ -1049,6 +1054,15 @@
       Large Language Models
     url: https://arxiv.org/abs/2505.19490
     title_zh: 基于Transformer大语言模型的文本描述自动CAD建模序列生成
+  - id: automated-cad-conversion-with-the-machine-drawing-understand-2026
+    title: 'Automated CAD conversion with the Machine Drawing Understanding System:
+      concepts, algorithms, and performance'
+    url: ''
+  - id: autoforma-a-large-language-model-based-multi-agent-for-comp-2024
+    title: 'AutoForma: A Large Language Model-Based Multi-Agent for Computer-Automated
+      Design'
+    url: ''
+    title_zh: AutoForma：基于大语言模型的多智能体系统用于计算机自动化设计
   name_zh: AutoMate
   description_zh: 提出SB-GCN，利用参数化BREP表示预测CAD装配配合，新数据集，商用CAD工具中准确率72.2%。
   notes_zh: 派生自论文：AutoMate
@@ -1100,7 +1114,7 @@
   description_zh: 提出利用混合隐式/显式表面表示对CAD B-Rep几何体进行自监督预训练，提升少样本学习并在基准上达到SOTA。
   notes_zh: 派生自论文：用于CAD的自监督表示学习
   year: 2022
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/self-supervised-representation-learning-for-cad-2022/teaser.png
 - id: paper-text2cad-generating-sequential-cad-models-from-beginner-to-2024
   name: Text2CAD
   description: Prototyping complex computer-aided design (CAD) models in modern softwares
@@ -1183,7 +1197,7 @@
   description_zh: CAD-Coder是一个开源视觉语言模型，通过微调从图像生成可编辑的CAD代码，性能优于GPT-4.5和Qwen2.5-VL-72B。
   notes_zh: 派生自论文：CAD-Coder：用于计算机辅助设计代码生成的开源视觉语言模型
   year: 2025
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/cad-coder-text-to-cad-generation-with-chain-of-thought-and-2025/teaser.png
 - id: paper-abc-a-big-cad-model-dataset-for-geometric-deep-learning-2018
   name: ABC
   description: Introduces ABC-Dataset, one million CAD models with parametric surfaces
@@ -1223,5 +1237,123 @@
     title: 'TransCAD: A Hierarchical Transformer for CAD Sequence Inference from Point
       Clouds'
     url: https://arxiv.org/abs/2407.12702
+    title_zh: 'TransCAD: 从点云推断CAD序列的分层Transformer'
+  year: 2024
+  preview: /assets/papers/transcad-a-hierarchical-transformer-for-cad-sequence-infere-2024/teaser.png
+  name_zh: TransCAD
+  description_zh: TransCAD是一种分层Transformer，从点云预测CAD序列，在DeepCAD和Fusion360数据集上达到最先进水平。
+  notes_zh: '派生自论文：TransCAD: 从点云推断CAD序列的分层Transformer'
+- id: paper-sketch-graphs-a-large-scale-dataset-for-modeling-relational-2020
+  name: Sketch-graphs
+  description: 'Derived from paper: Sketch-graphs: A large-scale dataset for modeling
+    relational geometry in computer-aided design'
+  tags: []
+  links: {}
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Sketch-graphs: A large-scale dataset for modeling relational
+    geometry in computer-aided design'
+  related_papers:
+  - id: sketch-graphs-a-large-scale-dataset-for-modeling-relational-2020
+    title: 'Sketch-graphs: A large-scale dataset for modeling relational geometry
+      in computer-aided design'
+    url: ''
+  year: 2020
+  preview: /assets/placeholder.svg
+- id: paper-sketchgraphs-a-large-scale-dataset-for-modeling-relational-2020
+  name: SketchGraphs
+  description: Introduces SketchGraphs, a large-scale dataset of 15 million parametric
+    CAD sketches with geometric constraint graphs for machine learning.
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2007.08506
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: SketchGraphs: A Large-Scale Dataset for Modeling Relational
+    Geometry in Computer-Aided Design'
+  related_papers:
+  - id: sketchgraphs-a-large-scale-dataset-for-modeling-relational-2020
+    title: 'SketchGraphs: A Large-Scale Dataset for Modeling Relational Geometry in
+      Computer-Aided Design'
+    url: https://arxiv.org/abs/2007.08506
+    title_zh: SketchGraphs：用于计算机辅助设计中关系几何建模的大规模数据集
+  - id: sketchdnn-joint-continuous-discrete-diffusion-for-cad-sketc-2025
+    title: 'SketchDNN: Joint Continuous-Discrete Diffusion for CAD Sketch Generation'
+    url: https://arxiv.org/abs/2507.11579
+    title_zh: SketchDNN：面向CAD草图生成的联合连续-离散扩散模型
+  name_zh: SketchGraphs
+  description_zh: 提出SketchGraphs，一个包含1500万参数化CAD草图及其几何约束图的大规模数据集。
+  notes_zh: 派生自论文：SketchGraphs：用于计算机辅助设计中关系几何建模的大规模数据集
+  year: 2020
+  preview: /assets/papers/sketchdnn-joint-continuous-discrete-diffusion-for-cad-sketc-2025/teaser.png
+- id: paper-sharp-challenge-2023-solving-cad-history-and-parameters-rec-2023
+  name: SHARP Challenge 2023
+  description: SHARP Challenge 2023 defines tracks, datasets, metrics, and baselines
+    for CAD reverse engineering from point clouds and 3D scans.
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2308.15966
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: SHARP Challenge 2023: Solving CAD History and pArameters
+    Recovery from Point clouds and 3D scans. Overview, Datasets, Metrics, and Baselines'
+  related_papers:
+  - id: sharp-challenge-2023-solving-cad-history-and-parameters-rec-2023
+    title: 'SHARP Challenge 2023: Solving CAD History and pArameters Recovery from
+      Point clouds and 3D scans. Overview, Datasets, Metrics, and Baselines'
+    url: https://arxiv.org/abs/2308.15966
+    title_zh: SHARP Challenge 2023：从点云和三维扫描中求解CAD历史与参数恢复——概述、数据集、评估指标与基线方法
+  name_zh: SHARP Challenge 2023
+  description_zh: SHARP Challenge 2023定义了从点云和三维扫描进行CAD逆向工程的赛道、数据集、评估指标和基线方法。
+  notes_zh: 派生自论文：SHARP Challenge 2023：从点云和三维扫描中求解CAD历史与参数恢复——概述、数据集、评估指标与基线方法
+  year: 2023
+  preview: /assets/placeholder.svg
+- id: paper-a-parametric-and-feature-based-cad-dataset-to-support-human-2024
+  name: A parametric and feature-based CAD dataset to support human-computer interaction
+    for advanced 3D shape learning
+  description: A parametric and feature-based CAD dataset with a selection mechanism
+    for human-computer interaction, enabling advanced 3D shape learning.
+  tags: []
+  links: {}
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: A parametric and feature-based CAD dataset to support
+    human-computer interaction for advanced 3D shape learning'
+  related_papers:
+  - id: a-parametric-and-feature-based-cad-dataset-to-support-human-2024
+    title: A parametric and feature-based CAD dataset to support human-computer interaction
+      for advanced 3D shape learning
+    url: ''
+    title_zh: 支持高级三维形状学习的参数化与基于特征的CAD数据集以促进人机交互
+  name_zh: 支持高级三维形状学习的参数化与基于特征的CAD数据集以促进人机交互
+  description_zh: 首个带选择机制的参数化与基于特征的CAD数据集，支持人机交互的高级三维形状学习。
+  notes_zh: 派生自论文：支持高级三维形状学习的参数化与基于特征的CAD数据集以促进人机交互
+  year: 2024
+  preview: /assets/placeholder.svg
+- id: paper-blenderllm-training-large-language-models-for-computer-aide-2024
+  name: BlenderLLM
+  description: BlenderLLM trains LLMs for CAD script generation via self-improvement,
+    introducing BlendNet dataset and CADBench benchmark.
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2412.14203
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: BlenderLLM: Training Large Language Models for Computer-Aided
+    Design with Self-improvement'
+  related_papers:
+  - id: blenderllm-training-large-language-models-for-computer-aide-2024
+    title: 'BlenderLLM: Training Large Language Models for Computer-Aided Design with
+      Self-improvement'
+    url: https://arxiv.org/abs/2412.14203
+    title_zh: 'BlenderLLM: 通过自我改进训练大型语言模型用于计算机辅助设计'
+  name_zh: BlenderLLM
+  description_zh: BlenderLLM通过自我改进训练LLM生成CAD脚本，引入BlendNet数据集和CADBench基准。
+  notes_zh: '派生自论文：BlenderLLM: 通过自我改进训练大型语言模型用于计算机辅助设计'
   year: 2024
   preview: /assets/placeholder.svg

@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-07-03T02:26:07Z'
+generated_at: '2026-07-04T02:20:59Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -1813,3 +1813,165 @@ assignments:
   - system
   confidence: 0.67
   evidence: method
+- paper_id: openecad-an-efficient-visual-language-model-for-editable-3d-2024
+  primary: method
+  secondary:
+  - benchmark
+  - application
+  - system
+  confidence: 0.37
+  evidence: method
+- paper_id: from-idea-to-cad-a-language-model-driven-multi-agent-system-2025
+  primary: benchmark
+  secondary:
+  - system
+  - application
+  - method
+  confidence: 0.68
+  evidence: benchmark
+- paper_id: sketch-graphs-a-large-scale-dataset-for-modeling-relational-2020
+  primary: theory
+  secondary:
+  - method
+  - benchmark
+  - system
+  confidence: 0.36
+  evidence: theory
+- paper_id: partial-entity-structure-a-compact-non-manifold-boundary-re-2001
+  primary: theory
+  secondary: []
+  confidence: 0.36
+  evidence: theory
+- paper_id: modeling-3d-shapes-by-reinforcement-learning-2020
+  primary: benchmark
+  secondary:
+  - method
+  - system
+  - application
+  confidence: 0.67
+  evidence: benchmark
+- paper_id: sketchgraphs-a-large-scale-dataset-for-modeling-relational-2020
+  primary: benchmark
+  secondary:
+  - method
+  - theory
+  - application
+  confidence: 0.68
+  evidence: benchmark
+- paper_id: on-the-role-of-graph-theory-apparatus-in-a-cad-modeling-kern-2020
+  primary: theory
+  secondary:
+  - method
+  - application
+  - benchmark
+  confidence: 0.68
+  evidence: theory
+- paper_id: engineering-sketch-generation-for-computer-aided-design-2021
+  primary: method
+  secondary:
+  - benchmark
+  - theory
+  - application
+  confidence: 0.37
+  evidence: method
+- paper_id: optimizing-evolutionary-csg-tree-extraction-2019
+  primary: benchmark
+  secondary:
+  - method
+  - system
+  - theory
+  confidence: 0.68
+  evidence: benchmark
+- paper_id: sharp-challenge-2023-solving-cad-history-and-parameters-rec-2023
+  primary: method
+  secondary:
+  - application
+  - benchmark
+  - theory
+  confidence: 0.67
+  evidence: method
+- paper_id: multicad-contrastive-representation-learning-for-multi-moda-2023
+  primary: method
+  secondary:
+  - benchmark
+  - theory
+  - application
+  confidence: 0.68
+  evidence: method
+- paper_id: engineering-drawing-processing-and-vectorization-system-2026
+  primary: system
+  secondary: []
+  confidence: 0.65
+  evidence: system
+- paper_id: automated-cad-conversion-with-the-machine-drawing-understand-2026
+  primary: system
+  secondary:
+  - method
+  - benchmark
+  - survey
+  confidence: 0.66
+  evidence: system
+- paper_id: ten-challenges-in-computer-aided-design-2005
+  primary: benchmark
+  secondary:
+  - system
+  - theory
+  - application
+  confidence: 0.36
+  evidence: benchmark
+- paper_id: hierarchical-cadnet-learning-from-b-reps-for-machining-feat-2022
+  primary: benchmark
+  secondary:
+  - method
+  - theory
+  - application
+  confidence: 0.68
+  evidence: benchmark
+- paper_id: diffcad-weakly-supervised-probabilistic-cad-model-retrieval-2023
+  primary: method
+  secondary:
+  - theory
+  - benchmark
+  - system
+  confidence: 0.68
+  evidence: method
+- paper_id: contrastcad-contrastive-learning-based-representation-learn-2024
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  - theory
+  confidence: 0.67
+  evidence: method
+- paper_id: 2022-complexgen-cad-reconstruction-by-b-rep-chain-complex-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  - application
+  confidence: 0.37
+  evidence: method
+- paper_id: a-parametric-and-feature-based-cad-dataset-to-support-human-2024
+  primary: method
+  secondary:
+  - benchmark
+  - application
+  - system
+  confidence: 0.37
+  evidence: method
+- paper_id: autoforma-a-large-language-model-based-multi-agent-for-comp-2024
+  primary: method
+  secondary:
+  - system
+  - benchmark
+  - application
+  confidence: 0.67
+  evidence: method
+- paper_id: blenderllm-training-large-language-models-for-computer-aide-2024
+  primary: benchmark
+  secondary:
+  - method
+  - application
+  - system
+  confidence: 0.67
+  evidence: benchmark

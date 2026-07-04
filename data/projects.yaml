@@ -10,7 +10,7 @@
   - tutorial-code
   - tutorial-exercises
   - tutorials
-  stars: 521889
+  stars: 522201
   links:
     github: https://github.com/codecrafters-io/build-your-own-x
   sources:
@@ -31,7 +31,7 @@
   - privacy
   - self-hosted
   - selfhosted
-  stars: 302430
+  stars: 302640
   links:
     github: https://github.com/awesome-selfhosted/awesome-selfhosted
   sources:
@@ -64,7 +64,7 @@
   - macos-apps
   - macosx
   - software
-  stars: 106636
+  stars: 106666
   links:
     github: https://github.com/jaywcjlove/awesome-mac
   sources:
@@ -84,7 +84,7 @@
   - design-tools
   - font-awesome
   - ui-design
-  stars: 40458
+  stars: 40465
   links:
     github: https://github.com/goabstract/Awesome-Design-Tools
   sources:
@@ -132,7 +132,7 @@
   - awesome
   - best-software-engineers
   - software-engineers
-  stars: 2559
+  stars: 2560
   links:
     github: https://github.com/rekihattori/awesome-programmers
   sources:
@@ -163,7 +163,7 @@
   description: A curated list of awesome C++ (mainly) things for Game Development.
     Inspired by awesome-... stuff.
   tags: []
-  stars: 2047
+  stars: 2048
   links:
     github: https://github.com/Caerind/AwesomeCppGameDev
   sources:

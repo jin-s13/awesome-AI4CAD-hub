@@ -55,6 +55,11 @@ on:
         required: false
         default: false
         type: boolean
+      cleanup_only:
+        description: 'Only prune non-public assets and commit cleanup'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -114,7 +119,7 @@ jobs:
             site-data-
 
       - name: Run daily update
-        if: github.event_name != 'push' && github.event.inputs.skip_update != 'true'
+        if: github.event_name != 'push' && github.event.inputs.skip_update != 'true' && github.event.inputs.cleanup_only != 'true'
         env:
           ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
           ARK_API_BASE_URL: ${{ secrets.ARK_API_BASE_URL || 'https://ark.cn-beijing.volces.com/api/coding/v3' }}
@@ -138,8 +143,13 @@ jobs:
           fi
           python awesome-hub-generator/scripts/update.py $SEARCH_DAYS_ARGS --data-dir data --output website --skip-build
 
+      - name: Cleanup public asset set
+        if: github.event_name != 'push' && github.event.inputs.cleanup_only == 'true'
+        run: |
+          python awesome-hub-generator/scripts/asset_prune.py --data-dir data --assets-dir assets/papers
+
       - name: Refresh repository README
-        if: github.event_name != 'push' && github.event.inputs.skip_update != 'true'
+        if: github.event_name != 'push' && github.event.inputs.skip_update != 'true' && github.event.inputs.cleanup_only != 'true'
         run: |
           python awesome-hub-generator/scripts/repo_readme.py --config awesome.yaml --data-dir data --output-dir .
 

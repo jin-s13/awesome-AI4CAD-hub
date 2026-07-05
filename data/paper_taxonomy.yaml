@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-07-04T02:20:59Z'
+generated_at: '2026-07-05T02:31:29Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -1469,8 +1469,8 @@ assignments:
   secondary:
   - system
   - benchmark
-  - survey
-  confidence: 0.67
+  - theory
+  confidence: 0.68
   evidence: method
 - paper_id: rfeps-2022
   primary: method
@@ -1975,3 +1975,51 @@ assignments:
   - system
   confidence: 0.67
   evidence: benchmark
+- paper_id: patch2cad-patchwise-embedding-learning-for-in-the-wild-shap-2021
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  - theory
+  confidence: 0.69
+  evidence: method
+- paper_id: weakly-supervised-end-to-end-cad-retrieval-to-scan-objects-2022
+  primary: method
+  secondary:
+  - benchmark
+  - theory
+  - system
+  confidence: 0.68
+  evidence: method
+- paper_id: sparc-sparse-render-and-compare-for-cad-model-alignment-in-2022
+  primary: method
+  secondary:
+  - application
+  - system
+  - benchmark
+  confidence: 0.68
+  evidence: method
+- paper_id: u-red-unsupervised-3d-shape-retrieval-and-deformation-for-p-2023
+  primary: method
+  secondary:
+  - benchmark
+  - application
+  - system
+  confidence: 0.68
+  evidence: method
+- paper_id: sparse-multi-object-render-and-compare-2023
+  primary: method
+  secondary:
+  - system
+  - application
+  - benchmark
+  confidence: 0.67
+  evidence: method
+- paper_id: complexgen-cad-reconstruction-by-b-rep-chain-complex-gene-2022
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  - application
+  confidence: 0.37
+  evidence: method

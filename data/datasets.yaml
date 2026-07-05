@@ -1310,7 +1310,7 @@
   description_zh: SHARP Challenge 2023定义了从点云和三维扫描进行CAD逆向工程的赛道、数据集、评估指标和基线方法。
   notes_zh: 派生自论文：SHARP Challenge 2023：从点云和三维扫描中求解CAD历史与参数恢复——概述、数据集、评估指标与基线方法
   year: 2023
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/sharp-challenge-2023-solving-cad-history-and-parameters-rec-2023/teaser.png
 - id: paper-a-parametric-and-feature-based-cad-dataset-to-support-human-2024
   name: A parametric and feature-based CAD dataset to support human-computer interaction
     for advanced 3D shape learning
@@ -1356,4 +1356,4 @@
   description_zh: BlenderLLM通过自我改进训练LLM生成CAD脚本，引入BlendNet数据集和CADBench基准。
   notes_zh: '派生自论文：BlenderLLM: 通过自我改进训练大型语言模型用于计算机辅助设计'
   year: 2024
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/blenderllm-training-large-language-models-for-computer-aide-2024/teaser.png

@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-07-05T02:31:29Z'
+generated_at: '2026-07-06T02:33:20Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -2022,4 +2022,44 @@ assignments:
   - system
   - application
   confidence: 0.37
+  evidence: method
+- paper_id: marr-revisited-2d-3d-alignment-via-surface-normal-predictio-2016
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  - survey
+  confidence: 0.68
+  evidence: method
+- paper_id: scene-recomposition-by-learning-based-icp-2018
+  primary: method
+  secondary:
+  - system
+  - benchmark
+  - survey
+  confidence: 0.67
+  evidence: method
+- paper_id: mask2cad-3d-shape-prediction-by-learning-to-segment-and-ret-2020
+  primary: application
+  secondary:
+  - method
+  - benchmark
+  - theory
+  confidence: 0.66
+  evidence: application
+- paper_id: 3d-future-3d-furniture-shape-with-texture-2020
+  primary: benchmark
+  secondary:
+  - method
+  - system
+  - theory
+  confidence: 0.68
+  evidence: benchmark
+- paper_id: leveraging-geometry-for-shape-estimation-from-a-single-rgb-i-2021
+  primary: method
+  secondary:
+  - application
+  - benchmark
+  - theory
+  confidence: 0.67
   evidence: method

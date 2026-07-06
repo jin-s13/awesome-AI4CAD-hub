@@ -1357,3 +1357,25 @@
   notes_zh: '派生自论文：BlenderLLM: 通过自我改进训练大型语言模型用于计算机辅助设计'
   year: 2024
   preview: /assets/papers/blenderllm-training-large-language-models-for-computer-aide-2024/teaser.png
+- id: paper-mask2cad-3d-shape-prediction-by-learning-to-segment-and-ret-2020
+  name: Mask2CAD
+  description: Mask2CAD jointly detects objects in images and retrieves the most similar
+    CAD model and pose using a joint embedding space.
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2007.13034
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Mask2CAD: 3D Shape Prediction by Learning to Segment
+    and Retrieve'
+  related_papers:
+  - id: mask2cad-3d-shape-prediction-by-learning-to-segment-and-ret-2020
+    title: 'Mask2CAD: 3D Shape Prediction by Learning to Segment and Retrieve'
+    url: https://arxiv.org/abs/2007.13034
+    title_zh: 'Mask2CAD: 通过学习分割与检索进行3D形状预测'
+  name_zh: Mask2CAD
+  description_zh: Mask2CAD联合检测图像中的物体，并通过联合嵌入空间检索最相似的CAD模型及其姿态。
+  notes_zh: '派生自论文：Mask2CAD: 通过学习分割与检索进行3D形状预测'
+  year: 2020
+  preview: /assets/placeholder.svg

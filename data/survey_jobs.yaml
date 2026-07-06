@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-07-05T02:31:36Z'
+generated_at: '2026-07-06T02:33:27Z'
 jobs:
 - id: method
   topic_id: method
@@ -266,6 +266,11 @@ jobs:
   - u-red-unsupervised-3d-shape-retrieval-and-deformation-for-p-2023
   - sparse-multi-object-render-and-compare-2023
   - complexgen-cad-reconstruction-by-b-rep-chain-complex-gene-2022
+  - marr-revisited-2d-3d-alignment-via-surface-normal-predictio-2016
+  - scene-recomposition-by-learning-based-icp-2018
+  - mask2cad-3d-shape-prediction-by-learning-to-segment-and-ret-2020
+  - 3d-future-3d-furniture-shape-with-texture-2020
+  - leveraging-geometry-for-shape-estimation-from-a-single-rgb-i-2021
   top_tags:
   - CV
   - AI
@@ -275,11 +280,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: f64e7efde71445d6
+  prompt_hash: b137e01abb39194f
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-07-05T02:32:52Z'
+  updated_at: '2026-07-06T02:34:42Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -495,6 +500,11 @@ jobs:
   - u-red-unsupervised-3d-shape-retrieval-and-deformation-for-p-2023
   - sparse-multi-object-render-and-compare-2023
   - complexgen-cad-reconstruction-by-b-rep-chain-complex-gene-2022
+  - marr-revisited-2d-3d-alignment-via-surface-normal-predictio-2016
+  - scene-recomposition-by-learning-based-icp-2018
+  - mask2cad-3d-shape-prediction-by-learning-to-segment-and-ret-2020
+  - 3d-future-3d-furniture-shape-with-texture-2020
+  - leveraging-geometry-for-shape-estimation-from-a-single-rgb-i-2021
   top_tags:
   - CV
   - AI
@@ -504,11 +514,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: 7137fb90152c159c
+  prompt_hash: 6056c55d0d2b6de2
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-07-05T02:32:51Z'
+  updated_at: '2026-07-06T02:35:03Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -693,6 +703,9 @@ jobs:
   - u-red-unsupervised-3d-shape-retrieval-and-deformation-for-p-2023
   - sparse-multi-object-render-and-compare-2023
   - complexgen-cad-reconstruction-by-b-rep-chain-complex-gene-2022
+  - marr-revisited-2d-3d-alignment-via-surface-normal-predictio-2016
+  - scene-recomposition-by-learning-based-icp-2018
+  - 3d-future-3d-furniture-shape-with-texture-2020
   top_tags:
   - CV
   - AI
@@ -702,11 +715,11 @@ jobs:
   - CL
   - HC
   - SY
-  prompt_hash: e1495bfb8e374d85
+  prompt_hash: e7f77762d93099ca
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-07-05T02:34:17Z'
+  updated_at: '2026-07-06T02:35:56Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -818,6 +831,9 @@ jobs:
   - contrastcad-contrastive-learning-based-representation-learn-2024
   - patch2cad-patchwise-embedding-learning-for-in-the-wild-shap-2021
   - weakly-supervised-end-to-end-cad-retrieval-to-scan-objects-2022
+  - mask2cad-3d-shape-prediction-by-learning-to-segment-and-ret-2020
+  - 3d-future-3d-furniture-shape-with-texture-2020
+  - leveraging-geometry-for-shape-estimation-from-a-single-rgb-i-2021
   top_tags:
   - CV
   - AI
@@ -827,11 +843,11 @@ jobs:
   - SE
   - CE
   - MA
-  prompt_hash: 1d9eb6347a743333
+  prompt_hash: 1cc95f737d474a52
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-07-05T02:34:03Z'
+  updated_at: '2026-07-06T02:36:24Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -885,16 +901,18 @@ jobs:
   - point-containment-algorithms-for-constructive-solid-geometry-2024
   - topological-structures-for-geometric-modeling-2026
   - automated-cad-conversion-with-the-machine-drawing-understand-2026
+  - marr-revisited-2d-3d-alignment-via-surface-normal-predictio-2016
+  - scene-recomposition-by-learning-based-icp-2018
   top_tags:
   - GR
   - RO
   - CV
   - AI
-  prompt_hash: a2d0ef495cc26451
+  prompt_hash: 62dabbefbb33a119
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-07-05T02:34:03Z'
+  updated_at: '2026-07-06T02:37:13Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -1031,6 +1049,8 @@ jobs:
   - u-red-unsupervised-3d-shape-retrieval-and-deformation-for-p-2023
   - sparse-multi-object-render-and-compare-2023
   - complexgen-cad-reconstruction-by-b-rep-chain-complex-gene-2022
+  - mask2cad-3d-shape-prediction-by-learning-to-segment-and-ret-2020
+  - leveraging-geometry-for-shape-estimation-from-a-single-rgb-i-2021
   top_tags:
   - CV
   - LG
@@ -1040,8 +1060,8 @@ jobs:
   - CL
   - CG
   - HC
-  prompt_hash: ffa5b6c52d491e54
+  prompt_hash: d48965dc390b3521
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-07-05T02:35:06Z'
+  updated_at: '2026-07-06T02:37:49Z'

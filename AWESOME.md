@@ -229,6 +229,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2022 | 15.6 | method | ‘‘ComplexGen: CAD reconstruction by B-rep chain complex generation,’’ |  |
 | 2021 | 51.8 | method | [AutoMate](https://arxiv.org/abs/2105.12238) | Proposes SB-GCN for predicting CAD assembly mates using parametric BREP representations, with a new dataset and 72.2% accuracy in a commercial CAD tool. |
 | 2021 | 44.5 | method | [Engineering Sketch Generation for Computer-Aided Design](https://arxiv.org/abs/2104.09621) | Proposes two generative models (CurveGen, TurtleGen) for engineering sketch generation in parametric CAD, outperforming state-of-the-art in human evaluation. |
+| 2021 | 44.2 | method | [Leveraging Geometry for Shape Estimation from a Single RGB Image](https://arxiv.org/abs/2111.05615) | Improves 3D shape and pose estimation from single RGB images by leveraging geometry via keypoint matches to retrieve and adapt CAD models. |
 | 2021 | 42.8 | method, system | [Inferring CAD Modeling Sequences Using Zone Graphs](https://arxiv.org/abs/2104.03900) | In computer-aided design (CAD), the ability to "reverse engineer" the modeling steps used to create 3D shapes is a long-sought-after goal. This process can be decomposed into two... |
 | 2021 | 42.7 | method | [SketchGen: Generating Constrained CAD Sketches](https://arxiv.org/abs/2106.02711) | SketchGen is a transformer-based generative model for CAD sketches that handles heterogeneous primitives and constraints, enabling constraint-linked outputs. |
 | 2021 | 41.7 | method | [DeepCAD: A Deep Generative Network for Computer-Aided Design Models](https://arxiv.org/abs/2105.09492) |  |
@@ -238,7 +239,6 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2021 | 36.7 | method | [Vitruvion: A Generative Model of Parametric CAD Sketches](https://arxiv.org/pdf/2109.14124) |  |
 | 2021 | 36.2 | method, application | [Point2Cyl: Reverse Engineering 3D Objects from Point Clouds to Extrusion Cylinders](https://arxiv.org/abs/2112.09329) |  |
 | 2021 | 35.6 | method, application | [Intuitive and Efficient Roof Modeling for Reconstruction and Synthesis](https://arxiv.org/abs/2109.07683) |  |
-| 2021 | 35.2 | method | [Leveraging Geometry for Shape Estimation from a Single RGB Image](https://arxiv.org/abs/2111.05615) | Improves 3D shape and pose estimation from single RGB images by leveraging geometry via keypoint matches to retrieve and adapt CAD models. |
 | 2021 | 34.8 | method | [BRepNet: A Topological Message Passing System for Solid Models](https://arxiv.org/abs/2104.00706) |  |
 | 2021 | 34.4 | method, theory | [CSG-Stump: A Learning Friendly CSG-Like Representation for Interpretable Shape Parsing](https://arxiv.org/abs/2108.11305) |  |
 | 2021 | 34.4 | method | [PC2WF: 3D Wireframe Reconstruction from Raw Point Clouds](https://arxiv.org/pdf/2103.02766) |  |
@@ -249,18 +249,18 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2021 | 14.5 | benchmark, system | Fusion 360 Gallery: A Dataset and Environment for Programmatic CAD Construction from Human Design Sequences |  |
 | 2020 | 49.5 | method, system | [Sketch2CAD](https://arxiv.org/abs/2009.04927) | A sketch-based CAD system that uses deep learning to interpret sequential sketches as CAD operations, trained on synthetic data. |
 | 2020 | 45.6 | method | [SketchGraphs: A Large-Scale Dataset for Modeling Relational Geometry in Computer-Aided Design](https://arxiv.org/abs/2007.08506) | Introduces SketchGraphs, a large-scale dataset of 15 million parametric CAD sketches with geometric constraint graphs for machine learning. |
+| 2020 | 41.7 | method | [Mask2CAD: 3D Shape Prediction by Learning to Segment and Retrieve](https://arxiv.org/abs/2007.13034) | Mask2CAD jointly detects objects in images and retrieves the most similar CAD model and pose using a joint embedding space. |
 | 2020 | 38.7 | method | [Fusion 360 Gallery: A Dataset and Environment for Programmatic CAD Construction from Human Design Sequences (Reconstruction Dataset)](https://arxiv.org/abs/2010.02392) |  |
 | 2020 | 38.3 | method | [CAD-Deform: Deformable Fitting of CAD Models to 3D Scans](https://arxiv.org/pdf/2007.11965) |  |
 | 2020 | 38.1 | method | [ParSeNet: A Parametric Surface Fitting Network for 3D Point Clouds](https://arxiv.org/pdf/2003.12181) |  |
 | 2020 | 37.7 | method | [UCSG-Net -- Unsupervised Discovering of Constructive Solid Geometry Tree](https://arxiv.org/abs/2006.09102) |  |
 | 2020 | 36 | method | [PIE-NET: Parametric Inference of Point Cloud Edges](https://arxiv.org/abs/2007.04883) |  |
 | 2020 | 34.8 | method, application | [Roof-GAN: Learning to Generate Roof Geometry and Relations for Residential Houses](https://arxiv.org/abs/2012.09340) |  |
+| 2020 | 34.5 | method | [3D-FUTURE: 3D Furniture Shape with TextURE](https://arxiv.org/abs/2009.09633) | A large-scale repository of 3D furniture shapes with high-resolution textures and scene images for 3D modeling research. |
 | 2020 | 34.3 | method, application | [SceneCAD: Predicting Object Alignments and Layouts in RGB-D Scans](https://arxiv.org/pdf/2003.12622) |  |
 | 2020 | 34.1 | method | Graph Representation of 3D CAD Models for Machining Feature Recognition With Deep Learning | Proposes a graph representation for 3D CAD models to enable deep learning-based machining feature recognition, outperforming voxel representations. |
-| 2020 | 33.2 | method | [3D-FUTURE: 3D Furniture Shape with TextURE](https://arxiv.org/abs/2009.09633) | A large-scale repository of 3D furniture shapes with high-resolution textures and scene images for 3D modeling research. |
 | 2020 | 31.4 | method | [DeepSVG: A Hierarchical Generative Network for Vector Graphics Animation](https://arxiv.org/abs/2007.11301) |  |
 | 2020 | 31.4 | method | [UV-Net: Learning from Boundary Representations](https://arxiv.org/abs/2006.10211) |  |
-| 2020 | 29.4 | method | [Mask2CAD: 3D Shape Prediction by Learning to Segment and Retrieve](https://arxiv.org/abs/2007.13034) | Mask2CAD jointly detects objects in images and retrieves the most similar CAD model and pose using a joint embedding space. |
 | 2020 | 23.7 | method | [Modeling 3D Shapes by Reinforcement Learning](https://arxiv.org/abs/2003.12397) | Proposes a reinforcement learning framework for 3D shape modeling by parsing into primitives and editing geometry. |
 | 2020 | 23 | method | On the Role of Graph Theory Apparatus in a CAD Modeling Kernel | Graph theory methods for CAD modeling: feature recognition, part type detection, assembly handling, with industrial applications. |
 | 2020 | 18.9 | method | Sketch-graphs: A large-scale dataset for modeling relational geometry in computer-aided design |  |
@@ -271,14 +271,14 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2019 | 16.4 | method | [End-to-End CAD Model Retrieval and 9DoF Alignment in 3D Scans](https://arxiv.org/pdf/1906.04201) |  |
 | 2019 | 16.4 | method | [Joint Embedding of 3D Scan and CAD Objects](https://arxiv.org/pdf/1908.06989) |  |
 | 2018 | 49.5 | method | [ABC: A Big CAD Model Dataset for Geometric Deep Learning](https://arxiv.org/abs/1812.06216) | Introduces ABC-Dataset, one million CAD models with parametric surfaces for geometric deep learning research and benchmarking. |
+| 2018 | 38.5 | method | [Scene Recomposition by Learning-Based ICP](https://arxiv.org/abs/1812.05583) | A system that aligns CAD models to 3D scans using deep reinforcement learning, outperforming prior ICP methods on real and synthetic scenes. |
 | 2018 | 31.9 | method, application | [Scan2CAD: Learning CAD Model Alignment in RGB-D Scans](https://arxiv.org/pdf/1811.11187) |  |
 | 2018 | 31.5 | method | InverseCSG | A method to reverse-engineer CSG programs from 3D models using program synthesis and geometric processing. |
 | 2018 | 30.2 | method | [AtlasNet: A Papier-Mâché Approach to Learning 3D Surface Generation](https://arxiv.org/abs/1802.05384) |  |
 | 2018 | 30.2 | method | [Supervised Fitting of Geometric Primitives to 3D Point Clouds](https://arxiv.org/abs/1811.08988) |  |
-| 2018 | 27.2 | method | [Scene Recomposition by Learning-Based ICP](https://arxiv.org/abs/1812.05583) | A system that aligns CAD models to 3D scans using deep reinforcement learning, outperforming prior ICP methods on real and synthetic scenes. |
 | 2018 | 16.2 | method | Functional programming for compiling and decompiling computer-aided design | Presents a functional language LambdaCAD and a compiler with semantics preservation, plus a synthesis algorithm to reverse compile meshes to CAD programs. |
 | 2017 | 38.4 | method | [CSGNet: Neural Shape Parser for Constructive Solid Geometry](https://arxiv.org/abs/1712.08290) |  |
-| 2016 | 28 | method, application | [Marr Revisited: 2D-3D Alignment via Surface Normal Prediction](https://arxiv.org/abs/1604.01347) | A method using surface normal prediction from CNNs to retrieve 3D CAD models from 2D images, achieving state-of-the-art on NYUv2. |
+| 2016 | 34.3 | method, application | [Marr Revisited: 2D-3D Alignment via Surface Normal Prediction](https://arxiv.org/abs/1604.01347) | A method using surface normal prediction from CNNs to retrieve 3D CAD models from 2D images, achieving state-of-the-art on NYUv2. |
 | 2016 | 24.7 | method | Parametric CAD modeling: An analysis of strategies for design reusability | Analyzes formal parametric CAD modeling strategies (horizontal, explicit reference, resilient) for improving design reusability through comparative experiments. |
 | 2015 | 34.4 | method | [ShapeNet: An Information-Rich 3D Model Repository](https://arxiv.org/abs/1512.03012) | ShapeNet is a large-scale, richly-annotated repository of 3D CAD models organized under WordNet taxonomy for computer graphics and vision research. |
 | 2014 | 12.4 | method, application | Investigating the use of controlled natural language as problem definition input for computer-aided design |  |

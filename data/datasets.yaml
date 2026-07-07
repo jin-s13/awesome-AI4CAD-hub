@@ -1378,4 +1378,4 @@
   description_zh: Mask2CAD联合检测图像中的物体，并通过联合嵌入空间检索最相似的CAD模型及其姿态。
   notes_zh: '派生自论文：Mask2CAD: 通过学习分割与检索进行3D形状预测'
   year: 2020
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/mask2cad-3d-shape-prediction-by-learning-to-segment-and-ret-2020/teaser.png

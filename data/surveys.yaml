@@ -1,5 +1,5 @@
 schema_version: awesome-hub.surveys.v1
-generated_at: '2026-07-06T02:33:27Z'
+generated_at: '2026-07-07T02:26:44Z'
 topics:
 - id: method
   label: method
@@ -21,10 +21,10 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 34.9
+    methodology_quality: 35.3
     recency: 76.6
     reproducibility: 42.8
-    topical_relevance: 23.5
+    topical_relevance: 23.7
   top_papers:
   - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
     title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
@@ -199,10 +199,10 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 42.0
+    methodology_quality: 42.5
     recency: 77.4
     reproducibility: 37.6
-    topical_relevance: 27.1
+    topical_relevance: 27.3
   top_papers:
   - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
     title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
@@ -388,10 +388,10 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 38.0
+    methodology_quality: 38.2
     recency: 76.8
     reproducibility: 38.3
-    topical_relevance: 25.6
+    topical_relevance: 25.7
   top_papers:
   - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
     title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
@@ -552,10 +552,10 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 51.3
+    methodology_quality: 51.7
     recency: 78.4
     reproducibility: 36.0
-    topical_relevance: 31.4
+    topical_relevance: 31.7
   top_papers:
   - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
     title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
@@ -739,10 +739,10 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 12.6
+    methodology_quality: 13.4
     recency: 75.9
     reproducibility: 50.7
-    topical_relevance: 10.0
+    topical_relevance: 10.4
   top_papers:
   - id: brepforge-factorized-b-rep-synthesis-via-wireframe-composit-2026
     title: 'BrepForge: Factorized B-rep Synthesis via Wireframe Composition and Boundary-Conditioned
@@ -783,111 +783,108 @@ topics:
     year: 2025
     score: 39.0
     url: https://arxiv.org/abs/2505.24838
-  - id: csgnet-neural-shape-parser-for-constructive-solid-geometry-2017
-    title: 'CSGNet: Neural Shape Parser for Constructive Solid Geometry'
-    year: 2017
-    score: 38.4
-    url: https://arxiv.org/abs/1712.08290
+  - id: scene-recomposition-by-learning-based-icp-2018
+    title: Scene Recomposition by Learning-Based ICP
+    year: 2018
+    score: 38.5
+    url: https://arxiv.org/abs/1812.05583
   related_work_outline:
-  - 'Mainstream direction: Generative AI for CAD, with a focus on structured representations
-    such as B-rep, mesh, and CSG, and tasks spanning synthesis, reconstruction, parsing,
-    and interaction.'
-  - 'Shared research pattern: Deep neural networks are used to generate, reconstruct,
-    or parse CAD models, often by factorizing geometry and topology or by learning
-    from multimodal data like point clouds, images, and videos.'
-  - 'Key differences: Target CAD representation (B-rep vs. mesh vs. CSG), task objective
-    (generation vs. reconstruction vs. parsing), and input modality (point cloud,
-    RGB image, video, or parametric sequence).'
-  - 'Trend evolution: From early CSG parsing (2017) to recent B-rep synthesis and
-    multimodal datasets (2024–2026), the field is moving toward more complex, realistic,
-    and controllable CAD generation with richer supervision signals.'
-  - 'Open questions: Lack of standardized benchmarks across representations, limited
-    reproducibility evidence, and missing systematic limitation analysis in most works.'
+  - 'Mainstream direction: Deep generative models and learning-based reconstruction
+    dominate AI4CAD, shifting from traditional geometric pipelines to data-driven
+    synthesis of CAD representations such as B-rep, mesh, and point clouds.'
+  - 'Shared research pattern: Most works adopt a two-stage or factorized architecture,
+    separating topology generation from geometry refinement, and rely on synthetic
+    training data with limited real-world validation.'
+  - 'Key differences: Representations vary widely (B-rep, mesh, point cloud, voxel),
+    supervision ranges from reinforcement learning to autoregressive, and tasks span
+    generation, reconstruction, alignment, and interaction learning.'
+  - 'Trend evolution: From 2018 learning-based ICP to 2026 factorized B-rep synthesis,
+    the field moves toward more structured, controllable, and topologically valid
+    generation, with increasing emphasis on datasets and benchmarks.'
+  - 'Open questions: Lack of standardized evaluation metrics across representations,
+    limited real-world deployment evidence, and unresolved challenges in ensuring
+    topological correctness and long-horizon interaction consistency.'
   related_work_outline_zh:
-  - 主流方向：面向CAD的生成式AI，重点关注B-rep、网格、CSG等结构化表示，涵盖合成、重建、解析和交互等任务。
-  - 研究共性：使用深度神经网络生成、重建或解析CAD模型，通常通过分解几何与拓扑，或从点云、图像、视频等多模态数据中学习。
-  - 关键差异：目标CAD表示（B-rep、网格、CSG）、任务目标（生成、重建、解析）和输入模态（点云、RGB图像、视频或参数序列）。
-  - 趋势演进：从早期的CSG解析（2017年）到近期的B-rep合成和多模态数据集（2024–2026年），领域正朝着更复杂、更真实、更可控的CAD生成方向发展，监督信号更加丰富。
-  - 开放问题：缺乏跨表示的标准化基准，可复现性证据有限，多数工作缺少系统性的局限性分析。
+  - 主流方向：深度生成模型和基于学习的重建主导AI4CAD，从传统几何流程转向数据驱动的CAD表示合成，如B-rep、网格和点云。
+  - 研究共性：多数工作采用两阶段或分解架构，将拓扑生成与几何细化分离，并依赖合成训练数据，真实场景验证有限。
+  - 关键差异：表示方式多样（B-rep、网格、点云、体素），监督信号从强化学习到自回归不等，任务涵盖生成、重建、对齐和交互学习。
+  - 趋势演进：从2018年基于学习的ICP到2026年分解式B-rep合成，领域朝着更结构化、可控和拓扑有效的生成发展，数据集和基准日益受到重视。
+  - 开放问题：缺乏跨表示的标准化评估指标，真实部署证据有限，确保拓扑正确性和长程交互一致性仍是未解决的挑战。
   literature_review:
     line_of_work_matrix:
-    - line: Generative modeling of CAD boundary representations
-      what_it_solves: Synthesizing topologically valid and geometrically complex B-rep
-        models by factorizing wireframe composition and surface instantiation.
-      what_remains_open: Limitations not reported; generalization to diverse engineering
-        constraints and scalability to large assemblies are unverified.
-    - line: 3D reconstruction from point clouds
-      what_it_solves: Reconstructing building models from point clouds using polyhedron-based
-        graph neural networks.
-      what_remains_open: Methodology and results are missing from the evidence packet;
-        performance on non-building CAD objects and robustness to noise are unknown.
-    - line: Controllable and hierarchical CAD generation
-      what_it_solves: Enabling user control over CAD model generation through hierarchical
-        neural coding, and unsupervised part decomposition from single images.
-      what_remains_open: No details on control granularity, disentanglement, or evaluation
-        metrics; reproducibility signals exist but methodology evidence is absent.
-    - line: Multimodal datasets for CAD tasks
-      what_it_solves: Providing large-scale, multimodal data for extrusion-based 3D
-        printing and long-horizon CAD UI interactions from video.
-      what_remains_open: Dataset coverage, annotation quality, and impact on downstream
-        task performance are not documented in the packet.
-    - line: Neural parsing of constructive solid geometry
-      what_it_solves: Parsing 3D shapes into CSG trees using neural networks, enabling
-        interpretable and editable CAD representations.
-      what_remains_open: Only a 2017 entry; no evidence of follow-up improvements,
-        scalability to complex shapes, or integration with modern generative pipelines.
+    - line: Taxonomy and roadmap synthesis
+      what_it_solves: Organizes fragmented AI4CAD methods into coherent directions
+        such as generation, reconstruction, and interaction, revealing research gaps
+        and milestones.
+      what_remains_open: Whether the taxonomy is backed by systematic evidence across
+        all subfields or relies on a selective sample of recent papers; missing coverage
+        of traditional CAD paradigms.
+    - line: Comparative evaluation synthesis
+      what_it_solves: Summarizes how different evaluation choices (e.g., geometric
+        fidelity vs. topological validity) shape conclusions, as seen in BrepForge's
+        comparison against baselines.
+      what_remains_open: Results are often not comparable across representations or
+        datasets; no unified benchmark exists for cross-task evaluation, and metric
+        sensitivity to hyperparameters is underexplored.
+    - line: Open problem and gap mapping
+      what_it_solves: Identifies concrete next questions such as controllable generation,
+        real-world sim-to-real transfer, and long-horizon CAD interaction learning
+        from video.
+      what_remains_open: Prioritization of which gaps (e.g., topological guarantees
+        vs. dataset scale) matter most for practical CAD adoption remains unclear.
     consensus:
-    - Deep learning is the dominant approach for CAD-related tasks, with a shared
-      emphasis on structured representations that preserve editability and manufacturability.
-    - Factorizing geometry and topology, or decomposing shapes into parts/primitives,
-      is a recurring strategy to handle the complexity of CAD models.
-    - Multimodal supervision (point clouds, images, videos, parametric sequences)
-      is increasingly used to reduce manual annotation and improve generalization.
+    - Deep learning is the primary tool for CAD-related tasks, replacing hand-crafted
+      geometric algorithms.
+    - Factorized or multi-stage pipelines are preferred to handle the complexity of
+      CAD structures.
+    - Synthetic data plays a crucial role in training due to the scarcity of annotated
+      real CAD data.
+    - Code and dataset release is becoming common practice, improving reproducibility.
     disagreements:
-    - 'Target representation: B-rep (BrepForge) vs. mesh (SDM-NET) vs. CSG (CSGNet)
-      vs. implicit part hierarchies (Hierarchical Neural Coding) leads to incompatible
-      evaluation and different downstream use cases.'
-    - 'Task framing: generation from scratch vs. reconstruction from sensor data vs.
-      parsing from existing geometry vs. learning from interaction videos—each assumes
-      different input availability and user intent.'
-    - 'Evaluation: Topological validity is emphasized for B-rep, while mesh methods
-      focus on deformation quality; no common metric exists across representations.'
+    - 'Choice of 3D representation: B-rep offers engineering precision but is harder
+      to generate, while meshes and point clouds are easier but lack topological guarantees.'
+    - 'Supervision paradigm: some methods use reinforcement learning for alignment,
+      others use autoregressive or GAN-based generation, leading to different stability
+      and quality trade-offs.'
+    - 'Evaluation focus: geometric accuracy vs. topological validity vs. interaction
+      success rate, with no consensus on a primary metric.'
+    - 'Interaction modality: some works target automatic generation, others learn
+      from human UI interactions, reflecting different deployment assumptions.'
     open_questions:
-    - How can generative CAD models be evaluated beyond geometric and topological
-      correctness, e.g., on engineering constraints or manufacturability?
-    - What benchmarks and metrics can unify evaluation across B-rep, mesh, and CSG
-      representations?
-    - To what extent do the reported results generalize to real-world CAD workflows,
-      given the lack of limitation analysis and reproducibility evidence in most papers?
+    - How can we design a unified evaluation protocol that fairly compares B-rep,
+      mesh, and point cloud generation methods?
+    - What is the minimal real-world supervision needed to bridge the sim-to-real
+      gap in CAD model generation and reconstruction?
+    - Can factorized generation approaches guarantee global topological consistency
+      without sacrificing geometric detail?
+    - How should long-horizon CAD interaction models be evaluated beyond imitation
+      accuracy, e.g., on task completion or design intent preservation?
   literature_review_zh:
     研究路线矩阵:
-    - 路线: CAD边界表示生成建模
-      解决的问题: 通过分解线框组合和曲面实例化，合成拓扑有效且几何复杂的B-rep模型。
-      尚未覆盖: 未报告局限性；对多样化工程约束的泛化能力和大规模装配的可扩展性未经验证。
-    - 路线: 点云三维重建
-      解决的问题: 使用基于多面体的图神经网络从点云重建建筑模型。
-      尚未覆盖: 证据包中缺失方法和结果；对非建筑CAD对象的性能和噪声鲁棒性未知。
-    - 路线: 可控与分层CAD生成
-      解决的问题: 通过分层神经编码实现用户对CAD模型生成的控制，以及从单张图像进行无监督部件分解。
-      尚未覆盖: 缺少控制粒度、解耦和评估指标的细节；存在可复现性信号但方法证据缺失。
-    - 路线: 面向CAD任务的多模态数据集
-      解决的问题: 为基于挤出的3D打印和从视频学习长程CAD UI交互提供大规模多模态数据。
-      尚未覆盖: 数据集的覆盖范围、标注质量和对下游任务性能的影响在证据包中未记录。
-    - 路线: 构造实体几何的神经解析
-      解决的问题: 使用神经网络将三维形状解析为CSG树，实现可解释和可编辑的CAD表示。
-      尚未覆盖: 仅有2017年的条目；没有后续改进、对复杂形状的可扩展性或与现代生成管线集成的证据。
+    - 路线: 分类体系与路线图综合
+      解决的问题: 将碎片化的AI4CAD方法整理为生成、重建、交互等方向，揭示研究缺口和里程碑。
+      尚未覆盖: 分类是否基于全子领域的系统证据，还是仅依赖近期论文的选择性样本；传统CAD范式覆盖不足。
+    - 路线: 对比评测综合
+      解决的问题: 总结不同评测选择（如几何保真度与拓扑有效性）如何影响结论，例如BrepForge与基线的比较。
+      尚未覆盖: 结果在不同表示或数据集间通常不可比；缺乏跨任务统一基准，指标对超参数的敏感性未充分探索。
+    - 路线: 开放问题与缺口映射
+      解决的问题: 识别具体下一步问题，如可控生成、真实场景的仿真到现实迁移、从视频学习长程CAD交互。
+      尚未覆盖: 哪些缺口（如拓扑保证与数据集规模）对实际CAD应用最重要，优先级仍不明确。
     共识:
-    - 深度学习是CAD相关任务的主导方法，共同强调保留可编辑性和可制造性的结构化表示。
-    - 分解几何与拓扑，或将形状分解为部件/基元，是处理CAD模型复杂性的常见策略。
-    - 多模态监督（点云、图像、视频、参数序列）越来越多地被用于减少人工标注并提高泛化能力。
+    - 深度学习是CAD相关任务的主要工具，取代手工几何算法。
+    - 分解式或多阶段流水线被广泛采用以处理CAD结构的复杂性。
+    - 由于标注真实CAD数据稀缺，合成数据在训练中起关键作用。
+    - 代码和数据集发布逐渐成为惯例，提高了可复现性。
     分歧:
-    - 目标表示：B-rep（BrepForge）与网格（SDM-NET）与CSG（CSGNet）与隐式部件层次（Hierarchical Neural Coding）导致评估不兼容和下游用例不同。
-    - 任务设定：从零生成 vs. 从传感器数据重建 vs. 从现有几何解析 vs. 从交互视频学习——每种设定假设不同的输入可用性和用户意图。
-    - 评估：B-rep强调拓扑有效性，而网格方法关注变形质量；跨表示缺乏统一度量。
+    - 3D表示选择：B-rep提供工程精度但更难生成，网格和点云更易处理但缺乏拓扑保证。
+    - 监督范式：部分方法用强化学习做对齐，其他用自回归或GAN生成，导致稳定性和质量权衡不同。
+    - 评测重点：几何精度 vs. 拓扑有效性 vs. 交互成功率，缺乏主要指标共识。
+    - 交互模态：一些工作面向自动生成，另一些从人类UI交互学习，反映不同的部署假设。
     开放问题:
-    - 如何超越几何和拓扑正确性，例如在工程约束或可制造性方面评估生成式CAD模型？
-    - 哪些基准和度量可以统一B-rep、网格和CSG表示的评估？
-    - 鉴于多数论文缺乏局限性分析和可复现性证据，报告的结果在多大程度上能泛化到真实CAD工作流？
+    - 如何设计统一评测协议，公平比较B-rep、网格和点云生成方法？
+    - 弥合CAD模型生成与重建中仿真到现实差距所需的最小真实监督是什么？
+    - 分解式生成方法能否在不牺牲几何细节的前提下保证全局拓扑一致性？
+    - 长程CAD交互模型应如何超越模仿精度进行评估，例如基于任务完成度或设计意图保持？
   synthesis_status: llm
   generation_notes: []
 - id: application
@@ -910,10 +907,10 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 41.3
+    methodology_quality: 41.7
     recency: 74.8
     reproducibility: 38.0
-    topical_relevance: 26.3
+    topical_relevance: 26.5
   top_papers:
   - id: cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026
     title: 'CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization'

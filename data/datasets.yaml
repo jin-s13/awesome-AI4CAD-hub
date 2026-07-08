@@ -426,6 +426,10 @@
     title: 'Text2CAD-Bench: A Benchmark for LLM-based Text-to-Parametric CAD Generation'
     url: https://arxiv.org/abs/2605.18430v1
     title_zh: Text2CAD-Bench：基于LLM的文本到参数化CAD生成的基准测试
+  - id: artisancad-an-industrial-level-cad-agent-with-expert-ground-2026
+    title: 'ArtisanCAD: An Industrial-Level CAD Agent with Expert-Grounded Knowledge
+      Distillation'
+    url: https://arxiv.org/abs/2607.05750v1
   year: 2026
   preview: /assets/papers/text2cad-bench-a-benchmark-for-llm-based-text-to-parametric-2026/teaser.png
   description_zh: 提出Text2CAD-Bench基准，系统评估文本到参数化CAD生成的几何复杂度与实际领域。
@@ -1063,6 +1067,10 @@
       Design'
     url: ''
     title_zh: AutoForma：基于大语言模型的多智能体系统用于计算机自动化设计
+  - id: foundation-models-for-automatic-cad-generation-2026
+    title: Foundation Models for Automatic CAD Generation
+    url: https://arxiv.org/abs/2607.05573v1
+    title_zh: 面向自动CAD生成的基础模型
   name_zh: AutoMate
   description_zh: 提出SB-GCN，利用参数化BREP表示预测CAD装配配合，新数据集，商用CAD工具中准确率72.2%。
   notes_zh: 派生自论文：AutoMate
@@ -1166,6 +1174,10 @@
   - id: text2cad-text-to-3d-cad-generation-via-technical-drawings-2024
     title: 'Text2CAD: Text to 3D CAD Generation via Technical Drawings'
     url: https://arxiv.org/abs/2411.06206
+  - id: artisancad-an-industrial-level-cad-agent-with-expert-ground-2026
+    title: 'ArtisanCAD: An Industrial-Level CAD Agent with Expert-Grounded Knowledge
+      Distillation'
+    url: https://arxiv.org/abs/2607.05750v1
   name_zh: Text2CAD
   description_zh: 在现代软件中设计复杂的计算机辅助设计（CAD）原型非常耗时，这是由于缺乏能够快速生成较简单中间部件的智能系统。我们提出Text2CAD，这是首个利用面向所有技能水平的设计师友好型指令生成文本到参数化CAD模型的人工智能框架。此外，我们引入了一个数据标注流程，基于自然语言指令为DeepCAD数据集生成文本提示，使用了Mistral和LLaVA-NeXT。该数据集包含约17万个模型和约66万条文本注释，涵盖从抽象CAD描述（例如，生成两个同心圆柱体）到详细规格（例如，绘制两个圆心在(x,y)、半径分别为r1和r2的圆，并沿法线方向拉伸d...）。在Text2CAD框架内，我们提出了一种端到端的基于Transformer的自回归网络，用于从输入文本生成参数化CAD模型。我们通过一系列指标评估模型性能，包括视觉质量、参数精度和几何准确性。我们提出的框架在人工智能辅助设计应用中显示出巨大潜力。我们的源代码和注释将公开发布。
   notes_zh: 派生自论文：Text2CAD：从初学者到专家级文本提示生成顺序CAD模型

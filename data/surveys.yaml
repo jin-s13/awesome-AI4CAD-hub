@@ -1,5 +1,5 @@
 schema_version: awesome-hub.surveys.v1
-generated_at: '2026-07-07T02:26:44Z'
+generated_at: '2026-07-08T02:01:43Z'
 topics:
 - id: method
   label: method
@@ -7,7 +7,7 @@ topics:
   description: New AI methods for CAD generation, reconstruction, editing, retrieval,
     or reasoning.
   description_zh: ''
-  paper_count: 265
+  paper_count: 270
   top_tags:
   - CV
   - AI
@@ -21,9 +21,9 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 35.3
-    recency: 76.6
-    reproducibility: 42.8
+    methodology_quality: 35.6
+    recency: 77.0
+    reproducibility: 42.9
     topical_relevance: 23.7
   top_papers:
   - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
@@ -71,112 +71,120 @@ topics:
     score: 66.7
     url: https://arxiv.org/abs/2603.05607v1
   related_work_outline:
-  - 'Mainstream direction: Building unified, multi-modal benchmarks and generative
-    models that produce editable parametric CAD (B-Rep or program sequences) from
-    diverse inputs such as text, images, meshes, and point clouds.'
-  - 'Shared research pattern: Framing CAD generation as a sequence or structure prediction
-    problem, then applying large language models, state-space models, differentiable
-    representations, or hybrid optimization to recover editable CAD programs or surfaces.'
-  - 'Key differences: Representation choices (program scripts vs. parametric patches
-    vs. latent codes), supervision signals (point-level, program-level, or self-supervised),
-    evaluation targets (geometric fidelity, executability, manufacturability), and
-    interaction modes (one-shot vs. proactive clarification).'
-  - 'Trend evolution: The field has moved from early representation learning toward
-    LLM-driven program synthesis and multi-modal unification, with 2026 papers emphasizing
-    benchmarks that assess engineering constraints and interactive robustness.'
-  - 'Open questions: How to align evaluation metrics with real-world engineering requirements;
-    how to generalize across complex topologies and ambiguous specifications; how
-    to balance editability, fidelity, and computational cost in a single framework.'
+  - 'Mainstream direction: Generating editable parametric CAD models (programs or
+    B-Reps) from multimodal inputs using large language models, differentiable geometry,
+    or hybrid optimization, with a parallel push toward standardized benchmarks that
+    assess geometric and engineering fidelity.'
+  - 'Shared research pattern: Framing CAD generation as a mapping from raw inputs
+    to structured CAD representations, training on synthetic or procedural data, and
+    evaluating with geometry-aware metrics supplemented by engineering criteria such
+    as executability, manufacturability, and assemblability.'
+  - 'Key differences: Representations vary from code-generating LLMs and differentiable
+    parametric surfaces to state-space models and hybrid optimization; supervision
+    signals differ (meshes, point clouds, text); interaction is either one-shot or
+    agentic clarification; evaluation targets range from geometric fidelity to downstream
+    engineering properties.'
+  - 'Trend evolution: The 2025–2026 frontier shifts from single-task reconstructions
+    toward multi-modal unified models and benchmarks that emphasize manufacturability,
+    assembly, and agentic interaction, reflecting a broader concern with engineering
+    readiness beyond geometric accuracy.'
+  - 'Open questions: How to close the gap between benchmark metrics and real design
+    intent, whether the choice of CAD representation systematically limits generalization
+    under complex geometry and modality shift, and how agentic clarification scales
+    to diverse users without excessive interaction cost.'
   related_work_outline_zh:
-  - 主流方向：构建统一的多模态基准和生成模型，从文本、图像、网格、点云等输入生成可编辑的参数化CAD（B-Rep或程序序列）。
-  - 研究共性：将CAD生成形式化为序列或结构预测问题，应用大语言模型、状态空间模型、可微表示或混合优化来恢复可编辑的CAD程序或曲面。
-  - 关键差异：表示选择（程序脚本 vs. 参数化面片 vs. 潜在编码）、监督信号（点级、程序级或自监督）、评估目标（几何保真度、可执行性、可制造性）以及交互模式（一次性生成
-    vs. 主动澄清）。
-  - 趋势演进：领域从早期表示学习转向LLM驱动的程序合成和多模态统一，2026年论文强调评估工程约束和交互鲁棒性的基准。
-  - 开放问题：如何使评估指标与真实工程需求对齐；如何在复杂拓扑和模糊规格下泛化；如何在单一框架中平衡可编辑性、保真度和计算成本。
+  - 主流方向：利用大语言模型、可微分几何或混合优化从多模态输入生成可编辑的参数化CAD模型（程序或边界表示），同时建立标准化基准来评估几何与工程保真度。
+  - 研究共性：将CAD生成表述为从原始输入到结构化CAD表示的映射，在合成或程序化数据上训练，并采用几何感知指标辅以可执行性、可制造性、可装配性等工程标准。
+  - 关键差异：表示方式包括代码生成LLM、可微分参数曲面、状态空间模型和混合优化；监督信号涉及网格、点云、文本；交互模式分为一次性生成和主动澄清；评测目标从几何保真度延伸到下游工程特性。
+  - 趋势演进：2025-2026年前沿正从单任务重建转向多模态统一模型和强调可制造性、装配性与智能体交互的基准，表明对超越几何精度的工程就绪度的关注在增加。
+  - 开放问题：如何缩小基准指标与真实设计意图的差距，CAD表示的选择是否在复杂几何和模态偏移下系统性地限制泛化，以及智能体澄清如何在不增加过高交互成本的前提下扩展到多样化的用户群体。
   literature_review:
     line_of_work_matrix:
-    - line: Multi-modal benchmarks and evaluation protocols
-      what_it_solves: Standardized assessment of CAD generation methods across input
-        modalities (text, image, mesh, point cloud) and engineering criteria (executability,
-        manufacturability, assemblability).
-      what_remains_open: Alignment between different benchmarks, coverage of real
-        manufacturing constraints, and correlation of metrics with downstream engineering
-        usability.
-    - line: Program-synthesis-based generative models
-      what_it_solves: Direct generation of executable CAD scripts (e.g., CadQuery)
-        from high-level specifications using large language models or hybrid optimization,
-        ensuring editability and parametric control.
-      what_remains_open: Generalization to complex topologies, robustness to ambiguous
-        or underspecified prompts, and computational efficiency of iterative optimization.
-    - line: Geometry-representation-learning models
-      what_it_solves: Learning latent representations or differentiable parametric
-        surfaces (e.g., Bézier patches) to model long CAD sequences or generate editable
-        B-Reps without CAD-specific annotations.
-      what_remains_open: Controllability of generated geometry, compatibility with
-        standard parametric CAD pipelines, and scalability to very long sequences.
-    - line: Interactive and clarification-driven generation
-      what_it_solves: Improving user intent alignment and robustness by proactively
-        asking clarification questions before synthesizing CAD programs.
-      what_remains_open: Efficiency of multi-turn interaction, user experience design,
-        and generalization of clarification strategies beyond curated scenarios.
+    - line: Parametric CAD generation via representation and architecture design
+      what_it_solves: Mapping text, images, or 3D data to editable parametric CAD
+        programs or B-Reps using LLMs, state-space models, differentiable surfaces,
+        or hybrid optimization, thereby enabling automatic creation of high-fidelity
+        CAD models.
+      what_remains_open: How the choice of representation (code, Bézier surfaces,
+        Mamba sequences) affects quality under complex geometries, long sequences,
+        and engineering constraints, and whether recipes transfer across input modalities
+        and real-world design workflows.
+    - line: Interactive and agentic CAD generation
+      what_it_solves: Reducing ambiguity in text-to-CAD generation by proactively
+        clarifying user intent before program synthesis, thus improving robustness
+        to underspecified prompts.
+      what_remains_open: Whether automated clarification strategies generalize to
+        unseen prompt distributions and diverse user populations, and what the acceptable
+        trade-off between interaction cost and generation accuracy is in practice.
+    - line: Benchmarks and evaluation protocols for AI-assisted CAD
+      what_it_solves: Providing unified multimodal, multi-task, and engineering-focused
+        benchmarks that quantify model performance on geometric fidelity, executability,
+        manufacturability, and assemblability, and revealing failure cascades from
+        code generation to engineering-ready design.
+      what_remains_open: Whether current metrics and VLM judges align with professional
+        CAD engineers' intent, and whether benchmarks can isolate the contribution
+        of the generative method from input preprocessing, metric choice, and system-level
+        confounds.
     consensus:
-    - Editable parametric CAD (B-Rep or program sequences) is the preferred output
-      representation for downstream engineering use.
-    - Multi-modal inputs (text, images, meshes, point clouds) are necessary to accommodate
-      diverse design workflows.
-    - Evaluation must go beyond geometric similarity to include executability, validity,
-      and engineering constraints.
-    - Large language models and differentiable optimization are becoming central tools
-      for CAD generation.
+    - All lines of work target generation of editable, parametric CAD models rather
+      than static meshes or point clouds.
+    - Evaluation goes beyond geometric error to include executability, validity, and,
+      increasingly, downstream engineering criteria.
+    - Models exhibit fragility under geometric complexity, modality shift, and ambiguous
+      specifications, and the community recognizes a failure cascade from valid code
+      to engineering-ready design.
+    - Training and evaluation rely heavily on synthetic or procedurally rendered data,
+      and a gap remains between benchmark performance and real-world design practice.
     disagreements:
-    - 'Representation: some methods output explicit program scripts, while others
-      generate parametric surfaces or latent codes that are decoded to B-Rep.'
-    - 'Supervision: approaches range from point-level supervision on unannotated 3D
-      data to fine-tuning on curated text-to-CAD datasets with program-level labels.'
-    - 'Evaluation target: benchmarks emphasize different aspects—geometric fidelity,
-      manufacturability, multi-task capability—leading to inconsistent model rankings.'
-    - 'Interaction mode: most methods assume one-shot generation, whereas one line
-      of work introduces proactive clarification agents, trading off autonomy for
-      robustness.'
+    - 'Representation: some approaches generate code (e.g., CadQuery scripts) via
+      LLMs, while others directly predict parametric surfaces or use state-space models
+      for sequences, leading to different trade-offs in editability and reconstruction
+      accuracy.'
+    - 'Supervision: methods differ in whether they use point-level supervision, mesh
+      reconstructions, or text-only training, which influences data requirements and
+      the ability to learn from unannotated 3D data.'
+    - 'Interaction mode: most systems are one-shot generators, while one line of work
+      advocates for agentic clarification before synthesis, creating a split on the
+      role of user interaction in the generation pipeline.'
+    - 'Evaluation target: benchmarks emphasize geometric metrics, executability, or
+      manufacturability/assembly to varying degrees, and there is no agreement on
+      how to weight these criteria for comparing methods.'
     open_questions:
-    - How can evaluation protocols be unified to reflect both geometric accuracy and
-      real-world engineering feasibility without overfitting to specific metrics?
-    - What representations and training strategies enable generalization to complex,
-      multi-step CAD constructions beyond the distributions seen in current benchmarks?
-    - Can interactive clarification be scaled to handle the full ambiguity spectrum
-      in natural language design specifications without excessive user burden?
-    - How should generative models balance the trade-off between producing editable
-      parametric output and achieving high geometric fidelity under weak supervision?
+    - Can manufacturability and assembly feedback be integrated directly into the
+      generative objective, rather than being used only for post-hoc evaluation?
+    - Under what conditions do unified multi-task models outperform specialized pipelines,
+      and what are the failure boundaries when input modalities are mixed?
+    - What is the minimal set of metrics that predicts real-world CAD engineer satisfaction,
+      and how can benchmarks evolve to cover the long tail of design constraints?
+    - How does the choice of CAD representation influence the scalability of generation
+      to complex assemblies with hundreds of features, and what verification gaps
+      remain when evaluation is limited to existing benchmarks?
   literature_review_zh:
     研究路线矩阵:
-    - 路线: 多模态基准与评估协议
-      解决的问题: 标准化评估CAD生成方法，覆盖多种输入模态（文本、图像、网格、点云）和工程标准（可执行性、可制造性、可装配性）。
-      尚未覆盖: 不同基准之间的对齐、真实制造约束的覆盖范围，以及指标与下游工程可用性的相关性。
-    - 路线: 基于程序合成的生成模型
-      解决的问题: 使用大语言模型或混合优化从高层规格直接生成可执行CAD脚本（如CadQuery），确保可编辑性和参数化控制。
-      尚未覆盖: 对复杂拓扑的泛化、对模糊或欠指定提示的鲁棒性，以及迭代优化的计算效率。
-    - 路线: 基于几何表示学习的模型
-      解决的问题: 学习潜在表示或可微参数曲面（如贝塞尔面片）以建模长CAD序列，或在无CAD标注的情况下生成可编辑B-Rep。
-      尚未覆盖: 生成几何的可控性、与标准参数化CAD管线的兼容性，以及对极长序列的可扩展性。
-    - 路线: 交互式与澄清驱动的生成
-      解决的问题: 通过在合成CAD程序前主动提出澄清问题，提高用户意图对齐度和鲁棒性。
-      尚未覆盖: 多轮交互的效率、用户体验设计，以及澄清策略在策划场景之外的泛化能力。
+    - 路线: 基于表示与架构设计的参数化CAD生成
+      解决的问题: 通过LLM、状态空间模型、可微分曲面或混合优化，将文本、图像或3D数据映射为可编辑的参数化CAD程序或B-Rep，实现高保真CAD模型的自动创建。
+      尚未覆盖: 表示选择（代码、贝塞尔曲面、Mamba序列）如何影响复杂几何、长序列和工程约束下的生成质量，以及这些方法能否跨输入模态和真实设计流程迁移。
+    - 路线: 交互式与智能体式CAD生成
+      解决的问题: 在程序合成前主动澄清用户意图，减少文本到CAD生成中的模糊性，提升对欠规范提示的鲁棒性。
+      尚未覆盖: 自动澄清策略能否泛化到未见过的提示分布和多样化用户群体，以及实际应用中交互成本与生成精度之间的可接受平衡点。
+    - 路线: AI辅助CAD的基准与评估协议
+      解决的问题: 提供统一的多模态、多任务和面向工程的基准，量化模型在几何保真度、可执行性、可制造性和可装配性上的表现，并揭示从代码生成到工程就绪设计的失败级联。
+      尚未覆盖: 现有指标和VLM评判器是否与专业CAD工程师的意图一致，以及基准能否将生成方法的贡献与输入预处理、指标选择和系统级混淆因素隔离开。
     共识:
-    - 可编辑的参数化CAD（B-Rep或程序序列）是下游工程应用的首选输出表示。
-    - 多模态输入（文本、图像、网格、点云）对于适应多样化的设计工作流是必要的。
-    - 评估必须超越几何相似性，涵盖可执行性、有效性和工程约束。
-    - 大语言模型和可微优化正成为CAD生成的核心工具。
+    - 所有路线均致力于生成可编辑的参数化CAD模型，而非静态网格或点云。
+    - 评估不仅限于几何误差，还扩展到可执行性、有效性，以及越来越多的下游工程标准。
+    - 模型在几何复杂度、模态偏移和模糊规范下表现出脆弱性，社区认识到从有效代码到工程就绪设计存在失败级联。
+    - 训练和评估严重依赖合成或程序化渲染数据，基准性能与真实设计实践之间仍存在差距。
     分歧:
-    - 表示方式：一些方法输出显式程序脚本，而另一些生成参数化曲面或潜在编码再解码为B-Rep。
-    - 监督信号：方法从在无标注3D数据上的点级监督，到在策划的文本到CAD数据集上使用程序级标签进行微调，各不相同。
-    - 评估目标：基准强调不同方面——几何保真度、可制造性、多任务能力——导致模型排名不一致。
-    - 交互模式：多数方法假设一次性生成，而一条研究路线引入主动澄清智能体，以自主性换取鲁棒性。
+    - 表示方式：部分方法通过LLM生成代码（如CadQuery脚本），另一些直接预测参数曲面或使用状态空间模型处理序列，导致可编辑性和重建精度上不同的权衡。
+    - 监督信号：方法分别在点级监督、网格重建或纯文本训练下运作，影响数据需求以及从无标注3D数据中学习的能力。
+    - 交互模式：多数系统为一次性生成器，而一条路线主张在合成前进行智能体澄清，形成在生成流程中用户交互角色上的分歧。
+    - 评估目标：基准在不同程度上强调几何指标、可执行性或可制造性/装配性，如何加权这些标准以比较方法尚未达成共识。
     开放问题:
-    - 如何统一评估协议，以同时反映几何精度和真实工程可行性，而不对特定指标过拟合？
-    - 哪些表示和训练策略能使模型泛化到当前基准分布之外的复杂多步CAD构造？
-    - 主动澄清能否扩展以处理自然语言设计规格中的全部模糊性，而不给用户带来过多负担？
-    - 生成模型应如何在产生可编辑参数化输出与在弱监督下实现高几何保真度之间取得平衡？
+    - 可制造性和装配性反馈能否直接融入生成目标，而不仅仅用于事后评估？
+    - 在什么条件下统一多任务模型能超越专用流水线，且当输入模态混合时，其失效边界在哪里？
+    - 能够预测真实CAD工程师满意度的最小指标集是什么，基准如何演进以覆盖设计约束的长尾？
+    - CAD表示的选择如何影响生成扩展到包含数百个特征的复杂装配体的能力，在仅依赖现有基准进行评估时，还存在哪些验证缺口？
   synthesis_status: llm
   generation_notes: []
 - id: benchmark
@@ -185,7 +193,7 @@ topics:
   description: CAD datasets, evaluation tasks, geometric validity metrics, or design
     benchmarks.
   description_zh: ''
-  paper_count: 215
+  paper_count: 220
   top_tags:
   - CV
   - AI
@@ -199,10 +207,10 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 42.5
-    recency: 77.4
-    reproducibility: 37.6
-    topical_relevance: 27.3
+    methodology_quality: 42.7
+    recency: 77.9
+    reproducibility: 37.7
+    topical_relevance: 27.2
   top_papers:
   - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
     title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
@@ -249,123 +257,107 @@ topics:
     score: 66.7
     url: https://arxiv.org/abs/2603.05607v1
   related_work_outline:
-  - 'Mainstream direction: Building unified multi-modal benchmarks (CADBench, UniCAD,
-    MUSE) that evaluate CAD generation across text, image, and 3D inputs with metrics
-    beyond geometric fidelity, such as executability, manufacturability, and design-intent
-    alignment.'
-  - 'Shared research pattern: Proposing a new dataset or benchmark alongside a generation
-    method, then using the benchmark to reveal failure modes like brittleness under
-    modality shift, degradation with geometric complexity, and metric-dependent ranking
-    changes.'
-  - 'Key differences: Evaluation targets diverge—some focus on geometric accuracy
-    (CADFit, DreamCAD), others on engineering validity (MUSE) or multi-task unification
-    (UniCAD); interaction modes range from single-pass generation to proactive clarification
-    (ProCAD); supervision varies from CAD sequence annotations to point-level signals.'
-  - 'Trend evolution: The field has moved from early single-task CAD datasets (2005–2018)
-    to large-scale multi-modal benchmarks (2024–2026) that stress-test LLMs and specialized
-    models, with a recent shift toward agentic clarification and differentiable representations
-    to improve robustness.'
-  - 'Open questions: Whether benchmark metrics align with real engineering decisions,
-    how well models generalize to unseen geometric complexity and manufacturing constraints,
-    and the scalability of interactive clarification in professional CAD workflows.'
+  - 'Mainstream direction: Constructing unified multimodal benchmarks that evaluate
+    the generation of editable parametric CAD models from diverse inputs (text, images,
+    meshes, point clouds) using multiple metrics beyond geometric fidelity.'
+  - 'Shared research pattern: Evaluations combine geometric similarity (e.g., Chamfer
+    distance, IoU), program executability, and emerging engineering-oriented quality
+    checks; they consistently reveal performance degradation under geometric complexity
+    and modality shift.'
+  - 'Key differences: Some benchmarks stress manufacturing, functionality, and assemblability
+    (MUSE), while others emphasize broad task and modality coverage (UniCAD, CADBench)
+    or interactive robustness against ambiguous prompts (ProCAD); evaluation protocols
+    range from static metric suites to VLM-based judging and proactive clarification
+    loops.'
+  - 'Trend evolution: Within the 2025–2026 frontier, the field is moving from single-task
+    CAD datasets to unified multi-task, multi-modal suites, and from pure geometry
+    metrics toward design-intent and engineering-validity assessments, with early
+    exploration of interactive evaluation.'
+  - 'Open questions: Whether task distributions cover real-world CAD workflows, how
+    well automatic judges align with human expert decisions, the stability of model
+    rankings across different benchmarks and compute budgets, and the practicality
+    of interactive clarification in production settings.'
   related_work_outline_zh:
-  - 主流方向：构建统一多模态基准（如CADBench、UniCAD、MUSE），在文本、图像和三维输入下评估CAD生成，指标超越几何保真度，涵盖可执行性、可制造性和设计意图对齐。
-  - 研究共性：提出新数据集或基准的同时给出生成方法，并利用基准揭示失败模式，如模态转换下的脆弱性、几何复杂度增加时质量下降，以及指标变化导致模型排名改变。
-  - 关键差异：评测目标分化——有的侧重几何精度（CADFit、DreamCAD），有的侧重工程有效性（MUSE）或多任务统一（UniCAD）；交互模式从单次生成到主动澄清（ProCAD）；监督信号从CAD序列标注到点级信号不等。
-  - 趋势演进：领域从早期单任务CAD数据集（2005–2018）发展到大规模多模态基准（2024–2026），对LLM和专用模型进行压力测试，近期转向智能体澄清和可微分表示以提升鲁棒性。
-  - 开放问题：基准指标是否与真实工程决策对齐，模型对未知几何复杂度和制造约束的泛化能力，以及交互式澄清在专业CAD工作流中的可扩展性。
+  - 主流方向：构建统一多模态基准，从多种输入（文本、图像、网格、点云）生成可编辑参数化CAD模型，并使用超越几何保真度的多指标评估。
+  - 研究共性：评估结合几何相似度（如Chamfer距离、IoU）、程序可执行性以及新兴的面向工程的质量检查；一致揭示模型在几何复杂度和模态偏移下的性能退化。
+  - 关键差异：部分基准侧重可制造性、功能性和可装配性（如MUSE），另一些强调广泛的任务和模态覆盖（如UniCAD、CADBench），或针对模糊提示的交互鲁棒性（如ProCAD）；评估协议从静态指标集扩展到基于VLM的评判和主动澄清循环。
+  - 趋势演进：在2025-2026前沿，领域正从单一任务CAD数据集转向统一的、多任务多模态套件，从纯几何指标转向设计意图和工程有效性评估，并开始探索交互式评估。
+  - 开放问题：任务分布是否覆盖真实CAD工作流，自动评判与人类专家决策的一致性，模型排名在不同基准和计算预算下的稳定性，以及交互式澄清在生产环境中的实用性。
   literature_review:
     line_of_work_matrix:
-    - line: Unified multi-modal CAD benchmarks
-      what_it_solves: Provides a shared evaluation protocol across text, image, and
-        3D inputs, enabling comparable assessment of CAD generation models on geometric
-        fidelity, executability, and program compactness.
-      what_remains_open: Whether the benchmark task distribution covers real-world
-        engineering constraints such as manufacturing tolerances, assembly relations,
-        and design intent beyond geometric reconstruction.
-    - line: Engineering-oriented evaluation metrics and protocols
-      what_it_solves: Extends evaluation beyond geometric similarity to manufacturability,
-        functionality, and assemblability through staged rubrics and VLM judges, capturing
-        design-intent alignment.
-      what_remains_open: Alignment between these proxy metrics and the downstream
-        decisions professional engineers actually make; the reliability of VLM judges
-        across diverse CAD domains remains unverified.
-    - line: Parametric CAD generation with LLMs and optimization
-      what_it_solves: Generates editable CAD construction sequences from text, images,
-        or point clouds using code-generating LLMs, hybrid optimization, or differentiable
-        surface representations.
-      what_remains_open: Robustness to ambiguous specifications, geometric complexity,
-        and modality shift; the generated programs often fail to meet engineering-grade
-        validity despite high geometric scores.
-    - line: Interactive and clarification-driven generation
-      what_it_solves: Improves robustness to vague text prompts by proactively asking
-        clarification questions before code synthesis, reducing invalid outputs and
-        geometric errors.
-      what_remains_open: Scalability of multi-turn clarification in time-sensitive
-        design workflows, and whether the clarification policy generalizes to diverse
-        user populations and CAD scripting languages.
+    - line: Unified multimodal CAD benchmarks and dataset construction
+      what_it_solves: Providing shared evaluation protocols and diverse data spanning
+        multiple input modalities and CAD tasks, enabling systematic comparison of
+        generation models.
+      what_remains_open: Whether the benchmark task distributions capture the complexity
+        of real engineering design processes, and whether conclusions remain stable
+        across implementations and compute budgets.
+    - line: Engineering-intent evaluation metrics and stress tests
+      what_it_solves: Probing beyond aggregate geometric similarity to assess manufacturability,
+        functionality, assemblability, and robustness under distribution shifts, revealing
+        failure modes that simple metrics miss.
+      what_remains_open: Alignment between proxy metrics (including VLM judges) and
+        the downstream design decisions users actually care about, and the reliability
+        boundaries of automatic judges.
+    - line: Interactive evaluation protocols for robustness
+      what_it_solves: Testing CAD generation under ambiguous user inputs by incorporating
+        proactive clarification loops, reducing invalid outputs and improving robustness
+        with low interaction overhead.
+      what_remains_open: Whether the clarification overhead remains acceptable in
+        real user experiences, and how well the protocol generalizes to broader CAD
+        tasks beyond text-to-CAD generation.
     consensus:
-    - Parametric CAD sequences (B-Rep or script-based) are the preferred representation
-      because they enable editability and downstream engineering use.
-    - No single metric suffices; evaluation must combine geometric fidelity, executability,
-      and design-intent alignment to expose model weaknesses.
-    - Current models, including LLMs, exhibit a failure cascade from code validity
-      to geometric accuracy to engineering readiness, with performance dropping sharply
-      under distribution shift.
-    - Large-scale, multi-modal datasets are essential for training and benchmarking,
-      and their construction requires careful stratification by geometric complexity
-      and object diversity.
+    - Current CAD benchmarks are moving from single-modality, single-task setups to
+      unified multi-modal, multi-task evaluation suites.
+    - 'All evaluations combine geometric fidelity metrics with program-oriented checks
+      (e.g., executability) and identify a common failure cascade: model performance
+      drops with geometric complexity and under modality shift.'
+    - Specialized mesh-to-CAD models often outperform general-purpose vision-language
+      models on idealized inputs, but their rankings change across different metrics.
     disagreements:
-    - 'Evaluation focus: some works prioritize geometric reconstruction accuracy (e.g.,
-      IoU, Chamfer distance), while others emphasize engineering attributes like manufacturability
-      and assemblability, leading to different model rankings.'
-    - 'Generation paradigm: end-to-end LLM code generation vs. hybrid optimization
-      with geometric feedback vs. differentiable surface fitting—each trades off flexibility,
-      accuracy, and editability differently.'
-    - 'Interaction mode: single-pass generation assumes a complete specification,
-      whereas proactive clarification introduces a dialogue loop, raising questions
-      about overhead and user acceptance.'
-    - 'Supervision signal: methods relying on CAD sequence annotations require curated
-      datasets, while point-level supervision enables training on unannotated 3D data
-      but may sacrifice parametric structure fidelity.'
+    - 'Evaluation target: MUSE targets manufacturability, functionality, and assemblability
+      of assemblies, while CADBench and UniCAD emphasize geometric reconstruction
+      and broad task coverage.'
+    - 'Assessment mechanism: MUSE uses a VLM-based automatic judge with design-specific
+      rubrics, whereas other benchmarks rely on static geometric metrics or program
+      validity checks without interactive or LLM-based judging.'
+    - 'Interaction mode: ProCAD introduces a proactive clarification agent before
+      generation, effectively testing robustness to ambiguity, while most other benchmarks
+      assume fixed, unambiguous inputs.'
     open_questions:
-    - How can benchmarks incorporate real-world manufacturing and assembly constraints
-      without making evaluation prohibitively expensive?
-    - What is the relationship between benchmark metric improvements and actual productivity
-      gains in professional CAD workflows?
-    - Can clarification-based agents scale to complex assemblies with dozens of interdependent
-      parts while keeping interaction overhead low?
-    - How do we design stress tests that expose model brittleness to geometric complexity
-      and modality shift before deployment in safety-critical design tasks?
+    - How can benchmarks be designed to reflect the iterative, human-in-the-loop nature
+      of real CAD workflows without compromising reproducibility?
+    - What is the inter-rater agreement between automatic VLM judges and human CAD
+      experts, and under what conditions do VLM judges fail?
+    - Do model rankings remain consistent across the different benchmark suites (CADBench,
+      UniCAD, MUSE) when controlling for implementation details and compute budget?
+    - Is the interactive clarification overhead introduced by protocols like ProCAD
+      acceptable in time-sensitive engineering design tasks, and can it be extended
+      to multi-turn or collaborative CAD scenarios?
   literature_review_zh:
     研究路线矩阵:
-    - 路线: 统一多模态CAD基准
-      解决的问题: 提供跨文本、图像和三维输入的共享评估协议，使CAD生成模型在几何保真度、可执行性和程序紧凑性上可比较。
-      尚未覆盖: 基准任务分布是否覆盖真实工程约束，如制造公差、装配关系和超越几何重建的设计意图。
-    - 路线: 面向工程的评估指标与协议
-      解决的问题: 通过分阶段评分标准和VLM评判器，将评估从几何相似性扩展到可制造性、功能性和可装配性，捕捉设计意图对齐。
-      尚未覆盖: 这些代理指标与专业工程师实际下游决策之间的一致性；VLM评判器在不同CAD领域的可靠性尚未验证。
-    - 路线: 基于LLM与优化的参数化CAD生成
-      解决的问题: 利用代码生成LLM、混合优化或可微分曲面表示，从文本、图像或点云生成可编辑的CAD构建序列。
-      尚未覆盖: 对模糊规范、几何复杂度和模态转换的鲁棒性；生成的程序即使几何得分高，也常达不到工程级有效性。
-    - 路线: 交互式与澄清驱动的生成
-      解决的问题: 在代码合成前主动提出澄清问题，提高对模糊文本提示的鲁棒性，减少无效输出和几何误差。
-      尚未覆盖: 多轮澄清在时间敏感的设计工作流中的可扩展性，以及澄清策略是否泛化到不同用户群体和CAD脚本语言。
+    - 路线: 统一多模态CAD基准与数据集构建
+      解决的问题: 提供共享评估协议和覆盖多种输入模态、CAD任务的多样化数据，使生成模型的系统性比较成为可能。
+      尚未覆盖: 基准任务分布是否捕捉了真实工程设计过程的复杂性，以及结论在不同实现和计算预算下是否保持稳定。
+    - 路线: 面向工程意图的评估指标与压力测试
+      解决的问题: 在聚合几何相似度之外，检验可制造性、功能性、可装配性以及在分布偏移下的鲁棒性，揭示简单指标遗漏的失败模式。
+      尚未覆盖: 代理指标（包括VLM评判器）与用户真正关心的下游设计决策之间的一致性，以及自动评判器的可靠性边界。
+    - 路线: 面向鲁棒性的交互式评估协议
+      解决的问题: 通过引入主动澄清循环，测试在模糊用户输入下CAD生成的质量，以低交互开销减少无效输出并提高鲁棒性。
+      尚未覆盖: 澄清开销在真实用户体验中是否可接受，以及该协议在文本到CAD之外的更广泛CAD任务上的泛化程度。
     共识:
-    - 参数化CAD序列（B-Rep或脚本）是首选表示，因为它支持可编辑性和下游工程应用。
-    - 单一指标不足；评估必须结合几何保真度、可执行性和设计意图对齐，才能暴露模型弱点。
-    - 当前模型（包括LLM）存在从代码有效性到几何精度再到工程就绪的失败级联，分布偏移下性能急剧下降。
-    - 大规模多模态数据集对训练和基准测试至关重要，其构建需按几何复杂度和物体多样性仔细分层。
+    - 当前CAD基准正从单模态、单任务设置转向统一的多模态、多任务评估套件。
+    - 所有评估均将几何保真度指标与面向程序的检查（如可执行性）相结合，并识别出共同的失败级联：模型性能随几何复杂度和模态偏移而下降。
+    - 在理想化输入下，专用网格到CAD模型通常优于通用视觉语言模型，但它们的排名在不同指标下会发生变化。
     分歧:
-    - 评估重点：部分工作侧重几何重建精度（如IoU、Chamfer距离），另一些强调可制造性和可装配性等工程属性，导致模型排名不同。
-    - 生成范式：端到端LLM代码生成 vs. 带几何反馈的混合优化 vs. 可微分曲面拟合——在灵活性、精度和可编辑性之间各有取舍。
-    - 交互模式：单次生成假设规范完整，而主动澄清引入对话循环，引发对开销和用户接受度的疑问。
-    - 监督信号：依赖CAD序列标注的方法需要精心构建的数据集，而点级监督允许在未标注三维数据上训练，但可能牺牲参数结构保真度。
+    - 评估目标：MUSE针对装配体的可制造性、功能性和可装配性，而CADBench和UniCAD侧重于几何重建和广泛的任务覆盖。
+    - 评估机制：MUSE采用基于VLM的自动评判器与设计专用评分标准，而其他基准依靠静态几何指标或程序有效性检查，没有交互式或基于LLM的评判。
+    - 交互模式：ProCAD在生成前引入主动澄清智能体，有效测试对模糊性的鲁棒性，而大多数其他基准假设固定的、无歧义的输入。
     开放问题:
-    - 基准如何纳入真实制造和装配约束，同时避免评估成本过高？
-    - 基准指标提升与专业CAD工作流中实际生产力增益之间的关系是什么？
-    - 基于澄清的智能体能否扩展到包含数十个相互依赖零件的复杂装配体，同时保持低交互开销？
-    - 如何设计压力测试，在安全关键设计任务部署前暴露模型对几何复杂度和模态转换的脆弱性？
+    - 如何设计基准以反映真实CAD工作流中迭代的、人在回路中的特性，同时不损害可复现性？
+    - 自动VLM评判器与人类CAD专家之间的评分者间一致性如何？在什么条件下VLM评判器会失效？
+    - 在控制实现细节和计算预算的情况下，模型排名在不同基准套件（CADBench、UniCAD、MUSE）之间是否保持一致？
+    - 像ProCAD这样的交互式澄清协议所引入的交互开销，在时间敏感的工程设计任务中是否可接受？它能否扩展到多轮或协作式CAD场景？
   synthesis_status: llm
   generation_notes: []
 - id: system
@@ -374,7 +366,7 @@ topics:
   description: Runnable CAD systems, toolkits, agents, pipelines, plugins, or design
     platforms.
   description_zh: ''
-  paper_count: 182
+  paper_count: 184
   top_tags:
   - CV
   - AI
@@ -388,9 +380,9 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 38.2
-    recency: 76.8
-    reproducibility: 38.3
+    methodology_quality: 38.4
+    recency: 77.1
+    reproducibility: 38.4
     topical_relevance: 25.7
   top_papers:
   - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
@@ -439,97 +431,99 @@ topics:
     score: 66.0
     url: https://arxiv.org/abs/2605.10865v2
   related_work_outline:
-  - 'Mainstream direction: Building end-to-end CAD program generation systems and
-    standardized benchmarks that evaluate parametric CAD models from text, images,
-    meshes, or point clouds.'
-  - 'Shared research pattern: Using large language models or specialized neural networks
-    to produce executable CAD scripts (e.g., CadQuery) and measuring success via geometric
-    fidelity, executability, and design-intent alignment.'
-  - 'Key differences: Methods split between LLM-based code generation, hybrid optimization,
-    and differentiable surface representations; benchmarks diverge on whether they
-    assess only geometry or also engineering criteria like manufacturability and assemblability.'
-  - 'Trend evolution: The field is moving from single-modality mesh-to-CAD reconstruction
-    toward multi-modal, agent-based systems that clarify ambiguous prompts and evaluate
-    industrial-scale part families, all within the 2026 frontier.'
-  - 'Open questions: How well these systems generalize to unseen part families, handle
-    complex operations like sweeps and lofts, and balance geometric accuracy with
-    editability and engineering readiness.'
+  - 'Mainstream direction: Multi-modal unified frameworks for CAD program generation
+    and standardized evaluation are dominating, with a focus on editable parametric
+    models (B-Rep) from diverse inputs.'
+  - 'Shared research pattern: Adoption of large pre-trained models (LLMs, VLMs) and
+    construction of large-scale benchmarks to push both model capability and measurable
+    progress.'
+  - 'Key differences: Generation paradigms diverge between direct code synthesis,
+    differentiable surface reconstruction, and hybrid optimization; evaluation targets
+    vary from geometric fidelity to engineering manufacturability and assemblability.'
+  - 'Trend evolution: Within the 2026 frontier, the field is rapidly consolidating
+    from single-task, geometry-only metrics toward multi-task, industrial-grade, multi-dimensional
+    benchmarks, driven by unified datasets and models.'
+  - 'Open questions: How to reliably generalize to unseen part families and complex
+    operations; how to integrate proactive clarification into design workflows; how
+    to align evaluation metrics with real-world engineering constraints.'
   related_work_outline_zh:
-  - 主流方向：构建端到端的CAD程序生成系统与标准化基准，从文本、图像、网格或点云生成参数化CAD模型并进行评估。
-  - 研究共性：利用大语言模型或专用神经网络生成可执行CAD脚本（如CadQuery），并通过几何保真度、可执行性和设计意图对齐来衡量成功。
-  - 关键差异：方法分为基于LLM的代码生成、混合优化和可微分曲面表示；基准在是否仅评估几何还是同时评估可制造性、可装配性等工程标准上存在分歧。
-  - 趋势演进：领域正从单模态网格到CAD重建转向多模态、基于智能体的系统，能够澄清模糊提示并评估工业级零件族，均处于2026年前沿。
-  - 开放问题：这些系统对未见零件族的泛化能力、处理扫掠和放样等复杂操作的能力，以及如何在几何精度、可编辑性和工程就绪之间取得平衡。
+  - 主流方向：多模态统一的CAD程序生成与评估框架成为主流，重点是可编辑的B-Rep参数化模型。
+  - 研究共性：大规模预训练模型（LLM、VLM）的采用和大规模基准数据集的构建，以推动模型能力和可衡量进展。
+  - 关键差异：生成范式上，直接代码合成、可微分曲面重建与混合优化并存；评估目标上，几何保真度与工程可制造性、可装配性存在分歧。
+  - 趋势演进：在2026年前沿，领域正从单任务、几何指标向多任务、工业级、多维基准快速整合，由统一数据集和模型驱动。
+  - 开放问题：如何可靠泛化到未见零件族和复杂操作；如何将主动澄清集成到设计工作流；如何使评估指标与真实工程约束对齐。
   literature_review:
     line_of_work_matrix:
-    - line: End-to-end CAD program generation pipelines
-      what_it_solves: Producing editable parametric CAD models (B-Rep or CadQuery
-        scripts) directly from text, images, meshes, or point clouds without manual
-        modeling.
-      what_remains_open: Generalization to complex industrial parts with operations
-        beyond sketch-and-extrude, robustness to ambiguous inputs, and independent
-        reproduction across datasets and hardware.
-    - line: Standardized CAD evaluation benchmarks
-      what_it_solves: Providing unified datasets, metrics, and protocols to compare
-        CAD generation methods across modalities and tasks, including executability,
-        geometric fidelity, and design-intent alignment.
-      what_remains_open: Coverage of engineering criteria (manufacturability, functionality,
-        assemblability) remains limited; most benchmarks lack real-world deployment
-        validation and cross-benchmark consistency.
-    - line: Agent-based interactive CAD systems
-      what_it_solves: Improving robustness of text-to-CAD by proactively clarifying
-        ambiguous specifications before code synthesis, reducing invalid outputs and
-        user effort.
-      what_remains_open: Scalability to multi-turn design iteration, integration with
-        downstream engineering workflows, and evaluation of clarification quality
-        beyond single-turn metrics.
+    - line: Multi-modal CAD program generation models and systems
+      what_it_solves: Automatically producing editable, parametric CAD programs (B-Rep)
+        from text, images, or point clouds, enabling fast design iteration.
+      what_remains_open: Reliable handling of complex parametric features (sweeps,
+        lofts, fillets) and generalization to unseen part families under real-world
+        engineering constraints.
+    - line: CAD benchmarks and comprehensive evaluation suites
+      what_it_solves: Providing standardized, multi-task, multi-modal evaluation for
+        CAD generation models, covering geometric fidelity, executability, and fine-grained
+        design-intent alignment.
+      what_remains_open: Integration of full manufacturing and assembly constraints
+        into automated metrics, and consistent evaluation across diverse industrial
+        domains.
+    - line: Interactive and agent-based CAD code generation
+      what_it_solves: Resolving ambiguity in text-to-CAD generation by proactively
+        clarifying user intent before code synthesis, improving robustness and reducing
+        invalid outputs.
+      what_remains_open: Minimizing interaction overhead, scaling clarification strategies
+        to multi-turn design dialogues, and deploying such agents in collaborative
+        CAD environments.
     consensus:
-    - Parametric CAD program generation is the central task, with executability and
-      geometric fidelity as core evaluation criteria.
-    - Large language models and multi-modal architectures are the dominant backbone,
-      but specialized models still outperform general VLMs on clean inputs.
-    - There is a failure cascade from executable code to valid geometry to engineering-ready
-      design, indicating that current systems are far from practical deployment.
+    - CAD program generation is converging on a multimodal paradigm where models ingest
+      text, images, and 3D data to output executable code or parametric representations.
+    - Benchmarks are moving beyond simple chamfer distance to include executability,
+      validity, and design-intent rubrics, often using VLM-based judges.
+    - Large language models serve as a backbone for both generation and evaluation,
+      with fine-tuning and reinforcement learning being common strategies to improve
+      performance.
     disagreements:
-    - 'Representation choice: some methods generate CadQuery scripts, others produce
-      B-Rep construction sequences or parametric surface patches, leading to different
-      editability and precision trade-offs.'
-    - 'Evaluation scope: benchmarks like MUSE assess manufacturability and assemblability
-      via VLM judges, while CADBench and BenchCAD focus on geometric and executability
-      metrics, creating no single standard for engineering readiness.'
-    - 'Interaction mode: ProCAD introduces a proactive clarification agent, whereas
-      most other systems assume a single-turn, unambiguous input, reflecting a split
-      on whether user interaction is part of the generation system.'
+    - 'Representation choices differ: some systems generate code directly (e.g., CadQuery),
+      while others reconstruct parametric surfaces or use hybrid optimization over
+      structured programs.'
+    - 'Evaluation focus varies: some benchmarks prioritize geometric fidelity under
+      ideal or noisy inputs, others emphasize manufacturability and assembly under
+      realistic engineering specifications.'
+    - 'Interaction modes diverge: most systems assume a single-shot generation from
+      a prompt, whereas one line introduces proactive clarification to iteratively
+      refine the specification before synthesis.'
     open_questions:
-    - Can current CAD generation methods generalize to unseen industrial part families
-      that require complex operations like sweeps, lofts, and fillets?
-    - How should evaluation protocols balance geometric accuracy, parametric editability,
-      and downstream engineering constraints such as manufacturability?
-    - What is the minimal interaction overhead needed to resolve ambiguous design
-      specifications without sacrificing user experience?
+    - Current models often fail to recover complex parametric operations like sweeps
+      and lofts, simplifying them to extrude-cut patterns; how can this capability
+      gap be closed?
+    - No benchmark fully verifies generated CAD models against real manufacturing
+      constraints such as tolerance, material, and assembly; what evaluation protocol
+      would align with engineering practice?
+    - Proactive clarification has been demonstrated only on limited ambiguity types
+      and its scalability to diverse, multi-turn design workflows is unknown.
   literature_review_zh:
     研究路线矩阵:
-    - 路线: 端到端CAD程序生成流水线
-      解决的问题: 从文本、图像、网格或点云直接生成可编辑的参数化CAD模型（B-Rep或CadQuery脚本），无需人工建模。
-      尚未覆盖: 对包含扫掠、放样等复杂操作的工业零件的泛化能力，对模糊输入的鲁棒性，以及跨数据集和硬件的独立复现。
-    - 路线: 标准化CAD评估基准
-      解决的问题: 提供统一的数据集、指标和协议，跨模态和任务比较CAD生成方法，涵盖可执行性、几何保真度和设计意图对齐。
-      尚未覆盖: 对工程标准（可制造性、功能性、可装配性）的覆盖仍然有限；多数基准缺乏真实部署验证和跨基准一致性。
-    - 路线: 基于智能体的交互式CAD系统
-      解决的问题: 通过在代码合成前主动澄清模糊规格，提高文本到CAD的鲁棒性，减少无效输出和用户负担。
-      尚未覆盖: 多轮设计迭代的可扩展性，与下游工程工作流的集成，以及超越单轮指标的澄清质量评估。
+    - 路线: 多模态CAD程序生成模型与系统
+      解决的问题: 从文本、图像或点云自动生成可编辑的参数化CAD程序（B-Rep），加速设计迭代。
+      尚未覆盖: 对扫掠、放样、倒角等复杂参数化特征的可靠处理，以及在真实工程约束下对未见零件族的泛化能力。
+    - 路线: CAD基准与综合评估框架
+      解决的问题: 为CAD生成模型提供标准化、多任务、多模态的评估，涵盖几何保真度、可执行性和细粒度的设计意图对齐。
+      尚未覆盖: 将完整的制造和装配约束集成到自动化指标中，并在不同工业领域实现一致的评估。
+    - 路线: 交互式与基于智能体的CAD代码生成
+      解决的问题: 在代码合成前主动澄清用户意图，解决文本到CAD生成中的歧义，提高鲁棒性并减少无效输出。
+      尚未覆盖: 最小化交互开销，将澄清策略扩展到多轮设计对话，并在协作式CAD环境中部署此类智能体。
     共识:
-    - 参数化CAD程序生成是核心任务，可执行性和几何保真度是基本评估标准。
-    - 大语言模型和多模态架构是主流技术路线，但在干净输入上专用模型仍优于通用视觉语言模型。
-    - 存在从可执行代码到有效几何再到工程就绪设计的失败级联，表明当前系统距离实际部署仍有很大差距。
+    - CAD程序生成正朝着多模态范式汇聚，模型接收文本、图像和3D数据，输出可执行代码或参数化表示。
+    - 基准正从简单的倒角距离扩展到包含可执行性、有效性和设计意图评分标准，常使用基于VLM的评判器。
+    - 大语言模型成为生成和评估的骨干，微调和强化学习是提升性能的常见策略。
     分歧:
-    - 表示选择：部分方法生成CadQuery脚本，其他方法生成B-Rep构建序列或参数化曲面面片，导致可编辑性和精度的权衡不同。
-    - 评估范围：MUSE等基准通过VLM评判器评估可制造性和可装配性，而CADBench和BenchCAD侧重几何和可执行性指标，缺乏统一的工程就绪标准。
-    - 交互模式：ProCAD引入主动澄清智能体，而多数系统假设单轮、无歧义输入，反映出是否将用户交互纳入生成系统的分歧。
+    - 表示选择不同：一些系统直接生成代码（如CadQuery），另一些则重建参数化曲面，或对结构化程序进行混合优化。
+    - 评估重点各异：部分基准在理想化或噪声输入下优先考虑几何保真度，其他基准则强调真实工程规格下的可制造性和可装配性。
+    - 交互模式不同：大多数系统假设从提示进行单次生成，而有一条路线引入了主动澄清，以在合成前迭代细化规格。
     开放问题:
-    - 当前CAD生成方法能否泛化到需要扫掠、放样、倒角等复杂操作的未见工业零件族？
-    - 评估协议应如何在几何精度、参数可编辑性和可制造性等下游工程约束之间取得平衡？
-    - 在不牺牲用户体验的前提下，解决模糊设计规格所需的最小交互开销是多少？
+    - 当前模型常无法恢复扫掠和放样等复杂参数化操作，将其简化为拉伸-切割模式；如何缩小这一能力差距？
+    - 尚无基准对照真实制造约束（如公差、材料、装配）全面验证生成的CAD模型；何种评估协议能与工程实践对齐？
+    - 主动澄清仅在有限的歧义类型上得到验证，其在多样化、多轮设计工作流中的可扩展性未知。
   synthesis_status: llm
   generation_notes: []
 - id: theory
@@ -538,7 +532,7 @@ topics:
   description: Geometric modeling theory, representation analysis, constraints, or
     formal design reasoning.
   description_zh: ''
-  paper_count: 109
+  paper_count: 112
   top_tags:
   - CV
   - AI
@@ -552,10 +546,10 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 51.7
-    recency: 78.4
+    methodology_quality: 51.8
+    recency: 78.9
     reproducibility: 36.0
-    topical_relevance: 31.7
+    topical_relevance: 31.5
   top_papers:
   - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
     title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
@@ -602,125 +596,121 @@ topics:
     score: 65.9
     url: https://arxiv.org/abs/2605.17448v2
   related_work_outline:
-  - 'Mainstream direction: Building comprehensive benchmarks and generative models
-    for CAD program synthesis, shifting from geometric reconstruction to engineering-validated,
-    multi-modal, and interactive design.'
-  - 'Shared research pattern: All works propose or evaluate methods that produce editable
-    parametric CAD representations (B-Rep, CadQuery scripts, STEP) from high-level
-    inputs, and they emphasize metrics beyond visual similarity such as executability,
-    manufacturability, and design-intent alignment.'
-  - 'Key differences: Evaluation targets diverge—some focus on geometric fidelity
-    under ideal inputs, others on robustness to ambiguous prompts, and still others
-    on downstream engineering criteria like FEA pass rates or assemblability. Output
-    modalities and supervision signals also vary (point clouds, text, images; self-supervised,
-    fine-tuned, RL-tuned).'
-  - 'Trend evolution: Within the 2026 frontier, the field is moving from single-modality
-    mesh-to-CAD reconstruction toward multi-modal, agentic, and feedback-driven generation
-    that incorporates physical simulation and proactive clarification, with benchmarks
-    growing in industrial realism.'
-  - 'Open questions: How to unify geometric, syntactic, and engineering-quality metrics
-    without overfitting to specific benchmarks; whether feedback loops (FEA, VLM judges)
-    reliably predict real-world manufacturability; and how to generalize across unseen
-    part families and complex assemblies.'
+  - 'Mainstream direction: Establishing standardized benchmarks and evaluation protocols
+    for programmatic CAD generation, with a focus on multi-modal inputs (text, image,
+    3D) and executable B-Rep or script outputs.'
+  - 'Shared research pattern: Proposing a dataset or benchmark that defines tasks,
+    metrics, and baselines, then revealing failure modes of current LLMs or specialized
+    models, followed by improvements via agentic frameworks, better representations,
+    or feedback loops.'
+  - 'Key differences: Evaluation targets range from geometric fidelity and code executability
+    to engineering-level criteria like manufacturability and FEA compliance; interaction
+    modes include one-shot generation, proactive clarification, and iterative self-improvement;
+    representations vary from CadQuery scripts to parametric Bézier surfaces and multi-part
+    STEP files.'
+  - 'Trend evolution: The field is moving from single-modal geometric reconstruction
+    toward multi-modal, engineering-aware generation with agentic workflows and physics-based
+    feedback, though the evidence is concentrated in 2026 and may reflect the current
+    frontier rather than a long-term trend.'
+  - 'Open questions: Can current approaches bridge the gap from geometric correctness
+    to engineering-ready designs? How can formal theory constrain or guarantee the
+    functional validity of generated CAD? How well do benchmarks generalize to real
+    industrial workflows and unseen part families?'
   related_work_outline_zh:
-  - 主流方向：构建面向CAD程序合成的全面基准与生成模型，从几何重建转向工程验证、多模态和交互式设计。
-  - 研究共性：所有工作均提出或评估从高层输入生成可编辑参数化CAD表示（B-Rep、CadQuery脚本、STEP）的方法，并强调超越视觉相似性的指标，如可执行性、可制造性和设计意图对齐。
-  - 关键差异：评测目标分化——有的侧重理想输入下的几何保真度，有的侧重模糊提示的鲁棒性，还有的侧重下游工程标准（如FEA通过率或可装配性）。输出模态和监督信号也各不相同（点云、文本、图像；自监督、微调、强化学习调优）。
-  - 趋势演进：在2026年这一前沿窗口内，领域正从单模态网格到CAD重建转向多模态、智能体驱动和反馈驱动的生成，融入物理仿真和主动澄清，基准测试的工业真实性日益增强。
-  - 开放问题：如何在不陷入特定基准过拟合的前提下统一几何、语法和工程质量指标；反馈回路（FEA、VLM评判器）能否可靠预测真实可制造性；以及如何泛化到未见零件族和复杂装配体。
+  - 主流方向：为程序化CAD生成建立标准化基准与评估协议，重点处理多模态输入（文本、图像、三维）并输出可执行的B-Rep或脚本。
+  - 研究共性：提出数据集或基准，定义任务、指标和基线，揭示当前LLM或专用模型的失败模式，然后通过智能体框架、更好的表示或反馈循环进行改进。
+  - 关键差异：评估目标从几何保真度和代码可执行性，到可制造性、FEA合规等工程级标准；交互模式包括一次性生成、主动澄清和迭代自改进；表示形式涵盖CadQuery脚本、参数化贝塞尔曲面以及多部件STEP文件。
+  - 趋势演进：正从单模态几何重建转向多模态、工程感知的生成，采用智能体工作流和基于物理的反馈，但现有证据集中在2026年，可能反映当前前沿而非长期趋势。
+  - 开放问题：当前方法能否弥合从几何正确到工程就绪的差距？形式化理论如何约束或保证生成CAD的功能有效性？基准在多大程度上能泛化到真实工业流程和未见零件族？
   literature_review:
     line_of_work_matrix:
-    - line: Multi-modal CAD generation benchmarks and evaluation frameworks
-      what_it_solves: Provides standardized testbeds to assess CAD generation models
-        across input modalities (text, image, mesh, point cloud) and engineering constraints
-        (executability, manufacturability, assemblability).
-      what_remains_open: Generalization to unseen part families, alignment of proxy
-        metrics with real-world engineering sign-off, and coverage of complex multi-part
-        assemblies with physical validity.
-    - line: Language-model-driven CAD program synthesis
-      what_it_solves: Enables direct generation of executable CAD scripts (CadQuery,
-        STEP) from natural language descriptions, lowering the barrier for design
-        authoring and supporting iterative code editing.
-      what_remains_open: Robustness to ambiguous or underspecified prompts, faithful
-        reproduction of complex operations (sweeps, lofts) beyond simple extrude patterns,
-        and compliance with industrial drafting standards.
-    - line: Differentiable representations and self-supervised learning for CAD generation
-      what_it_solves: Trains editable B-Rep generators from unannotated 3D data (point
-        clouds) by using differentiable parametric surfaces, reducing dependence on
-        costly CAD-specific annotations.
-      what_remains_open: Support for complex topologies and multi-body assemblies,
-        controllability of the generated parametric structure, and verification that
-        the learned representations preserve design intent.
-    - line: Interactive and feedback-driven CAD generation
-      what_it_solves: Improves generation quality and engineering validity by incorporating
-        proactive clarification dialogues or physics-based simulation feedback (FEA)
-        into the generation loop.
-      what_remains_open: Reliability and coverage of feedback signals (e.g., FEA pass
-        rates remain near zero in first attempts), trade-off between interaction overhead
-        and generation efficiency, and scalability to diverse engineering domains.
+    - line: Standardized multi-modal CAD benchmarks
+      what_it_solves: Defines unified evaluation settings, metrics, and baselines
+        for programmatic CAD generation from text, images, and 3D data, enabling controlled
+        comparison and revealing failure cascades.
+      what_remains_open: Whether current benchmarks and metrics capture real-world
+        engineering requirements; generalization to unseen part families remains limited
+        even after fine-tuning.
+    - line: LLM-based CAD script generation with grounding or clarification
+      what_it_solves: Generates executable CAD programs (e.g., CadQuery) from natural
+        language by grounding primitives or proactively clarifying ambiguous prompts,
+        improving robustness and reducing invalid outputs.
+      what_remains_open: Fine-grained engineering constraints (e.g., stress, manufacturability)
+        are not evaluated; handling of complex operations like sweeps and lofts is
+        unreliable; validation is limited to geometric similarity.
+    - line: Multi-modal generative models with differentiable parametric surfaces
+      what_it_solves: Learns to produce editable B-Reps from point-level supervision
+        without CAD annotations, using differentiable tessellation of parametric patches,
+        supporting text, image, and point input modalities.
+      what_remains_open: The approach relies on unannotated 3D data and point-level
+        supervision, but formal guarantees on geometric or topological correctness
+        are absent; user preference and generative controllability are only partially
+        validated.
+    - line: Self-improving agents with engineering feedback
+      what_it_solves: Integrates finite element analysis and other engineering signals
+        into the generation loop, allowing iterative refinement of multi-part CAD
+        assemblies toward better geometric and functional compliance.
+      what_remains_open: No agent achieves strict FEA passing in first-attempt sweeps;
+        overall compliance with typed requirements is low (~20%); the feedback improves
+        geometric Box-IoU but does not yet guarantee functional validity.
     consensus:
-    - CAD generation must be evaluated beyond geometric similarity; executability,
-      parametric editability, and engineering constraint satisfaction are essential.
-    - Benchmarks play a critical role in driving progress, and recent efforts converge
-      on multi-task, multi-modal, and industry-inspired evaluation protocols.
-    - Large language models and deep generative models show promise for CAD synthesis,
-      but current systems still exhibit significant failure modes on complex geometry
-      and fine-grained engineering requirements.
-    - Moving from mesh or point-cloud reconstruction to native CAD formats (B-Rep,
-      feature trees, scripts) is a shared goal across methods.
+    - Current LLMs and specialized models fail to reliably produce engineering-ready
+      CAD, often recovering coarse geometry but missing fine structure, design parameters,
+      and complex operations.
+    - Multi-modal inputs and executable program outputs are the dominant paradigm,
+      but evaluation metrics remain fragmented across geometric fidelity, executability,
+      and engineering criteria.
+    - Agentic workflows, clarification, and feedback loops can improve performance,
+      but generalization to unseen shapes and tasks remains a critical bottleneck.
     disagreements:
-    - 'Evaluation emphasis: some works prioritize geometric fidelity under clean inputs,
-      while others stress robustness to ambiguous prompts or downstream criteria like
-      FEA validation and assemblability.'
-    - 'Output representation: methods diverge between generating explicit B-Rep surfaces,
-      parametric CAD command sequences, or executable code in a specific scripting
-      language (CadQuery vs. STEP).'
-    - 'Supervision and feedback: approaches range from self-supervised pretraining
-      on unlabeled 3D data, to supervised fine-tuning on curated CAD-text pairs, to
-      reinforcement learning with simulation-based rewards or VLM judges.'
-    - 'Interaction paradigm: one line advocates proactive clarification before generation,
-      while others assume a single-shot generation setting or iterative refinement
-      guided by external tools.'
+    - 'Evaluation targets: some benchmarks emphasize geometric reconstruction and
+      code executability, while others focus on manufacturability, functionality,
+      and FEA-based validation, reflecting different assumptions about what constitutes
+      a successful CAD model.'
+    - 'Representation: works differ in output format—CadQuery scripts, parametric
+      Bézier surfaces, or multi-part STEP files—which affects editability, industry
+      compatibility, and the types of constraints that can be enforced.'
+    - 'Interaction mode: one-shot generation versus proactive clarification versus
+      iterative self-improvement, each making different trade-offs between automation
+      and user involvement.'
+    - 'Supervision and training data: some use curated text-CAD pairs with supervised
+      fine-tuning, others rely on unannotated 3D point clouds with differentiable
+      rendering, and yet others use execution verification or FEA as weak feedback.'
     open_questions:
-    - Can a unified evaluation framework simultaneously capture geometric accuracy,
-      code correctness, and engineering validity without overfitting to specific benchmark
-      families?
-    - How can models generalize to unseen part families and complex assemblies, given
-      that even fine-tuned models show limited out-of-distribution performance?
-    - What is the most effective way to integrate physical simulation feedback (e.g.,
-      FEA) into the generation loop so that it reliably improves pass rates and design
-      compliance?
-    - How should the trade-off between proactive user interaction and autonomous generation
-      be balanced for real-world design workflows?
+    - What formal definitions or constraints could bridge the gap between geometric
+      similarity metrics and engineering validity (e.g., stress, assembly, manufacturability)?
+    - How can the failure modes identified by benchmarks (brittleness under modality
+      shift, misinterpreting design parameters, substituting complex operations) be
+      mitigated through model design or training?
+    - To what extent do the current benchmarks reflect the diversity and complexity
+      of real industrial CAD workflows, and what would be required to close that gap?
   literature_review_zh:
     研究路线矩阵:
-    - 路线: 多模态CAD生成基准与评估框架
-      解决的问题: 提供标准化测试平台，评估CAD生成模型在不同输入模态（文本、图像、网格、点云）和工程约束（可执行性、可制造性、可装配性）下的表现。
-      尚未覆盖: 对未见零件族的泛化、代理指标与真实工程验收的对齐，以及包含物理有效性的复杂多部件装配体覆盖。
-    - 路线: 基于语言模型的CAD程序合成
-      解决的问题: 从自然语言描述直接生成可执行CAD脚本（CadQuery、STEP），降低设计创作门槛，并支持迭代式代码编辑。
-      尚未覆盖: 对模糊或欠指定提示的鲁棒性，对扫掠、放样等复杂操作的忠实复现（超越简单拉伸），以及与工业制图标准的合规性。
-    - 路线: 可微分表示与自监督学习用于CAD生成
-      解决的问题: 利用可微分参数曲面从无标注3D数据（点云）训练可编辑B-Rep生成器，减少对昂贵CAD特定标注的依赖。
-      尚未覆盖: 对复杂拓扑和多体装配体的支持，生成参数化结构的可控性，以及所学表示是否保留设计意图的验证。
-    - 路线: 交互式与反馈驱动的CAD生成
-      解决的问题: 通过在生成循环中引入主动澄清对话或基于物理的仿真反馈（FEA），提高生成质量和工程有效性。
-      尚未覆盖: 反馈信号的可靠性与覆盖范围（如首次FEA通过率接近零），交互开销与生成效率的权衡，以及向多样化工程领域的可扩展性。
+    - 路线: 标准化多模态CAD基准
+      解决的问题: 为从文本、图像和3D数据生成程序化CAD定义统一的评估设置、指标和基线，实现受控对比并揭示失败级联。
+      尚未覆盖: 当前基准和指标是否捕捉到真实工程需求；即使经过微调，对未见零件族的泛化能力仍然有限。
+    - 路线: 基于LLM的CAD脚本生成与接地或澄清
+      解决的问题: 通过基元接地或主动澄清模糊提示，从自然语言生成可执行CAD程序（如CadQuery），提升鲁棒性并减少无效输出。
+      尚未覆盖: 细粒度工程约束（如应力、可制造性）未被评估；对扫掠、放样等复杂操作的可靠性不足；验证局限于几何相似性。
+    - 路线: 基于可微分参数曲面的多模态生成模型
+      解决的问题: 利用参数化面片的可微分曲面细分，从点级监督学习生成可编辑B-Rep，无需CAD标注，支持文本、图像和点云输入。
+      尚未覆盖: 方法依赖未标注3D数据和点级监督，缺乏几何或拓扑正确性的形式化保证；用户偏好和生成可控性仅部分验证。
+    - 路线: 基于工程反馈的自改进智能体
+      解决的问题: 将有限元分析等工程信号集成到生成循环中，使多部件CAD装配体能够迭代优化，朝更好的几何和功能合规性改进。
+      尚未覆盖: 无智能体能在首次尝试中通过严格的FEA；类型化需求总体合规率仅约20%；反馈改善了几何Box-IoU，但尚未保证功能有效性。
     共识:
-    - CAD生成必须超越几何相似度进行评估；可执行性、参数化可编辑性和工程约束满足至关重要。
-    - 基准测试在推动进展中起关键作用，近期工作趋向于多任务、多模态和受工业启发的评估协议。
-    - 大语言模型和深度生成模型在CAD合成中展现出潜力，但当前系统在复杂几何和细粒度工程需求上仍存在显著失败模式。
-    - 从网格或点云重建转向原生CAD格式（B-Rep、特征树、脚本）是各方法的共同目标。
+    - 当前LLM和专用模型尚无法可靠生成工程就绪的CAD，往往能恢复粗略几何，但缺失精细结构、设计参数，且会替换复杂操作。
+    - 多模态输入和可执行程序输出是主导范式，但评估指标在几何保真度、可执行性和工程标准之间仍碎片化。
+    - 智能体工作流、澄清和反馈循环能够提升性能，但对未见形状和任务的泛化仍是关键瓶颈。
     分歧:
-    - 评估侧重点：部分工作优先考虑干净输入下的几何保真度，而其他工作强调对模糊提示的鲁棒性或下游标准（如FEA验证和可装配性）。
-    - 输出表示：方法在生成显式B-Rep曲面、参数化CAD命令序列或特定脚本语言（CadQuery vs. STEP）的可执行代码之间存在分歧。
-    - 监督与反馈：方法涵盖在无标签3D数据上的自监督预训练、在精选CAD-文本对上的监督微调，以及使用基于仿真的奖励或VLM评判器的强化学习。
-    - 交互范式：一条路线主张生成前主动澄清，而其他路线假设单次生成设置或由外部工具引导的迭代优化。
+    - 评估目标：一些基准强调几何重建和代码可执行性，另一些则关注可制造性、功能性和基于FEA的验证，反映了对成功CAD模型的不同假设。
+    - 表示形式：输出格式存在差异——CadQuery脚本、参数化贝塞尔曲面或多部件STEP文件——影响可编辑性、工业兼容性以及可施加的约束类型。
+    - 交互模式：一次性生成与主动澄清、迭代自改进之间的差异，在自动化程度和用户参与之间做出不同权衡。
+    - 监督与训练数据：部分工作使用精标注文本-CAD对进行监督微调，部分依赖未标注3D点云与可微分渲染，还有的利用执行验证或FEA作为弱反馈。
     开放问题:
-    - 能否设计一个统一的评估框架，同时捕捉几何精度、代码正确性和工程有效性，而不对特定基准家族过拟合？
-    - 鉴于即使微调后的模型在分布外性能也有限，模型如何泛化到未见零件族和复杂装配体？
-    - 将物理仿真反馈（如FEA）集成到生成循环中最有效的方式是什么，以可靠提高通过率和设计合规性？
-    - 在实际设计工作流中，应如何平衡主动用户交互与自主生成之间的权衡？
+    - 什么样的形式化定义或约束可以弥合几何相似性指标与工程有效性（如应力、装配、可制造性）之间的差距？
+    - 基准所揭示的失败模式（模态转换下的脆弱性、设计参数误读、复杂操作替换）如何通过模型设计或训练得到缓解？
+    - 当前基准在多大程度上反映了真实工业CAD工作流的多样性和复杂性，弥合这一差距需要什么？
   synthesis_status: llm
   generation_notes: []
 - id: survey
@@ -893,7 +883,7 @@ topics:
   description: Applied CAD workflows such as mechanical design, manufacturing, architecture,
     CAE, CAM, or 3D printing.
   description_zh: ''
-  paper_count: 133
+  paper_count: 138
   top_tags:
   - CV
   - LG
@@ -907,9 +897,9 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 41.7
-    recency: 74.8
-    reproducibility: 38.0
+    methodology_quality: 42.1
+    recency: 75.7
+    reproducibility: 38.2
     topical_relevance: 26.5
   top_papers:
   - id: cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026
@@ -958,112 +948,125 @@ topics:
     score: 63.1
     url: https://arxiv.org/abs/2508.10118
   related_work_outline:
-  - 'Mainstream direction: Generating editable parametric CAD models (command sequences,
-    code, B-Rep) from multimodal inputs (images, text, meshes, point clouds) using
-    large language/vision models and optimization techniques.'
-  - 'Shared research pattern: All works adopt structured CAD representations for editability,
-    employ deep generative models (LLMs, VLMs, Mamba, GANs), and evaluate geometric
-    fidelity via metrics like IoU, Chamfer Distance, and validity rates.'
-  - 'Key differences: Input modalities vary (image, text, mesh, point cloud), output
-    formats differ (CadQuery code, STEP, pointer-based sequences), and training paradigms
-    diverge (supervised fine-tuning, RL, evolutionary optimization, hybrid optimization),
-    leading to trade-offs in data efficiency, precision, and generalization.'
-  - 'Trend evolution: The topic has shifted from early parametric modeling foundations
-    to a 2025–2026 frontier dominated by LLM/VLM-based code generation, multi-task
-    unification, and reinforcement learning for geometric accuracy, with growing emphasis
-    on real-world applicability and large-scale datasets.'
-  - 'Open questions: Robustness to real-world noise and unseen operations, integration
-    with manufacturing constraints, handling of assemblies and constraints, cross-CAD-system
-    generalization, and standardized evaluation beyond geometric similarity.'
+  - 'Mainstream direction: The dominant trend is generating editable parametric CAD
+    programs (e.g., command sequences, Python code, STEP models) from diverse inputs
+    such as images, meshes, point clouds, and natural language, using large language
+    or vision-language models (LLMs/VLMs) often combined with optimization techniques
+    like reinforcement learning or evolutionary algorithms to improve geometric accuracy
+    and executability.'
+  - 'Shared research pattern: All works automate the conversion of non-CAD modalities
+    into structured, editable CAD representations; they rely on newly created large-scale
+    datasets with paired inputs and outputs, and evaluate using geometric similarity
+    metrics (IoU, Chamfer distance) and program validity measures.'
+  - 'Key differences: Output representations vary (command sequences with pointers,
+    CadQuery code, STEP files), leading to different editability and compatibility.
+    Training strategies diverge between supervised fine-tuning, reinforcement learning
+    with geometric rewards, and evolutionary optimization. Input modalities also differ,
+    from single (images, text) to multi-modal unification.'
+  - 'Trend evolution: Based on the available evidence (mostly 2025-2026 papers), the
+    field is rapidly shifting from single-task, single-modal generation toward unified
+    multi-modal multi-task frameworks, and from standard supervised learning toward
+    optimization-centric methods (RL, evolution) that push geometric fidelity and
+    complexity. Earlier foundation work is cited but not detailed in the top-ranked
+    packet.'
+  - 'Open questions: Generalization to real-world photographs, freehand sketches,
+    and complex assemblies remains largely unverified; engineering constraint satisfaction
+    (tolerances, manufacturability) is not addressed; evaluation metrics are not standardized,
+    making cross-method comparison challenging; and the efficiency of training and
+    inference for optimization-based methods is underexplored.'
   related_work_outline_zh:
-  - 主流方向：利用大语言/视觉模型和优化技术，从多模态输入（图像、文本、网格、点云）生成可编辑的参数化CAD模型（命令序列、代码、B-Rep）。
-  - 研究共性：均采用结构化CAD表示以保证可编辑性，使用深度生成模型（LLM、VLM、Mamba、GAN），并通过IoU、Chamfer距离和有效率等指标评估几何保真度。
-  - 关键差异：输入模态（图像、文本、网格、点云）和输出格式（CadQuery代码、STEP、基于指针的序列）不同，训练范式（监督微调、强化学习、进化优化、混合优化）各异，导致在数据效率、精度和泛化能力上的权衡。
-  - 趋势演进：从早期参数化建模基础，发展到2025–2026年以LLM/VLM代码生成、多任务统一和强化学习优化几何精度为前沿，越来越强调真实世界适用性和大规模数据集。
-  - 开放问题：对真实世界噪声和未见操作的鲁棒性、与制造约束的集成、装配体和约束的处理、跨CAD系统泛化，以及超越几何相似度的标准化评估。
+  - 主流方向：当前主流是利用大型语言模型或视觉语言模型，结合强化学习或进化算法等优化技术，从图像、网格、点云、自然语言等多种输入生成可编辑的参数化CAD程序（如命令序列、Python代码、STEP模型），追求几何精度与可执行性。
+  - 研究共性：所有工作都致力于将非CAD模态转换为结构化、可编辑的CAD表示；均依赖新构建的大规模配对数据集，并使用几何相似度指标（IoU、Chamfer距离）和程序有效性指标进行评估。
+  - 关键差异：输出表示形式不同（带指针的命令序列、CadQuery代码、STEP文件），影响可编辑性与兼容性；训练策略分为监督微调、基于几何奖励的强化学习、进化优化；输入模态从单一（图像、文本）到多模态统一，覆盖范围各异。
+  - 趋势演进：从现有证据（主要为2025-2026年论文）看，领域正从单任务、单模态生成快速转向统一多模态多任务框架，并从标准监督学习转向以优化为中心的方法（RL、进化）以提升几何保真度和复杂度。早期基础工作虽被引用，但在排名靠前的证据包中未详细展开。
+  - 开放问题：对真实照片、手绘草图及复杂装配体的泛化能力尚未得到充分验证；未考虑工程约束（公差、可制造性）；评估指标不统一，跨方法比较困难；基于优化的方法的训练与推理效率有待深入研究。
   literature_review:
     line_of_work_matrix:
-    - line: Parametric CAD reconstruction from visual geometry (mesh, image, point
-        cloud)
-      what_it_solves: Recovering editable CAD construction sequences or code from
-        unstructured 3D/2D data, enabling downstream editing and manufacturing.
-      what_remains_open: Robustness to real-world sensor noise, complex topologies,
-        and partial observations; generalization across different CAD kernels and
-        software.
-    - line: Text-to-CAD generation via large language models
-      what_it_solves: Translating natural language design intent into executable CAD
-        scripts or STEP models, lowering the barrier for non-expert users.
-      what_remains_open: Handling ambiguous or underspecified descriptions, ensuring
-        manufacturability and adherence to engineering constraints, and scaling to
-        multi-part assemblies.
-    - line: Generative modeling and dataset augmentation for CAD sequences
-      what_it_solves: Creating diverse, realistic parametric CAD models to train downstream
-        generation systems, addressing data scarcity and sequence length limitations.
-      what_remains_open: Guaranteeing the validity and physical plausibility of generated
-        models, and measuring diversity without sacrificing precision.
+    - line: Visual-to-CAD program generation
+      what_it_solves: Recovering editable parametric CAD construction sequences from
+        raw geometry inputs such as meshes, images, or point clouds.
+      what_remains_open: Robustness to real-world photographs, cluttered scenes, and
+        unseen CAD operations; handling of multi-part assemblies.
+    - line: Text-guided CAD modeling with large language models
+      what_it_solves: Generating CAD models (STEP, CadQuery code) from natural language
+        descriptions, enabling design intent capture and intuitive editing.
+      what_remains_open: Geometric consistency and completeness for complex descriptions;
+        alignment of free-text semantics with precise engineering constraints.
     - line: Unified multi-modal multi-task CAD frameworks
-      what_it_solves: Building a single model that handles heterogeneous CAD tasks
-        (reconstruction, generation, QA) across multiple input modalities, reducing
-        system complexity.
-      what_remains_open: Whether a unified model can match task-specific experts on
-        all metrics, and how to extend to additional CAD operations like simulation
-        or assembly.
+      what_it_solves: A single model performing multiple CAD tasks (reconstruction,
+        generation, question answering) across different input modalities (text, image,
+        sketch, point cloud).
+      what_remains_open: Whether joint training compromises task-specific performance;
+        scalability to additional tasks and modalities; and the comprehensiveness
+        of the unified benchmark.
+    - line: Optimization-enhanced generation and refinement
+      what_it_solves: Improving the geometric fidelity, executability, and complexity
+        of generated CAD programs through reinforcement learning with geometric rewards,
+        evolutionary algorithms, or hybrid optimization.
+      what_remains_open: Stability and sample efficiency of the optimization process;
+        reward design for intricate geometric objectives; transferability to new CAD
+        systems or representations.
     consensus:
-    - Editable parametric representations (command sequences, code, B-Rep) are preferred
-      over static meshes for CAD workflows.
-    - Deep generative models, especially LLMs and VLMs, are the dominant backbone
-      for CAD generation.
-    - Geometric fidelity metrics (IoU, Chamfer Distance) and validity rates are standard
-      evaluation criteria.
-    - Large-scale paired datasets of CAD models and multimodal descriptions are critical
-      for training and benchmarking.
+    - The field is moving from manual CAD authoring to automated generation of parametric,
+      editable programs.
+    - Deep generative models, particularly LLMs and VLMs, are the predominant backbone
+      for mapping non-CAD inputs to structured CAD outputs.
+    - New datasets and benchmarks are being created to support training and evaluation,
+      with geometric similarity (IoU, Chamfer distance) and program validity as common
+      metrics.
+    - All works emphasize the importance of editability and geometric validity as
+      core requirements for practical CAD workflows.
     disagreements:
-    - 'Output representation: CadQuery Python code vs. STEP files vs. pointer-augmented
-      command sequences, each with different editability and compatibility trade-offs.'
-    - 'Training paradigm: supervised fine-tuning on static datasets vs. reinforcement
-      learning with geometric rewards vs. evolutionary optimization, leading to different
-      data efficiency and exploration capabilities.'
-    - 'Input modality focus: some works specialize in image-to-CAD, others in text-to-CAD
-      or mesh-to-CAD, with no clear winner for cross-modal generalization.'
-    - 'Evaluation benchmarks: methods are tested on different suites (DeepCAD, Fusion360,
-      MCB, UniCAD, ExeCAD), making direct comparison difficult.'
+    - 'Output representation: some generate command sequences with explicit entity
+      pointers, others produce Python code (CadQuery) or STEP files, leading to different
+      trade-offs in expressiveness, editability, and compatibility with downstream
+      tools.'
+    - 'Training paradigm: works are split between supervised fine-tuning on paired
+      data, reinforcement learning with geometric rewards, and evolutionary optimization;
+      each makes different assumptions about data availability and training stability.'
+    - 'Input modalities: methods differ in whether they target a single modality (images,
+      text, meshes) or attempt to unify several modalities in one model, resulting
+      in varied applicability and complexity.'
+    - 'Evaluation: metrics range from volumetric IoU and Chamfer distance to syntax
+      validity and renderability, without a standardized benchmark except for the
+      recent UniCAD attempt, making fair comparisons difficult.'
     open_questions:
-    - How can generated CAD models be validated against real-world manufacturing constraints
-      such as tolerances, material properties, and assembly requirements?
-    - What is the best way to integrate these generative models into existing professional
-      CAD workflows without disrupting established practices?
-    - Can current approaches scale to complex assemblies with multiple inter-part
-      constraints and kinematic relationships?
-    - How do we ensure the robustness and safety of AI-generated CAD models in safety-critical
-      engineering applications?
+    - How can these models generalize to real-world inputs such as photographs with
+      noise, occlusions, or freehand sketches, beyond the curated datasets?
+    - What is needed to ensure generated CAD models satisfy engineering constraints
+      such as tolerances, manufacturability, and assembly compatibility?
+    - Can the current single-part generation methods be extended to multi-part assemblies
+      and hierarchical design structures?
+    - How can we establish a unified, consensus-driven evaluation protocol that balances
+      geometric accuracy, program validity, and editability?
   literature_review_zh:
     研究路线矩阵:
-    - 路线: 从视觉几何（网格、图像、点云）重建参数化CAD
-      解决的问题: 从非结构化2D/3D数据恢复可编辑的CAD构建序列或代码，支持下游编辑与制造。
-      尚未覆盖: 对真实传感器噪声、复杂拓扑和部分观测的鲁棒性；跨不同CAD内核和软件的泛化能力。
-    - 路线: 基于大语言模型的文本到CAD生成
-      解决的问题: 将自然语言设计意图转化为可执行的CAD脚本或STEP模型，降低非专业用户的使用门槛。
-      尚未覆盖: 处理模糊或欠约束的描述，确保可制造性和工程约束符合性，以及扩展到多零件装配体。
-    - 路线: CAD序列的生成式建模与数据集增强
-      解决的问题: 创建多样化、逼真的参数化CAD模型以训练下游生成系统，缓解数据稀缺和序列长度限制。
-      尚未覆盖: 保证生成模型的有效性和物理合理性，以及在不牺牲精度的情况下衡量多样性。
+    - 路线: 视觉到CAD程序生成
+      解决的问题: 从网格、图像或点云等原始几何输入中恢复可编辑的参数化CAD构建序列。
+      尚未覆盖: 对真实世界照片、杂乱场景和未见CAD操作的鲁棒性；多零件装配体的处理。
+    - 路线: 基于大语言模型的文本引导CAD建模
+      解决的问题: 从自然语言描述生成CAD模型（STEP、CadQuery代码），实现设计意图捕捉与直观编辑。
+      尚未覆盖: 复杂描述的几何一致性与完整性；自由文本语义与精确工程约束的对齐。
     - 路线: 统一多模态多任务CAD框架
-      解决的问题: 构建单一模型处理多种输入模态下的异构CAD任务（重建、生成、问答），降低系统复杂度。
-      尚未覆盖: 统一模型能否在所有指标上匹敌专用模型，以及如何扩展到仿真或装配等额外CAD操作。
+      解决的问题: 单一模型跨不同输入模态（文本、图像、草图、点云）执行多种CAD任务（重建、生成、问答）。
+      尚未覆盖: 联合训练是否会损害特定任务性能；对更多任务和模态的可扩展性；统一基准的全面性。
+    - 路线: 优化增强的生成与精炼
+      解决的问题: 通过基于几何奖励的强化学习、进化算法或混合优化，提升生成CAD程序的几何保真度、可执行性和复杂度。
+      尚未覆盖: 优化过程的稳定性和样本效率；面向复杂几何目标的奖励设计；向新CAD系统或表示的可迁移性。
     共识:
-    - 可编辑的参数化表示（命令序列、代码、B-Rep）优于静态网格，更适合CAD工作流。
-    - 深度生成模型，尤其是LLM和VLM，是CAD生成的主流技术骨干。
-    - 几何保真度指标（IoU、Chamfer距离）和有效率是标准的评估准则。
-    - 大规模CAD模型与多模态描述配对数据集对训练和基准测试至关重要。
+    - 领域正从手动CAD设计转向参数化可编辑程序的自动化生成。
+    - 深度生成模型，尤其是大语言模型和视觉语言模型，是将非CAD输入映射到结构化CAD输出的主要骨干。
+    - 为支持训练和评估，正在创建新的数据集和基准，常用的指标包括几何相似度（IoU、Chamfer距离）和程序有效性。
+    - 所有工作都强调可编辑性和几何有效性是实际CAD工作流的核心要求。
     分歧:
-    - 输出表示：CadQuery Python代码、STEP文件与基于指针的命令序列，在可编辑性和兼容性上各有取舍。
-    - 训练范式：静态数据集上的监督微调、基于几何奖励的强化学习与进化优化，导致数据效率和探索能力不同。
-    - 输入模态侧重：部分工作专攻图像到CAD，另一些聚焦文本到CAD或网格到CAD，跨模态泛化尚无明确胜者。
-    - 评估基准：方法在不同测试套件（DeepCAD、Fusion360、MCB、UniCAD、ExeCAD）上评测，难以直接比较。
+    - 输出表示：一些方法生成带有显式实体指针的命令序列，另一些生成Python代码（CadQuery）或STEP文件，在表达性、可编辑性和与下游工具的兼容性上存在不同权衡。
+    - 训练范式：工作分为在配对数据上的监督微调、基于几何奖励的强化学习以及进化优化，各自对数据可用性和训练稳定性做出了不同假设。
+    - 输入模态：方法在专注单一模态（图像、文本、网格）还是尝试在一个模型中统一多种模态上存在差异，导致适用性和复杂度的不同。
+    - 评估：指标从体积IoU和Chamfer距离到语法有效性和可渲染性不等，除了近期UniCAD的尝试外，缺乏标准化基准，使得公平比较困难。
     开放问题:
-    - 如何根据真实制造约束（如公差、材料属性、装配要求）验证生成的CAD模型？
-    - 如何将这些生成模型无缝集成到现有专业CAD工作流中而不破坏既有实践？
-    - 当前方法能否扩展到包含多个零件间约束和运动关系的复杂装配体？
-    - 在安全关键的工程应用中，如何确保AI生成CAD模型的鲁棒性和安全性？
+    - 这些模型如何泛化到真实世界输入，如带有噪声、遮挡的照片或手绘草图，而不仅仅局限于精心构建的数据集？
+    - 需要什么来确保生成的CAD模型满足公差、可制造性和装配兼容性等工程约束？
+    - 当前的单零件生成方法能否扩展到多零件装配体和层次化设计结构？
+    - 如何建立统一的、共识驱动的评估协议，以平衡几何精度、程序有效性和可编辑性？
   synthesis_status: llm
   generation_notes: []

@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-07-08T02:01:36Z'
+generated_at: '2026-07-09T02:14:52Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -2102,4 +2102,12 @@ assignments:
   - theory
   - benchmark
   confidence: 0.67
+  evidence: method
+- paper_id: artisancad-an-industrial-level-cad-agent-with-expert-ground-2026
+  primary: method
+  secondary:
+  - benchmark
+  - application
+  - theory
+  confidence: 0.68
   evidence: method

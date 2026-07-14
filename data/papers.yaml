@@ -2807,7 +2807,7 @@
     status: planned
     run_status: planned
     report: resource/cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026/research.md
-    queued_at: '2026-07-13T02:02:54Z'
+    queued_at: '2026-07-14T01:50:47Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -3434,7 +3434,7 @@
     status: planned
     run_status: planned
     report: resource/cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026/research.md
-    queued_at: '2026-07-13T02:02:54Z'
+    queued_at: '2026-07-14T01:50:47Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -11973,7 +11973,7 @@
     status: planned
     run_status: planned
     report: resource/towards-high-fidelity-cad-generation-via-llm-driven-program-2026/research.md
-    queued_at: '2026-07-13T02:02:54Z'
+    queued_at: '2026-07-14T01:50:47Z'
   seed_expanded: true
   taxonomy:
     primary: method
@@ -30425,7 +30425,7 @@
   links:
     paper: https://arxiv.org/abs/2504.19174
     code: https://github.com/qixuema/CLR-Wire
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/clr-wire-towards-continuous-latent-representations-for-3d-c-2025/teaser.png
   sources:
   - repo: unified-sources
   techniques:
@@ -30545,9 +30545,6 @@
     - survey
     confidence: 0.36
     evidence: method
-  generation_notes:
-  - generated_fallback_teaser
-  - warning_unresolved_teaser_fallback
 - id: hola-b-rep-generation-using-a-holistic-latent-representatio-2025
   title: 'HoLa: B-Rep Generation using a Holistic Latent Representation'
   authors: []
@@ -37825,7 +37822,7 @@
   tags: []
   links:
     paper: https://arxiv.org/abs/2303.10613
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/secad-net-self-supervised-cad-reconstruction-by-learning-sk-2023/teaser.png
   sources:
   - repo: seed_ref
   techniques:
@@ -38015,9 +38012,6 @@
     - system
     confidence: 0.68
     evidence: method
-  generation_notes:
-  - generated_fallback_teaser
-  - warning_unresolved_teaser_fallback
 - id: surface-and-edge-detection-for-primitive-fitting-of-point-cl-2023
   title: Surface and Edge Detection for Primitive Fitting of Point Clouds
   authors:

@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-07-14T01:50:45Z'
+generated_at: '2026-07-15T01:45:38Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -2110,4 +2110,20 @@ assignments:
   - application
   - theory
   confidence: 0.68
+  evidence: method
+- paper_id: hiercad-hierarchical-text-to-cad-design-via-structure-align-2026
+  primary: method
+  secondary:
+  - benchmark
+  - theory
+  - system
+  confidence: 0.68
+  evidence: method
+- paper_id: text-aided-multi-modal-panoptic-symbol-spotting-for-cad-floo-2026
+  primary: method
+  secondary:
+  - benchmark
+  - theory
+  - system
+  confidence: 0.67
   evidence: method

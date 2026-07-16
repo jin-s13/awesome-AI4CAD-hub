@@ -1,9 +1,9 @@
 schema_version: awesome-hub.researchRuns.v1
-generated_at: '2026-07-15T01:45:40Z'
+generated_at: '2026-07-16T01:55:04Z'
 runs:
-- run_id: deep_research:ed63b700a18b44a0
+- run_id: deep_research:fe13b09f4818e6da
   workflow: deep_research
-  generated_at: '2026-07-15T01:45:40Z'
+  generated_at: '2026-07-16T01:55:04Z'
   status: planned
   research_jobs:
   - reading_paper_content
@@ -97,9 +97,48 @@ runs:
       acceptance_criteria:
       - Artifact URLs resolve and match the paper.
       - Missing artifacts are recorded as verification gaps, not negative evidence.
+  - id: hiercad-hierarchical-text-to-cad-design-via-structure-align-2026
+    title: 'HierCAD: Hierarchical Text-to-CAD Design via Structure Alignment and Parameter
+      Grounding'
+    rank: 3
+    score: 71.6
+    year: 2026
+    url: https://arxiv.org/abs/2607.11339v1
+    verification:
+      state: not_checked
+      summary: Queued from local metadata; full text and code have not been verified.
+    critique:
+      verdict: read_first
+      strengths:
+      - Visible methodology or evaluation signals make it worth reading early.
+      - Reproducibility signals suggest useful code, data, paper, or artifact paths.
+      concerns:
+      - Ranking evidence is triage only; full text, metrics, baselines, and limitations
+        still need inspection.
+      follow_up_questions:
+      - Read the full paper and extract central claims with source locations.
+      - Verify code, dataset, benchmark, metric, checkpoint, and artifact links before
+        describing them as available.
+      - Compare reported claims against baselines and limitations before using this
+        paper in a literature review.
+    next_actions:
+    - id: hiercad-hierarchical-text-to-cad-design-via-structure-align-2026:verify-source-spans
+      type: read
+      priority: high
+      title: Extract claim-level source spans from the paper.
+      acceptance_criteria:
+      - Each central claim has a section, figure, table, or paragraph pointer.
+      - Method, dataset, baseline, metric, and limitation claims are separated.
+    - id: hiercad-hierarchical-text-to-cad-design-via-structure-align-2026:check-artifacts
+      type: verify
+      priority: medium
+      title: Verify linked code, datasets, checkpoints, and benchmark artifacts.
+      acceptance_criteria:
+      - Artifact URLs resolve and match the paper.
+      - Missing artifacts are recorded as verification gaps, not negative evidence.
   - id: cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026
     title: 'CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization'
-    rank: 3
+    rank: 4
     score: 70.9
     year: 2026
     url: https://arxiv.org/abs/2605.01171v3
@@ -151,6 +190,13 @@ runs:
     primary: false
     format: markdown
   - kind: report
+    path: resource/hiercad-hierarchical-text-to-cad-design-via-structure-align-2026/research.md
+    label: 'Deep research stub: HierCAD: Hierarchical Text-to-CAD Design via Structure
+      Alignment and Parameter Grounding'
+    role: planned deep research brief
+    primary: false
+    format: markdown
+  - kind: report
     path: resource/cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026/research.md
     label: 'Deep research stub: CADFit: Precise Mesh-to-CAD Program Generation with
       Hybrid Optimization'
@@ -164,6 +210,7 @@ runs:
     artifact_pointers:
     - resource/cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026/research.md
     - resource/towards-high-fidelity-cad-generation-via-llm-driven-program-2026/research.md
+    - resource/hiercad-hierarchical-text-to-cad-design-via-structure-align-2026/research.md
     - resource/cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026/research.md
   verification:
     state: not_checked

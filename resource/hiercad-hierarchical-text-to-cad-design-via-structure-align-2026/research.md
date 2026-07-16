@@ -1,17 +1,17 @@
-# Towards High-Fidelity CAD Generation via LLM-Driven Program Generation and Text-Based B-Rep Primitive Grounding
+# HierCAD: Hierarchical Text-to-CAD Design via Structure Alignment and Parameter Grounding
 
 - Status: planned
 - Generated at: 2026-07-16T01:55:04Z
-- Read-first score: 74.4
-- Paper: https://arxiv.org/abs/2603.11831v2
-- Code: https://github.com/JohanStackk/FutureCAD
+- Read-first score: 71.6
+- Paper: https://arxiv.org/abs/2607.11339v1
+- Code: https://github.com/Collab-Gen/HierCAD.
 
 ## Score Signals
 
 - recency: 100.0 - Uses a gentle age decay so recent papers surface without erasing older foundations.
-- reproducibility: 85 - Screens links and visible text for paper, code, dataset, artifact, and repository signals.
-- methodology_quality: 70 - Screens visible abstract and analysis fields for experiment, dataset, baseline, metric, and limitation evidence.
-- topical_relevance: 65.6 - Uses existing LLM keyword relevance scores normalized to 0-100.
+- reproducibility: 81 - Screens links and visible text for paper, code, dataset, artifact, and repository signals.
+- methodology_quality: 80 - Screens visible abstract and analysis fields for experiment, dataset, baseline, metric, and limitation evidence.
+- topical_relevance: 55.3 - Uses existing LLM keyword relevance scores normalized to 0-100.
 - citation_impact: 0.0 - No OpenAlex identifier was available for this paper.
 - graph_prestige: 0.0 - No local citation edges were available, so graph prestige is excluded.
 - citation_velocity: 0.0 - No OpenAlex identifier was available for this paper.

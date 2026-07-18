@@ -1,9 +1,9 @@
 schema_version: awesome-hub.researchRuns.v1
-generated_at: '2026-07-17T01:58:18Z'
+generated_at: '2026-07-18T01:47:52Z'
 runs:
-- run_id: deep_research:e2b20c6964dd7752
+- run_id: deep_research:f90e988d81e8b3d2
   workflow: deep_research
-  generated_at: '2026-07-17T01:58:18Z'
+  generated_at: '2026-07-18T01:47:52Z'
   status: planned
   research_jobs:
   - reading_paper_content

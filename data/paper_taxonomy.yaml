@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-07-24T02:00:27Z'
+generated_at: '2026-07-25T01:58:34Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -2126,4 +2126,12 @@ assignments:
   - theory
   - system
   confidence: 0.67
+  evidence: method
+- paper_id: masked-topology-modeling-for-self-supervised-learning-on-par-2026
+  primary: method
+  secondary:
+  - benchmark
+  - theory
+  - system
+  confidence: 0.68
   evidence: method

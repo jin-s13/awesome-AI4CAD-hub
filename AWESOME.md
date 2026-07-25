@@ -68,6 +68,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2026 | 46.2 | method | [Memory-Augmented Reinforcement Learning Agent for CAD Generation](https://arxiv.org/abs/2605.19748v1) | Proposes a memory-augmented reinforcement learning framework for CAD generation that improves success rate and geometric consistency on complex models. |
 | 2026 | 45.2 | method | [Text-Aided Multi-Modal Panoptic Symbol Spotting for CAD Floor Plan Drawings](https://arxiv.org/abs/2607.12678v1) | Computer-Aided Design (CAD) floor plan drawings contain both graphical primitives and textual annotations, which provide complementary geometric and semantic cues for intelligent... |
 | 2026 | 45.2 | method | [Topology-First B-Rep Meshing](https://arxiv.org/abs/2604.02141v1) | A meshing algorithm that enforces exact B-Rep topology while allowing geometric tolerance, producing topologically correct meshes without post-hoc repairs. |
+| 2026 | 44.9 | method | [Masked Topology Modeling for Self-Supervised Learning on Parametric CAD](https://arxiv.org/abs/2607.20642v1) | Self-supervised pretraining on parametric CAD using masked topology modeling on B-Rep face-adjacency graphs, combined with contrastive learning, achieves strong benchmark performa... |
 | 2026 | 44.1 | method | [SECAD-Net: Self-Supervised CAD Reconstruction by Learning Sketch-Extrude Operations](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_SECAD-Net_Self-Supervised_CAD_Reconstruction_by_Learning_Sketch-Extrude_Operations_CVPR_2023_paper.pdf) |  |
 | 2026 | 43.2 | method | [A2Z-10M+: Geometric Deep Learning with A-to-Z BRep Annotations for AI-Assisted CAD Modeling and Reverse Engineering](https://arxiv.org/abs/2603.12605v1) | Reverse engineering and rapid prototyping of computer-aided design (CAD) models from 3D scans, sketches, or simple text prompts are vital in industrial product design. However, re... |
 | 2026 | 42.4 | method, application | [PolyGNN: Polyhedron-based Graph Neural Network for 3D Building Reconstruction from Point Clouds](https://www.sciencedirect.com/science/article/pii/S0924271624003691) |  |
@@ -297,4 +298,4 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 
 ---
 
-Total papers: **285**.
+Total papers: **286**.

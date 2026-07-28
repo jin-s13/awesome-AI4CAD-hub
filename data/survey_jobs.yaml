@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-07-27T02:12:25Z'
+generated_at: '2026-07-28T01:52:25Z'
 jobs:
 - id: method
   topic_id: method
@@ -280,6 +280,7 @@ jobs:
   - hiercad-hierarchical-text-to-cad-design-via-structure-align-2026
   - text-aided-multi-modal-panoptic-symbol-spotting-for-cad-floo-2026
   - masked-topology-modeling-for-self-supervised-learning-on-par-2026
+  - wrong-design-intent-is-worse-than-none-a-derangement-contro-2026
   top_tags:
   - CV
   - AI
@@ -289,11 +290,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: 0f0852b2a6092cc0
+  prompt_hash: 3f18ed06d25bd9f0
   status: done
-  attempts: 3
+  attempts: 1
   error: ''
-  updated_at: '2026-07-27T02:12:28Z'
+  updated_at: '2026-07-28T01:53:38Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -523,6 +524,7 @@ jobs:
   - hiercad-hierarchical-text-to-cad-design-via-structure-align-2026
   - text-aided-multi-modal-panoptic-symbol-spotting-for-cad-floo-2026
   - masked-topology-modeling-for-self-supervised-learning-on-par-2026
+  - wrong-design-intent-is-worse-than-none-a-derangement-contro-2026
   top_tags:
   - CV
   - AI
@@ -532,11 +534,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: 1f4e49dbe2c2650b
+  prompt_hash: 4c7ac62fd7913880
   status: done
-  attempts: 3
+  attempts: 1
   error: ''
-  updated_at: '2026-07-27T02:12:28Z'
+  updated_at: '2026-07-28T01:53:49Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -729,6 +731,7 @@ jobs:
   - hiercad-hierarchical-text-to-cad-design-via-structure-align-2026
   - text-aided-multi-modal-panoptic-symbol-spotting-for-cad-floo-2026
   - masked-topology-modeling-for-self-supervised-learning-on-par-2026
+  - wrong-design-intent-is-worse-than-none-a-derangement-contro-2026
   top_tags:
   - CV
   - AI
@@ -738,11 +741,11 @@ jobs:
   - CL
   - HC
   - SY
-  prompt_hash: 8f57b24c1d6e015d
+  prompt_hash: 3070e7e31cf20a94
   status: done
-  attempts: 3
+  attempts: 1
   error: ''
-  updated_at: '2026-07-27T02:12:28Z'
+  updated_at: '2026-07-28T01:54:31Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -875,9 +878,9 @@ jobs:
   - MA
   prompt_hash: 73932655415db8c4
   status: done
-  attempts: 3
+  attempts: 4
   error: ''
-  updated_at: '2026-07-27T02:12:28Z'
+  updated_at: '2026-07-28T01:53:49Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -940,9 +943,9 @@ jobs:
   - AI
   prompt_hash: 81a1a3a6ef2ef4c6
   status: done
-  attempts: 21
+  attempts: 22
   error: ''
-  updated_at: '2026-07-27T02:12:28Z'
+  updated_at: '2026-07-28T01:53:49Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -1087,6 +1090,7 @@ jobs:
   - artisancad-an-industrial-level-cad-agent-with-expert-ground-2026
   - splinenet-an-isogeometric-deep-learning-method-for-complex-2026
   - artisancad-an-industrial-level-cad-agent-with-expert-ground-2026
+  - wrong-design-intent-is-worse-than-none-a-derangement-contro-2026
   top_tags:
   - CV
   - LG
@@ -1096,8 +1100,8 @@ jobs:
   - CL
   - CG
   - HC
-  prompt_hash: cac13d318a0b6988
+  prompt_hash: 34cb11ea5db9ef6b
   status: done
-  attempts: 19
+  attempts: 1
   error: ''
-  updated_at: '2026-07-27T02:12:28Z'
+  updated_at: '2026-07-28T01:54:58Z'

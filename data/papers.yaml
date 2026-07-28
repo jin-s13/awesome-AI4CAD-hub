@@ -120,22 +120,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 42
+      rank_range: 41
       profiles:
         balanced:
-          rank: 96
+          rank: 97
           score: 43.2
         citation_heavy:
-          rank: 96
+          rank: 97
           score: 43.8
         method_repro_heavy:
           rank: 129
           score: 49.1
         frontier_heavy:
-          rank: 87
+          rank: 88
           score: 57.4
         topic_heavy:
-          rank: 99
+          rank: 100
           score: 37.6
   has_real_world: false
   grade: skip
@@ -898,19 +898,19 @@
       rank_range: 42
       profiles:
         balanced:
-          rank: 120
+          rank: 121
           score: 39.4
         citation_heavy:
-          rank: 108
+          rank: 109
           score: 39.2
         method_repro_heavy:
-          rank: 143
+          rank: 144
           score: 46.9
         frontier_heavy:
-          rank: 101
+          rank: 102
           score: 54.6
         topic_heavy:
-          rank: 116
+          rank: 117
           score: 31.9
     keyword_scores:
       AI for CAD: 8
@@ -2807,7 +2807,7 @@
     status: planned
     run_status: planned
     report: resource/cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026/research.md
-    queued_at: '2026-07-27T02:12:21Z'
+    queued_at: '2026-07-28T01:52:20Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -3434,7 +3434,7 @@
     status: planned
     run_status: planned
     report: resource/cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026/research.md
-    queued_at: '2026-07-27T02:12:21Z'
+    queued_at: '2026-07-28T01:52:20Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -4192,19 +4192,19 @@
       rank_range: 43
       profiles:
         balanced:
-          rank: 155
+          rank: 156
           score: 36.0
         citation_heavy:
-          rank: 122
+          rank: 123
           score: 36.0
         method_repro_heavy:
-          rank: 153
+          rank: 154
           score: 45.9
         frontier_heavy:
-          rank: 112
+          rank: 113
           score: 52.8
         topic_heavy:
-          rank: 145
+          rank: 146
           score: 26.9
     keyword_scores:
       AI for CAD: 0
@@ -5944,19 +5944,19 @@
       rank_range: 59
       profiles:
         balanced:
-          rank: 229
+          rank: 230
           score: 26.7
         citation_heavy:
-          rank: 202
+          rank: 203
           score: 27.8
         method_repro_heavy:
-          rank: 235
+          rank: 236
           score: 33.1
         frontier_heavy:
-          rank: 176
+          rank: 177
           score: 44.8
         topic_heavy:
-          rank: 207
+          rank: 208
           score: 20.7
     keyword_scores:
       AI for CAD: 3
@@ -6538,19 +6538,19 @@
       rank_range: 60
       profiles:
         balanced:
-          rank: 223
+          rank: 224
           score: 27.9
         citation_heavy:
-          rank: 184
+          rank: 185
           score: 28.8
         method_repro_heavy:
-          rank: 213
+          rank: 214
           score: 35.9
         frontier_heavy:
-          rank: 163
+          rank: 164
           score: 46.2
         topic_heavy:
-          rank: 208
+          rank: 209
           score: 20.6
     keyword_scores:
       AI for CAD: 0
@@ -7746,19 +7746,19 @@
       rank_range: 70
       profiles:
         balanced:
-          rank: 204
+          rank: 205
           score: 30.3
         citation_heavy:
-          rank: 174
+          rank: 175
           score: 29.8
         method_repro_heavy:
-          rank: 187
+          rank: 188
           score: 40.6
         frontier_heavy:
-          rank: 143
+          rank: 144
           score: 48.2
         topic_heavy:
-          rank: 213
+          rank: 214
           score: 20.4
     keyword_scores:
       AI for CAD: 0
@@ -7917,19 +7917,19 @@
       rank_range: 49
       profiles:
         balanced:
-          rank: 257
+          rank: 258
           score: 20.8
         citation_heavy:
-          rank: 262
+          rank: 263
           score: 21.2
         method_repro_heavy:
-          rank: 255
+          rank: 256
           score: 27.6
         frontier_heavy:
-          rank: 221
+          rank: 222
           score: 40.0
         topic_heavy:
-          rank: 270
+          rank: 271
           score: 13.8
     keyword_scores:
       AI for CAD: 0
@@ -9684,19 +9684,19 @@
       rank_range: 66
       profiles:
         balanced:
-          rank: 245
+          rank: 246
           score: 23.3
         citation_heavy:
-          rank: 242
+          rank: 243
           score: 23.8
         method_repro_heavy:
-          rank: 241
+          rank: 242
           score: 31.2
         frontier_heavy:
-          rank: 197
+          rank: 198
           score: 42.3
         topic_heavy:
-          rank: 263
+          rank: 264
           score: 15.6
     keyword_scores:
       AI for CAD: 0
@@ -10518,19 +10518,19 @@
       rank_range: 70
       profiles:
         balanced:
-          rank: 205
+          rank: 206
           score: 30.3
         citation_heavy:
-          rank: 175
+          rank: 176
           score: 29.8
         method_repro_heavy:
-          rank: 188
+          rank: 189
           score: 40.6
         frontier_heavy:
-          rank: 144
+          rank: 145
           score: 48.2
         topic_heavy:
-          rank: 214
+          rank: 215
           score: 20.4
     keyword_scores:
       AI for CAD: 0
@@ -10697,19 +10697,19 @@
       rank_range: 66
       profiles:
         balanced:
-          rank: 246
+          rank: 247
           score: 23.3
         citation_heavy:
-          rank: 243
+          rank: 244
           score: 23.8
         method_repro_heavy:
-          rank: 242
+          rank: 243
           score: 31.2
         frontier_heavy:
-          rank: 198
+          rank: 199
           score: 42.3
         topic_heavy:
-          rank: 264
+          rank: 265
           score: 15.6
     keyword_scores:
       AI for CAD: 0
@@ -10873,19 +10873,19 @@
       rank_range: 74
       profiles:
         balanced:
-          rank: 126
+          rank: 127
           score: 38.8
         citation_heavy:
-          rank: 101
+          rank: 102
           score: 41.9
         method_repro_heavy:
-          rank: 175
+          rank: 176
           score: 42.0
         frontier_heavy:
-          rank: 108
+          rank: 109
           score: 54.2
         topic_heavy:
-          rank: 102
+          rank: 103
           score: 37.0
     keyword_scores:
       AI for CAD: 8
@@ -11680,7 +11680,7 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 21
+      rank_range: 22
       profiles:
         balanced:
           rank: 90
@@ -11695,7 +11695,7 @@
           rank: 75
           score: 60.1
         topic_heavy:
-          rank: 96
+          rank: 97
           score: 39.0
     keyword_scores:
       AI for CAD: 0
@@ -11973,7 +11973,7 @@
     status: planned
     run_status: planned
     report: resource/towards-high-fidelity-cad-generation-via-llm-driven-program-2026/research.md
-    queued_at: '2026-07-27T02:12:21Z'
+    queued_at: '2026-07-28T01:52:20Z'
   seed_expanded: true
   taxonomy:
     primary: method
@@ -12100,19 +12100,19 @@
       rank_range: 63
       profiles:
         balanced:
-          rank: 232
+          rank: 233
           score: 25.8
         citation_heavy:
-          rank: 219
+          rank: 220
           score: 26.2
         method_repro_heavy:
-          rank: 222
+          rank: 223
           score: 34.7
         frontier_heavy:
-          rank: 181
+          rank: 182
           score: 44.6
         topic_heavy:
-          rank: 244
+          rank: 245
           score: 17.5
     keyword_scores:
       AI for CAD: 0
@@ -12672,22 +12672,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 90
+      rank_range: 91
       profiles:
         balanced:
-          rank: 112
+          rank: 113
           score: 40.7
         citation_heavy:
-          rank: 162
+          rank: 163
           score: 31.6
         method_repro_heavy:
           rank: 75
           score: 54.9
         frontier_heavy:
-          rank: 124
+          rank: 125
           score: 50.0
         topic_heavy:
-          rank: 165
+          rank: 166
           score: 24.5
   grade: skip
   taxonomy:
@@ -12797,19 +12797,19 @@
       rank_range: 107
       profiles:
         balanced:
-          rank: 128
+          rank: 129
           score: 38.7
         citation_heavy:
-          rank: 183
+          rank: 184
           score: 28.9
         method_repro_heavy:
           rank: 131
           score: 49.1
         frontier_heavy:
-          rank: 235
+          rank: 236
           score: 38.2
         topic_heavy:
-          rank: 157
+          rank: 158
           score: 25.3
   grade: skip
   taxonomy:
@@ -12930,19 +12930,19 @@
       rank_range: 88
       profiles:
         balanced:
-          rank: 206
+          rank: 207
           score: 30.2
         citation_heavy:
-          rank: 166
+          rank: 167
           score: 30.7
         method_repro_heavy:
-          rank: 197
+          rank: 198
           score: 39.6
         frontier_heavy:
-          rank: 118
+          rank: 119
           score: 52.2
         topic_heavy:
-          rank: 182
+          rank: 183
           score: 22.4
   grade: skip
   taxonomy:
@@ -13066,22 +13066,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 101
+      rank_range: 102
       profiles:
         balanced:
-          rank: 125
+          rank: 126
           score: 39.0
         citation_heavy:
-          rank: 165
+          rank: 166
           score: 30.8
         method_repro_heavy:
           rank: 82
           score: 54.1
         frontier_heavy:
-          rank: 115
+          rank: 116
           score: 52.6
         topic_heavy:
-          rank: 183
+          rank: 184
           score: 22.4
   grade: skip
   taxonomy:
@@ -13205,19 +13205,19 @@
       rank_range: 84
       profiles:
         balanced:
-          rank: 212
+          rank: 213
           score: 29.6
         citation_heavy:
-          rank: 222
+          rank: 223
           score: 26.1
         method_repro_heavy:
-          rank: 178
+          rank: 179
           score: 41.4
         frontier_heavy:
-          rank: 153
+          rank: 154
           score: 47.0
         topic_heavy:
-          rank: 237
+          rank: 238
           score: 18.1
   grade: skip
   taxonomy:
@@ -13343,19 +13343,19 @@
       rank_range: 92
       profiles:
         balanced:
-          rank: 194
+          rank: 195
           score: 31.9
         citation_heavy:
-          rank: 252
+          rank: 253
           score: 22.4
         method_repro_heavy:
-          rank: 177
+          rank: 178
           score: 41.6
         frontier_heavy:
-          rank: 269
+          rank: 270
           score: 30.3
         topic_heavy:
-          rank: 229
+          rank: 230
           score: 19.3
   grade: skip
   taxonomy:
@@ -13465,19 +13465,19 @@
       rank_range: 12
       profiles:
         balanced:
-          rank: 272
+          rank: 273
           score: 16.4
         citation_heavy:
-          rank: 282
+          rank: 283
           score: 13.9
         method_repro_heavy:
-          rank: 270
+          rank: 271
           score: 21.9
         frontier_heavy:
-          rank: 280
+          rank: 281
           score: 22.4
         topic_heavy:
-          rank: 281
+          rank: 282
           score: 10.7
   grade: skip
   taxonomy:
@@ -13587,19 +13587,19 @@
       rank_range: 12
       profiles:
         balanced:
-          rank: 271
+          rank: 272
           score: 16.4
         citation_heavy:
-          rank: 281
+          rank: 282
           score: 13.9
         method_repro_heavy:
-          rank: 269
+          rank: 270
           score: 21.9
         frontier_heavy:
-          rank: 279
+          rank: 280
           score: 22.4
         topic_heavy:
-          rank: 280
+          rank: 281
           score: 10.7
   grade: skip
   taxonomy:
@@ -13724,19 +13724,19 @@
       rank_range: 100
       profiles:
         balanced:
-          rank: 134
+          rank: 135
           score: 38.3
         citation_heavy:
-          rank: 170
+          rank: 171
           score: 30.4
         method_repro_heavy:
-          rank: 142
+          rank: 143
           score: 47.0
         frontier_heavy:
-          rank: 234
+          rank: 235
           score: 38.2
         topic_heavy:
-          rank: 144
+          rank: 145
           score: 27.3
   grade: skip
   taxonomy:
@@ -13862,19 +13862,19 @@
       rank_range: 87
       profiles:
         balanced:
-          rank: 176
+          rank: 177
           score: 34.3
         citation_heavy:
-          rank: 231
+          rank: 232
           score: 25.5
         method_repro_heavy:
-          rank: 165
+          rank: 166
           score: 44.3
         frontier_heavy:
-          rank: 252
+          rank: 253
           score: 35.3
         topic_heavy:
-          rank: 196
+          rank: 197
           score: 21.7
   grade: skip
   taxonomy:
@@ -13999,22 +13999,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 94
+      rank_range: 95
       profiles:
         balanced:
-          rank: 127
+          rank: 128
           score: 38.8
         citation_heavy:
-          rank: 179
+          rank: 180
           score: 29.3
         method_repro_heavy:
           rank: 123
           score: 49.9
         frontier_heavy:
-          rank: 217
+          rank: 218
           score: 40.4
         topic_heavy:
-          rank: 158
+          rank: 159
           score: 25.1
   grade: skip
   taxonomy:
@@ -14139,19 +14139,19 @@
       rank_range: 85
       profiles:
         balanced:
-          rank: 137
+          rank: 138
           score: 37.9
         citation_heavy:
-          rank: 171
+          rank: 172
           score: 30.1
         method_repro_heavy:
-          rank: 139
+          rank: 140
           score: 47.4
         frontier_heavy:
-          rank: 222
+          rank: 223
           score: 40.0
         topic_heavy:
-          rank: 151
+          rank: 152
           score: 26.2
   grade: skip
   taxonomy:
@@ -14276,19 +14276,19 @@
       rank_range: 81
       profiles:
         balanced:
-          rank: 182
+          rank: 183
           score: 33.9
         citation_heavy:
-          rank: 228
+          rank: 229
           score: 25.8
         method_repro_heavy:
-          rank: 147
+          rank: 148
           score: 46.5
         frontier_heavy:
-          rank: 202
+          rank: 203
           score: 42.3
         topic_heavy:
-          rank: 223
+          rank: 224
           score: 19.5
   grade: skip
   taxonomy:
@@ -14411,19 +14411,19 @@
       rank_range: 66
       profiles:
         balanced:
-          rank: 225
+          rank: 226
           score: 27.7
         citation_heavy:
-          rank: 180
+          rank: 181
           score: 29.2
         method_repro_heavy:
-          rank: 223
+          rank: 224
           score: 34.7
         frontier_heavy:
-          rank: 159
+          rank: 160
           score: 46.5
         topic_heavy:
-          rank: 179
+          rank: 180
           score: 22.5
   grade: skip
   taxonomy:
@@ -14534,19 +14534,19 @@
       rank_range: 101
       profiles:
         balanced:
-          rank: 165
+          rank: 166
           score: 34.8
         citation_heavy:
-          rank: 237
+          rank: 238
           score: 24.5
         method_repro_heavy:
-          rank: 140
+          rank: 141
           score: 47.3
         frontier_heavy:
-          rank: 241
+          rank: 242
           score: 37.5
         topic_heavy:
-          rank: 226
+          rank: 227
           score: 19.5
   grade: skip
   taxonomy:
@@ -14655,19 +14655,19 @@
       rank_range: 87
       profiles:
         balanced:
-          rank: 199
+          rank: 200
           score: 31.4
         citation_heavy:
-          rank: 256
+          rank: 257
           score: 22.0
         method_repro_heavy:
-          rank: 174
+          rank: 175
           score: 42.4
         frontier_heavy:
-          rank: 261
+          rank: 262
           score: 33.2
         topic_heavy:
-          rank: 243
+          rank: 244
           score: 17.7
   grade: skip
   taxonomy:
@@ -14786,19 +14786,19 @@
       rank_range: 97
       profiles:
         balanced:
-          rank: 141
+          rank: 142
           score: 37.8
         citation_heavy:
-          rank: 158
+          rank: 159
           score: 31.6
         method_repro_heavy:
           rank: 93
           score: 52.9
         frontier_heavy:
-          rank: 92
+          rank: 93
           score: 56.3
         topic_heavy:
-          rank: 189
+          rank: 190
           score: 22.2
   grade: skip
   taxonomy:
@@ -14908,19 +14908,19 @@
       rank_range: 102
       profiles:
         balanced:
-          rank: 235
+          rank: 236
           score: 25.7
         citation_heavy:
-          rank: 209
+          rank: 210
           score: 27.2
         method_repro_heavy:
-          rank: 220
+          rank: 221
           score: 34.8
         frontier_heavy:
-          rank: 133
+          rank: 134
           score: 49.3
         topic_heavy:
-          rank: 234
+          rank: 235
           score: 18.7
   grade: skip
   generation_notes:
@@ -15044,22 +15044,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 91
+      rank_range: 92
       profiles:
         balanced:
-          rank: 170
+          rank: 171
           score: 34.4
         citation_heavy:
-          rank: 214
+          rank: 215
           score: 26.8
         method_repro_heavy:
           rank: 136
           score: 48.0
         frontier_heavy:
-          rank: 167
+          rank: 168
           score: 45.9
         topic_heavy:
-          rank: 227
+          rank: 228
           score: 19.4
   grade: skip
   taxonomy:
@@ -15179,19 +15179,19 @@
       rank_range: 81
       profiles:
         balanced:
-          rank: 183
+          rank: 184
           score: 33.9
         citation_heavy:
-          rank: 229
+          rank: 230
           score: 25.8
         method_repro_heavy:
-          rank: 148
+          rank: 149
           score: 46.5
         frontier_heavy:
-          rank: 203
+          rank: 204
           score: 42.3
         topic_heavy:
-          rank: 224
+          rank: 225
           score: 19.5
   grade: skip
   taxonomy:
@@ -15310,19 +15310,19 @@
       rank_range: 84
       profiles:
         balanced:
-          rank: 276
+          rank: 277
           score: 15.2
         citation_heavy:
-          rank: 259
+          rank: 260
           score: 21.5
         method_repro_heavy:
-          rank: 271
+          rank: 272
           score: 20.8
         frontier_heavy:
-          rank: 192
+          rank: 193
           score: 42.9
         topic_heavy:
-          rank: 272
+          rank: 273
           score: 13.3
   grade: skip
   taxonomy:
@@ -15452,19 +15452,19 @@
       rank_range: 9
       profiles:
         balanced:
-          rank: 278
+          rank: 279
           score: 14.5
         citation_heavy:
-          rank: 278
+          rank: 279
           score: 17.2
         method_repro_heavy:
-          rank: 280
+          rank: 281
           score: 16.7
         frontier_heavy:
-          rank: 278
+          rank: 279
           score: 25.8
         topic_heavy:
-          rank: 271
+          rank: 272
           score: 13.8
   grade: skip
   taxonomy:
@@ -15605,19 +15605,19 @@
       rank_range: 91
       profiles:
         balanced:
-          rank: 241
+          rank: 242
           score: 24.7
         citation_heavy:
-          rank: 216
+          rank: 217
           score: 26.8
         method_repro_heavy:
-          rank: 245
+          rank: 246
           score: 30.5
         frontier_heavy:
-          rank: 276
+          rank: 277
           score: 27.4
         topic_heavy:
-          rank: 185
+          rank: 186
           score: 22.4
     keyword_scores:
       AI for CAD: 0
@@ -15802,19 +15802,19 @@
       rank_range: 10
       profiles:
         balanced:
-          rank: 256
+          rank: 257
           score: 21.0
         citation_heavy:
-          rank: 266
+          rank: 267
           score: 20.6
         method_repro_heavy:
-          rank: 260
+          rank: 261
           score: 25.3
         frontier_heavy:
-          rank: 266
+          rank: 267
           score: 31.6
         topic_heavy:
-          rank: 256
+          rank: 257
           score: 16.3
     keyword_scores:
       AI for CAD: 3
@@ -15978,19 +15978,19 @@
       rank_range: 122
       profiles:
         balanced:
-          rank: 174
+          rank: 175
           score: 34.4
         citation_heavy:
-          rank: 169
+          rank: 170
           score: 30.7
         method_repro_heavy:
-          rank: 189
+          rank: 190
           score: 40.6
         frontier_heavy:
-          rank: 265
+          rank: 266
           score: 31.8
         topic_heavy:
-          rank: 143
+          rank: 144
           score: 27.5
     keyword_scores:
       AI for CAD: 4
@@ -16154,19 +16154,19 @@
       rank_range: 6
       profiles:
         balanced:
-          rank: 283
+          rank: 284
           score: 9.0
         citation_heavy:
-          rank: 283
+          rank: 284
           score: 11.3
         method_repro_heavy:
-          rank: 283
+          rank: 284
           score: 7.4
         frontier_heavy:
-          rank: 283
+          rank: 284
           score: 10.8
         topic_heavy:
-          rank: 277
+          rank: 278
           score: 11.4
   grade: skip
   taxonomy:
@@ -16494,19 +16494,19 @@
       rank_range: 72
       profiles:
         balanced:
-          rank: 280
+          rank: 281
           score: 13.4
         citation_heavy:
-          rank: 273
+          rank: 274
           score: 19.5
         method_repro_heavy:
-          rank: 274
+          rank: 275
           score: 19.7
         frontier_heavy:
-          rank: 208
+          rank: 209
           score: 41.7
         topic_heavy:
-          rank: 279
+          rank: 280
           score: 10.9
   grade: skip
   taxonomy:
@@ -16636,19 +16636,19 @@
       rank_range: 0
       profiles:
         balanced:
-          rank: 284
+          rank: 285
           score: 7.5
         citation_heavy:
-          rank: 284
+          rank: 285
           score: 9.5
         method_repro_heavy:
-          rank: 284
+          rank: 285
           score: 6.6
         frontier_heavy:
-          rank: 284
+          rank: 285
           score: 10.4
         topic_heavy:
-          rank: 284
+          rank: 285
           score: 9.2
   grade: skip
   taxonomy:
@@ -16780,19 +16780,19 @@
       rank_range: 21
       profiles:
         balanced:
-          rank: 281
+          rank: 282
           score: 12.4
         citation_heavy:
-          rank: 280
+          rank: 281
           score: 15.5
         method_repro_heavy:
-          rank: 282
+          rank: 283
           score: 10.1
         frontier_heavy:
-          rank: 282
+          rank: 283
           score: 14.7
         topic_heavy:
-          rank: 261
+          rank: 262
           score: 15.8
   grade: skip
   taxonomy:
@@ -17617,7 +17617,7 @@
           rank: 133
           score: 48.8
         frontier_heavy:
-          rank: 97
+          rank: 98
           score: 55.6
         topic_heavy:
           rank: 73
@@ -18878,19 +18878,19 @@
       rank_range: 97
       profiles:
         balanced:
-          rank: 138
+          rank: 139
           score: 37.8
         citation_heavy:
-          rank: 155
+          rank: 156
           score: 31.6
         method_repro_heavy:
           rank: 90
           score: 52.9
         frontier_heavy:
-          rank: 89
+          rank: 90
           score: 56.3
         topic_heavy:
-          rank: 186
+          rank: 187
           score: 22.2
   grade: skip
   taxonomy:
@@ -19015,19 +19015,19 @@
       rank_range: 58
       profiles:
         balanced:
-          rank: 226
+          rank: 227
           score: 27.6
         citation_heavy:
-          rank: 192
+          rank: 193
           score: 28.6
         method_repro_heavy:
-          rank: 232
+          rank: 233
           score: 33.4
         frontier_heavy:
-          rank: 194
+          rank: 195
           score: 42.7
         topic_heavy:
-          rank: 174
+          rank: 175
           score: 23.2
   grade: skip
   taxonomy:
@@ -19150,19 +19150,19 @@
       rank_range: 128
       profiles:
         balanced:
-          rank: 163
+          rank: 164
           score: 35.4
         citation_heavy:
-          rank: 186
+          rank: 187
           score: 28.8
         method_repro_heavy:
           rank: 109
           score: 51.4
         frontier_heavy:
-          rank: 103
+          rank: 104
           score: 54.6
         topic_heavy:
-          rank: 231
+          rank: 232
           score: 18.9
   grade: skip
   taxonomy:
@@ -19279,22 +19279,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 79
+      rank_range: 80
       profiles:
         balanced:
-          rank: 118
+          rank: 119
           score: 39.5
         citation_heavy:
-          rank: 137
+          rank: 138
           score: 33.7
         method_repro_heavy:
           rank: 83
           score: 54.0
         frontier_heavy:
-          rank: 85
+          rank: 86
           score: 57.5
         topic_heavy:
-          rank: 162
+          rank: 163
           score: 24.5
   grade: skip
   taxonomy:
@@ -19416,19 +19416,19 @@
       rank_range: 86
       profiles:
         balanced:
-          rank: 209
+          rank: 210
           score: 30.1
         citation_heavy:
-          rank: 268
+          rank: 269
           score: 20.4
         method_repro_heavy:
-          rank: 182
+          rank: 183
           score: 41.0
         frontier_heavy:
-          rank: 268
+          rank: 269
           score: 30.6
         topic_heavy:
-          rank: 255
+          rank: 256
           score: 16.4
   grade: skip
   taxonomy:
@@ -19549,22 +19549,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 79
+      rank_range: 80
       profiles:
         balanced:
-          rank: 119
+          rank: 120
           score: 39.5
         citation_heavy:
-          rank: 138
+          rank: 139
           score: 33.7
         method_repro_heavy:
           rank: 84
           score: 54.0
         frontier_heavy:
-          rank: 86
+          rank: 87
           score: 57.5
         topic_heavy:
-          rank: 163
+          rank: 164
           score: 24.5
   grade: skip
   taxonomy:
@@ -19684,22 +19684,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 69
+      rank_range: 70
       profiles:
         balanced:
-          rank: 108
+          rank: 109
           score: 41.1
         citation_heavy:
-          rank: 141
+          rank: 142
           score: 33.0
         method_repro_heavy:
           rank: 81
           score: 54.3
         frontier_heavy:
-          rank: 123
+          rank: 124
           score: 50.4
         topic_heavy:
-          rank: 150
+          rank: 151
           score: 26.2
   grade: skip
   taxonomy:
@@ -19815,22 +19815,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 69
+      rank_range: 70
       profiles:
         balanced:
-          rank: 133
+          rank: 134
           score: 38.3
         citation_heavy:
-          rank: 181
+          rank: 182
           score: 29.2
         method_repro_heavy:
           rank: 112
           score: 51.3
         frontier_heavy:
-          rank: 175
+          rank: 176
           score: 45.2
         topic_heavy:
-          rank: 176
+          rank: 177
           score: 23.1
   grade: skip
   taxonomy:
@@ -19949,19 +19949,19 @@
       rank_range: 64
       profiles:
         balanced:
-          rank: 263
+          rank: 264
           score: 19.6
         citation_heavy:
-          rank: 274
+          rank: 275
           score: 19.5
         method_repro_heavy:
-          rank: 250
+          rank: 251
           score: 29.4
         frontier_heavy:
-          rank: 214
+          rank: 215
           score: 40.7
         topic_heavy:
-          rank: 278
+          rank: 279
           score: 11.3
   grade: skip
   taxonomy:
@@ -20081,22 +20081,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 108
+      rank_range: 109
       profiles:
         balanced:
-          rank: 180
+          rank: 181
           score: 34.0
         citation_heavy:
-          rank: 217
+          rank: 218
           score: 26.6
         method_repro_heavy:
           rank: 132
           score: 48.9
         frontier_heavy:
-          rank: 135
+          rank: 136
           score: 49.3
         topic_heavy:
-          rank: 240
+          rank: 241
           score: 17.9
   grade: skip
   taxonomy:
@@ -20218,22 +20218,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 94
+      rank_range: 95
       profiles:
         balanced:
-          rank: 158
+          rank: 159
           score: 35.7
         citation_heavy:
-          rank: 189
+          rank: 190
           score: 28.7
         method_repro_heavy:
           rank: 121
           score: 50.1
         frontier_heavy:
-          rank: 122
+          rank: 123
           score: 50.5
         topic_heavy:
-          rank: 215
+          rank: 216
           score: 20.3
   grade: skip
   taxonomy:
@@ -20357,19 +20357,19 @@
       rank_range: 77
       profiles:
         balanced:
-          rank: 254
+          rank: 255
           score: 22.3
         citation_heavy:
-          rank: 264
+          rank: 265
           score: 20.8
         method_repro_heavy:
-          rank: 236
+          rank: 237
           score: 33.0
         frontier_heavy:
-          rank: 199
+          rank: 200
           score: 42.3
         topic_heavy:
-          rank: 276
+          rank: 277
           score: 12.5
   grade: skip
   taxonomy:
@@ -20492,22 +20492,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 86
+      rank_range: 87
       profiles:
         balanced:
-          rank: 152
+          rank: 153
           score: 36.3
         citation_heavy:
-          rank: 178
+          rank: 179
           score: 29.4
         method_repro_heavy:
           rank: 118
           score: 50.5
         frontier_heavy:
-          rank: 121
+          rank: 122
           score: 51.0
         topic_heavy:
-          rank: 204
+          rank: 205
           score: 21.1
   grade: skip
   taxonomy:
@@ -20629,19 +20629,19 @@
       rank_range: 81
       profiles:
         balanced:
-          rank: 242
+          rank: 243
           score: 24.0
         citation_heavy:
-          rank: 249
+          rank: 250
           score: 22.9
         method_repro_heavy:
-          rank: 227
+          rank: 228
           score: 34.2
         frontier_heavy:
-          rank: 186
+          rank: 187
           score: 43.5
         topic_heavy:
-          rank: 267
+          rank: 268
           score: 14.9
   grade: skip
   taxonomy:
@@ -20762,19 +20762,19 @@
       rank_range: 126
       profiles:
         balanced:
-          rank: 131
+          rank: 132
           score: 38.4
         citation_heavy:
-          rank: 172
+          rank: 173
           score: 30.0
         method_repro_heavy:
-          rank: 157
+          rank: 158
           score: 45.4
         frontier_heavy:
-          rank: 257
+          rank: 258
           score: 33.6
         topic_heavy:
-          rank: 133
+          rank: 134
           score: 28.6
   grade: skip
   taxonomy:
@@ -20893,19 +20893,19 @@
       rank_range: 82
       profiles:
         balanced:
-          rank: 208
+          rank: 209
           score: 30.2
         citation_heavy:
-          rank: 270
+          rank: 271
           score: 20.3
         method_repro_heavy:
-          rank: 192
+          rank: 193
           score: 40.5
         frontier_heavy:
-          rank: 274
+          rank: 275
           score: 29.0
         topic_heavy:
-          rank: 248
+          rank: 249
           score: 16.9
   grade: skip
   taxonomy:
@@ -21025,22 +21025,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 104
+      rank_range: 105
       profiles:
         balanced:
-          rank: 135
+          rank: 136
           score: 38.1
         citation_heavy:
-          rank: 197
+          rank: 198
           score: 28.2
         method_repro_heavy:
           rank: 134
           score: 48.7
         frontier_heavy:
-          rank: 238
+          rank: 239
           score: 37.8
         topic_heavy:
-          rank: 161
+          rank: 162
           score: 24.6
   grade: skip
   taxonomy:
@@ -21163,19 +21163,19 @@
       rank_range: 94
       profiles:
         balanced:
-          rank: 145
+          rank: 146
           score: 37.7
         citation_heavy:
-          rank: 176
+          rank: 177
           score: 29.6
         method_repro_heavy:
-          rank: 145
+          rank: 146
           score: 46.6
         frontier_heavy:
-          rank: 239
+          rank: 240
           score: 37.8
         topic_heavy:
-          rank: 149
+          rank: 150
           score: 26.5
   grade: skip
   taxonomy:
@@ -21295,19 +21295,19 @@
       rank_range: 93
       profiles:
         balanced:
-          rank: 156
+          rank: 157
           score: 36.0
         citation_heavy:
-          rank: 205
+          rank: 206
           score: 27.6
         method_repro_heavy:
-          rank: 156
+          rank: 157
           score: 45.4
         frontier_heavy:
-          rank: 249
+          rank: 250
           score: 36.6
         topic_heavy:
-          rank: 170
+          rank: 171
           score: 24.1
   grade: skip
   taxonomy:
@@ -21415,19 +21415,19 @@
       rank_range: 82
       profiles:
         balanced:
-          rank: 219
+          rank: 220
           score: 28.4
         citation_heavy:
-          rank: 276
+          rank: 277
           score: 18.3
         method_repro_heavy:
-          rank: 194
+          rank: 195
           score: 39.9
         frontier_heavy:
-          rank: 272
+          rank: 273
           score: 29.3
         topic_heavy:
-          rank: 269
+          rank: 270
           score: 14.1
   grade: skip
   taxonomy:
@@ -21552,19 +21552,19 @@
       rank_range: 106
       profiles:
         balanced:
-          rank: 146
+          rank: 147
           score: 37.2
         citation_heavy:
-          rank: 164
+          rank: 165
           score: 30.9
         method_repro_heavy:
           rank: 97
           score: 52.5
         frontier_heavy:
-          rank: 95
+          rank: 96
           score: 55.8
         topic_heavy:
-          rank: 201
+          rank: 202
           score: 21.3
   grade: skip
   taxonomy:
@@ -21684,19 +21684,19 @@
       rank_range: 77
       profiles:
         balanced:
-          rank: 160
+          rank: 161
           score: 35.6
         citation_heavy:
-          rank: 206
+          rank: 207
           score: 27.3
         method_repro_heavy:
-          rank: 155
+          rank: 156
           score: 45.9
         frontier_heavy:
-          rank: 232
+          rank: 233
           score: 38.4
         topic_heavy:
-          rank: 177
+          rank: 178
           score: 23.0
   grade: skip
   taxonomy:
@@ -21816,19 +21816,19 @@
       rank_range: 84
       profiles:
         balanced:
-          rank: 173
+          rank: 174
           score: 34.4
         citation_heavy:
-          rank: 225
+          rank: 226
           score: 25.9
         method_repro_heavy:
-          rank: 159
+          rank: 160
           score: 45.1
         frontier_heavy:
-          rank: 243
+          rank: 244
           score: 37.5
         topic_heavy:
-          rank: 200
+          rank: 201
           score: 21.4
   grade: skip
   taxonomy:
@@ -21955,19 +21955,19 @@
       rank_range: 84
       profiles:
         balanced:
-          rank: 172
+          rank: 173
           score: 34.4
         citation_heavy:
-          rank: 224
+          rank: 225
           score: 25.9
         method_repro_heavy:
-          rank: 158
+          rank: 159
           score: 45.1
         frontier_heavy:
-          rank: 242
+          rank: 243
           score: 37.5
         topic_heavy:
-          rank: 199
+          rank: 200
           score: 21.4
   grade: skip
   taxonomy:
@@ -22089,19 +22089,19 @@
       rank_range: 97
       profiles:
         balanced:
-          rank: 139
+          rank: 140
           score: 37.8
         citation_heavy:
-          rank: 156
+          rank: 157
           score: 31.6
         method_repro_heavy:
           rank: 91
           score: 52.9
         frontier_heavy:
-          rank: 90
+          rank: 91
           score: 56.3
         topic_heavy:
-          rank: 187
+          rank: 188
           score: 22.2
   grade: skip
   taxonomy:
@@ -22212,19 +22212,19 @@
       rank_range: 128
       profiles:
         balanced:
-          rank: 162
+          rank: 163
           score: 35.4
         citation_heavy:
-          rank: 185
+          rank: 186
           score: 28.8
         method_repro_heavy:
           rank: 108
           score: 51.4
         frontier_heavy:
-          rank: 102
+          rank: 103
           score: 54.6
         topic_heavy:
-          rank: 230
+          rank: 231
           score: 18.9
   grade: skip
   taxonomy:
@@ -22344,19 +22344,19 @@
       rank_range: 97
       profiles:
         balanced:
-          rank: 203
+          rank: 204
           score: 30.6
         citation_heavy:
-          rank: 258
+          rank: 259
           score: 21.6
         method_repro_heavy:
-          rank: 168
+          rank: 169
           score: 43.5
         frontier_heavy:
-          rank: 247
+          rank: 248
           score: 37.2
         topic_heavy:
-          rank: 265
+          rank: 266
           score: 15.6
   grade: skip
   taxonomy:
@@ -22479,19 +22479,19 @@
       rank_range: 87
       profiles:
         balanced:
-          rank: 185
+          rank: 186
           score: 33.8
         citation_heavy:
-          rank: 232
+          rank: 233
           score: 25.2
         method_repro_heavy:
-          rank: 161
+          rank: 162
           score: 44.7
         frontier_heavy:
-          rank: 248
+          rank: 249
           score: 37.1
         topic_heavy:
-          rank: 209
+          rank: 210
           score: 20.6
   grade: skip
   taxonomy:
@@ -22616,19 +22616,19 @@
       rank_range: 70
       profiles:
         balanced:
-          rank: 115
+          rank: 116
           score: 39.9
         citation_heavy:
-          rank: 146
+          rank: 147
           score: 32.7
         method_repro_heavy:
           rank: 126
           score: 49.5
         frontier_heavy:
-          rank: 185
+          rank: 186
           score: 43.9
         topic_heavy:
-          rank: 135
+          rank: 136
           score: 28.4
   grade: skip
   taxonomy:
@@ -22753,19 +22753,19 @@
       rank_range: 17
       profiles:
         balanced:
-          rank: 255
+          rank: 256
           score: 22.1
         citation_heavy:
-          rank: 261
+          rank: 262
           score: 21.4
         method_repro_heavy:
-          rank: 254
+          rank: 255
           score: 27.7
         frontier_heavy:
-          rank: 263
+          rank: 264
           score: 32.8
         topic_heavy:
-          rank: 246
+          rank: 247
           score: 17.0
   grade: skip
   taxonomy:
@@ -22888,19 +22888,19 @@
       rank_range: 120
       profiles:
         balanced:
-          rank: 238
+          rank: 239
           score: 25.5
         citation_heavy:
-          rank: 234
+          rank: 235
           score: 25.1
         method_repro_heavy:
-          rank: 210
+          rank: 211
           score: 36.6
         frontier_heavy:
-          rank: 140
+          rank: 141
           score: 48.8
         topic_heavy:
-          rank: 260
+          rank: 261
           score: 15.9
   grade: skip
   taxonomy:
@@ -23028,19 +23028,19 @@
       rank_range: 67
       profiles:
         balanced:
-          rank: 167
+          rank: 168
           score: 34.7
         citation_heavy:
-          rank: 218
+          rank: 219
           score: 26.5
         method_repro_heavy:
-          rank: 152
+          rank: 153
           score: 46.1
         frontier_heavy:
-          rank: 219
+          rank: 220
           score: 40.1
         topic_heavy:
-          rank: 202
+          rank: 203
           score: 21.2
   grade: skip
   taxonomy:
@@ -23166,19 +23166,19 @@
       rank_range: 80
       profiles:
         balanced:
-          rank: 153
+          rank: 154
           score: 36.2
         citation_heavy:
-          rank: 198
+          rank: 199
           score: 28.0
         method_repro_heavy:
-          rank: 151
+          rank: 152
           score: 46.3
         frontier_heavy:
-          rank: 231
+          rank: 232
           score: 38.8
         topic_heavy:
-          rank: 171
+          rank: 172
           score: 23.8
   grade: skip
   taxonomy:
@@ -23295,19 +23295,19 @@
       rank_range: 18
       profiles:
         balanced:
-          rank: 251
+          rank: 252
           score: 22.7
         citation_heavy:
-          rank: 254
+          rank: 255
           score: 22.1
         method_repro_heavy:
-          rank: 253
+          rank: 254
           score: 28.1
         frontier_heavy:
-          rank: 259
+          rank: 260
           score: 33.2
         topic_heavy:
-          rank: 241
+          rank: 242
           score: 17.8
   grade: skip
   taxonomy:
@@ -23434,19 +23434,19 @@
       rank_range: 97
       profiles:
         balanced:
-          rank: 142
+          rank: 143
           score: 37.8
         citation_heavy:
-          rank: 159
+          rank: 160
           score: 31.6
         method_repro_heavy:
           rank: 94
           score: 52.9
         frontier_heavy:
-          rank: 93
+          rank: 94
           score: 56.3
         topic_heavy:
-          rank: 190
+          rank: 191
           score: 22.2
   grade: skip
   taxonomy:
@@ -23571,19 +23571,19 @@
       rank_range: 82
       profiles:
         balanced:
-          rank: 148
+          rank: 149
           score: 36.7
         citation_heavy:
-          rank: 190
+          rank: 191
           score: 28.7
         method_repro_heavy:
-          rank: 144
+          rank: 145
           score: 46.6
         frontier_heavy:
-          rank: 226
+          rank: 227
           score: 39.2
         topic_heavy:
-          rank: 160
+          rank: 161
           score: 24.6
   grade: skip
   taxonomy:
@@ -23705,19 +23705,19 @@
       rank_range: 81
       profiles:
         balanced:
-          rank: 181
+          rank: 182
           score: 33.9
         citation_heavy:
-          rank: 227
+          rank: 228
           score: 25.8
         method_repro_heavy:
-          rank: 146
+          rank: 147
           score: 46.5
         frontier_heavy:
-          rank: 201
+          rank: 202
           score: 42.3
         topic_heavy:
-          rank: 222
+          rank: 223
           score: 19.5
   grade: skip
   taxonomy:
@@ -23838,19 +23838,19 @@
       rank_range: 81
       profiles:
         balanced:
-          rank: 184
+          rank: 185
           score: 33.9
         citation_heavy:
-          rank: 230
+          rank: 231
           score: 25.8
         method_repro_heavy:
-          rank: 149
+          rank: 150
           score: 46.5
         frontier_heavy:
-          rank: 204
+          rank: 205
           score: 42.3
         topic_heavy:
-          rank: 225
+          rank: 226
           score: 19.5
   grade: skip
   taxonomy:
@@ -23971,13 +23971,13 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 60
+      rank_range: 61
       profiles:
         balanced:
-          rank: 95
+          rank: 96
           score: 44.1
         citation_heavy:
-          rank: 109
+          rank: 110
           score: 39.2
         method_repro_heavy:
           rank: 61
@@ -23986,7 +23986,7 @@
           rank: 73
           score: 60.8
         topic_heavy:
-          rank: 121
+          rank: 122
           score: 30.9
   grade: skip
   taxonomy:
@@ -24110,19 +24110,19 @@
       rank_range: 97
       profiles:
         balanced:
-          rank: 140
+          rank: 141
           score: 37.8
         citation_heavy:
-          rank: 157
+          rank: 158
           score: 31.6
         method_repro_heavy:
           rank: 92
           score: 52.9
         frontier_heavy:
-          rank: 91
+          rank: 92
           score: 56.3
         topic_heavy:
-          rank: 188
+          rank: 189
           score: 22.2
   grade: skip
   taxonomy:
@@ -24240,22 +24240,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 91
+      rank_range: 92
       profiles:
         balanced:
-          rank: 171
+          rank: 172
           score: 34.4
         citation_heavy:
-          rank: 215
+          rank: 216
           score: 26.8
         method_repro_heavy:
           rank: 137
           score: 48.0
         frontier_heavy:
-          rank: 168
+          rank: 169
           score: 45.9
         topic_heavy:
-          rank: 228
+          rank: 229
           score: 19.4
   grade: skip
   taxonomy:
@@ -24375,13 +24375,13 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 66
+      rank_range: 67
       profiles:
         balanced:
-          rank: 101
+          rank: 102
           score: 42.4
         citation_heavy:
-          rank: 116
+          rank: 117
           score: 37.2
         method_repro_heavy:
           rank: 68
@@ -24390,7 +24390,7 @@
           rank: 78
           score: 59.6
         topic_heavy:
-          rank: 134
+          rank: 135
           score: 28.5
   grade: skip
   taxonomy:
@@ -24512,22 +24512,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 65
+      rank_range: 66
       profiles:
         balanced:
-          rank: 154
+          rank: 155
           score: 36.1
         citation_heavy:
-          rank: 187
+          rank: 188
           score: 28.8
         method_repro_heavy:
           rank: 130
           score: 49.1
         frontier_heavy:
-          rank: 152
+          rank: 153
           score: 47.1
         topic_heavy:
-          rank: 195
+          rank: 196
           score: 21.8
   grade: skip
   taxonomy:
@@ -24647,19 +24647,19 @@
       rank_range: 28
       profiles:
         balanced:
-          rank: 260
+          rank: 261
           score: 20.1
         citation_heavy:
-          rank: 272
+          rank: 273
           score: 19.6
         method_repro_heavy:
-          rank: 252
+          rank: 253
           score: 28.4
         frontier_heavy:
-          rank: 246
+          rank: 247
           score: 37.3
         topic_heavy:
-          rank: 274
+          rank: 275
           score: 12.8
   grade: skip
   taxonomy:
@@ -24780,19 +24780,19 @@
       rank_range: 92
       profiles:
         balanced:
-          rank: 211
+          rank: 212
           score: 29.8
         citation_heavy:
-          rank: 150
+          rank: 151
           score: 32.1
         method_repro_heavy:
-          rank: 205
+          rank: 206
           score: 37.5
         frontier_heavy:
-          rank: 119
+          rank: 120
           score: 52.2
         topic_heavy:
-          rank: 168
+          rank: 169
           score: 24.3
   grade: skip
   taxonomy:
@@ -24915,13 +24915,13 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 70
+      rank_range: 71
       profiles:
         balanced:
-          rank: 103
+          rank: 104
           score: 41.8
         citation_heavy:
-          rank: 121
+          rank: 122
           score: 36.5
         method_repro_heavy:
           rank: 70
@@ -24930,7 +24930,7 @@
           rank: 79
           score: 59.2
         topic_heavy:
-          rank: 140
+          rank: 141
           score: 27.8
   grade: skip
   taxonomy:
@@ -25050,19 +25050,19 @@
       rank_range: 93
       profiles:
         balanced:
-          rank: 210
+          rank: 211
           score: 29.8
         citation_heavy:
-          rank: 149
+          rank: 150
           score: 32.1
         method_repro_heavy:
-          rank: 204
+          rank: 205
           score: 37.5
         frontier_heavy:
-          rank: 117
+          rank: 118
           score: 52.2
         topic_heavy:
-          rank: 167
+          rank: 168
           score: 24.3
   grade: skip
   taxonomy:
@@ -25184,19 +25184,19 @@
       rank_range: 102
       profiles:
         balanced:
-          rank: 234
+          rank: 235
           score: 25.7
         citation_heavy:
-          rank: 208
+          rank: 209
           score: 27.2
         method_repro_heavy:
-          rank: 219
+          rank: 220
           score: 34.8
         frontier_heavy:
-          rank: 132
+          rank: 133
           score: 49.3
         topic_heavy:
-          rank: 233
+          rank: 234
           score: 18.7
   grade: skip
   taxonomy:
@@ -25320,19 +25320,19 @@
       rank_range: 21
       profiles:
         balanced:
-          rank: 228
+          rank: 229
           score: 26.8
         citation_heavy:
-          rank: 226
+          rank: 227
           score: 25.8
         method_repro_heavy:
-          rank: 224
+          rank: 225
           score: 34.7
         frontier_heavy:
-          rank: 207
+          rank: 208
           score: 41.8
         topic_heavy:
-          rank: 221
+          rank: 222
           score: 19.6
   grade: skip
   taxonomy:
@@ -25454,19 +25454,19 @@
       rank_range: 53
       profiles:
         balanced:
-          rank: 227
+          rank: 228
           score: 27.0
         citation_heavy:
-          rank: 199
+          rank: 200
           score: 27.9
         method_repro_heavy:
-          rank: 237
+          rank: 238
           score: 33.0
         frontier_heavy:
-          rank: 200
+          rank: 201
           score: 42.3
         topic_heavy:
-          rank: 184
+          rank: 185
           score: 22.4
   grade: skip
   taxonomy:
@@ -25589,19 +25589,19 @@
       rank_range: 72
       profiles:
         balanced:
-          rank: 213
+          rank: 214
           score: 29.3
         citation_heavy:
-          rank: 167
+          rank: 168
           score: 30.7
         method_repro_heavy:
-          rank: 225
+          rank: 226
           score: 34.5
         frontier_heavy:
-          rank: 184
+          rank: 185
           score: 44.0
         topic_heavy:
-          rank: 153
+          rank: 154
           score: 25.6
   grade: skip
   taxonomy:
@@ -25726,19 +25726,19 @@
       rank_range: 26
       profiles:
         balanced:
-          rank: 248
+          rank: 249
           score: 23.0
         citation_heavy:
-          rank: 246
+          rank: 247
           score: 23.1
         method_repro_heavy:
-          rank: 246
+          rank: 247
           score: 30.3
         frontier_heavy:
-          rank: 223
+          rank: 224
           score: 39.4
         topic_heavy:
-          rank: 249
+          rank: 250
           score: 16.8
   grade: skip
   taxonomy:
@@ -25858,22 +25858,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 74
+      rank_range: 75
       profiles:
         balanced:
-          rank: 114
+          rank: 115
           score: 40.0
         citation_heavy:
-          rank: 161
+          rank: 162
           score: 31.6
         method_repro_heavy:
           rank: 87
           score: 53.5
         frontier_heavy:
-          rank: 126
+          rank: 127
           score: 49.6
         topic_heavy:
-          rank: 159
+          rank: 160
           score: 24.6
   grade: skip
   taxonomy:
@@ -25994,19 +25994,19 @@
       rank_range: 26
       profiles:
         balanced:
-          rank: 249
+          rank: 250
           score: 23.0
         citation_heavy:
-          rank: 247
+          rank: 248
           score: 23.1
         method_repro_heavy:
-          rank: 247
+          rank: 248
           score: 30.3
         frontier_heavy:
-          rank: 224
+          rank: 225
           score: 39.4
         topic_heavy:
-          rank: 250
+          rank: 251
           score: 16.8
   grade: skip
   taxonomy:
@@ -26133,19 +26133,19 @@
       rank_range: 30
       profiles:
         balanced:
-          rank: 252
+          rank: 253
           score: 22.4
         citation_heavy:
-          rank: 251
+          rank: 252
           score: 22.4
         method_repro_heavy:
-          rank: 248
+          rank: 249
           score: 29.9
         frontier_heavy:
-          rank: 229
+          rank: 230
           score: 39.0
         topic_heavy:
-          rank: 259
+          rank: 260
           score: 16.0
   grade: skip
   taxonomy:
@@ -26264,19 +26264,19 @@
       rank_range: 102
       profiles:
         balanced:
-          rank: 233
+          rank: 234
           score: 25.7
         citation_heavy:
-          rank: 207
+          rank: 208
           score: 27.2
         method_repro_heavy:
-          rank: 218
+          rank: 219
           score: 34.8
         frontier_heavy:
-          rank: 131
+          rank: 132
           score: 49.3
         topic_heavy:
-          rank: 232
+          rank: 233
           score: 18.7
   grade: skip
   taxonomy:
@@ -26404,19 +26404,19 @@
       rank_range: 37
       profiles:
         balanced:
-          rank: 215
+          rank: 216
           score: 29.1
         citation_heavy:
-          rank: 191
+          rank: 192
           score: 28.6
         method_repro_heavy:
-          rank: 211
+          rank: 212
           score: 36.2
         frontier_heavy:
-          rank: 187
+          rank: 188
           score: 43.5
         topic_heavy:
-          rank: 178
+          rank: 179
           score: 22.9
   grade: skip
   taxonomy:
@@ -26537,19 +26537,19 @@
       rank_range: 62
       profiles:
         balanced:
-          rank: 196
+          rank: 197
           score: 31.6
         citation_heavy:
-          rank: 153
+          rank: 154
           score: 31.9
         method_repro_heavy:
-          rank: 201
+          rank: 202
           score: 39.1
         frontier_heavy:
-          rank: 139
+          rank: 140
           score: 49.0
         topic_heavy:
-          rank: 154
+          rank: 155
           score: 25.4
   grade: skip
   taxonomy:
@@ -26672,19 +26672,19 @@
       rank_range: 82
       profiles:
         balanced:
-          rank: 207
+          rank: 208
           score: 30.2
         citation_heavy:
-          rank: 269
+          rank: 270
           score: 20.3
         method_repro_heavy:
-          rank: 191
+          rank: 192
           score: 40.5
         frontier_heavy:
-          rank: 273
+          rank: 274
           score: 29.0
         topic_heavy:
-          rank: 247
+          rank: 248
           score: 16.9
   grade: skip
   taxonomy:
@@ -26807,19 +26807,19 @@
       rank_range: 91
       profiles:
         balanced:
-          rank: 178
+          rank: 179
           score: 34.2
         citation_heavy:
-          rank: 233
+          rank: 234
           score: 25.2
         method_repro_heavy:
-          rank: 167
+          rank: 168
           score: 43.7
         frontier_heavy:
-          rank: 258
+          rank: 259
           score: 33.5
         topic_heavy:
-          rank: 193
+          rank: 194
           score: 22.1
   grade: skip
   taxonomy:
@@ -26938,13 +26938,13 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 76
+      rank_range: 77
       profiles:
         balanced:
-          rank: 113
+          rank: 114
           score: 40.1
         citation_heavy:
-          rank: 134
+          rank: 135
           score: 34.4
         method_repro_heavy:
           rank: 79
@@ -26953,7 +26953,7 @@
           rank: 84
           score: 57.9
         topic_heavy:
-          rank: 155
+          rank: 156
           score: 25.3
   grade: skip
   taxonomy:
@@ -27081,19 +27081,19 @@
       rank_range: 87
       profiles:
         balanced:
-          rank: 198
+          rank: 199
           score: 31.4
         citation_heavy:
-          rank: 255
+          rank: 256
           score: 22.0
         method_repro_heavy:
-          rank: 173
+          rank: 174
           score: 42.4
         frontier_heavy:
-          rank: 260
+          rank: 261
           score: 33.2
         topic_heavy:
-          rank: 242
+          rank: 243
           score: 17.7
   grade: skip
   taxonomy:
@@ -27204,19 +27204,19 @@
       rank_range: 28
       profiles:
         balanced:
-          rank: 253
+          rank: 254
           score: 22.4
         citation_heavy:
-          rank: 260
+          rank: 261
           score: 21.5
         method_repro_heavy:
-          rank: 258
+          rank: 259
           score: 27.1
         frontier_heavy:
-          rank: 267
+          rank: 268
           score: 30.6
         topic_heavy:
-          rank: 239
+          rank: 240
           score: 18.0
   grade: skip
   taxonomy:
@@ -27342,19 +27342,19 @@
       rank_range: 89
       profiles:
         balanced:
-          rank: 166
+          rank: 167
           score: 34.8
         citation_heavy:
-          rank: 221
+          rank: 222
           score: 26.2
         method_repro_heavy:
-          rank: 162
+          rank: 163
           score: 44.7
         frontier_heavy:
-          rank: 251
+          rank: 252
           score: 35.7
         topic_heavy:
-          rank: 181
+          rank: 182
           score: 22.5
   grade: skip
   taxonomy:
@@ -27473,19 +27473,19 @@
       rank_range: 95
       profiles:
         balanced:
-          rank: 191
+          rank: 192
           score: 32.7
         citation_heavy:
-          rank: 125
+          rank: 126
           score: 35.5
         method_repro_heavy:
-          rank: 199
+          rank: 200
           score: 39.4
         frontier_heavy:
-          rank: 104
+          rank: 105
           score: 54.3
         topic_heavy:
-          rank: 137
+          rank: 138
           score: 28.3
   grade: skip
   taxonomy:
@@ -27593,22 +27593,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 93
+      rank_range: 94
       profiles:
         balanced:
-          rank: 104
+          rank: 105
           score: 41.7
         citation_heavy:
-          rank: 145
+          rank: 146
           score: 32.8
         method_repro_heavy:
           rank: 103
           score: 51.8
         frontier_heavy:
-          rank: 196
+          rank: 197
           score: 42.5
         topic_heavy:
-          rank: 132
+          rank: 133
           score: 29.1
   grade: skip
   taxonomy:
@@ -27730,19 +27730,19 @@
       rank_range: 66
       profiles:
         balanced:
-          rank: 164
+          rank: 165
           score: 35.2
         citation_heavy:
-          rank: 213
+          rank: 214
           score: 27.1
         method_repro_heavy:
-          rank: 150
+          rank: 151
           score: 46.5
         frontier_heavy:
-          rank: 216
+          rank: 217
           score: 40.5
         topic_heavy:
-          rank: 194
+          rank: 195
           score: 22.0
   grade: skip
   taxonomy:
@@ -27851,22 +27851,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 83
+      rank_range: 84
       profiles:
         balanced:
-          rank: 136
+          rank: 137
           score: 37.9
         citation_heavy:
-          rank: 195
+          rank: 196
           score: 28.5
         method_repro_heavy:
           rank: 122
           score: 50.1
         frontier_heavy:
-          rank: 205
+          rank: 206
           score: 42.1
         topic_heavy:
-          rank: 175
+          rank: 176
           score: 23.2
   grade: skip
   taxonomy:
@@ -27989,22 +27989,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 43
+      rank_range: 44
       profiles:
         balanced:
-          rank: 102
+          rank: 103
           score: 42.0
         citation_heavy:
-          rank: 124
+          rank: 125
           score: 35.6
         method_repro_heavy:
           rank: 102
           score: 51.9
         frontier_heavy:
-          rank: 145
+          rank: 146
           score: 48.2
         topic_heavy:
-          rank: 123
+          rank: 124
           score: 30.7
   grade: skip
   taxonomy:
@@ -28130,19 +28130,19 @@
       rank_range: 97
       profiles:
         balanced:
-          rank: 143
+          rank: 144
           score: 37.8
         citation_heavy:
-          rank: 160
+          rank: 161
           score: 31.6
         method_repro_heavy:
           rank: 95
           score: 52.9
         frontier_heavy:
-          rank: 94
+          rank: 95
           score: 56.3
         topic_heavy:
-          rank: 191
+          rank: 192
           score: 22.2
   grade: skip
   taxonomy:
@@ -28253,19 +28253,19 @@
       rank_range: 98
       profiles:
         balanced:
-          rank: 197
+          rank: 198
           score: 31.6
         citation_heavy:
-          rank: 248
+          rank: 249
           score: 23.0
         method_repro_heavy:
-          rank: 160
+          rank: 161
           score: 45.0
         frontier_heavy:
-          rank: 215
+          rank: 216
           score: 40.6
         topic_heavy:
-          rank: 258
+          rank: 259
           score: 16.2
   grade: skip
   taxonomy:
@@ -28387,19 +28387,19 @@
       rank_range: 95
       profiles:
         balanced:
-          rank: 192
+          rank: 193
           score: 32.7
         citation_heavy:
-          rank: 126
+          rank: 127
           score: 35.5
         method_repro_heavy:
-          rank: 200
+          rank: 201
           score: 39.4
         frontier_heavy:
-          rank: 105
+          rank: 106
           score: 54.3
         topic_heavy:
-          rank: 138
+          rank: 139
           score: 28.3
   grade: skip
   taxonomy:
@@ -28511,19 +28511,19 @@
       rank_range: 119
       profiles:
         balanced:
-          rank: 244
+          rank: 245
           score: 23.4
         citation_heavy:
-          rank: 236
+          rank: 237
           score: 24.5
         method_repro_heavy:
-          rank: 234
+          rank: 235
           score: 33.3
         frontier_heavy:
-          rank: 147
+          rank: 148
           score: 47.7
         topic_heavy:
-          rank: 266
+          rank: 267
           score: 15.5
   grade: skip
   taxonomy:
@@ -28647,19 +28647,19 @@
       rank_range: 32
       profiles:
         balanced:
-          rank: 266
+          rank: 267
           score: 18.3
         citation_heavy:
-          rank: 277
+          rank: 278
           score: 17.5
         method_repro_heavy:
-          rank: 256
+          rank: 257
           score: 27.3
         frontier_heavy:
-          rank: 250
+          rank: 251
           score: 36.0
         topic_heavy:
-          rank: 282
+          rank: 283
           score: 10.4
   grade: skip
   taxonomy:
@@ -28772,22 +28772,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 36
+      rank_range: 37
       profiles:
         balanced:
-          rank: 116
+          rank: 117
           score: 39.6
         citation_heavy:
-          rank: 140
+          rank: 141
           score: 33.0
         method_repro_heavy:
           rank: 110
           score: 51.4
         frontier_heavy:
-          rank: 125
+          rank: 126
           score: 49.6
         topic_heavy:
-          rank: 146
+          rank: 147
           score: 26.6
   grade: skip
   taxonomy:
@@ -28907,19 +28907,19 @@
       rank_range: 27
       profiles:
         balanced:
-          rank: 239
+          rank: 240
           score: 25.3
         citation_heavy:
-          rank: 223
+          rank: 224
           score: 25.9
         method_repro_heavy:
-          rank: 240
+          rank: 241
           score: 31.8
         frontier_heavy:
-          rank: 213
+          rank: 214
           score: 41.0
         topic_heavy:
-          rank: 217
+          rank: 218
           score: 20.0
   grade: skip
   taxonomy:
@@ -29040,22 +29040,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 36
+      rank_range: 37
       profiles:
         balanced:
-          rank: 117
+          rank: 118
           score: 39.6
         citation_heavy:
-          rank: 142
+          rank: 143
           score: 33.0
         method_repro_heavy:
           rank: 111
           score: 51.4
         frontier_heavy:
-          rank: 127
+          rank: 128
           score: 49.6
         topic_heavy:
-          rank: 147
+          rank: 148
           score: 26.6
   grade: skip
   taxonomy:
@@ -29178,19 +29178,19 @@
       rank_range: 26
       profiles:
         balanced:
-          rank: 237
+          rank: 238
           score: 25.6
         citation_heavy:
-          rank: 238
+          rank: 239
           score: 24.4
         method_repro_heavy:
-          rank: 230
+          rank: 231
           score: 33.9
         frontier_heavy:
-          rank: 212
+          rank: 213
           score: 41.0
         topic_heavy:
-          rank: 238
+          rank: 239
           score: 18.0
   grade: skip
   taxonomy:
@@ -29313,19 +29313,19 @@
       rank_range: 69
       profiles:
         balanced:
-          rank: 175
+          rank: 176
           score: 34.3
         citation_heavy:
-          rank: 132
+          rank: 133
           score: 34.9
         method_repro_heavy:
-          rank: 195
+          rank: 196
           score: 39.7
         frontier_heavy:
-          rank: 151
+          rank: 152
           score: 47.2
         topic_heavy:
-          rank: 126
+          rank: 127
           score: 30.1
   grade: skip
   taxonomy:
@@ -29439,22 +29439,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 96
+      rank_range: 97
       profiles:
         balanced:
-          rank: 144
+          rank: 145
           score: 37.7
         citation_heavy:
-          rank: 188
+          rank: 189
           score: 28.8
         method_repro_heavy:
           rank: 101
           score: 52.0
         frontier_heavy:
-          rank: 146
+          rank: 147
           score: 47.9
         topic_heavy:
-          rank: 197
+          rank: 198
           score: 21.5
   grade: skip
   taxonomy:
@@ -29576,22 +29576,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 39
+      rank_range: 40
       profiles:
         balanced:
-          rank: 123
+          rank: 124
           score: 39.1
         citation_heavy:
-          rank: 147
+          rank: 148
           score: 32.4
         method_repro_heavy:
           rank: 113
           score: 51.0
         frontier_heavy:
-          rank: 136
+          rank: 137
           score: 49.2
         topic_heavy:
-          rank: 152
+          rank: 153
           score: 25.9
   grade: skip
   taxonomy:
@@ -29711,13 +29711,13 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 74
+      rank_range: 75
       profiles:
         balanced:
           rank: 85
           score: 47.6
         citation_heavy:
-          rank: 107
+          rank: 108
           score: 39.5
         method_repro_heavy:
           rank: 41
@@ -29726,7 +29726,7 @@
           rank: 81
           score: 58.5
         topic_heavy:
-          rank: 115
+          rank: 116
           score: 32.2
   grade: skip
   taxonomy:
@@ -29848,19 +29848,19 @@
       rank_range: 65
       profiles:
         balanced:
-          rank: 220
+          rank: 221
           score: 28.3
         citation_heavy:
-          rank: 173
+          rank: 174
           score: 29.9
         method_repro_heavy:
-          rank: 216
+          rank: 217
           score: 35.1
         frontier_heavy:
-          rank: 155
+          rank: 156
           score: 46.9
         topic_heavy:
-          rank: 173
+          rank: 174
           score: 23.3
   grade: skip
   taxonomy:
@@ -29987,19 +29987,19 @@
       rank_range: 43
       profiles:
         balanced:
-          rank: 247
+          rank: 248
           score: 23.3
         citation_heavy:
-          rank: 257
+          rank: 258
           score: 21.7
         method_repro_heavy:
-          rank: 239
+          rank: 240
           score: 32.5
         frontier_heavy:
-          rank: 225
+          rank: 226
           score: 39.3
         topic_heavy:
-          rank: 268
+          rank: 269
           score: 14.9
   grade: skip
   taxonomy:
@@ -30122,19 +30122,19 @@
       rank_range: 63
       profiles:
         balanced:
-          rank: 217
+          rank: 218
           score: 28.7
         citation_heavy:
-          rank: 193
+          rank: 194
           score: 28.5
         method_repro_heavy:
-          rank: 207
+          rank: 208
           score: 37.2
         frontier_heavy:
-          rank: 154
+          rank: 155
           score: 46.9
         topic_heavy:
-          rank: 198
+          rank: 199
           score: 21.4
   grade: skip
   taxonomy:
@@ -30258,19 +30258,19 @@
       rank_range: 76
       profiles:
         balanced:
-          rank: 195
+          rank: 196
           score: 31.8
         citation_heavy:
-          rank: 135
+          rank: 136
           score: 34.1
         method_repro_heavy:
-          rank: 206
+          rank: 207
           score: 37.4
         frontier_heavy:
-          rank: 130
+          rank: 131
           score: 49.4
         topic_heavy:
-          rank: 139
+          rank: 140
           score: 28.1
   grade: skip
   taxonomy:
@@ -30389,22 +30389,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 56
+      rank_range: 57
       profiles:
         balanced:
-          rank: 111
+          rank: 112
           score: 40.9
         citation_heavy:
-          rank: 131
+          rank: 132
           score: 35.0
         method_repro_heavy:
           rank: 86
           score: 53.5
         frontier_heavy:
-          rank: 107
+          rank: 108
           score: 54.3
         topic_heavy:
-          rank: 142
+          rank: 143
           score: 27.5
   grade: skip
   taxonomy:
@@ -30520,22 +30520,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 86
+      rank_range: 87
       profiles:
         balanced:
-          rank: 151
+          rank: 152
           score: 36.3
         citation_heavy:
-          rank: 177
+          rank: 178
           score: 29.4
         method_repro_heavy:
           rank: 117
           score: 50.5
         frontier_heavy:
-          rank: 120
+          rank: 121
           score: 51.0
         topic_heavy:
-          rank: 203
+          rank: 204
           score: 21.1
   grade: skip
   taxonomy:
@@ -30656,19 +30656,19 @@
       rank_range: 60
       profiles:
         balanced:
-          rank: 230
+          rank: 231
           score: 26.6
         citation_heavy:
-          rank: 203
+          rank: 204
           score: 27.8
         method_repro_heavy:
-          rank: 228
+          rank: 229
           score: 33.9
         frontier_heavy:
-          rank: 170
+          rank: 171
           score: 45.7
         topic_heavy:
-          rank: 205
+          rank: 206
           score: 20.9
   grade: skip
   taxonomy:
@@ -30783,19 +30783,19 @@
       rank_range: 102
       profiles:
         balanced:
-          rank: 236
+          rank: 237
           score: 25.7
         citation_heavy:
-          rank: 210
+          rank: 211
           score: 27.2
         method_repro_heavy:
-          rank: 221
+          rank: 222
           score: 34.8
         frontier_heavy:
-          rank: 134
+          rank: 135
           score: 49.3
         topic_heavy:
-          rank: 235
+          rank: 236
           score: 18.7
   grade: skip
   taxonomy:
@@ -30918,19 +30918,19 @@
       rank_range: 61
       profiles:
         balanced:
-          rank: 202
+          rank: 203
           score: 31.0
         citation_heavy:
-          rank: 163
+          rank: 164
           score: 31.2
         method_repro_heavy:
-          rank: 202
+          rank: 203
           score: 38.7
         frontier_heavy:
-          rank: 141
+          rank: 142
           score: 48.5
         topic_heavy:
-          rank: 164
+          rank: 165
           score: 24.5
   grade: skip
   taxonomy:
@@ -31051,22 +31051,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 51
+      rank_range: 52
       profiles:
         balanced:
-          rank: 99
+          rank: 100
           score: 42.6
         citation_heavy:
-          rank: 118
+          rank: 119
           score: 37.0
         method_repro_heavy:
           rank: 77
           score: 54.6
         frontier_heavy:
-          rank: 99
+          rank: 100
           score: 55.5
         topic_heavy:
-          rank: 128
+          rank: 129
           score: 29.9
   grade: skip
   taxonomy:
@@ -31184,22 +31184,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 56
+      rank_range: 57
       profiles:
         balanced:
-          rank: 110
+          rank: 111
           score: 40.9
         citation_heavy:
-          rank: 130
+          rank: 131
           score: 35.0
         method_repro_heavy:
           rank: 85
           score: 53.5
         frontier_heavy:
-          rank: 106
+          rank: 107
           score: 54.3
         topic_heavy:
-          rank: 141
+          rank: 142
           score: 27.5
   grade: skip
   taxonomy:
@@ -31313,22 +31313,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 69
+      rank_range: 70
       profiles:
         balanced:
-          rank: 129
+          rank: 130
           score: 38.6
         citation_heavy:
-          rank: 148
+          rank: 149
           score: 32.2
         method_repro_heavy:
           rank: 100
           score: 52.0
         frontier_heavy:
-          rank: 114
+          rank: 115
           score: 52.6
         topic_heavy:
-          rank: 169
+          rank: 170
           score: 24.3
   grade: skip
   taxonomy:
@@ -31448,19 +31448,19 @@
       rank_range: 60
       profiles:
         balanced:
-          rank: 231
+          rank: 232
           score: 26.6
         citation_heavy:
-          rank: 204
+          rank: 205
           score: 27.8
         method_repro_heavy:
-          rank: 229
+          rank: 230
           score: 33.9
         frontier_heavy:
-          rank: 171
+          rank: 172
           score: 45.7
         topic_heavy:
-          rank: 206
+          rank: 207
           score: 20.9
   grade: skip
   taxonomy:
@@ -31583,19 +31583,19 @@
       rank_range: 64
       profiles:
         balanced:
-          rank: 214
+          rank: 215
           score: 29.2
         citation_heavy:
-          rank: 182
+          rank: 183
           score: 29.1
         method_repro_heavy:
-          rank: 203
+          rank: 204
           score: 37.6
         frontier_heavy:
-          rank: 150
+          rank: 151
           score: 47.3
         topic_heavy:
-          rank: 192
+          rank: 193
           score: 22.1
   grade: skip
   taxonomy:
@@ -31714,19 +31714,19 @@
       rank_range: 89
       profiles:
         balanced:
-          rank: 269
+          rank: 270
           score: 17.5
         citation_heavy:
-          rank: 241
+          rank: 242
           score: 24.3
         method_repro_heavy:
-          rank: 267
+          rank: 268
           score: 22.4
         frontier_heavy:
-          rank: 180
+          rank: 181
           score: 44.6
         topic_heavy:
-          rank: 254
+          rank: 255
           score: 16.5
   grade: skip
   taxonomy:
@@ -31856,19 +31856,19 @@
       rank_range: 68
       profiles:
         balanced:
-          rank: 122
+          rank: 123
           score: 39.2
         citation_heavy:
-          rank: 112
+          rank: 113
           score: 37.9
         method_repro_heavy:
-          rank: 170
+          rank: 171
           score: 42.9
         frontier_heavy:
-          rank: 174
+          rank: 175
           score: 45.3
         topic_heavy:
-          rank: 106
+          rank: 107
           score: 34.8
   has_real_world: false
   title_cn: 'Point2CAD: 从三维点云逆向工程CAD模型'
@@ -31995,19 +31995,19 @@
       rank_range: 100
       profiles:
         balanced:
-          rank: 147
+          rank: 148
           score: 37.2
         citation_heavy:
-          rank: 114
+          rank: 115
           score: 37.7
         method_repro_heavy:
-          rank: 176
+          rank: 177
           score: 41.8
         frontier_heavy:
-          rank: 210
+          rank: 211
           score: 41.4
         topic_heavy:
-          rank: 110
+          rank: 111
           score: 34.1
     keyword_scores:
       AI for CAD: 2
@@ -32199,22 +32199,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 37
+      rank_range: 38
       profiles:
         balanced:
           rank: 91
           score: 44.9
         citation_heavy:
-          rank: 95
+          rank: 96
           score: 44.6
         method_repro_heavy:
           rank: 99
           score: 52.1
         frontier_heavy:
-          rank: 128
+          rank: 129
           score: 49.6
         topic_heavy:
-          rank: 95
+          rank: 96
           score: 39.3
     keyword_scores:
       AI for CAD: 5
@@ -32408,19 +32408,19 @@
       rank_range: 86
       profiles:
         balanced:
-          rank: 161
+          rank: 162
           score: 35.5
         citation_heavy:
-          rank: 123
+          rank: 124
           score: 35.8
         method_repro_heavy:
-          rank: 180
+          rank: 181
           score: 41.4
         frontier_heavy:
-          rank: 206
+          rank: 207
           score: 42.0
         topic_heavy:
-          rank: 120
+          rank: 121
           score: 31.0
     keyword_scores:
       AI for CAD: 0
@@ -32621,19 +32621,19 @@
       rank_range: 71
       profiles:
         balanced:
-          rank: 149
+          rank: 150
           score: 36.5
         citation_heavy:
-          rank: 129
+          rank: 130
           score: 35.3
         method_repro_heavy:
-          rank: 185
+          rank: 186
           score: 40.7
         frontier_heavy:
-          rank: 189
+          rank: 190
           score: 43.4
         topic_heavy:
-          rank: 118
+          rank: 119
           score: 31.6
   has_real_world: false
   title_cn: NerVE：用于从点云中提取参数曲线的神经体积边缘
@@ -32773,19 +32773,19 @@
       rank_range: 61
       profiles:
         balanced:
-          rank: 189
+          rank: 190
           score: 33.0
         citation_heavy:
-          rank: 151
+          rank: 152
           score: 32.1
         method_repro_heavy:
-          rank: 196
+          rank: 197
           score: 39.7
         frontier_heavy:
-          rank: 209
+          rank: 210
           score: 41.6
         topic_heavy:
-          rank: 148
+          rank: 149
           score: 26.6
   has_real_world: false
   title_cn: SepicNet：通过曲线参数推断恢复三维形状中的尖锐边缘
@@ -32930,19 +32930,19 @@
       rank_range: 78
       profiles:
         balanced:
-          rank: 157
+          rank: 158
           score: 35.8
         citation_heavy:
-          rank: 105
+          rank: 106
           score: 39.7
         method_repro_heavy:
-          rank: 183
+          rank: 184
           score: 40.9
         frontier_heavy:
-          rank: 172
+          rank: 173
           score: 45.5
         topic_heavy:
-          rank: 107
+          rank: 108
           score: 34.6
     keyword_scores:
       AI for CAD: 2
@@ -33123,19 +33123,19 @@
       rank_range: 100
       profiles:
         balanced:
-          rank: 262
+          rank: 263
           score: 19.8
         citation_heavy:
-          rank: 212
+          rank: 213
           score: 27.1
         method_repro_heavy:
-          rank: 264
+          rank: 265
           score: 23.9
         frontier_heavy:
-          rank: 164
+          rank: 165
           score: 46.2
         topic_heavy:
-          rank: 220
+          rank: 221
           score: 19.7
   grade: skip
   taxonomy:
@@ -33261,19 +33261,19 @@
       rank_range: 89
       profiles:
         balanced:
-          rank: 268
+          rank: 269
           score: 17.5
         citation_heavy:
-          rank: 240
+          rank: 241
           score: 24.3
         method_repro_heavy:
-          rank: 266
+          rank: 267
           score: 22.4
         frontier_heavy:
-          rank: 179
+          rank: 180
           score: 44.6
         topic_heavy:
-          rank: 253
+          rank: 254
           score: 16.5
   grade: skip
   taxonomy:
@@ -33409,19 +33409,19 @@
       rank_range: 30
       profiles:
         balanced:
-          rank: 273
+          rank: 274
           score: 16.2
         citation_heavy:
-          rank: 275
+          rank: 276
           score: 18.7
         method_repro_heavy:
-          rank: 278
+          rank: 279
           score: 17.7
         frontier_heavy:
-          rank: 281
+          rank: 282
           score: 21.2
         topic_heavy:
-          rank: 251
+          rank: 252
           score: 16.6
     keyword_scores:
       AI for CAD: 0
@@ -33594,19 +33594,19 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 106
+      rank_range: 107
       profiles:
         balanced:
-          rank: 97
+          rank: 98
           score: 42.8
         citation_heavy:
-          rank: 93
+          rank: 94
           score: 45.4
         method_repro_heavy:
-          rank: 186
+          rank: 187
           score: 40.7
         frontier_heavy:
-          rank: 182
+          rank: 183
           score: 44.6
         topic_heavy:
           rank: 80
@@ -33740,19 +33740,19 @@
       rank_range: 22
       profiles:
         balanced:
-          rank: 275
+          rank: 276
           score: 15.3
         citation_heavy:
-          rank: 265
+          rank: 266
           score: 20.6
         method_repro_heavy:
-          rank: 279
+          rank: 280
           score: 17.1
         frontier_heavy:
-          rank: 264
+          rank: 265
           score: 31.9
         topic_heavy:
-          rank: 257
+          rank: 258
           score: 16.2
   grade: skip
   taxonomy:
@@ -33905,7 +33905,7 @@
           rank: 135
           score: 48.1
         frontier_heavy:
-          rank: 100
+          rank: 101
           score: 54.9
         topic_heavy:
           rank: 42
@@ -34082,19 +34082,19 @@
       rank_range: 104
       profiles:
         balanced:
-          rank: 259
+          rank: 260
           score: 20.4
         citation_heavy:
-          rank: 201
+          rank: 202
           score: 27.8
         method_repro_heavy:
-          rank: 262
+          rank: 263
           score: 24.3
         frontier_heavy:
-          rank: 158
+          rank: 159
           score: 46.7
         topic_heavy:
-          rank: 211
+          rank: 212
           score: 20.5
   grade: skip
   taxonomy:
@@ -34222,19 +34222,19 @@
       rank_range: 56
       profiles:
         balanced:
-          rank: 265
+          rank: 266
           score: 18.8
         citation_heavy:
-          rank: 235
+          rank: 236
           score: 25.1
         method_repro_heavy:
-          rank: 272
+          rank: 273
           score: 20.5
         frontier_heavy:
-          rank: 240
+          rank: 241
           score: 37.6
         topic_heavy:
-          rank: 216
+          rank: 217
           score: 20.2
   grade: skip
   taxonomy:
@@ -34609,19 +34609,19 @@
       rank_range: 59
       profiles:
         balanced:
-          rank: 216
+          rank: 217
           score: 29.0
         citation_heavy:
-          rank: 194
+          rank: 195
           score: 28.5
         method_repro_heavy:
-          rank: 231
+          rank: 232
           score: 33.8
         frontier_heavy:
-          rank: 218
+          rank: 219
           score: 40.1
         topic_heavy:
-          rank: 172
+          rank: 173
           score: 23.7
     keyword_scores:
       AI for CAD: 0
@@ -34797,19 +34797,19 @@
       rank_range: 125
       profiles:
         balanced:
-          rank: 218
+          rank: 219
           score: 28.4
         citation_heavy:
-          rank: 136
+          rank: 137
           score: 34.0
         method_repro_heavy:
-          rank: 249
+          rank: 250
           score: 29.8
         frontier_heavy:
-          rank: 211
+          rank: 212
           score: 41.3
         topic_heavy:
-          rank: 124
+          rank: 125
           score: 30.4
   has_real_world: false
   title_cn: FR-CSG：面向构造实体几何的快速可靠建模
@@ -34957,22 +34957,22 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 78
+      rank_range: 79
       profiles:
         balanced:
-          rank: 121
+          rank: 122
           score: 39.3
         citation_heavy:
           rank: 91
           score: 45.8
         method_repro_heavy:
-          rank: 169
+          rank: 170
           score: 43.1
         frontier_heavy:
-          rank: 109
+          rank: 110
           score: 53.6
         topic_heavy:
-          rank: 94
+          rank: 95
           score: 40.4
     keyword_scores:
       AI for CAD: 4
@@ -35170,19 +35170,19 @@
       rank_range: 111
       profiles:
         balanced:
-          rank: 186
+          rank: 187
           score: 33.5
         citation_heavy:
-          rank: 104
+          rank: 105
           score: 39.9
         method_repro_heavy:
-          rank: 215
+          rank: 216
           score: 35.6
         frontier_heavy:
-          rank: 142
+          rank: 143
           score: 48.4
         topic_heavy:
-          rank: 105
+          rank: 106
           score: 35.5
     keyword_scores:
       AI for CAD: 9
@@ -35362,19 +35362,19 @@
       rank_range: 82
       profiles:
         balanced:
-          rank: 277
+          rank: 278
           score: 14.6
         citation_heavy:
-          rank: 263
+          rank: 264
           score: 20.8
         method_repro_heavy:
-          rank: 273
+          rank: 274
           score: 20.4
         frontier_heavy:
-          rank: 195
+          rank: 196
           score: 42.5
         topic_heavy:
-          rank: 275
+          rank: 276
           score: 12.5
   grade: skip
   taxonomy:
@@ -35522,19 +35522,19 @@
       rank_range: 145
       profiles:
         balanced:
-          rank: 200
+          rank: 201
           score: 31.4
         citation_heavy:
-          rank: 128
+          rank: 129
           score: 35.5
         method_repro_heavy:
-          rank: 238
+          rank: 239
           score: 32.7
         frontier_heavy:
-          rank: 256
+          rank: 257
           score: 33.8
         topic_heavy:
-          rank: 111
+          rank: 112
           score: 33.9
     keyword_scores:
       AI for CAD: 0
@@ -35744,7 +35744,7 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 67
+      rank_range: 68
       profiles:
         balanced:
           rank: 71
@@ -35756,7 +35756,7 @@
           rank: 107
           score: 51.6
         frontier_heavy:
-          rank: 138
+          rank: 139
           score: 49.1
         topic_heavy:
           rank: 71
@@ -36129,19 +36129,19 @@
       rank_range: 43
       profiles:
         balanced:
-          rank: 279
+          rank: 280
           score: 14.2
         citation_heavy:
-          rank: 271
+          rank: 272
           score: 20.0
         method_repro_heavy:
-          rank: 276
+          rank: 277
           score: 18.8
         frontier_heavy:
-          rank: 236
+          rank: 237
           score: 38.0
         topic_heavy:
-          rank: 273
+          rank: 274
           score: 13.1
   grade: skip
   taxonomy:
@@ -36489,19 +36489,19 @@
       rank_range: 109
       profiles:
         balanced:
-          rank: 179
+          rank: 180
           score: 34.1
         citation_heavy:
-          rank: 120
+          rank: 121
           score: 36.6
         method_repro_heavy:
-          rank: 193
+          rank: 194
           score: 40.4
         frontier_heavy:
-          rank: 228
+          rank: 229
           score: 39.1
         topic_heavy:
-          rank: 119
+          rank: 120
           score: 31.5
     keyword_scores:
       AI for CAD: 7
@@ -36701,7 +36701,7 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 50
+      rank_range: 51
       profiles:
         balanced:
           rank: 63
@@ -36713,7 +36713,7 @@
           rank: 71
           score: 55.5
         frontier_heavy:
-          rank: 111
+          rank: 112
           score: 52.9
         topic_heavy:
           rank: 61
@@ -36923,19 +36923,19 @@
       rank_range: 126
       profiles:
         balanced:
-          rank: 221
+          rank: 222
           score: 28.2
         citation_heavy:
-          rank: 154
+          rank: 155
           score: 31.7
         method_repro_heavy:
-          rank: 251
+          rank: 252
           score: 29.1
         frontier_heavy:
-          rank: 255
+          rank: 256
           score: 34.5
         topic_heavy:
-          rank: 129
+          rank: 130
           score: 29.8
   has_real_world: false
   title_cn: UV-Net：从边界表示中学习
@@ -37090,19 +37090,19 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 88
+      rank_range: 89
       profiles:
         balanced:
-          rank: 98
+          rank: 99
           score: 42.8
         citation_heavy:
-          rank: 98
+          rank: 99
           score: 43.4
         method_repro_heavy:
-          rank: 166
+          rank: 167
           score: 44.0
         frontier_heavy:
-          rank: 177
+          rank: 178
           score: 44.8
         topic_heavy:
           rank: 89
@@ -37298,19 +37298,19 @@
       rank_range: 57
       profiles:
         balanced:
-          rank: 106
+          rank: 107
           score: 41.3
         citation_heavy:
-          rank: 103
+          rank: 104
           score: 40.9
         method_repro_heavy:
           rank: 138
           score: 48.0
         frontier_heavy:
-          rank: 160
+          rank: 161
           score: 46.5
         topic_heavy:
-          rank: 104
+          rank: 105
           score: 35.8
     keyword_scores:
       AI for CAD: 6
@@ -37506,7 +37506,7 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 38
+      rank_range: 39
       profiles:
         balanced:
           rank: 75
@@ -37518,7 +37518,7 @@
           rank: 78
           score: 54.6
         frontier_heavy:
-          rank: 113
+          rank: 114
           score: 52.8
         topic_heavy:
           rank: 81
@@ -37710,19 +37710,19 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 96
+      rank_range: 97
       profiles:
         balanced:
-          rank: 107
+          rank: 108
           score: 41.2
         citation_heavy:
-          rank: 97
+          rank: 98
           score: 43.8
         method_repro_heavy:
-          rank: 184
+          rank: 185
           score: 40.9
         frontier_heavy:
-          rank: 148
+          rank: 149
           score: 47.4
         topic_heavy:
           rank: 88
@@ -38150,19 +38150,19 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 111
+      rank_range: 112
       profiles:
         balanced:
-          rank: 109
+          rank: 110
           score: 41.0
         citation_heavy:
           rank: 86
           score: 47.8
         method_repro_heavy:
-          rank: 190
+          rank: 191
           score: 40.5
         frontier_heavy:
-          rank: 137
+          rank: 138
           score: 49.1
         topic_heavy:
           rank: 79
@@ -38368,19 +38368,19 @@
       rank_range: 61
       profiles:
         balanced:
-          rank: 224
+          rank: 225
           score: 27.9
         citation_heavy:
-          rank: 168
+          rank: 169
           score: 30.7
         method_repro_heavy:
-          rank: 226
+          rank: 227
           score: 34.3
         frontier_heavy:
-          rank: 227
+          rank: 228
           score: 39.1
         topic_heavy:
-          rank: 166
+          rank: 167
           score: 24.5
     keyword_scores:
       AI for CAD: 7
@@ -38545,19 +38545,19 @@
       rank_range: 57
       profiles:
         balanced:
-          rank: 150
+          rank: 151
           score: 36.4
         citation_heavy:
-          rank: 127
+          rank: 128
           score: 35.5
         method_repro_heavy:
-          rank: 179
+          rank: 180
           score: 41.4
         frontier_heavy:
-          rank: 169
+          rank: 170
           score: 45.8
         topic_heavy:
-          rank: 122
+          rank: 123
           score: 30.9
   has_real_world: false
   title_cn: Text2CAD：从初学者到专家级文本提示生成顺序CAD模型
@@ -38682,19 +38682,19 @@
       rank_range: 101
       profiles:
         balanced:
-          rank: 261
+          rank: 262
           score: 19.8
         citation_heavy:
-          rank: 211
+          rank: 212
           score: 27.1
         method_repro_heavy:
-          rank: 263
+          rank: 264
           score: 23.9
         frontier_heavy:
-          rank: 162
+          rank: 163
           score: 46.2
         topic_heavy:
-          rank: 219
+          rank: 220
           score: 19.7
   grade: skip
   taxonomy:
@@ -38818,19 +38818,19 @@
       rank_range: 89
       profiles:
         balanced:
-          rank: 267
+          rank: 268
           score: 17.5
         citation_heavy:
-          rank: 239
+          rank: 240
           score: 24.3
         method_repro_heavy:
-          rank: 265
+          rank: 266
           score: 22.4
         frontier_heavy:
-          rank: 178
+          rank: 179
           score: 44.6
         topic_heavy:
-          rank: 252
+          rank: 253
           score: 16.5
   grade: skip
   taxonomy:
@@ -39196,10 +39196,10 @@
           rank: 124
           score: 49.8
         frontier_heavy:
-          rank: 96
+          rank: 97
           score: 55.8
         topic_heavy:
-          rank: 93
+          rank: 94
           score: 40.5
     keyword_scores:
       AI for CAD: 7
@@ -39385,7 +39385,7 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 77
+      rank_range: 78
       profiles:
         balanced:
           rank: 72
@@ -39397,7 +39397,7 @@
           rank: 73
           score: 55.1
         frontier_heavy:
-          rank: 149
+          rank: 150
           score: 47.4
         topic_heavy:
           rank: 82
@@ -39607,7 +39607,7 @@
           rank: 125
           score: 49.7
         frontier_heavy:
-          rank: 110
+          rank: 111
           score: 53.0
         topic_heavy:
           rank: 46
@@ -40449,19 +40449,19 @@
       rank_range: 85
       profiles:
         balanced:
-          rank: 188
+          rank: 189
           score: 33.3
         citation_heavy:
-          rank: 139
+          rank: 140
           score: 33.6
         method_repro_heavy:
-          rank: 212
+          rank: 213
           score: 36.2
         frontier_heavy:
-          rank: 190
+          rank: 191
           score: 43.3
         topic_heavy:
-          rank: 127
+          rank: 128
           score: 30.1
   has_real_world: false
   title_cn: OpenECAD：一种用于可编辑3D-CAD设计的高效视觉语言模型
@@ -40783,19 +40783,19 @@
       rank_range: 65
       profiles:
         balanced:
-          rank: 264
+          rank: 265
           score: 18.9
         citation_heavy:
-          rank: 253
+          rank: 254
           score: 22.3
         method_repro_heavy:
-          rank: 275
+          rank: 276
           score: 18.9
         frontier_heavy:
-          rank: 277
+          rank: 278
           score: 26.9
         topic_heavy:
-          rank: 212
+          rank: 213
           score: 20.5
   grade: skip
   taxonomy:
@@ -40919,19 +40919,19 @@
       rank_range: 1
       profiles:
         balanced:
-          rank: 286
+          rank: 287
           score: 6.7
         citation_heavy:
-          rank: 286
+          rank: 287
           score: 8.1
         method_repro_heavy:
-          rank: 286
+          rank: 287
           score: 4.7
         frontier_heavy:
-          rank: 286
+          rank: 287
           score: 5.7
         topic_heavy:
-          rank: 285
+          rank: 286
           score: 9.1
   grade: skip
   taxonomy:
@@ -41059,19 +41059,19 @@
       rank_range: 57
       profiles:
         balanced:
-          rank: 243
+          rank: 244
           score: 23.7
         citation_heavy:
-          rank: 250
+          rank: 251
           score: 22.8
         method_repro_heavy:
-          rank: 257
+          rank: 258
           score: 27.3
         frontier_heavy:
-          rank: 275
+          rank: 276
           score: 28.4
         topic_heavy:
-          rank: 218
+          rank: 219
           score: 19.8
     keyword_scores:
       AI for CAD: 4
@@ -41227,7 +41227,7 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 79
+      rank_range: 80
       profiles:
         balanced:
           rank: 88
@@ -41239,7 +41239,7 @@
           rank: 127
           score: 49.4
         frontier_heavy:
-          rank: 165
+          rank: 166
           score: 46.2
         topic_heavy:
           rank: 86
@@ -41423,19 +41423,19 @@
       rank_range: 90
       profiles:
         balanced:
-          rank: 250
+          rank: 251
           score: 23.0
         citation_heavy:
-          rank: 220
+          rank: 221
           score: 26.2
         method_repro_heavy:
-          rank: 259
+          rank: 260
           score: 26.6
         frontier_heavy:
-          rank: 270
+          rank: 271
           score: 29.7
         topic_heavy:
-          rank: 180
+          rank: 181
           score: 22.5
     keyword_scores:
       AI for CAD: 2
@@ -41599,7 +41599,7 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 72
+      rank_range: 73
       profiles:
         balanced:
           rank: 93
@@ -41608,10 +41608,10 @@
           rank: 89
           score: 46.4
         method_repro_heavy:
-          rank: 154
+          rank: 155
           score: 45.9
         frontier_heavy:
-          rank: 156
+          rank: 157
           score: 46.8
         topic_heavy:
           rank: 84
@@ -41802,19 +41802,19 @@
       rank_range: 148
       profiles:
         balanced:
-          rank: 168
+          rank: 169
           score: 34.7
         citation_heavy:
-          rank: 106
+          rank: 107
           score: 39.6
         method_repro_heavy:
-          rank: 217
+          rank: 218
           score: 34.9
         frontier_heavy:
-          rank: 245
+          rank: 246
           score: 37.5
         topic_heavy:
-          rank: 97
+          rank: 98
           score: 38.5
     keyword_scores:
       AI for CAD: 6
@@ -42226,19 +42226,19 @@
       rank_range: 102
       profiles:
         balanced:
-          rank: 193
+          rank: 194
           score: 32.6
         citation_heavy:
-          rank: 113
+          rank: 114
           score: 37.7
         method_repro_heavy:
-          rank: 214
+          rank: 215
           score: 35.7
         frontier_heavy:
-          rank: 193
+          rank: 194
           score: 42.9
         topic_heavy:
-          rank: 112
+          rank: 113
           score: 33.6
   has_real_world: false
   title_cn: MultiCAD：多模态三维计算机辅助设计模型的对比表示学习
@@ -42354,19 +42354,19 @@
       rank_range: 66
       profiles:
         balanced:
-          rank: 282
+          rank: 283
           score: 11.1
         citation_heavy:
-          rank: 279
+          rank: 280
           score: 16.7
         method_repro_heavy:
-          rank: 277
+          rank: 278
           score: 18.2
         frontier_heavy:
-          rank: 220
+          rank: 221
           score: 40.0
         topic_heavy:
-          rank: 286
+          rank: 287
           score: 7.7
   grade: skip
   taxonomy:
@@ -42493,19 +42493,19 @@
       rank_range: 87
       profiles:
         balanced:
-          rank: 270
+          rank: 271
           score: 16.9
         citation_heavy:
-          rank: 244
+          rank: 245
           score: 23.6
         method_repro_heavy:
-          rank: 268
+          rank: 269
           score: 22.0
         frontier_heavy:
-          rank: 183
+          rank: 184
           score: 44.2
         topic_heavy:
-          rank: 262
+          rank: 263
           score: 15.7
   grade: skip
   taxonomy:
@@ -42621,19 +42621,19 @@
       rank_range: 2
       profiles:
         balanced:
-          rank: 285
+          rank: 286
           score: 7.5
         citation_heavy:
-          rank: 285
+          rank: 286
           score: 9.2
         method_repro_heavy:
-          rank: 285
+          rank: 286
           score: 5.5
         frontier_heavy:
-          rank: 285
+          rank: 286
           score: 7.0
         topic_heavy:
-          rank: 283
+          rank: 284
           score: 10.0
   grade: skip
   taxonomy:
@@ -42777,19 +42777,19 @@
       rank_range: 116
       profiles:
         balanced:
-          rank: 201
+          rank: 202
           score: 31.2
         citation_heavy:
-          rank: 133
+          rank: 134
           score: 34.9
         method_repro_heavy:
-          rank: 233
+          rank: 234
           score: 33.4
         frontier_heavy:
-          rank: 230
+          rank: 231
           score: 39.0
         topic_heavy:
-          rank: 117
+          rank: 118
           score: 31.8
     keyword_scores:
       AI for CAD: 8
@@ -42978,19 +42978,19 @@
       rank_range: 65
       profiles:
         balanced:
-          rank: 132
+          rank: 133
           score: 38.3
         citation_heavy:
-          rank: 111
+          rank: 112
           score: 38.5
         method_repro_heavy:
-          rank: 171
+          rank: 172
           score: 42.6
         frontier_heavy:
-          rank: 173
+          rank: 174
           score: 45.5
         topic_heavy:
-          rank: 108
+          rank: 109
           score: 34.6
     keyword_scores:
       AI for CAD: 7
@@ -43179,7 +43179,7 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 24
+      rank_range: 25
       profiles:
         balanced:
           rank: 83
@@ -43191,7 +43191,7 @@
           rank: 74
           score: 54.9
         frontier_heavy:
-          rank: 98
+          rank: 99
           score: 55.6
         topic_heavy:
           rank: 92
@@ -43369,19 +43369,19 @@
       rank_range: 104
       profiles:
         balanced:
-          rank: 258
+          rank: 259
           score: 20.4
         citation_heavy:
-          rank: 200
+          rank: 201
           score: 27.8
         method_repro_heavy:
-          rank: 261
+          rank: 262
           score: 24.3
         frontier_heavy:
-          rank: 157
+          rank: 158
           score: 46.7
         topic_heavy:
-          rank: 210
+          rank: 211
           score: 20.5
   grade: skip
   taxonomy:
@@ -43543,7 +43543,7 @@
           rank: 106
           score: 51.6
         frontier_heavy:
-          rank: 88
+          rank: 89
           score: 56.9
         topic_heavy:
           rank: 72
@@ -43746,19 +43746,19 @@
       rank_range: 100
       profiles:
         balanced:
-          rank: 187
+          rank: 188
           score: 33.5
         citation_heavy:
-          rank: 110
+          rank: 111
           score: 39.1
         method_repro_heavy:
-          rank: 209
+          rank: 210
           score: 36.9
         frontier_heavy:
-          rank: 166
+          rank: 167
           score: 46.0
         topic_heavy:
-          rank: 109
+          rank: 110
           score: 34.3
     keyword_scores:
       AI for CAD: 9
@@ -44170,19 +44170,19 @@
       rank_range: 107
       profiles:
         balanced:
-          rank: 190
+          rank: 191
           score: 32.9
         citation_heavy:
-          rank: 143
+          rank: 144
           score: 33.0
         method_repro_heavy:
-          rank: 208
+          rank: 209
           score: 37.2
         frontier_heavy:
-          rank: 237
+          rank: 238
           score: 37.8
         topic_heavy:
-          rank: 130
+          rank: 131
           score: 29.4
     keyword_scores:
       AI for CAD: 7
@@ -44376,19 +44376,19 @@
       rank_range: 97
       profiles:
         balanced:
-          rank: 222
+          rank: 223
           score: 28.0
         citation_heavy:
-          rank: 196
+          rank: 197
           score: 28.2
         method_repro_heavy:
-          rank: 244
+          rank: 245
           score: 30.7
         frontier_heavy:
-          rank: 253
+          rank: 254
           score: 35.0
         topic_heavy:
-          rank: 156
+          rank: 157
           score: 25.3
   has_real_world: false
   title_cn: 弱监督端到端CAD模型检索到扫描对象
@@ -44542,19 +44542,19 @@
       rank_range: 75
       profiles:
         balanced:
-          rank: 124
+          rank: 125
           score: 39.1
         citation_heavy:
-          rank: 117
+          rank: 118
           score: 37.1
         method_repro_heavy:
-          rank: 164
+          rank: 165
           score: 44.3
         frontier_heavy:
-          rank: 188
+          rank: 189
           score: 43.5
         topic_heavy:
-          rank: 113
+          rank: 114
           score: 33.2
     keyword_scores:
       AI for CAD: 7
@@ -44760,19 +44760,19 @@
       rank_range: 30
       profiles:
         balanced:
-          rank: 100
+          rank: 101
           score: 42.6
         citation_heavy:
-          rank: 99
+          rank: 100
           score: 42.6
         method_repro_heavy:
           rank: 128
           score: 49.3
         frontier_heavy:
-          rank: 129
+          rank: 130
           score: 49.5
         topic_heavy:
-          rank: 101
+          rank: 102
           score: 37.2
     keyword_scores:
       AI for CAD: 7
@@ -44958,19 +44958,19 @@
       rank_range: 18
       profiles:
         balanced:
-          rank: 240
+          rank: 241
           score: 25.0
         citation_heavy:
-          rank: 245
+          rank: 246
           score: 23.5
         method_repro_heavy:
-          rank: 243
+          rank: 244
           score: 30.9
         frontier_heavy:
-          rank: 254
+          rank: 255
           score: 34.7
         topic_heavy:
-          rank: 236
+          rank: 237
           score: 18.3
   has_real_world: false
   title_cn: 稀疏多物体渲染与比较
@@ -45094,19 +45094,19 @@
       rank_range: 36
       profiles:
         balanced:
-          rank: 274
+          rank: 275
           score: 15.6
         citation_heavy:
-          rank: 267
+          rank: 268
           score: 20.6
         method_repro_heavy:
-          rank: 281
+          rank: 282
           score: 16.3
         frontier_heavy:
-          rank: 271
+          rank: 272
           score: 29.3
         topic_heavy:
-          rank: 245
+          rank: 246
           score: 17.2
   grade: skip
   taxonomy:
@@ -45252,19 +45252,19 @@
       rank_range: 131
       profiles:
         balanced:
-          rank: 177
+          rank: 178
           score: 34.3
         citation_heavy:
-          rank: 152
+          rank: 153
           score: 32.1
         method_repro_heavy:
-          rank: 198
+          rank: 199
           score: 39.6
         frontier_heavy:
-          rank: 262
+          rank: 263
           score: 32.9
         topic_heavy:
-          rank: 131
+          rank: 132
           score: 29.2
     keyword_scores:
       AI for CAD: 6
@@ -45447,19 +45447,19 @@
       rank_range: 119
       profiles:
         balanced:
-          rank: 130
+          rank: 131
           score: 38.5
         citation_heavy:
-          rank: 119
+          rank: 120
           score: 36.8
         method_repro_heavy:
-          rank: 163
+          rank: 164
           score: 44.6
         frontier_heavy:
-          rank: 233
+          rank: 234
           score: 38.3
         topic_heavy:
-          rank: 114
+          rank: 115
           score: 33.1
     keyword_scores:
       AI for CAD: 7
@@ -45655,19 +45655,19 @@
       rank_range: 91
       profiles:
         balanced:
-          rank: 105
+          rank: 106
           score: 41.7
         citation_heavy:
-          rank: 102
+          rank: 103
           score: 41.0
         method_repro_heavy:
-          rank: 141
+          rank: 142
           score: 47.2
         frontier_heavy:
-          rank: 191
+          rank: 192
           score: 43.3
         topic_heavy:
-          rank: 100
+          rank: 101
           score: 37.3
     keyword_scores:
       AI for CAD: 7
@@ -45856,19 +45856,19 @@
       rank_range: 108
       profiles:
         balanced:
-          rank: 169
+          rank: 170
           score: 34.5
         citation_heavy:
-          rank: 144
+          rank: 145
           score: 32.9
         method_repro_heavy:
-          rank: 181
+          rank: 182
           score: 41.0
         frontier_heavy:
-          rank: 244
+          rank: 245
           score: 37.5
         topic_heavy:
-          rank: 136
+          rank: 137
           score: 28.4
     keyword_scores:
       AI for CAD: 2
@@ -46044,19 +46044,19 @@
       rank_range: 67
       profiles:
         balanced:
-          rank: 94
+          rank: 95
           score: 44.2
         citation_heavy:
-          rank: 100
+          rank: 101
           score: 42.1
         method_repro_heavy:
           rank: 114
           score: 50.9
         frontier_heavy:
-          rank: 161
+          rank: 162
           score: 46.4
         topic_heavy:
-          rank: 98
+          rank: 99
           score: 37.7
     keyword_scores:
       AI for CAD: 6
@@ -47143,19 +47143,19 @@
       rank_range: 57
       profiles:
         balanced:
-          rank: 159
+          rank: 160
           score: 35.6
         citation_heavy:
-          rank: 115
+          rank: 116
           score: 37.5
         method_repro_heavy:
-          rank: 172
+          rank: 173
           score: 42.4
         frontier_heavy:
-          rank: 116
+          rank: 117
           score: 52.3
         topic_heavy:
-          rank: 125
+          rank: 126
           score: 30.3
     keyword_scores:
       AI for CAD: 8
@@ -47646,7 +47646,7 @@
     status: planned
     run_status: planned
     report: resource/hiercad-hierarchical-text-to-cad-design-via-structure-align-2026/research.md
-    queued_at: '2026-07-27T02:12:21Z'
+    queued_at: '2026-07-28T01:52:20Z'
 - id: text-aided-multi-modal-panoptic-symbol-spotting-for-cad-floo-2026
   title: Text-Aided Multi-Modal Panoptic Symbol Spotting for CAD Floor Plan Drawings
   authors:
@@ -47767,13 +47767,13 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 27
+      rank_range: 28
       profiles:
         balanced:
           rank: 89
           score: 45.2
         citation_heavy:
-          rank: 94
+          rank: 95
           score: 45.1
         method_repro_heavy:
           rank: 80
@@ -47782,7 +47782,7 @@
           rank: 76
           score: 59.8
         topic_heavy:
-          rank: 103
+          rank: 104
           score: 36.9
   has_real_world: false
   title_cn: 面向CAD楼层平面图的文本辅助多模态全景符号检测
@@ -47992,4 +47992,173 @@
     - theory
     - system
     confidence: 0.68
+    evidence: method
+- id: wrong-design-intent-is-worse-than-none-a-derangement-contro-2026
+  title: 'Wrong Design Intent Is Worse Than None: A Derangement-Control Diagnosis
+    of Header Conditioning in CAD Program Completion'
+  authors:
+  - Yang Xiao
+  abstract: 'Fine-tuned code LLMs can be conditioned on a lightweight design-intent
+    header to steer parametric CAD generation, but whether the model actually reads
+    the header''s content has not been tested under a metric independent of the conditioning
+    itself, nor with a causal control. We study CADCON, a five-feature design-intent
+    header prepended to CadQuery-style sketch-extrude programs during LoRA fine-tuning
+    of Qwen2.5-Coder-1.5B, re-scored by executable geometric assertions on the produced
+    B-rep solid, sharing no code with the header-defining regex extractor. Across
+    three seeds and a pre-registered {0%, 40%}-prefix $\times$ {correct, wrong, masked}-header
+    matrix we find: (i) in conditional completion (40% prefix), a semantically wrong
+    header degrades adherence below the no-header baseline (0.43 $\to$ 0.30/0.21 text/token)
+    on design intents the model can render unconditioned -- polygonal and thin geometries;
+    circle and tall intents sit at a baseline generation floor for this checkpoint
+    ($\approx$0 in both compared arms) and are uninformative for this contrast; (ii)
+    a derangement control -- retrained with shuffled ground-truth headers, identical
+    header marginal but destroyed content correlation -- remains competent yet is
+    immune to wrong headers, while the standard model is not (text headers; interaction
+    significant on 3/3 seeds, p $\leq$ $4.2\times10^{-3}$): the harm requires the
+    learned header$\to$program mapping, excluding the marginal/mechanical distribution-shift
+    confound; (iii) the independent metric deflates the apparent benefit of a correct
+    header (token: +0.21 regex $\to$ +0.02 geometry), quantifying metric circularity;
+    (iv) the harm is regime-specific -- at 0% prefix the unconditioned baseline cannot
+    generate valid CAD at all. Wrong intent is not noise: it actively misdirects generation.'
+  year: 2026
+  venue: arXiv
+  paper_type:
+  - method
+  - application
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2607.23191v1
+  preview: /assets/papers/wrong-design-intent-is-worse-than-none-a-derangement-contro-2026/teaser.png
+  sources:
+  - repo: unified-sources
+  techniques:
+  - LoRA fine-tuning
+  - code LLM (Qwen2.5-Coder-1.5B)
+  - design-intent header conditioning
+  - geometric assertions
+  - derangement-control diagnosis
+  - prefix conditioning
+  representations:
+  - B-Rep
+  - CAD command sequences
+  - sketches
+  inputs:
+  - text
+  - code
+  outputs:
+  - parametric CAD
+  - B-Rep solids
+  arxiv_id: 2607.23191v1
+  seed_expanded: false
+  score:
+    read_first_score: 44.2
+    components:
+      topical_relevance:
+        value: 34.4
+        available: true
+        confidence: medium
+        explanation: Matches configured research keywords against title, abstract,
+          tags, and analysis text.
+        explanation_zh: 将配置的研究关键词与标题、摘要、标签和分析文本进行匹配。
+        evidence:
+        - source: awesome.yaml
+          field: research.keywords
+          detail: matched=10
+      citation_impact:
+        value: 0.0
+        available: false
+        confidence: low
+        explanation: No OpenAlex identifier was available for this paper.
+        explanation_zh: 该论文没有可用的 OpenAlex 标识符。
+        evidence: []
+      graph_prestige:
+        value: 0.0
+        available: false
+        confidence: low
+        explanation: No local citation edges were available, so graph prestige is
+          excluded.
+        explanation_zh: 没有可用的局部引用边，因此不纳入图谱声望评分。
+        evidence: []
+      citation_velocity:
+        value: 0.0
+        available: false
+        confidence: low
+        explanation: No OpenAlex identifier was available for this paper.
+        explanation_zh: 该论文没有可用的 OpenAlex 标识符。
+        evidence: []
+      methodology_quality:
+        value: 40
+        available: true
+        confidence: medium
+        explanation: Screens visible abstract and analysis fields for experiment,
+          dataset, baseline, metric, and limitation evidence.
+        explanation_zh: 检查可见的摘要与分析字段，寻找实验、数据集、基线、指标和局限性等方法证据。
+        evidence:
+        - source: papers.yaml
+          field: abstract/analysis
+          detail: markers=baseline,metric
+      reproducibility:
+        value: 46
+        available: true
+        confidence: low
+        explanation: Screens links and visible text for paper, code, dataset, artifact,
+          and repository signals.
+        explanation_zh: 检查链接和可见文本中的论文、代码、数据集、工件与仓库信号。
+        evidence:
+        - source: papers.yaml
+          field: links
+          detail: pdf=True; code=False; dataset=False; markers=checkpoint,code
+      recency:
+        value: 100.0
+        available: true
+        confidence: medium
+        explanation: Uses a gentle age decay so recent papers surface without erasing
+          older foundations.
+        explanation_zh: 使用温和的时间衰减，让近期论文更容易浮现，同时保留较早基础工作的价值。
+        evidence:
+        - source: papers.yaml
+          field: year
+          detail: '2026'
+    applied_weights:
+      topical_relevance: 0.416667
+      methodology_quality: 0.25
+      reproducibility: 0.25
+      recency: 0.083333
+    ranking_profile: paper_rank_lite_v1
+    field_roles:
+    - frontier
+    warnings: []
+    rank_sensitivity:
+      stability: volatile
+      rank_range: 54
+      profiles:
+        balanced:
+          rank: 94
+          score: 44.2
+        citation_heavy:
+          rank: 93
+          score: 45.5
+        method_repro_heavy:
+          rank: 139
+          score: 47.5
+        frontier_heavy:
+          rank: 85
+          score: 57.7
+        topic_heavy:
+          rank: 93
+          score: 41.0
+  title_cn: 错误设计意图比没有更糟糕：CAD程序补全中头部条件化的Derangement-Control诊断
+  abstract_cn: 经过微调的代码大语言模型可以在轻量级设计意图头部条件下引导参数化CAD生成，但模型是否实际读取头部内容尚未在独立于条件本身且具有因果控制的指标下进行测试。我们研究了CADCON——一个包含五个特征的设计意图头部，在Qwen2.5-Coder-1.5B的LoRA微调期间附加到CadQuery风格的草图-拉伸程序之前，并由对生成的B-rep实体执行的可执行几何断言重新评分，这些断言与定义头部的正则表达式提取器不共享代码。在三个种子和一个预注册的{0%,
+    40%}-前缀 × {正确, 错误, 掩码}-头部矩阵中，我们发现：(i) 在条件补全（40%前缀）中，语义错误的头部将模型在无条件情况下能够渲染的设计意图（多边形和薄几何体）上的遵循度降低到低于无头部基线（0.43
+    → 0.30/0.21 文本/令牌）；对于圆形和高等意图，该检查点的基线生成下限约为0（在两个比较臂中均接近0），因此对此对比无信息量；(ii) 一个Derangement控制——使用打乱的真实头部重新训练，头部边际分布相同但内容相关性被破坏——仍然有能力但对错误头部免疫，而标准模型则不然（文本头部；交互在3/3种子上显著，p
+    ≤ 4.2×10^{-3}）：这种伤害需要学习到的头部到程序映射，排除了边际/机械分布偏移的混淆；(iii) 独立指标削弱了正确头部的表面益处（令牌：+0.21
+    正则表达式 → +0.02 几何），量化了指标循环性；(iv) 这种伤害是特定于状态的——在0%前缀下，无条件基线根本无法生成有效的CAD。错误意图不是噪声：它主动误导生成。
+  grade: skip
+  taxonomy:
+    primary: method
+    secondary:
+    - benchmark
+    - application
+    - system
+    confidence: 0.37
     evidence: method

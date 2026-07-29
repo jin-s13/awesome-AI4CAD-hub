@@ -2807,7 +2807,7 @@
     status: planned
     run_status: planned
     report: resource/cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026/research.md
-    queued_at: '2026-07-28T01:52:20Z'
+    queued_at: '2026-07-29T01:55:44Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -3434,7 +3434,7 @@
     status: planned
     run_status: planned
     report: resource/cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026/research.md
-    queued_at: '2026-07-28T01:52:20Z'
+    queued_at: '2026-07-29T01:55:44Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -11973,7 +11973,7 @@
     status: planned
     run_status: planned
     report: resource/towards-high-fidelity-cad-generation-via-llm-driven-program-2026/research.md
-    queued_at: '2026-07-28T01:52:20Z'
+    queued_at: '2026-07-29T01:55:44Z'
   seed_expanded: true
   taxonomy:
     primary: method
@@ -47646,7 +47646,7 @@
     status: planned
     run_status: planned
     report: resource/hiercad-hierarchical-text-to-cad-design-via-structure-align-2026/research.md
-    queued_at: '2026-07-28T01:52:20Z'
+    queued_at: '2026-07-29T01:55:44Z'
 - id: text-aided-multi-modal-panoptic-symbol-spotting-for-cad-floo-2026
   title: Text-Aided Multi-Modal Panoptic Symbol Spotting for CAD Floor Plan Drawings
   authors:
@@ -48147,13 +48147,31 @@
         topic_heavy:
           rank: 93
           score: 41.0
+    keyword_scores:
+      AI for CAD: 7
+      computer-aided design: 8
+      neural CAD: 6
+      generative CAD: 8
+      parametric CAD: 9
+      B-Rep: 8
+      boundary representation: 8
+      constructive solid geometry: 0
+      CSG: 0
+      sketch extrusion: 9
+      CAD generation: 9
+      CAD reconstruction: 0
+      text-to-CAD: 5
+      image-to-CAD: 0
+      point cloud to CAD: 0
+      CAD program: 9
+    total: 86
   title_cn: 错误设计意图比没有更糟糕：CAD程序补全中头部条件化的Derangement-Control诊断
   abstract_cn: 经过微调的代码大语言模型可以在轻量级设计意图头部条件下引导参数化CAD生成，但模型是否实际读取头部内容尚未在独立于条件本身且具有因果控制的指标下进行测试。我们研究了CADCON——一个包含五个特征的设计意图头部，在Qwen2.5-Coder-1.5B的LoRA微调期间附加到CadQuery风格的草图-拉伸程序之前，并由对生成的B-rep实体执行的可执行几何断言重新评分，这些断言与定义头部的正则表达式提取器不共享代码。在三个种子和一个预注册的{0%,
     40%}-前缀 × {正确, 错误, 掩码}-头部矩阵中，我们发现：(i) 在条件补全（40%前缀）中，语义错误的头部将模型在无条件情况下能够渲染的设计意图（多边形和薄几何体）上的遵循度降低到低于无头部基线（0.43
     → 0.30/0.21 文本/令牌）；对于圆形和高等意图，该检查点的基线生成下限约为0（在两个比较臂中均接近0），因此对此对比无信息量；(ii) 一个Derangement控制——使用打乱的真实头部重新训练，头部边际分布相同但内容相关性被破坏——仍然有能力但对错误头部免疫，而标准模型则不然（文本头部；交互在3/3种子上显著，p
     ≤ 4.2×10^{-3}）：这种伤害需要学习到的头部到程序映射，排除了边际/机械分布偏移的混淆；(iii) 独立指标削弱了正确头部的表面益处（令牌：+0.21
     正则表达式 → +0.02 几何），量化了指标循环性；(iv) 这种伤害是特定于状态的——在0%前缀下，无条件基线根本无法生成有效的CAD。错误意图不是噪声：它主动误导生成。
-  grade: skip
+  grade: must_read
   taxonomy:
     primary: method
     secondary:
@@ -48162,3 +48180,49 @@
     - system
     confidence: 0.37
     evidence: method
+  tldr: Tests whether LLM reads design-intent header in CAD program generation; wrong
+    headers harm performance, but derangement control shows effect requires learned
+    mapping.
+  reasoning: Strengths include rigorous experimental design with causal controls,
+    multiple seeds, and pre-registered conditions. Weaknesses are limited to a single
+    model and dataset, and the abstract cuts off before discussing limitations or
+    broader applicability.
+  has_real_world: true
+  analysis:
+    innovations:
+    - Causal derangement control (shuffled headers) that isolates learned header-to-program
+      mapping from marginal distribution shift
+    - Independent evaluation metric via executable geometric assertions on the B-rep
+      solid, breaking circularity with the regex-based header extractor
+    - Pre-registered 3-seed experimental design crossing prefix length and header
+      type to diagnose header conditioning
+    methodology: LoRA fine-tuning of Qwen2.5-Coder-1.5B on CadQuery programs with
+      a five-feature CADCON header, then evaluating with three seeds under a pre-registered
+      {0%, 40%}-prefix × {correct, wrong, masked}-header matrix. Adherence is scored
+      by geometric assertions on the generated B-rep solid, and a derangement model
+      trained with shuffled ground-truth headers serves as causal control.
+    key_results: A wrong header significantly reduces adherence below the no-header
+      baseline for polygonal and thin intents, while the derangement control remains
+      immune (interaction significant on 3/3 seeds, p ≤ 4.2×10^{-3}). The independent
+      metric deflates the apparent benefit of a correct header from +0.21 to +0.02,
+      revealing metric circularity.
+    limitations:
+    - Circle and tall design intents are at a baseline generation floor (~0) for this
+      checkpoint, making them uninformative for the contrast
+    - 'The harm is regime-specific: at 0% prefix the unconditioned baseline cannot
+      generate valid CAD, so findings apply only to conditional completion'
+    - Study limited to a single model (Qwen2.5-Coder-1.5B) and one CAD program domain
+  tldr_cn: 测试LLM在CAD生成中是否读取设计意图头；错误头损害性能，但错乱控制表明效应需学习映射。
+  analysis_cn:
+    innovations:
+    - 因果错乱控制（打乱头信息），将学习到的头到程序映射与边际分布偏移分离
+    - 通过可执行几何断言对B-rep实体进行独立评估，打破与基于正则表达式的头提取器的循环性
+    - 预注册的三种子实验设计，交叉前缀长度和头类型，以诊断头条件化
+    methodology: 使用LoRA微调Qwen2.5-Coder-1.5B，在CadQuery程序上附加五特征CADCON头，然后在预注册的{0%, 40%}前缀×{正确,
+      错误, 遮罩}头矩阵下，用三个种子进行评估。通过生成B-rep实体上的几何断言评分一致性，并使用打乱真实头训练的错乱模型作为因果控制。
+    key_results: 错误头显著降低多边形和薄几何意图下的一致性，低于无头基线，而错乱控制则不受影响（3/3种子交互显著，p ≤ 4.2×10^{-3}）。独立指标将正确头的表面收益从+0.21降至+0.02，揭示指标循环性。
+    limitations:
+    - 圆形和高设计意图在该检查点处于基线生成下限（~0），因此对对比无信息量
+    - 损害具有条件特异性：在0%前缀下，无条件基线无法生成有效CAD，因此结果仅适用于条件完成
+    - 研究限于单一模型（Qwen2.5-Coder-1.5B）和一个CAD程序领域
+    tech_stack: []

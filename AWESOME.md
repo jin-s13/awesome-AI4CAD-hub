@@ -52,6 +52,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2026 | 53.6 | method | [BrepForge: Factorized B-rep Synthesis via Wireframe Composition and Boundary-Conditioned Surface Instantiation](https://arxiv.org/abs/2605.19411v1) | BrepForge factorizes B-rep synthesis into wireframe composition and boundary-conditioned surface instantiation, achieving superior topological validity and geometric complexity. |
 | 2026 | 53.5 | method | [Physics-in-the-Loop: A Hybrid Agentic Architecture for Validated CAD Engineering Design](https://arxiv.org/abs/2605.19717v1) | A hybrid agentic architecture that embeds physics-based tools into LLM-driven CAD generation for validated engineering design. |
 | 2026 | 52.9 | method | [BRepCLIP: Contrastive Multimodal Pretraining on BRep Primitives for CAD Understanding](https://arxiv.org/abs/2606.05515v1) | BRepCLIP aligns BRep geometry with language and images via contrastive pretraining, improving CAD retrieval and classification. |
+| 2026 | 52.9 | method | [CADENA: Stepwise CAD Reverse Engineering](https://arxiv.org/abs/2608.00799v1) | Introduces CADENA, a stepwise CAD reverse engineering model that reconstructs 3D meshes into parametric CAD programs, outperforming prior methods on multiple benchmarks. |
 | 2026 | 52.5 | method | [Enhancing Creativity in 3D Generative Design via a TRIZ-Inspired Text-to-CAD Framework](https://arxiv.org/abs/2606.21378v1) | A TRIZ-inspired text-to-CAD framework using LLMs generates creative, editable CAD models with systematic design exploration, demonstrated via a chair case study. |
 | 2026 | 52.2 | method | [FllumaOne: A Code-Native Multimodal CAD Dataset with Executable Programs and Kernel-Validated Feature Histories](https://arxiv.org/abs/2606.17696v1) | Parametric computer-aided design records both final geometry and the ordered construction history that determines how a part can be edited. Datasets for editable CAD research shou... |
 | 2026 | 52.2 | method | [Masked BRep Autoencoder via Hierarchical Graph Transformer](https://arxiv.org/abs/2603.14927v2) | Self-supervised masked BRep autoencoder with hierarchical graph transformer learns CAD representations for downstream tasks with limited labeled data. |
@@ -75,6 +76,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2026 | 43.2 | method | [A2Z-10M+: Geometric Deep Learning with A-to-Z BRep Annotations for AI-Assisted CAD Modeling and Reverse Engineering](https://arxiv.org/abs/2603.12605v1) | Reverse engineering and rapid prototyping of computer-aided design (CAD) models from 3D scans, sketches, or simple text prompts are vital in industrial product design. However, re... |
 | 2026 | 42.4 | method, application | [PolyGNN: Polyhedron-based Graph Neural Network for 3D Building Reconstruction from Point Clouds](https://www.sciencedirect.com/science/article/pii/S0924271624003691) |  |
 | 2026 | 41.8 | method | [Point2CAD: Reverse Engineering CAD Models from 3D Point Clouds](https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_Point2CAD_Reverse_Engineering_CAD_Models_from_3D_Point_Clouds_CVPR_2024_paper.pdf) |  |
+| 2026 | 41.5 | method | [CADIR: A Cross-Backend Editable Intermediate Representation for Agentic CAD Generation](https://arxiv.org/abs/2608.00891v1) | CADIR is an agent-friendly intermediate representation for CAD generation, enabling cross-backend editable feature histories via construction graphs and geometric signature matchi... |
 | 2026 | 40.1 | method | [SDM-NET: Deep Generative Network for Structured Deformable Mesh](https://dl.acm.org/doi/pdf/10.1145/3355089.3356488) |  |
 | 2026 | 39.5 | method | [Im2Struct: Recovering 3D Shape Structure from a Single RGB Image](https://openaccess.thecvf.com/content_cvpr_2018/papers/Niu_Im2Struct_Recovering_3D_CVPR_2018_paper.pdf) |  |
 | 2026 | 39.5 | method | [Learning Unsupervised Hierarchical Part Decomposition of 3D Objects from a Single RGB Image](https://openaccess.thecvf.com/content_CVPR_2020/papers/Paschalidou_Learning_Unsupervised_Hierarchical_Part_Decomposition_of_3D_Objects_From_a_CVPR_2020_paper.pdf) |  |
@@ -93,6 +95,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2026 | 35.4 | method | [Learning Shape Abstractions by Assembling Volumetric Primitives](https://openaccess.thecvf.com/content_cvpr_2017/papers/Tulsiani_Learning_Shape_Abstractions_CVPR_2017_paper.pdf) |  |
 | 2026 | 32.7 | method | [Engineering Sketch Generation for Computer-Aided Design](https://openaccess.thecvf.com/content/CVPR2021W/SketchDL/papers/Willis_Engineering_Sketch_Generation_for_Computer-Aided_Design_CVPRW_2021_paper.pdf) |  |
 | 2026 | 32.7 | method | [VQ-CAD: Computer-Aided Design model generation with vector quantized diffusion](https://www.sciencedirect.com/science/article/pii/S016783962400061X) |  |
+| 2026 | 32.2 | method | [AIMold: An Autonomous AI-based Pipeline for Complex Mold Design](https://arxiv.org/abs/2608.00800v1) | Introduces MoldCAD dataset and AI pipeline for automating complex injection mold design, including auxiliary components. |
 | 2026 | 30.3 | method | [Learning New Tasks via Reusable Skills: Skill-Compositional Experts for Embodied Continual Learning](https://arxiv.org/abs/2606.15685v1) | Proposes Skill-Compositional Experts (SCE) for embodied continual learning, enabling robots to reuse skills and reduce forgetting. |
 | 2026 | 30.3 | method | [Spatially Accelerated Winding Numbers for Curved Geometry](https://arxiv.org/abs/2605.19200v1) | Accelerates generalized winding number queries on curved NURBS geometry using a bounding volume hierarchy with precomputed moments. |
 | 2026 | 30.2 | benchmark | [HistCAD: Geometrically Constrained Parametric History-based CAD Dataset](https://arxiv.org/abs/2602.19171) |  |
@@ -300,4 +303,4 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 
 ---
 
-Total papers: **288**.
+Total papers: **291**.

@@ -1072,6 +1072,10 @@
     title: Foundation Models for Automatic CAD Generation
     url: https://arxiv.org/abs/2607.05573v1
     title_zh: 面向自动CAD生成的基础模型
+  - id: aimold-an-autonomous-ai-based-pipeline-for-complex-mold-des-2026
+    title: 'AIMold: An Autonomous AI-based Pipeline for Complex Mold Design'
+    url: https://arxiv.org/abs/2608.00800v1
+    title_zh: AIMold：一种基于人工智能的自主复杂模具设计流水线
   name_zh: AutoMate
   description_zh: 提出SB-GCN，利用参数化BREP表示预测CAD装配配合，新数据集，商用CAD工具中准确率72.2%。
   notes_zh: 派生自论文：AutoMate
@@ -1393,3 +1397,48 @@
   notes_zh: '派生自论文：Mask2CAD: 通过学习分割与检索进行3D形状预测'
   year: 2020
   preview: /assets/papers/mask2cad-3d-shape-prediction-by-learning-to-segment-and-ret-2020/teaser.png
+- id: paper-aimold-an-autonomous-ai-based-pipeline-for-complex-mold-des-2026
+  name: AIMold
+  description: Introduces MoldCAD dataset and AI pipeline for automating complex injection
+    mold design, including auxiliary components.
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2608.00800v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: AIMold: An Autonomous AI-based Pipeline for Complex
+    Mold Design'
+  related_papers:
+  - id: aimold-an-autonomous-ai-based-pipeline-for-complex-mold-des-2026
+    title: 'AIMold: An Autonomous AI-based Pipeline for Complex Mold Design'
+    url: https://arxiv.org/abs/2608.00800v1
+    title_zh: AIMold：一种基于人工智能的自主复杂模具设计流水线
+  name_zh: AIMold
+  description_zh: 提出MoldCAD数据集和AIMold流水线，实现复杂注塑模具自动设计，含辅助组件。
+  notes_zh: 派生自论文：AIMold：一种基于人工智能的自主复杂模具设计流水线
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-cadena-stepwise-cad-reverse-engineering-2026
+  name: CADENA
+  description: Introduces CADENA, a stepwise CAD reverse engineering model that reconstructs
+    3D meshes into parametric CAD programs, outperforming prior methods on multiple
+    benchmarks.
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2608.00799v1
+    code: https://github.com/zhemdi/cadena
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: CADENA: Stepwise CAD Reverse Engineering'
+  related_papers:
+  - id: cadena-stepwise-cad-reverse-engineering-2026
+    title: 'CADENA: Stepwise CAD Reverse Engineering'
+    url: https://arxiv.org/abs/2608.00799v1
+    title_zh: CADENA：逐步式CAD逆向工程
+  name_zh: CADENA
+  description_zh: 提出CADENA，一种逐步式CAD逆向工程模型，将3D网格重建为参数化CAD程序，在多个基准上优于先前方法。
+  notes_zh: 派生自论文：CADENA：逐步式CAD逆向工程
+  year: 2026
+  preview: /assets/placeholder.svg

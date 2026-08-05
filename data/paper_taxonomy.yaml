@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-08-04T01:51:40Z'
+generated_at: '2026-08-05T01:51:40Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -2175,3 +2175,11 @@ assignments:
   - benchmark
   confidence: 0.69
   evidence: method
+- paper_id: tracecad-trace-guided-repair-for-agentic-cad-generation-2026
+  primary: benchmark
+  secondary:
+  - method
+  - system
+  - theory
+  confidence: 0.67
+  evidence: benchmark

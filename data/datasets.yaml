@@ -1418,7 +1418,7 @@
   description_zh: 提出MoldCAD数据集和AIMold流水线，实现复杂注塑模具自动设计，含辅助组件。
   notes_zh: 派生自论文：AIMold：一种基于人工智能的自主复杂模具设计流水线
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/aimold-an-autonomous-ai-based-pipeline-for-complex-mold-des-2026/teaser.png
 - id: paper-cadena-stepwise-cad-reverse-engineering-2026
   name: CADENA
   description: Introduces CADENA, a stepwise CAD reverse engineering model that reconstructs
@@ -1441,4 +1441,4 @@
   description_zh: 提出CADENA，一种逐步式CAD逆向工程模型，将3D网格重建为参数化CAD程序，在多个基准上优于先前方法。
   notes_zh: 派生自论文：CADENA：逐步式CAD逆向工程
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/cadena-stepwise-cad-reverse-engineering-2026/teaser.png

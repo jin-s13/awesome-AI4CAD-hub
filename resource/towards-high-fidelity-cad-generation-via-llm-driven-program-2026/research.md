@@ -1,7 +1,7 @@
 # Towards High-Fidelity CAD Generation via LLM-Driven Program Generation and Text-Based B-Rep Primitive Grounding
 
 - Status: planned
-- Generated at: 2026-08-09T01:07:49Z
+- Generated at: 2026-08-10T01:10:31Z
 - Read-first score: 74.4
 - Paper: https://arxiv.org/abs/2603.11831v2
 - Code: https://github.com/JohanStackk/FutureCAD

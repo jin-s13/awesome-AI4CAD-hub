@@ -2807,7 +2807,7 @@
     status: planned
     run_status: planned
     report: resource/cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026/research.md
-    queued_at: '2026-08-11T01:09:19Z'
+    queued_at: '2026-08-12T01:16:56Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -3434,7 +3434,7 @@
     status: planned
     run_status: planned
     report: resource/cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026/research.md
-    queued_at: '2026-08-11T01:09:19Z'
+    queued_at: '2026-08-12T01:16:56Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -11973,7 +11973,7 @@
     status: planned
     run_status: planned
     report: resource/towards-high-fidelity-cad-generation-via-llm-driven-program-2026/research.md
-    queued_at: '2026-08-11T01:09:19Z'
+    queued_at: '2026-08-12T01:16:56Z'
   seed_expanded: true
   taxonomy:
     primary: method
@@ -24145,7 +24145,7 @@
   links:
     paper: https://arxiv.org/pdf/2406.05261
     code: https://github.com/yilinliu77/NVDNet
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/split-and-fit-learning-b-reps-via-structure-aware-voronoi-p-2024/teaser.png
   sources:
   - repo: unified-sources
   techniques:
@@ -24263,9 +24263,6 @@
     secondary: []
     confidence: 0.25
     evidence: method
-  generation_notes:
-  - generated_fallback_teaser
-  - warning_unresolved_teaser_fallback
 - id: polygnn-polyhedron-based-graph-neural-network-for-3d-buildi-2026
   title: 'PolyGNN: Polyhedron-based Graph Neural Network for 3D Building Reconstruction
     from Point Clouds'
@@ -47643,7 +47640,7 @@
     status: planned
     run_status: planned
     report: resource/hiercad-hierarchical-text-to-cad-design-via-structure-align-2026/research.md
-    queued_at: '2026-08-11T01:09:19Z'
+    queued_at: '2026-08-12T01:16:56Z'
 - id: text-aided-multi-modal-panoptic-symbol-spotting-for-cad-floo-2026
   title: Text-Aided Multi-Modal Panoptic Symbol Spotting for CAD Floor Plan Drawings
   authors:

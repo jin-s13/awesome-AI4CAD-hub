@@ -2807,7 +2807,7 @@
     status: planned
     run_status: planned
     report: resource/cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026/research.md
-    queued_at: '2026-08-12T01:16:56Z'
+    queued_at: '2026-08-13T01:18:08Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -3434,7 +3434,7 @@
     status: planned
     run_status: planned
     report: resource/cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026/research.md
-    queued_at: '2026-08-12T01:16:56Z'
+    queued_at: '2026-08-13T01:18:08Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -11973,7 +11973,7 @@
     status: planned
     run_status: planned
     report: resource/towards-high-fidelity-cad-generation-via-llm-driven-program-2026/research.md
-    queued_at: '2026-08-12T01:16:56Z'
+    queued_at: '2026-08-13T01:18:08Z'
   seed_expanded: true
   taxonomy:
     primary: method
@@ -16839,7 +16839,7 @@
   tags: []
   links:
     paper: https://arxiv.org/abs/2402.17678
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/cad-signet-cad-language-inference-from-point-clouds-using-l-2024/teaser.png
   sources:
   - repo: seed_ref
   techniques:
@@ -17025,9 +17025,6 @@
     - system
     confidence: 0.38
     evidence: benchmark
-  generation_notes:
-  - generated_fallback_teaser
-  - warning_unresolved_teaser_fallback
 - id: query2cad-generating-cad-models-using-natural-language-quer-2024
   title: 'Query2CAD: Generating CAD models using natural language queries'
   authors:
@@ -47640,7 +47637,7 @@
     status: planned
     run_status: planned
     report: resource/hiercad-hierarchical-text-to-cad-design-via-structure-align-2026/research.md
-    queued_at: '2026-08-12T01:16:56Z'
+    queued_at: '2026-08-13T01:18:08Z'
 - id: text-aided-multi-modal-panoptic-symbol-spotting-for-cad-floo-2026
   title: Text-Aided Multi-Modal Panoptic Symbol Spotting for CAD Floor Plan Drawings
   authors:

@@ -1,7 +1,7 @@
 # HierCAD: Hierarchical Text-to-CAD Design via Structure Alignment and Parameter Grounding
 
 - Status: planned
-- Generated at: 2026-08-15T00:47:21Z
+- Generated at: 2026-08-16T00:51:14Z
 - Read-first score: 71.6
 - Paper: https://arxiv.org/abs/2607.11339v1
 - Code: https://github.com/Collab-Gen/HierCAD.

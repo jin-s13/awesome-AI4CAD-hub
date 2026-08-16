@@ -1,7 +1,7 @@
 # CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation
 
 - Status: planned
-- Generated at: 2026-08-15T00:47:21Z
+- Generated at: 2026-08-16T00:51:14Z
 - Read-first score: 81.9
 - Paper: https://arxiv.org/abs/2605.10873v2
 - Code: https://github.com/anniedoris/CADBench.

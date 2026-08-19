@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-08-17T00:48:15Z'
+generated_at: '2026-08-19T00:48:04Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -2183,3 +2183,11 @@ assignments:
   - theory
   confidence: 0.67
   evidence: benchmark
+- paper_id: hifi-brep-high-fidelity-latent-representation-for-robust-b-2026
+  primary: method
+  secondary:
+  - application
+  - benchmark
+  - theory
+  confidence: 0.67
+  evidence: method

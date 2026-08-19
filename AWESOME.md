@@ -58,6 +58,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2026 | 52.2 | method | [FllumaOne: A Code-Native Multimodal CAD Dataset with Executable Programs and Kernel-Validated Feature Histories](https://arxiv.org/abs/2606.17696v1) | Parametric computer-aided design records both final geometry and the ordered construction history that determines how a part can be edited. Datasets for editable CAD research shou... |
 | 2026 | 52.2 | method | [Masked BRep Autoencoder via Hierarchical Graph Transformer](https://arxiv.org/abs/2603.14927v2) | Self-supervised masked BRep autoencoder with hierarchical graph transformer learns CAD representations for downstream tasks with limited labeled data. |
 | 2026 | 51.7 | method | [Extrusion Segmentation Strategy to improve CAD Reconstruction from Point Cloud](https://arxiv.org/abs/2605.08971v1) | Proposes an extrusion segmentation strategy to improve deep learning-based CAD reconstruction from point clouds by decomposing shapes into individual extrusions. |
+| 2026 | 51.6 | method | [HiFi-BRep: High-Fidelity Latent Representation for Robust B-Rep Generation](https://arxiv.org/abs/2608.16485v1) | HiFi-BRep introduces a topology-aware encoder and single-stage decoder for robust high-fidelity B-Rep generation, improving structural validity and geometric fidelity over state-o... |
 | 2026 | 51 | method | [HiDiGen: Hierarchical Diffusion for B-Rep Generation with Explicit Topological Constraints](https://arxiv.org/abs/2604.02847v1) | HiDiGen uses hierarchical diffusion with explicit topological constraints to generate valid B-Rep CAD models in two stages. |
 | 2026 | 50.8 | method | [FoV-Net: Rotation-Invariant CAD B-rep Learning via Field-of-View Ray Casting](https://arxiv.org/abs/2602.24084v2) | FoV-Net introduces a rotation-invariant B-rep learning framework using LRF UV-grids and FoV ray casting, achieving SOTA on classification and segmentation benchmarks. |
 | 2026 | 50.7 | method, system | [PR-CAD: Progressive Refinement for Unified Controllable and Faithful Text-to-CAD Generation with Large Language Models](https://arxiv.org/abs/2604.19773) | PR-CAD unifies text-to-CAD generation and editing via progressive refinement with LLMs, achieving state-of-the-art controllability and faithfulness. |
@@ -304,4 +305,4 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 
 ---
 
-Total papers: **292**.
+Total papers: **293**.

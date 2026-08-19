@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-08-17T00:48:23Z'
+generated_at: '2026-08-19T00:48:12Z'
 jobs:
 - id: method
   topic_id: method
@@ -286,6 +286,7 @@ jobs:
   - cadena-stepwise-cad-reverse-engineering-2026
   - cadir-a-cross-backend-editable-intermediate-representation-2026
   - tracecad-trace-guided-repair-for-agentic-cad-generation-2026
+  - hifi-brep-high-fidelity-latent-representation-for-robust-b-2026
   top_tags:
   - CV
   - AI
@@ -295,11 +296,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: 645955af3891d96a
+  prompt_hash: 12d256aef06a02f7
   status: done
-  attempts: 13
+  attempts: 1
   error: ''
-  updated_at: '2026-08-17T00:48:27Z'
+  updated_at: '2026-08-19T00:49:25Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -535,6 +536,7 @@ jobs:
   - cadena-stepwise-cad-reverse-engineering-2026
   - cadir-a-cross-backend-editable-intermediate-representation-2026
   - tracecad-trace-guided-repair-for-agentic-cad-generation-2026
+  - hifi-brep-high-fidelity-latent-representation-for-robust-b-2026
   top_tags:
   - CV
   - AI
@@ -544,11 +546,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: 2eca07bc1849a8b6
+  prompt_hash: 8149507b898a2cc4
   status: done
-  attempts: 13
+  attempts: 1
   error: ''
-  updated_at: '2026-08-17T00:48:27Z'
+  updated_at: '2026-08-19T00:49:11Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -757,9 +759,9 @@ jobs:
   - SY
   prompt_hash: 74286cfb57210f81
   status: done
-  attempts: 13
+  attempts: 14
   error: ''
-  updated_at: '2026-08-17T00:48:27Z'
+  updated_at: '2026-08-19T00:49:11Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -884,6 +886,7 @@ jobs:
   - spline-based-boundary-representations-for-sparse-view-recons-2026
   - cadir-a-cross-backend-editable-intermediate-representation-2026
   - tracecad-trace-guided-repair-for-agentic-cad-generation-2026
+  - hifi-brep-high-fidelity-latent-representation-for-robust-b-2026
   top_tags:
   - CV
   - AI
@@ -893,11 +896,11 @@ jobs:
   - SE
   - CE
   - MA
-  prompt_hash: ebe7d15c8fd8cfe7
+  prompt_hash: 680493af18d9561a
   status: done
-  attempts: 13
+  attempts: 1
   error: ''
-  updated_at: '2026-08-17T00:48:27Z'
+  updated_at: '2026-08-19T00:50:04Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -960,9 +963,9 @@ jobs:
   - AI
   prompt_hash: 81a1a3a6ef2ef4c6
   status: done
-  attempts: 42
+  attempts: 43
   error: ''
-  updated_at: '2026-08-17T00:48:27Z'
+  updated_at: '2026-08-19T00:49:25Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -1111,6 +1114,7 @@ jobs:
   - spline-based-boundary-representations-for-sparse-view-recons-2026
   - aimold-an-autonomous-ai-based-pipeline-for-complex-mold-des-2026
   - cadena-stepwise-cad-reverse-engineering-2026
+  - hifi-brep-high-fidelity-latent-representation-for-robust-b-2026
   top_tags:
   - CV
   - LG
@@ -1120,8 +1124,8 @@ jobs:
   - CL
   - CG
   - HC
-  prompt_hash: b93e2aa960e4d760
+  prompt_hash: d00c938a3c01e9c5
   status: done
-  attempts: 13
+  attempts: 1
   error: ''
-  updated_at: '2026-08-17T00:48:27Z'
+  updated_at: '2026-08-19T00:50:28Z'

@@ -1,5 +1,5 @@
 schema_version: awesome-hub.surveys.v1
-generated_at: '2026-08-20T00:46:56Z'
+generated_at: '2026-08-21T00:51:54Z'
 topics:
 - id: method
   label: method
@@ -21,7 +21,7 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 37.3
+    methodology_quality: 37.4
     recency: 78.1
     reproducibility: 43.3
     topical_relevance: 24.8
@@ -216,10 +216,10 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 44.4
+    methodology_quality: 44.5
     recency: 79.1
     reproducibility: 38.5
-    topical_relevance: 28.3
+    topical_relevance: 28.4
   top_papers:
   - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
     title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
@@ -586,10 +586,10 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 53.0
+    methodology_quality: 53.2
     recency: 80.7
     reproducibility: 37.2
-    topical_relevance: 32.5
+    topical_relevance: 32.6
   top_papers:
   - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
     title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
@@ -993,10 +993,10 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 43.9
+    methodology_quality: 44.1
     recency: 76.9
     reproducibility: 39.1
-    topical_relevance: 28.0
+    topical_relevance: 28.1
   top_papers:
   - id: cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026
     title: 'CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization'

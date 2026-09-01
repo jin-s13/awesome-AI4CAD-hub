@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-08-31T02:42:21Z'
+generated_at: '2026-09-01T02:54:11Z'
 jobs:
 - id: method
   topic_id: method
@@ -289,6 +289,7 @@ jobs:
   - hifi-brep-high-fidelity-latent-representation-for-robust-b-2026
   - hifi-brep-high-fidelity-latent-representation-for-robust-b-2026
   - encoded-but-not-actionable-auditing-the-decode-generate-ste-2026
+  - realcad-towards-real-world-image-to-cad-reconstruction-unde-2026
   top_tags:
   - CV
   - AI
@@ -298,11 +299,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: 2b01ca1f4e484af7
+  prompt_hash: c076189237a1911f
   status: done
-  attempts: 12
+  attempts: 1
   error: ''
-  updated_at: '2026-08-31T02:42:25Z'
+  updated_at: '2026-09-01T02:55:27Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -541,6 +542,7 @@ jobs:
   - hifi-brep-high-fidelity-latent-representation-for-robust-b-2026
   - hifi-brep-high-fidelity-latent-representation-for-robust-b-2026
   - encoded-but-not-actionable-auditing-the-decode-generate-ste-2026
+  - realcad-towards-real-world-image-to-cad-reconstruction-unde-2026
   top_tags:
   - CV
   - AI
@@ -550,11 +552,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: b0389e2e2306c072
+  prompt_hash: 5a8ec1e1fbf2618f
   status: done
-  attempts: 12
+  attempts: 1
   error: ''
-  updated_at: '2026-08-31T02:42:26Z'
+  updated_at: '2026-09-01T02:55:43Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -763,9 +765,9 @@ jobs:
   - SY
   prompt_hash: 74286cfb57210f81
   status: done
-  attempts: 26
+  attempts: 27
   error: ''
-  updated_at: '2026-08-31T02:42:26Z'
+  updated_at: '2026-09-01T02:55:28Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -893,6 +895,7 @@ jobs:
   - hifi-brep-high-fidelity-latent-representation-for-robust-b-2026
   - hifi-brep-high-fidelity-latent-representation-for-robust-b-2026
   - encoded-but-not-actionable-auditing-the-decode-generate-ste-2026
+  - realcad-towards-real-world-image-to-cad-reconstruction-unde-2026
   top_tags:
   - CV
   - AI
@@ -902,11 +905,11 @@ jobs:
   - SE
   - CE
   - MA
-  prompt_hash: 6021f2ff8ad14eaa
+  prompt_hash: 734b5f222486361a
   status: done
-  attempts: 12
+  attempts: 1
   error: ''
-  updated_at: '2026-08-31T02:42:26Z'
+  updated_at: '2026-09-01T03:01:10Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -970,9 +973,9 @@ jobs:
   - AI
   prompt_hash: 3dbd2cb846fd9a32
   status: done
-  attempts: 12
+  attempts: 13
   error: ''
-  updated_at: '2026-08-31T02:42:26Z'
+  updated_at: '2026-09-01T02:55:43Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -1123,6 +1126,7 @@ jobs:
   - cadena-stepwise-cad-reverse-engineering-2026
   - hifi-brep-high-fidelity-latent-representation-for-robust-b-2026
   - hifi-brep-high-fidelity-latent-representation-for-robust-b-2026
+  - realcad-towards-real-world-image-to-cad-reconstruction-unde-2026
   top_tags:
   - CV
   - LG
@@ -1132,8 +1136,8 @@ jobs:
   - CL
   - CG
   - HC
-  prompt_hash: 40327ec978bd6209
+  prompt_hash: 365777fcbfb9d283
   status: done
-  attempts: 12
+  attempts: 1
   error: ''
-  updated_at: '2026-08-31T02:42:26Z'
+  updated_at: '2026-09-01T02:57:25Z'

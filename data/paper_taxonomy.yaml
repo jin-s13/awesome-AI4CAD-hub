@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-08-31T02:42:13Z'
+generated_at: '2026-09-01T02:54:03Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -2206,4 +2206,12 @@ assignments:
   - benchmark
   - survey
   confidence: 0.37
+  evidence: method
+- paper_id: realcad-towards-real-world-image-to-cad-reconstruction-unde-2026
+  primary: method
+  secondary:
+  - benchmark
+  - theory
+  - application
+  confidence: 0.67
   evidence: method

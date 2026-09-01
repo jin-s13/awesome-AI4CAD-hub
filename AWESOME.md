@@ -84,6 +84,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2026 | 39.5 | method | [Im2Struct: Recovering 3D Shape Structure from a Single RGB Image](https://openaccess.thecvf.com/content_cvpr_2018/papers/Niu_Im2Struct_Recovering_3D_CVPR_2018_paper.pdf) |  |
 | 2026 | 39.5 | method | [Learning Unsupervised Hierarchical Part Decomposition of 3D Objects from a Single RGB Image](https://openaccess.thecvf.com/content_CVPR_2020/papers/Paschalidou_Learning_Unsupervised_Hierarchical_Part_Decomposition_of_3D_Objects_From_a_CVPR_2020_paper.pdf) |  |
 | 2026 | 39.4 | method | [BIM-Edit: Benchmarking Large Language Models for IFC-Based Building Information Modeling](https://arxiv.org/abs/2606.20146v3) | Introduces BIM-Edit, a benchmark for evaluating LLMs on natural-language editing of Building Information Models in IFC format, revealing significant performance gaps. |
+| 2026 | 38.8 | method | [RealCAD: Towards Real-World Image-to-CAD Reconstruction under Domain Shift and Parameter Bias](https://arxiv.org/abs/2608.30617v1) | Reconstructing editable Computer-Aided Design (CAD) models from images is essential for downstream modification, manufacturing, and design reuse. However, existing image-to-CAD me... |
 | 2026 | 38.8 | method | [TOOLCAD: Exploring Tool-Using Large Language Models in Text-to-CAD Generation with Reinforcement Learning](https://arxiv.org/abs/2604.07960v2) | ToolCAD uses LLMs as tool-using agents for text-to-CAD generation, trained via reinforcement learning in a CAD gym. |
 | 2026 | 37.8 | method | [BrepMFR: Enhancing machining feature recognition in B-rep models through deep learning and domain adaptation](https://www.sciencedirect.com/science/article/pii/S0167839624000529) |  |
 | 2026 | 37.8 | method | [CPFN: Cascaded Primitive Fitting Networks for High-Resolution Point Clouds](https://openaccess.thecvf.com/content/ICCV2021/papers/Le_CPFN_Cascaded_Primitive_Fitting_Networks_for_High-Resolution_Point_Clouds_ICCV_2021_paper.pdf) |  |
@@ -307,4 +308,4 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 
 ---
 
-Total papers: **295**.
+Total papers: **296**.

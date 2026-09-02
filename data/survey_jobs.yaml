@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-09-01T02:54:11Z'
+generated_at: '2026-09-02T02:15:38Z'
 jobs:
 - id: method
   topic_id: method
@@ -301,9 +301,9 @@ jobs:
   - CG
   prompt_hash: c076189237a1911f
   status: done
-  attempts: 1
+  attempts: 2
   error: ''
-  updated_at: '2026-09-01T02:55:27Z'
+  updated_at: '2026-09-02T02:15:42Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -554,9 +554,9 @@ jobs:
   - CG
   prompt_hash: 5a8ec1e1fbf2618f
   status: done
-  attempts: 1
+  attempts: 2
   error: ''
-  updated_at: '2026-09-01T02:55:43Z'
+  updated_at: '2026-09-02T02:15:41Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -765,9 +765,9 @@ jobs:
   - SY
   prompt_hash: 74286cfb57210f81
   status: done
-  attempts: 27
+  attempts: 28
   error: ''
-  updated_at: '2026-09-01T02:55:28Z'
+  updated_at: '2026-09-02T02:15:42Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -907,9 +907,9 @@ jobs:
   - MA
   prompt_hash: 734b5f222486361a
   status: done
-  attempts: 1
+  attempts: 2
   error: ''
-  updated_at: '2026-09-01T03:01:10Z'
+  updated_at: '2026-09-02T02:15:42Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -973,9 +973,9 @@ jobs:
   - AI
   prompt_hash: 3dbd2cb846fd9a32
   status: done
-  attempts: 13
+  attempts: 14
   error: ''
-  updated_at: '2026-09-01T02:55:43Z'
+  updated_at: '2026-09-02T02:15:42Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -1138,6 +1138,6 @@ jobs:
   - HC
   prompt_hash: 365777fcbfb9d283
   status: done
-  attempts: 1
+  attempts: 2
   error: ''
-  updated_at: '2026-09-01T02:57:25Z'
+  updated_at: '2026-09-02T02:15:42Z'

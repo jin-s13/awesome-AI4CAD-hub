@@ -26,7 +26,7 @@
   - cad
   - computer-graphics
   - deep-neural-networks
-  stars: 204
+  stars: 205
   links:
     github: https://github.com/BunnySoCrazy/Awesome-Neural-CAD
   sources:
@@ -45,7 +45,7 @@
   - cad-dataset
   - cad-kernel
   - text-to-cad
-  stars: 103
+  stars: 104
   links:
     github: https://github.com/mlightcad/awesome-cad
   sources:

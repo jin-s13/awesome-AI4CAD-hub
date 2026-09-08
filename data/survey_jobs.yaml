@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-09-07T02:12:04Z'
+generated_at: '2026-09-08T02:24:51Z'
 jobs:
 - id: method
   topic_id: method
@@ -291,6 +291,8 @@ jobs:
   - encoded-but-not-actionable-auditing-the-decode-generate-ste-2026
   - realcad-towards-real-world-image-to-cad-reconstruction-unde-2026
   - autoregressive-b-rep-shape-generation-with-parametric-surfac-2026
+  - neurcadrecon-neural-representation-for-reconstructing-cad-s-2024
+  - brepdiff-single-stage-b-rep-diffusion-model-2025
   top_tags:
   - CV
   - AI
@@ -300,11 +302,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: e9463ee66c747e4e
+  prompt_hash: a422ca4d4a6363b0
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-09-07T02:13:24Z'
+  updated_at: '2026-09-08T02:26:04Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -544,6 +546,8 @@ jobs:
   - hifi-brep-high-fidelity-latent-representation-for-robust-b-2026
   - encoded-but-not-actionable-auditing-the-decode-generate-ste-2026
   - realcad-towards-real-world-image-to-cad-reconstruction-unde-2026
+  - neurcadrecon-neural-representation-for-reconstructing-cad-s-2024
+  - brepdiff-single-stage-b-rep-diffusion-model-2025
   top_tags:
   - CV
   - AI
@@ -553,11 +557,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: 5a8ec1e1fbf2618f
+  prompt_hash: f91f799df398d7aa
   status: done
-  attempts: 7
+  attempts: 1
   error: ''
-  updated_at: '2026-09-07T02:12:06Z'
+  updated_at: '2026-09-08T02:25:59Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -755,6 +759,7 @@ jobs:
   - cadena-stepwise-cad-reverse-engineering-2026
   - cadir-a-cross-backend-editable-intermediate-representation-2026
   - tracecad-trace-guided-repair-for-agentic-cad-generation-2026
+  - neurcadrecon-neural-representation-for-reconstructing-cad-s-2024
   top_tags:
   - CV
   - AI
@@ -764,11 +769,11 @@ jobs:
   - CL
   - HC
   - SY
-  prompt_hash: 74286cfb57210f81
+  prompt_hash: 159d3e1ffcc06663
   status: done
-  attempts: 33
+  attempts: 1
   error: ''
-  updated_at: '2026-09-07T02:12:07Z'
+  updated_at: '2026-09-08T02:27:07Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -897,6 +902,8 @@ jobs:
   - hifi-brep-high-fidelity-latent-representation-for-robust-b-2026
   - encoded-but-not-actionable-auditing-the-decode-generate-ste-2026
   - realcad-towards-real-world-image-to-cad-reconstruction-unde-2026
+  - neurcadrecon-neural-representation-for-reconstructing-cad-s-2024
+  - brepdiff-single-stage-b-rep-diffusion-model-2025
   top_tags:
   - CV
   - AI
@@ -906,11 +913,11 @@ jobs:
   - SE
   - CE
   - MA
-  prompt_hash: 734b5f222486361a
+  prompt_hash: f841069103c44858
   status: done
-  attempts: 7
+  attempts: 1
   error: ''
-  updated_at: '2026-09-07T02:12:07Z'
+  updated_at: '2026-09-08T02:27:01Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -974,9 +981,9 @@ jobs:
   - AI
   prompt_hash: 3dbd2cb846fd9a32
   status: done
-  attempts: 19
+  attempts: 20
   error: ''
-  updated_at: '2026-09-07T02:12:07Z'
+  updated_at: '2026-09-08T02:27:01Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -1128,6 +1135,7 @@ jobs:
   - hifi-brep-high-fidelity-latent-representation-for-robust-b-2026
   - hifi-brep-high-fidelity-latent-representation-for-robust-b-2026
   - realcad-towards-real-world-image-to-cad-reconstruction-unde-2026
+  - brepdiff-single-stage-b-rep-diffusion-model-2025
   top_tags:
   - CV
   - LG
@@ -1137,8 +1145,8 @@ jobs:
   - CL
   - CG
   - HC
-  prompt_hash: 365777fcbfb9d283
+  prompt_hash: 4e988334af4e999d
   status: done
-  attempts: 7
+  attempts: 1
   error: ''
-  updated_at: '2026-09-07T02:12:07Z'
+  updated_at: '2026-09-08T02:28:08Z'

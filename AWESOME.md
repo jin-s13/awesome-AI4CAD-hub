@@ -160,6 +160,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2025 | 29.2 | method, system | [CADmium: Fine-Tuning Code Language Models for Text-Driven Sequential CAD Design](https://arxiv.org/abs/2507.09792) |  |
 | 2025 | 28.7 | method, system | [CADDreamer: CAD object Generation from Single-view Images](https://arxiv.org/abs/2502.20732) |  |
 | 2025 | 28.3 | method | [Text-to-CAD Generation Through Infusing Visual Feedback in Large Language Models](https://arxiv.org/abs/2501.19054) |  |
+| 2025 | 28.2 | method | BrepDiff: Single-Stage B-rep Diffusion Model | The Boundary Representation (B-rep) is a widely used 3D model representation of most consumer products designed with CAD software. However, its highly irregular and sparse set of... |
 | 2025 | 27.7 | method, system | [CAD-Editor: A Locate-then-Infill Framework with Automated Training Data Synthesis for Text-Based CAD Editing](https://arxiv.org/abs/2502.03997) |  |
 | 2025 | 26.6 | method | [HoLa: B-Rep Generation using a Holistic Latent Representation](https://arxiv.org/abs/2504.14257) |  |
 | 2025 | 26.6 | method | [ReCAD: Reinforcement Learning Enhanced Parametric CAD Model Generation with Vision-Language Models](https://arxiv.org/pdf/2512.06328) |  |
@@ -187,6 +188,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2024 | 37.7 | method | [Generating CAD Code with Vision-Language Models for 3D Designs](https://arxiv.org/abs/2410.05340) |  |
 | 2024 | 36.4 | method | [Text2CAD: Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts](https://arxiv.org/abs/2409.17106) | Prototyping complex computer-aided design (CAD) models in modern softwares can be very time-consuming. This is due to the lack of intelligent systems that can quickly generate sim... |
 | 2024 | 36.1 | method | [Differentiable Convex Polyhedra Optimization from Multi-view Images](https://arxiv.org/pdf/2407.15686) |  |
+| 2024 | 35.5 | method | [NeurCADRecon: Neural Representation for Reconstructing CAD Surfaces by Enforcing Zero Gaussian Curvature](https://arxiv.org/abs/2404.13420) | NeurCADRecon self-supervised neural SDF reconstructs CAD surfaces from unoriented point clouds by enforcing zero Gaussian curvature, with dynamic sampling and feature-aligned mesh... |
 | 2024 | 34.4 | method | [Robust Symmetry Detection via Riemannian Langevin Dynamics](https://arxiv.org/pdf/2410.02786) |  |
 | 2024 | 34.4 | method | [Split-and-Fit: Learning B-Reps via Structure-Aware Voronoi Partitioning](https://arxiv.org/pdf/2406.05261) |  |
 | 2024 | 34.3 | method | [Don’t Mesh with Me: Generating Constructive Solid Geometry Instead of Meshes by Fine-Tuning a Code-Generation LLM](https://arxiv.org/abs/2411.15279) |  |
@@ -309,4 +311,4 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 
 ---
 
-Total papers: **297**.
+Total papers: **299**.

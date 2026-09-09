@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-09-08T02:24:43Z'
+generated_at: '2026-09-09T02:25:45Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -2236,3 +2236,19 @@ assignments:
   - application
   confidence: 0.37
   evidence: method
+- paper_id: cit-cad-constraint-intent-tree-based-cad-code-generation-an-2026
+  primary: benchmark
+  secondary:
+  - method
+  - system
+  - theory
+  confidence: 0.68
+  evidence: benchmark
+- paper_id: developability-of-triangle-meshes-2018
+  primary: application
+  secondary:
+  - method
+  - benchmark
+  - theory
+  confidence: 0.66
+  evidence: application

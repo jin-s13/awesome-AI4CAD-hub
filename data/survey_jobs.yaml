@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-09-08T02:24:51Z'
+generated_at: '2026-09-09T02:25:54Z'
 jobs:
 - id: method
   topic_id: method
@@ -293,6 +293,8 @@ jobs:
   - autoregressive-b-rep-shape-generation-with-parametric-surfac-2026
   - neurcadrecon-neural-representation-for-reconstructing-cad-s-2024
   - brepdiff-single-stage-b-rep-diffusion-model-2025
+  - cit-cad-constraint-intent-tree-based-cad-code-generation-an-2026
+  - developability-of-triangle-meshes-2018
   top_tags:
   - CV
   - AI
@@ -302,11 +304,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: a422ca4d4a6363b0
+  prompt_hash: 370365ef6080b2df
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-09-08T02:26:04Z'
+  updated_at: '2026-09-09T02:28:50Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -548,6 +550,8 @@ jobs:
   - realcad-towards-real-world-image-to-cad-reconstruction-unde-2026
   - neurcadrecon-neural-representation-for-reconstructing-cad-s-2024
   - brepdiff-single-stage-b-rep-diffusion-model-2025
+  - cit-cad-constraint-intent-tree-based-cad-code-generation-an-2026
+  - developability-of-triangle-meshes-2018
   top_tags:
   - CV
   - AI
@@ -557,11 +561,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: f91f799df398d7aa
+  prompt_hash: f08a88033db25d68
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-09-08T02:25:59Z'
+  updated_at: '2026-09-09T02:26:53Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -760,6 +764,7 @@ jobs:
   - cadir-a-cross-backend-editable-intermediate-representation-2026
   - tracecad-trace-guided-repair-for-agentic-cad-generation-2026
   - neurcadrecon-neural-representation-for-reconstructing-cad-s-2024
+  - cit-cad-constraint-intent-tree-based-cad-code-generation-an-2026
   top_tags:
   - CV
   - AI
@@ -769,11 +774,11 @@ jobs:
   - CL
   - HC
   - SY
-  prompt_hash: 159d3e1ffcc06663
+  prompt_hash: d91a4b2871c6e2c4
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-09-08T02:27:07Z'
+  updated_at: '2026-09-09T02:28:05Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -904,6 +909,8 @@ jobs:
   - realcad-towards-real-world-image-to-cad-reconstruction-unde-2026
   - neurcadrecon-neural-representation-for-reconstructing-cad-s-2024
   - brepdiff-single-stage-b-rep-diffusion-model-2025
+  - cit-cad-constraint-intent-tree-based-cad-code-generation-an-2026
+  - developability-of-triangle-meshes-2018
   top_tags:
   - CV
   - AI
@@ -913,11 +920,11 @@ jobs:
   - SE
   - CE
   - MA
-  prompt_hash: f841069103c44858
+  prompt_hash: dfafe7675ed0fcdf
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-09-08T02:27:01Z'
+  updated_at: '2026-09-09T02:29:12Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -981,9 +988,9 @@ jobs:
   - AI
   prompt_hash: 3dbd2cb846fd9a32
   status: done
-  attempts: 20
+  attempts: 21
   error: ''
-  updated_at: '2026-09-08T02:27:01Z'
+  updated_at: '2026-09-09T02:28:50Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -1136,6 +1143,7 @@ jobs:
   - hifi-brep-high-fidelity-latent-representation-for-robust-b-2026
   - realcad-towards-real-world-image-to-cad-reconstruction-unde-2026
   - brepdiff-single-stage-b-rep-diffusion-model-2025
+  - developability-of-triangle-meshes-2018
   top_tags:
   - CV
   - LG
@@ -1145,8 +1153,8 @@ jobs:
   - CL
   - CG
   - HC
-  prompt_hash: 4e988334af4e999d
+  prompt_hash: 39aee28578d57adc
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-09-08T02:28:08Z'
+  updated_at: '2026-09-09T02:29:57Z'

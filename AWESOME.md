@@ -74,6 +74,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2026 | 47.7 | method, application | [Spline-Based Boundary Representations for Sparse View Reconstruction and Simulation Using Isogeometric Analysis](https://arxiv.org/abs/2607.26234v1) | Reconstructs multi-patch B-spline B-Rep from sparse RGB images, enabling simulation-ready CAD models via isogeometric analysis. |
 | 2026 | 46.9 | method | [AIMold: An Autonomous AI-based Pipeline for Complex Mold Design](https://arxiv.org/abs/2608.00800v1) | Introduces MoldCAD dataset and AI pipeline for automating complex injection mold design, including auxiliary components. |
 | 2026 | 46.2 | method | [Memory-Augmented Reinforcement Learning Agent for CAD Generation](https://arxiv.org/abs/2605.19748v1) | Proposes a memory-augmented reinforcement learning framework for CAD generation that improves success rate and geometric consistency on complex models. |
+| 2026 | 45.5 | method | [CIT-CAD: Constraint Intent Tree-based CAD Code Generation and Verification](https://arxiv.org/abs/2609.07434v1) | Natural-language Computer-Aided Design (CAD) code generation aims to turn design intent into executable and editable parametric programs. Large language models (LLMs) make this go... |
 | 2026 | 45.2 | method | [Text-Aided Multi-Modal Panoptic Symbol Spotting for CAD Floor Plan Drawings](https://arxiv.org/abs/2607.12678v1) | Computer-Aided Design (CAD) floor plan drawings contain both graphical primitives and textual annotations, which provide complementary geometric and semantic cues for intelligent... |
 | 2026 | 45.2 | method | [Topology-First B-Rep Meshing](https://arxiv.org/abs/2604.02141v1) | A meshing algorithm that enforces exact B-Rep topology while allowing geometric tolerance, producing topologically correct meshes without post-hoc repairs. |
 | 2026 | 44.1 | method | [SECAD-Net: Self-Supervised CAD Reconstruction by Learning Sketch-Extrude Operations](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_SECAD-Net_Self-Supervised_CAD_Reconstruction_by_Learning_Sketch-Extrude_Operations_CVPR_2023_paper.pdf) |  |
@@ -179,6 +180,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2024 | 48 | method | [ContrastCAD: Contrastive Learning-Based Representation Learning for Computer-Aided Design Models](https://arxiv.org/abs/2404.01645) | ContrastCAD uses contrastive learning with dropout and RRE augmentation to learn robust representations of CAD construction sequences. |
 | 2024 | 47.7 | benchmark | A parametric and feature-based CAD dataset to support human-computer interaction for advanced 3D shape learning | A parametric and feature-based CAD dataset with a selection mechanism for human-computer interaction, enabling advanced 3D shape learning. |
 | 2024 | 46.5 | method | CAD Translator: An Effective Drive for Text to 3D Parametric Computer-Aided Design Generative Modeling | A novel encoder-decoder framework for text-to-parametric CAD generation using contrastive learning and fusion embeddings. |
+| 2024 | 44.4 | method | [NeurCADRecon: Neural Representation for Reconstructing CAD Surfaces by Enforcing Zero Gaussian Curvature](https://arxiv.org/abs/2404.13420) | NeurCADRecon self-supervised neural SDF reconstructs CAD surfaces from unoriented point clouds by enforcing zero Gaussian curvature, with dynamic sampling and feature-aligned mesh... |
 | 2024 | 41.1 | method | [SweepNet: Unsupervised Learning Shape Abstraction via Neural Sweepers](https://arxiv.org/pdf/2407.06305) |  |
 | 2024 | 40.7 | benchmark, application | [Slice-100K: A Multimodal Dataset for Extrusion-based 3D Printing](https://arxiv.org/abs/2407.04180) |  |
 | 2024 | 40 | method, application | [CAD-Recode: Reverse Engineering CAD Code from Point Clouds](https://arxiv.org/pdf/2412.14042) |  |
@@ -188,7 +190,6 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2024 | 37.7 | method | [Generating CAD Code with Vision-Language Models for 3D Designs](https://arxiv.org/abs/2410.05340) |  |
 | 2024 | 36.4 | method | [Text2CAD: Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts](https://arxiv.org/abs/2409.17106) | Prototyping complex computer-aided design (CAD) models in modern softwares can be very time-consuming. This is due to the lack of intelligent systems that can quickly generate sim... |
 | 2024 | 36.1 | method | [Differentiable Convex Polyhedra Optimization from Multi-view Images](https://arxiv.org/pdf/2407.15686) |  |
-| 2024 | 35.5 | method | [NeurCADRecon: Neural Representation for Reconstructing CAD Surfaces by Enforcing Zero Gaussian Curvature](https://arxiv.org/abs/2404.13420) | NeurCADRecon self-supervised neural SDF reconstructs CAD surfaces from unoriented point clouds by enforcing zero Gaussian curvature, with dynamic sampling and feature-aligned mesh... |
 | 2024 | 34.4 | method | [Robust Symmetry Detection via Riemannian Langevin Dynamics](https://arxiv.org/pdf/2410.02786) |  |
 | 2024 | 34.4 | method | [Split-and-Fit: Learning B-Reps via Structure-Aware Voronoi Partitioning](https://arxiv.org/pdf/2406.05261) |  |
 | 2024 | 34.3 | method | [Don’t Mesh with Me: Generating Constructive Solid Geometry Instead of Meshes by Fine-Tuning a Code-Generation LLM](https://arxiv.org/abs/2411.15279) |  |
@@ -299,6 +300,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2018 | 30.2 | method | [AtlasNet: A Papier-Mâché Approach to Learning 3D Surface Generation](https://arxiv.org/abs/1802.05384) |  |
 | 2018 | 30.2 | method | [Supervised Fitting of Geometric Primitives to 3D Point Clouds](https://arxiv.org/abs/1811.08988) |  |
 | 2018 | 16.2 | method | Functional programming for compiling and decompiling computer-aided design | Presents a functional language LambdaCAD and a compiler with semantics preservation, plus a synthesis algorithm to reverse compile meshes to CAD programs. |
+| 2018 | 11.6 | method | Developability of triangle meshes | Introduces a definition of developability for triangle meshes capturing flattenability and straight rulings, with a variational method to decompose meshes into developable pieces. |
 | 2017 | 38.4 | method | [CSGNet: Neural Shape Parser for Constructive Solid Geometry](https://arxiv.org/abs/1712.08290) |  |
 | 2016 | 34.3 | method, application | [Marr Revisited: 2D-3D Alignment via Surface Normal Prediction](https://arxiv.org/abs/1604.01347) | A method using surface normal prediction from CNNs to retrieve 3D CAD models from 2D images, achieving state-of-the-art on NYUv2. |
 | 2016 | 24.7 | method | Parametric CAD modeling: An analysis of strategies for design reusability | Analyzes formal parametric CAD modeling strategies (horizontal, explicit reference, resilient) for improving design reusability through comparative experiments. |
@@ -311,4 +313,4 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 
 ---
 
-Total papers: **299**.
+Total papers: **301**.

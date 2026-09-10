@@ -2807,7 +2807,7 @@
     status: planned
     run_status: planned
     report: resource/cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026/research.md
-    queued_at: '2026-09-09T02:25:49Z'
+    queued_at: '2026-09-10T02:25:47Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -3434,7 +3434,7 @@
     status: planned
     run_status: planned
     report: resource/cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026/research.md
-    queued_at: '2026-09-09T02:25:49Z'
+    queued_at: '2026-09-10T02:25:47Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -11973,7 +11973,7 @@
     status: planned
     run_status: planned
     report: resource/towards-high-fidelity-cad-generation-via-llm-driven-program-2026/research.md
-    queued_at: '2026-09-09T02:25:49Z'
+    queued_at: '2026-09-10T02:25:47Z'
   seed_expanded: true
   taxonomy:
     primary: method
@@ -13477,7 +13477,7 @@
           rank: 294
           score: 22.4
         topic_heavy:
-          rank: 296
+          rank: 295
           score: 10.7
   grade: skip
   taxonomy:
@@ -13599,7 +13599,7 @@
           rank: 293
           score: 22.4
         topic_heavy:
-          rank: 295
+          rank: 294
           score: 10.7
   grade: skip
   taxonomy:
@@ -16151,13 +16151,13 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 6
+      rank_range: 7
       profiles:
         balanced:
-          rank: 298
+          rank: 297
           score: 9.0
         citation_heavy:
-          rank: 298
+          rank: 297
           score: 11.3
         method_repro_heavy:
           rank: 298
@@ -16166,7 +16166,7 @@
           rank: 298
           score: 10.8
         topic_heavy:
-          rank: 292
+          rank: 291
           score: 11.4
   grade: skip
   taxonomy:
@@ -16506,7 +16506,7 @@
           rank: 222
           score: 41.7
         topic_heavy:
-          rank: 294
+          rank: 293
           score: 10.9
   grade: skip
   taxonomy:
@@ -16633,13 +16633,13 @@
     warnings: []
     rank_sensitivity:
       stability: stable
-      rank_range: 0
+      rank_range: 1
       profiles:
         balanced:
           rank: 299
           score: 7.5
         citation_heavy:
-          rank: 299
+          rank: 298
           score: 9.5
         method_repro_heavy:
           rank: 299
@@ -16648,7 +16648,7 @@
           rank: 299
           score: 10.4
         topic_heavy:
-          rank: 299
+          rank: 298
           score: 9.2
   grade: skip
   taxonomy:
@@ -16789,7 +16789,7 @@
           rank: 297
           score: 10.1
         frontier_heavy:
-          rank: 297
+          rank: 296
           score: 14.7
         topic_heavy:
           rank: 275
@@ -19943,7 +19943,7 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 65
+      rank_range: 64
       profiles:
         balanced:
           rank: 277
@@ -19958,7 +19958,7 @@
           rank: 228
           score: 40.7
         topic_heavy:
-          rank: 293
+          rank: 292
           score: 11.3
   grade: skip
   taxonomy:
@@ -28638,7 +28638,7 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 33
+      rank_range: 32
       profiles:
         balanced:
           rank: 280
@@ -28653,7 +28653,7 @@
           rank: 264
           score: 36.0
         topic_heavy:
-          rank: 297
+          rank: 296
           score: 10.4
   grade: skip
   taxonomy:
@@ -40906,8 +40906,8 @@
     - candidate
     warnings: []
     rank_sensitivity:
-      stability: stable
-      rank_range: 1
+      stability: sensitive
+      rank_range: 2
       profiles:
         balanced:
           rank: 301
@@ -40922,7 +40922,7 @@
           rank: 301
           score: 5.7
         topic_heavy:
-          rank: 300
+          rank: 299
           score: 9.1
   grade: skip
   taxonomy:
@@ -42342,10 +42342,10 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 67
+      rank_range: 66
       profiles:
         balanced:
-          rank: 297
+          rank: 296
           score: 11.1
         citation_heavy:
           rank: 293
@@ -42357,7 +42357,7 @@
           rank: 234
           score: 40.0
         topic_heavy:
-          rank: 301
+          rank: 300
           score: 7.7
   grade: skip
   taxonomy:
@@ -42609,13 +42609,13 @@
     warnings: []
     rank_sensitivity:
       stability: sensitive
-      rank_range: 2
+      rank_range: 3
       profiles:
         balanced:
           rank: 300
           score: 7.5
         citation_heavy:
-          rank: 300
+          rank: 299
           score: 9.2
         method_repro_heavy:
           rank: 300
@@ -42624,7 +42624,7 @@
           rank: 300
           score: 7.0
         topic_heavy:
-          rank: 298
+          rank: 297
           score: 10.0
   grade: skip
   taxonomy:
@@ -47637,7 +47637,7 @@
     status: planned
     run_status: planned
     report: resource/hiercad-hierarchical-text-to-cad-design-via-structure-align-2026/research.md
-    queued_at: '2026-09-09T02:25:49Z'
+    queued_at: '2026-09-10T02:25:47Z'
 - id: text-aided-multi-modal-panoptic-symbol-spotting-for-cad-floo-2026
   title: Text-Aided Multi-Modal Panoptic Symbol Spotting for CAD Floor Plan Drawings
   authors:
@@ -50546,9 +50546,27 @@
         topic_heavy:
           rank: 93
           score: 43.2
+    keyword_scores:
+      AI for CAD: 8
+      computer-aided design: 9
+      neural CAD: 4
+      generative CAD: 8
+      parametric CAD: 9
+      B-Rep: 0
+      boundary representation: 0
+      constructive solid geometry: 3
+      CSG: 2
+      sketch extrusion: 3
+      CAD generation: 9
+      CAD reconstruction: 4
+      text-to-CAD: 10
+      image-to-CAD: 0
+      point cloud to CAD: 0
+      CAD program: 9
+    total: 78
   title_cn: CIT-CAD：基于约束意图树的CAD代码生成与验证
   abstract_cn: 自然语言计算机辅助设计（CAD）代码生成旨在将设计意图转化为可执行且可编辑的参数化程序。大型语言模型（LLMs）使这一目标日益可行，但实用的系统必须保留渲染几何体背后的构建过程。现有基准和方法大多关注生成的CAD模型与参考几何体的匹配程度，通常使用交并比（IoU）等指标。此类指标可能遗漏零件分解、构建层次、布尔运算、草图结构和几何关系中的错误。这一差距要求一种能够显式表达设计意图，并允许系统根据该意图检查生成代码的表示方法。我们提出CIT-CAD，一个从输入描述中推断约束意图树（CIT）以表示预期实体、层次、操作和关系的框架。该树有两个作用：指导CAD代码生成，并定义用于验证的预期约束。该框架从生成的程序中提取实际约束，将其与预期约束进行比较，并利用不匹配来定位和修复设计违规。实验表明，该框架提升了CAD生成性能，在更复杂的多实体设计中提升更大。通过将设计意图转化为显式且可检查的对象，这项工作首次尝试将文本到CAD生成从基于渲染几何体的匹配推进到具有构建感知的合成、验证与修复。
-  grade: skip
+  grade: must_read
   taxonomy:
     primary: benchmark
     secondary:
@@ -50557,6 +50575,44 @@
     - theory
     confidence: 0.68
     evidence: benchmark
+  tldr: Introduces CIT-CAD, a framework using Constraint Intent Trees to guide text-to-CAD
+    code generation and verify construction intent, improving performance on complex
+    multi-entity designs.
+  reasoning: The paper's strength is proposing an explicit intent representation for
+    CAD code generation and verification, going beyond geometry-only metrics like
+    IoU. Weaknesses include limited visible details on benchmark scope, baselines,
+    and quantitative results in the abstract.
+  has_real_world: true
+  analysis:
+    innovations:
+    - Introduces CIT-CAD, a framework that infers a Constraint Intent Tree (CIT) from
+      input natural-language descriptions to explicitly represent intended entities,
+      hierarchy, operations, and relations.
+    - Uses the inferred CIT both to guide CAD code generation and to define expected
+      constraints for verification.
+    - Extracts actual constraints from generated CAD programs, compares them with
+      expected constraints, and uses mismatches to localize and repair design violations.
+    - First attempt to move text-to-CAD generation beyond rendered-geometry matching
+      toward construction-aware synthesis, verification, and repair.
+    methodology: CIT-CAD infers a Constraint Intent Tree from the input natural-language
+      description, capturing intended entities, hierarchy, operations, and relations.
+      This CIT guides CAD code generation and defines expected constraints. The framework
+      then extracts actual constraints from the generated program, compares them with
+      expected constraints, and uses mismatches to localize and repair design violations.
+    key_results: Experiments show that the CIT-CAD framework improves CAD generation
+      performance, with larger gains on more complex multi-entity designs.
+    limitations: []
+  tldr_cn: 提出 CIT-CAD，用约束意图树指导文本到 CAD 代码生成并验证构建意图，在复杂多实体设计上提升性能。
+  analysis_cn:
+    innovations:
+    - 提出 CIT-CAD，一个从输入自然语言描述中推断约束意图树（CIT）的框架，以显式表示预期的实体、层级、操作和关系。
+    - 利用推断出的 CIT 既指导 CAD 代码生成，又定义用于验证的预期约束。
+    - 从生成的 CAD 程序中提取实际约束，与预期约束进行比较，并利用不匹配项定位和修复设计违规。
+    - 首次尝试将文本到 CAD 生成从渲染几何匹配推进到构建感知的合成、验证与修复。
+    methodology: CIT-CAD 从输入自然语言描述中推断约束意图树，捕获预期实体、层级、操作和关系。该 CIT 指导 CAD 代码生成并定义预期约束。随后，框架从生成的程序中提取实际约束，与预期约束进行比较，并利用不匹配项定位和修复设计违规。
+    key_results: 实验表明，CIT-CAD 框架提升了 CAD 生成性能，在更复杂的多实体设计上提升幅度更大。
+    limitations: []
+    tech_stack: []
 - id: developability-of-triangle-meshes-2018
   title: Developability of triangle meshes
   authors:
@@ -50585,19 +50641,21 @@
   arxiv_id: title:18abaf26a18940c9
   seed_expanded: false
   score:
-    read_first_score: 11.6
+    read_first_score: 7.7
     components:
       topical_relevance:
-        value: 9.4
+        value: 0.0
         available: true
-        confidence: medium
-        explanation: Matches configured research keywords against title, abstract,
-          tags, and analysis text.
-        explanation_zh: 将配置的研究关键词与标题、摘要、标签和分析文本进行匹配。
+        confidence: high
+        explanation: Uses existing LLM keyword relevance scores normalized to 0-100.
+        explanation_zh: 使用现有 LLM 关键词相关性评分，并归一化到 0-100。
         evidence:
-        - source: awesome.yaml
-          field: research.keywords
-          detail: matched=3
+        - source: papers.yaml
+          field: score.keyword_scores
+          detail: AI for CAD,computer-aided design,neural CAD,generative CAD,parametric
+            CAD,B-Rep,boundary representation,constructive solid geometry,CSG,sketch
+            extrusion,CAD generation,CAD reconstruction,text-to-CAD,image-to-CAD,point
+            cloud to CAD,CAD program
       citation_impact:
         value: 0.0
         available: false
@@ -50664,23 +50722,23 @@
     warnings: []
     rank_sensitivity:
       stability: volatile
-      rank_range: 6
+      rank_range: 5
       profiles:
         balanced:
-          rank: 296
-          score: 11.6
+          rank: 298
+          score: 7.7
         citation_heavy:
-          rank: 297
-          score: 13.7
+          rank: 300
+          score: 9.0
         method_repro_heavy:
           rank: 296
-          score: 13.0
+          score: 10.8
         frontier_heavy:
-          rank: 296
-          score: 17.3
+          rank: 297
+          score: 14.4
         topic_heavy:
-          rank: 291
-          score: 11.6
+          rank: 301
+          score: 5.7
     keyword_scores:
       AI for CAD: 0
       computer-aided design: 0

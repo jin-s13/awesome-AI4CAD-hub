@@ -79,9 +79,11 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2026 | 45.2 | method | [Topology-First B-Rep Meshing](https://arxiv.org/abs/2604.02141v1) | A meshing algorithm that enforces exact B-Rep topology while allowing geometric tolerance, producing topologically correct meshes without post-hoc repairs. |
 | 2026 | 44.1 | method | [SECAD-Net: Self-Supervised CAD Reconstruction by Learning Sketch-Extrude Operations](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_SECAD-Net_Self-Supervised_CAD_Reconstruction_by_Learning_Sketch-Extrude_Operations_CVPR_2023_paper.pdf) |  |
 | 2026 | 43.2 | method | [A2Z-10M+: Geometric Deep Learning with A-to-Z BRep Annotations for AI-Assisted CAD Modeling and Reverse Engineering](https://arxiv.org/abs/2603.12605v1) | Reverse engineering and rapid prototyping of computer-aided design (CAD) models from 3D scans, sketches, or simple text prompts are vital in industrial product design. However, re... |
+| 2026 | 42.7 | method | [CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design](https://arxiv.org/abs/2609.16251v1) | Computer-use agents are increasingly evaluated in realistic desktop environments, but existing benchmarks provide limited coverage of professional engineering workflows whose outp... |
 | 2026 | 42.4 | method | [Autoregressive B-Rep Shape Generation with Parametric Surfaces](https://arxiv.org/abs/2607.17093) |  |
 | 2026 | 42.4 | method, application | [PolyGNN: Polyhedron-based Graph Neural Network for 3D Building Reconstruction from Point Clouds](https://www.sciencedirect.com/science/article/pii/S0924271624003691) |  |
 | 2026 | 41.8 | method | [Point2CAD: Reverse Engineering CAD Models from 3D Point Clouds](https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_Point2CAD_Reverse_Engineering_CAD_Models_from_3D_Point_Clouds_CVPR_2024_paper.pdf) |  |
+| 2026 | 41.5 | method | [CGGT: Curve-Grounded Geometry Transformer for 3D Parametric Curve Reconstruction](https://arxiv.org/abs/2609.14521v1) | Recovering editable 3D parametric curves from 2D images is a fundamental challenge in computer graphics, bridging pixel-based perception and vector-based CAD modeling. Existing Ne... |
 | 2026 | 40.1 | method | [SDM-NET: Deep Generative Network for Structured Deformable Mesh](https://dl.acm.org/doi/pdf/10.1145/3355089.3356488) |  |
 | 2026 | 39.5 | method | [Im2Struct: Recovering 3D Shape Structure from a Single RGB Image](https://openaccess.thecvf.com/content_cvpr_2018/papers/Niu_Im2Struct_Recovering_3D_CVPR_2018_paper.pdf) |  |
 | 2026 | 39.5 | method | [Learning Unsupervised Hierarchical Part Decomposition of 3D Objects from a Single RGB Image](https://openaccess.thecvf.com/content_CVPR_2020/papers/Paschalidou_Learning_Unsupervised_Hierarchical_Part_Decomposition_of_3D_Objects_From_a_CVPR_2020_paper.pdf) |  |
@@ -100,6 +102,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2026 | 35.6 | method | [SplineNet: An Isogeometric Deep Learning Method for Complex Shells](https://arxiv.org/abs/2607.06026v1) | SplineNet integrates isogeometric analysis with deep learning for seamless CAD/CAE of complex shell structures using spline representations. |
 | 2026 | 35.4 | method | [HPNet: Deep Primitive Segmentation Using Hybrid Representations](http://openaccess.thecvf.com/content/ICCV2021/papers/Yan_HPNet_Deep_Primitive_Segmentation_Using_Hybrid_Representations_ICCV_2021_paper.pdf) |  |
 | 2026 | 35.4 | method | [Learning Shape Abstractions by Assembling Volumetric Primitives](https://openaccess.thecvf.com/content_cvpr_2017/papers/Tulsiani_Learning_Shape_Abstractions_CVPR_2017_paper.pdf) |  |
+| 2026 | 33.5 | method | [DepthBenchCAD: When Does Deeper Auditing Yield More Reliable Conclusions?](https://arxiv.org/abs/2609.15122v1) | Studies fixed-budget evaluation of generative CAD models, showing deeper edit auditing can reduce reliability when template or generation variance dominates; calibration predicts... |
 | 2026 | 33 | method | [Encoded but Not Actionable: Auditing the Decode-Generate-Steer Gap in Frozen LLMs for Geometric Constraints](https://arxiv.org/abs/2608.17843v1) | Large language models (LLMs) have demonstrated strong performance on structured reasoning tasks, but what they encode and whether it informs model behavior remain unclear. We inve... |
 | 2026 | 32.7 | method | [Engineering Sketch Generation for Computer-Aided Design](https://openaccess.thecvf.com/content/CVPR2021W/SketchDL/papers/Willis_Engineering_Sketch_Generation_for_Computer-Aided_Design_CVPRW_2021_paper.pdf) |  |
 | 2026 | 32.7 | method | [VQ-CAD: Computer-Aided Design model generation with vector quantized diffusion](https://www.sciencedirect.com/science/article/pii/S016783962400061X) |  |
@@ -313,4 +316,4 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 
 ---
 
-Total papers: **301**.
+Total papers: **304**.

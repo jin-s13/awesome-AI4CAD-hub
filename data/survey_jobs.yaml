@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-09-15T02:45:19Z'
+generated_at: '2026-09-16T02:44:05Z'
 jobs:
 - id: method
   topic_id: method
@@ -295,6 +295,8 @@ jobs:
   - brepdiff-single-stage-b-rep-diffusion-model-2025
   - cit-cad-constraint-intent-tree-based-cad-code-generation-an-2026
   - developability-of-triangle-meshes-2018
+  - cggt-curve-grounded-geometry-transformer-for-3d-parametric-2026
+  - depthbenchcad-when-does-deeper-auditing-yield-more-reliable-2026
   top_tags:
   - CV
   - AI
@@ -304,11 +306,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: 370365ef6080b2df
+  prompt_hash: a109a1272297a343
   status: done
-  attempts: 7
+  attempts: 1
   error: ''
-  updated_at: '2026-09-15T02:45:23Z'
+  updated_at: '2026-09-16T02:45:32Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -552,6 +554,9 @@ jobs:
   - brepdiff-single-stage-b-rep-diffusion-model-2025
   - cit-cad-constraint-intent-tree-based-cad-code-generation-an-2026
   - developability-of-triangle-meshes-2018
+  - cggt-curve-grounded-geometry-transformer-for-3d-parametric-2026
+  - depthbenchcad-when-does-deeper-auditing-yield-more-reliable-2026
+  - cadworld-computer-use-benchmark-for-long-horizon-computer-a-2026
   top_tags:
   - CV
   - AI
@@ -561,11 +566,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: f08a88033db25d68
+  prompt_hash: 03beb477947cb133
   status: done
-  attempts: 7
+  attempts: 1
   error: ''
-  updated_at: '2026-09-15T02:45:23Z'
+  updated_at: '2026-09-16T02:45:49Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -765,6 +770,9 @@ jobs:
   - tracecad-trace-guided-repair-for-agentic-cad-generation-2026
   - neurcadrecon-neural-representation-for-reconstructing-cad-s-2024
   - cit-cad-constraint-intent-tree-based-cad-code-generation-an-2026
+  - cggt-curve-grounded-geometry-transformer-for-3d-parametric-2026
+  - depthbenchcad-when-does-deeper-auditing-yield-more-reliable-2026
+  - cadworld-computer-use-benchmark-for-long-horizon-computer-a-2026
   top_tags:
   - CV
   - AI
@@ -774,11 +782,11 @@ jobs:
   - CL
   - HC
   - SY
-  prompt_hash: d91a4b2871c6e2c4
+  prompt_hash: 2bc8c54e07911c5a
   status: done
-  attempts: 7
+  attempts: 1
   error: ''
-  updated_at: '2026-09-15T02:45:23Z'
+  updated_at: '2026-09-16T02:46:50Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -911,6 +919,8 @@ jobs:
   - brepdiff-single-stage-b-rep-diffusion-model-2025
   - cit-cad-constraint-intent-tree-based-cad-code-generation-an-2026
   - developability-of-triangle-meshes-2018
+  - depthbenchcad-when-does-deeper-auditing-yield-more-reliable-2026
+  - cadworld-computer-use-benchmark-for-long-horizon-computer-a-2026
   top_tags:
   - CV
   - AI
@@ -920,11 +930,11 @@ jobs:
   - SE
   - CE
   - MA
-  prompt_hash: dfafe7675ed0fcdf
+  prompt_hash: 60ed9efd8bb6890d
   status: done
-  attempts: 7
+  attempts: 1
   error: ''
-  updated_at: '2026-09-15T02:45:23Z'
+  updated_at: '2026-09-16T02:49:06Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -988,9 +998,9 @@ jobs:
   - AI
   prompt_hash: 3dbd2cb846fd9a32
   status: done
-  attempts: 27
+  attempts: 28
   error: ''
-  updated_at: '2026-09-15T02:45:23Z'
+  updated_at: '2026-09-16T02:46:50Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -1144,6 +1154,8 @@ jobs:
   - realcad-towards-real-world-image-to-cad-reconstruction-unde-2026
   - brepdiff-single-stage-b-rep-diffusion-model-2025
   - developability-of-triangle-meshes-2018
+  - cggt-curve-grounded-geometry-transformer-for-3d-parametric-2026
+  - cadworld-computer-use-benchmark-for-long-horizon-computer-a-2026
   top_tags:
   - CV
   - LG
@@ -1153,8 +1165,8 @@ jobs:
   - CL
   - CG
   - HC
-  prompt_hash: 39aee28578d57adc
+  prompt_hash: c520f95ded5e63de
   status: done
-  attempts: 7
+  attempts: 1
   error: ''
-  updated_at: '2026-09-15T02:45:23Z'
+  updated_at: '2026-09-16T02:48:23Z'

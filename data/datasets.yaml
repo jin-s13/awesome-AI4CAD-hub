@@ -21,6 +21,10 @@
       CAD'
     url: https://arxiv.org/abs/2605.10865v2
     title_zh: BenchCAD：面向程序化CAD的全面、行业标准基准测试
+  - id: depthbenchcad-when-does-deeper-auditing-yield-more-reliable-2026
+    title: 'DepthBenchCAD: When Does Deeper Auditing Yield More Reliable Conclusions?'
+    url: https://arxiv.org/abs/2609.15122v1
+    title_zh: DepthBenchCAD：深度审计何时能带来更可靠的结论？
   year: 2026
   preview: /assets/papers/benchcad-a-comprehensive-industry-standard-benchmark-for-p-2026/teaser.png
   description_zh: BenchCAD包含17900个CadQuery程序，覆盖106个工业零件族，用于评估多模态LLM的程序化CAD能力。
@@ -1442,3 +1446,56 @@
   notes_zh: 派生自论文：CADENA：逐步式CAD逆向工程
   year: 2026
   preview: /assets/papers/cadena-stepwise-cad-reverse-engineering-2026/teaser.png
+- id: paper-cggt-curve-grounded-geometry-transformer-for-3d-parametric-2026
+  name: CGGT
+  description: Recovering editable 3D parametric curves from 2D images is a fundamental
+    challenge in computer graphics, bridging pixel-based perception and vector-based
+    CAD modeling. Existing NeRF- and 3DGS-based methods often rely on dense calibrated
+    vie...
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2609.14521v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: CGGT: Curve-Grounded Geometry Transformer for 3D Parametric
+    Curve Reconstruction'
+  related_papers:
+  - id: cggt-curve-grounded-geometry-transformer-for-3d-parametric-2026
+    title: 'CGGT: Curve-Grounded Geometry Transformer for 3D Parametric Curve Reconstruction'
+    url: https://arxiv.org/abs/2609.14521v1
+    title_zh: CGGT：基于曲线锚定的几何Transformer用于三维参数曲线重建
+  name_zh: CGGT
+  description_zh: 从二维图像恢复可编辑的三维参数曲线是计算机图形学中的一个基本挑战，它连接了基于像素的感知与基于矢量的CAD建模。现有的基于NeRF和3DGS的方法通常依赖密集的已标定视图、预计算的二维边缘图以及昂贵的逐场景优化，限制了其在随意拍摄的真实世界输入上的适用性。我们提出CGGT，一种曲线锚定的几何Transformer（Curve-Grounded
+    Geometry Transformer），能够直接从稀疏、无位姿的多视图图像中，在图像空间内确定具有三维一致性的二维曲线实例。CGGT结合了用于多视图特征学习的几何感知Transformer编码器，以及用于跨视图实例关联的曲线感知掩码注意力解码器。在单次前向传播中，它预测相机参数、稠密深度图和实例级二维曲线掩码；这些结果随后被提升到三维，并通过一个快速的参数优化阶段进行细化，以恢复紧凑、可编辑的三维曲线基元。为支持结构化曲线学习，我们引入了Wireframe-100K，这是一个大规模数据集，包含10万个具有多样拓扑结构的CAD模型、真实感多视图渲染和精确的参数曲线标注。大量实验表明，我们的框架在重建准确性和效率方面均取得了显著提升，尤其是在具有挑战性的稀疏视图设置下，以及在将持久的3D结构边缘与由轮廓、纹理和外观变化引起的视图相关图像边缘区分开来的任务中。尽管仅在合成数据上训练，CGGT仍能很好地泛化到真实世界图像，展示了其从无约束视觉输入进行实用CAD风格线框重建的潜力。
+  notes_zh: 派生自论文：CGGT：基于曲线锚定的几何Transformer用于三维参数曲线重建
+  year: 2026
+  preview: /assets/placeholder.svg
+- id: paper-cadworld-computer-use-benchmark-for-long-horizon-computer-a-2026
+  name: CADWorld
+  description: Computer-use agents are increasingly evaluated in realistic desktop
+    environments, but existing benchmarks provide limited coverage of professional
+    engineering workflows whose outputs are persistent, structured artifacts. Mechanical
+    computer...
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2609.16251v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided
+    Design'
+  related_papers:
+  - id: cadworld-computer-use-benchmark-for-long-horizon-computer-a-2026
+    title: 'CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design'
+    url: https://arxiv.org/abs/2609.16251v1
+    title_zh: CADWorld：面向长周期计算机辅助设计的计算机使用基准
+  name_zh: CADWorld
+  description_zh: 计算机使用智能体越来越多地在真实桌面环境中进行评估，但现有基准对输出为持久、结构化工件的专业工程工作流的覆盖有限。机械计算机辅助设计（CAD）是一个特别严苛的场景：智能体必须在长时间交互跨度内操控几何和约束，同时生成一个尺寸、构造结构和下游工程状态均保持有效的原生项目。我们提出了
+    CADWorld，一个面向 FreeCAD 中长周期计算机使用的基准。CADWorld 包含 200 个任务，涵盖 11 个机械 CAD 工作流类别，包括草图绘制、零件建模、装配、CAM、FEM、测量、网格处理和技术制图。智能体通过截图和
+    GUI 操作进行交互，而成功与否由针对已保存的 FreeCAD 工件和辅助输出的任务特定可执行检查判定，涵盖几何属性、参数化结构、约束、制造状态和仿真结果。在完整基准测试中，七个当前智能体里最强的智能体仅达到
+    17.5% 的成功率，而专家参考通过率为 87.0%。我们发现，较弱的智能体往往在生成有效工件之前就失败，而较强的智能体则越来越多地在结构、几何和构造过程要求上失败。因此，CADWorld
+    揭示了通用 GUI 能力与持久、可验证工程工作流的可靠执行之间的差距。项目可访问 https://cad-world.github.io。
+  notes_zh: 派生自论文：CADWorld：面向长周期计算机辅助设计的计算机使用基准
+  year: 2026
+  preview: /assets/placeholder.svg

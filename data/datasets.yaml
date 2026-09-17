@@ -1470,7 +1470,7 @@
     Geometry Transformer），能够直接从稀疏、无位姿的多视图图像中，在图像空间内确定具有三维一致性的二维曲线实例。CGGT结合了用于多视图特征学习的几何感知Transformer编码器，以及用于跨视图实例关联的曲线感知掩码注意力解码器。在单次前向传播中，它预测相机参数、稠密深度图和实例级二维曲线掩码；这些结果随后被提升到三维，并通过一个快速的参数优化阶段进行细化，以恢复紧凑、可编辑的三维曲线基元。为支持结构化曲线学习，我们引入了Wireframe-100K，这是一个大规模数据集，包含10万个具有多样拓扑结构的CAD模型、真实感多视图渲染和精确的参数曲线标注。大量实验表明，我们的框架在重建准确性和效率方面均取得了显著提升，尤其是在具有挑战性的稀疏视图设置下，以及在将持久的3D结构边缘与由轮廓、纹理和外观变化引起的视图相关图像边缘区分开来的任务中。尽管仅在合成数据上训练，CGGT仍能很好地泛化到真实世界图像，展示了其从无约束视觉输入进行实用CAD风格线框重建的潜力。
   notes_zh: 派生自论文：CGGT：基于曲线锚定的几何Transformer用于三维参数曲线重建
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/cggt-curve-grounded-geometry-transformer-for-3d-parametric-2026/teaser.png
 - id: paper-cadworld-computer-use-benchmark-for-long-horizon-computer-a-2026
   name: CADWorld
   description: Computer-use agents are increasingly evaluated in realistic desktop
@@ -1498,4 +1498,4 @@
     揭示了通用 GUI 能力与持久、可验证工程工作流的可靠执行之间的差距。项目可访问 https://cad-world.github.io。
   notes_zh: 派生自论文：CADWorld：面向长周期计算机辅助设计的计算机使用基准
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/cadworld-computer-use-benchmark-for-long-horizon-computer-a-2026/teaser.png

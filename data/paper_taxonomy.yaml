@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-09-17T02:45:02Z'
+generated_at: '2026-09-18T02:31:04Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -2282,5 +2282,13 @@ assignments:
   - system
   - benchmark
   - theory
+  confidence: 0.68
+  evidence: method
+- paper_id: neusoga3d-a-neuro-symbolic-framework-for-explainable-3d-geo-2026
+  primary: method
+  secondary:
+  - benchmark
+  - theory
+  - application
   confidence: 0.68
   evidence: method

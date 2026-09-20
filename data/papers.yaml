@@ -2807,7 +2807,7 @@
     status: planned
     run_status: planned
     report: resource/cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026/research.md
-    queued_at: '2026-09-19T02:29:40Z'
+    queued_at: '2026-09-20T02:41:06Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -3434,7 +3434,7 @@
     status: planned
     run_status: planned
     report: resource/cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026/research.md
-    queued_at: '2026-09-19T02:29:40Z'
+    queued_at: '2026-09-20T02:41:06Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -11973,7 +11973,7 @@
     status: planned
     run_status: planned
     report: resource/towards-high-fidelity-cad-generation-via-llm-driven-program-2026/research.md
-    queued_at: '2026-09-19T02:29:40Z'
+    queued_at: '2026-09-20T02:41:06Z'
   seed_expanded: true
   taxonomy:
     primary: method
@@ -47637,7 +47637,7 @@
     status: planned
     run_status: planned
     report: resource/hiercad-hierarchical-text-to-cad-design-via-structure-align-2026/research.md
-    queued_at: '2026-09-19T02:29:40Z'
+    queued_at: '2026-09-20T02:41:06Z'
 - id: text-aided-multi-modal-panoptic-symbol-spotting-for-cad-floo-2026
   title: Text-Aided Multi-Modal Panoptic Symbol Spotting for CAD Floor Plan Drawings
   authors:
@@ -51381,21 +51381,48 @@
         topic_heavy:
           rank: 114
           score: 37.0
+    keyword_scores:
+      AI for CAD: 5
+      computer-aided design: 10
+      neural CAD: 0
+      generative CAD: 1
+      parametric CAD: 7
+      B-Rep: 0
+      boundary representation: 0
+      constructive solid geometry: 0
+      CSG: 0
+      sketch extrusion: 0
+      CAD generation: 2
+      CAD reconstruction: 0
+      text-to-CAD: 0
+      image-to-CAD: 0
+      point cloud to CAD: 0
+      CAD program: 4
+    total: 29
   title_cn: CADWorld：面向长周期计算机辅助设计的计算机使用基准
   abstract_cn: 计算机使用智能体越来越多地在真实桌面环境中进行评估，但现有基准对输出为持久、结构化工件的专业工程工作流的覆盖有限。机械计算机辅助设计（CAD）是一个特别严苛的场景：智能体必须在长时间交互跨度内操控几何和约束，同时生成一个尺寸、构造结构和下游工程状态均保持有效的原生项目。我们提出了
     CADWorld，一个面向 FreeCAD 中长周期计算机使用的基准。CADWorld 包含 200 个任务，涵盖 11 个机械 CAD 工作流类别，包括草图绘制、零件建模、装配、CAM、FEM、测量、网格处理和技术制图。智能体通过截图和
     GUI 操作进行交互，而成功与否由针对已保存的 FreeCAD 工件和辅助输出的任务特定可执行检查判定，涵盖几何属性、参数化结构、约束、制造状态和仿真结果。在完整基准测试中，七个当前智能体里最强的智能体仅达到
     17.5% 的成功率，而专家参考通过率为 87.0%。我们发现，较弱的智能体往往在生成有效工件之前就失败，而较强的智能体则越来越多地在结构、几何和构造过程要求上失败。因此，CADWorld
     揭示了通用 GUI 能力与持久、可验证工程工作流的可靠执行之间的差距。项目可访问 https://cad-world.github.io。
-  grade: skip
+  grade: worth_reading
   taxonomy:
     primary: benchmark
     secondary:
+    - method
     - application
     - theory
-    - system
     confidence: 0.68
     evidence: benchmark
+  tldr: CADWorld is a benchmark for long-horizon computer-use agents in FreeCAD, spanning
+    200 tasks across 11 CAD workflow categories, where the strongest agent achieves
+    17.5% success versus 87% expert.
+  reasoning: The paper introduces a well-motivated benchmark addressing a gap in agent
+    evaluation for persistent engineering workflows. Strengths include realistic tasks,
+    executable checks, and a clear performance gap; weaknesses include no new agent
+    method and limited evidence outside benchmark results.
+  has_real_world: true
+  tldr_cn: CADWorld基准测试FreeCAD长时程CAD操作：200任务/11类，最强智能体17.5% vs 专家87%。
 - id: caliper-metric-grounded-model-free-recognition-of-visually-2026
   title: 'CALIPER: Metric-Grounded Model-Free Recognition of Visually Similar Industrial
     Parts'

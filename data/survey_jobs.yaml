@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-09-20T02:41:11Z'
+generated_at: '2026-09-21T02:39:22Z'
 jobs:
 - id: method
   topic_id: method
@@ -300,6 +300,7 @@ jobs:
   - cadworld-computer-use-benchmark-for-long-horizon-computer-a-2026
   - caliper-metric-grounded-model-free-recognition-of-visually-2026
   - neusoga3d-a-neuro-symbolic-framework-for-explainable-3d-geo-2026
+  - vggt-cad-reconstructing-parametric-cad-3d-model-with-geomet-2026
   top_tags:
   - CV
   - AI
@@ -309,11 +310,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: dca680ce5b7d7cf0
+  prompt_hash: 2232b65e9ac83d6c
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-09-20T02:43:40Z'
+  updated_at: '2026-09-21T02:42:41Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -562,6 +563,7 @@ jobs:
   - cadworld-computer-use-benchmark-for-long-horizon-computer-a-2026
   - caliper-metric-grounded-model-free-recognition-of-visually-2026
   - neusoga3d-a-neuro-symbolic-framework-for-explainable-3d-geo-2026
+  - vggt-cad-reconstructing-parametric-cad-3d-model-with-geomet-2026
   top_tags:
   - CV
   - AI
@@ -571,11 +573,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: 86b079d4aa88af71
+  prompt_hash: 5abd6f327a1691dc
   status: done
-  attempts: 3
+  attempts: 1
   error: ''
-  updated_at: '2026-09-20T02:41:14Z'
+  updated_at: '2026-09-21T02:40:46Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -789,9 +791,9 @@ jobs:
   - SY
   prompt_hash: 2bc8c54e07911c5a
   status: done
-  attempts: 1
+  attempts: 2
   error: ''
-  updated_at: '2026-09-20T02:41:14Z'
+  updated_at: '2026-09-21T02:40:46Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -928,6 +930,7 @@ jobs:
   - cadworld-computer-use-benchmark-for-long-horizon-computer-a-2026
   - caliper-metric-grounded-model-free-recognition-of-visually-2026
   - neusoga3d-a-neuro-symbolic-framework-for-explainable-3d-geo-2026
+  - vggt-cad-reconstructing-parametric-cad-3d-model-with-geomet-2026
   top_tags:
   - CV
   - AI
@@ -937,11 +940,11 @@ jobs:
   - SE
   - CE
   - MA
-  prompt_hash: f49bc8ff2928e2ff
+  prompt_hash: 9ed014f6ecc65796
   status: done
-  attempts: 3
+  attempts: 1
   error: ''
-  updated_at: '2026-09-20T02:41:14Z'
+  updated_at: '2026-09-21T02:41:55Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -1005,9 +1008,9 @@ jobs:
   - AI
   prompt_hash: 3dbd2cb846fd9a32
   status: done
-  attempts: 32
+  attempts: 33
   error: ''
-  updated_at: '2026-09-20T02:41:14Z'
+  updated_at: '2026-09-21T02:41:55Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -1164,6 +1167,7 @@ jobs:
   - cggt-curve-grounded-geometry-transformer-for-3d-parametric-2026
   - cadworld-computer-use-benchmark-for-long-horizon-computer-a-2026
   - neusoga3d-a-neuro-symbolic-framework-for-explainable-3d-geo-2026
+  - vggt-cad-reconstructing-parametric-cad-3d-model-with-geomet-2026
   top_tags:
   - CV
   - LG
@@ -1173,8 +1177,8 @@ jobs:
   - CL
   - CG
   - HC
-  prompt_hash: a8d8fd1df2a54a55
+  prompt_hash: de03dd2dfb6189ad
   status: done
-  attempts: 3
+  attempts: 1
   error: ''
-  updated_at: '2026-09-20T02:41:15Z'
+  updated_at: '2026-09-21T02:44:47Z'

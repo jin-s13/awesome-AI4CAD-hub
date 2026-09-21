@@ -82,11 +82,12 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2026 | 45.2 | method | [Topology-First B-Rep Meshing](https://arxiv.org/abs/2604.02141v1) | A meshing algorithm that enforces exact B-Rep topology while allowing geometric tolerance, producing topologically correct meshes without post-hoc repairs. |
 | 2026 | 44.1 | method | [SECAD-Net: Self-Supervised CAD Reconstruction by Learning Sketch-Extrude Operations](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_SECAD-Net_Self-Supervised_CAD_Reconstruction_by_Learning_Sketch-Extrude_Operations_CVPR_2023_paper.pdf) |  |
 | 2026 | 43.2 | method | [A2Z-10M+: Geometric Deep Learning with A-to-Z BRep Annotations for AI-Assisted CAD Modeling and Reverse Engineering](https://arxiv.org/abs/2603.12605v1) | Reverse engineering and rapid prototyping of computer-aided design (CAD) models from 3D scans, sketches, or simple text prompts are vital in industrial product design. However, re... |
-| 2026 | 42.7 | method | [CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design](https://arxiv.org/abs/2609.16251v1) | CADWorld is a benchmark for long-horizon computer-use agents in FreeCAD, spanning 200 tasks across 11 CAD workflow categories, where the strongest agent achieves 17.5% success ver... |
 | 2026 | 42.4 | method | [Autoregressive B-Rep Shape Generation with Parametric Surfaces](https://arxiv.org/abs/2607.17093) |  |
 | 2026 | 42.4 | method, application | [PolyGNN: Polyhedron-based Graph Neural Network for 3D Building Reconstruction from Point Clouds](https://www.sciencedirect.com/science/article/pii/S0924271624003691) |  |
 | 2026 | 41.8 | method | [Point2CAD: Reverse Engineering CAD Models from 3D Point Clouds](https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_Point2CAD_Reverse_Engineering_CAD_Models_from_3D_Point_Clouds_CVPR_2024_paper.pdf) |  |
+| 2026 | 41.5 | method | [VGGT-CAD: Reconstructing Parametric CAD 3D Model with Geometric Grounding](https://arxiv.org/abs/2609.21225v1) | Parametric CAD reconstruction requires recovering both precise geometry and editable modeling operations from visual observations, making it challenging under limited and ambiguou... |
 | 2026 | 40.1 | method | [SDM-NET: Deep Generative Network for Structured Deformable Mesh](https://dl.acm.org/doi/pdf/10.1145/3355089.3356488) |  |
+| 2026 | 39.9 | method | [CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design](https://arxiv.org/abs/2609.16251v1) | CADWorld is a benchmark for long-horizon computer-use agents in FreeCAD, spanning 200 tasks across 11 CAD workflow categories, where the strongest agent achieves 17.5% success ver... |
 | 2026 | 39.5 | method | [Im2Struct: Recovering 3D Shape Structure from a Single RGB Image](https://openaccess.thecvf.com/content_cvpr_2018/papers/Niu_Im2Struct_Recovering_3D_CVPR_2018_paper.pdf) |  |
 | 2026 | 39.5 | method | [Learning Unsupervised Hierarchical Part Decomposition of 3D Objects from a Single RGB Image](https://openaccess.thecvf.com/content_CVPR_2020/papers/Paschalidou_Learning_Unsupervised_Hierarchical_Part_Decomposition_of_3D_Objects_From_a_CVPR_2020_paper.pdf) |  |
 | 2026 | 39.4 | method | [BIM-Edit: Benchmarking Large Language Models for IFC-Based Building Information Modeling](https://arxiv.org/abs/2606.20146v3) | Introduces BIM-Edit, a benchmark for evaluating LLMs on natural-language editing of Building Information Models in IFC format, revealing significant performance gaps. |
@@ -318,4 +319,4 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 
 ---
 
-Total papers: **306**.
+Total papers: **307**.

@@ -633,8 +633,14 @@
     title: 'VideoCAD: A Dataset and Model for Learning Long-Horizon 3D CAD UI Interactions
       from Video'
     url: https://arxiv.org/abs/2505.24838
+  - id: vggt-cad-reconstructing-parametric-cad-3d-model-with-geomet-2026
+    title: 'VGGT-CAD: Reconstructing Parametric CAD 3D Model with Geometric Grounding'
+    url: https://arxiv.org/abs/2609.21225v1
+    title_zh: VGGT-CAD：基于几何先验的参数化CAD三维模型重建
   year: 2025
   preview: /assets/papers/videocad-a-dataset-and-model-for-learning-long-horizon-3d-c-2025/teaser.png
+  name_zh: VGGT-CAD
+  description_zh: 参数化CAD重建需要从视觉观测中同时恢复精确的几何形状和可编辑的建模操作，因此在视角有限且存在歧义的情况下具有挑战性。现有方法主要依赖2D外观线索，缺乏强大的多视图几何先验。在本工作中，我们提出了VGGT-CAD，一种用于从单视图和多视图观测进行参数化CAD重建的几何感知框架。我们通过将相机参数编码为条件token，并将其与图像token联合建模，将预训练的3D几何先验迁移到CAD重建中。为了处理数量可变的视角，我们引入了一个变视角跨视图上下文聚合模块，自适应地融合多视图特征。我们进一步提出了一种无需训练的几何感知视图选择策略，在推理过程中选择互补且可靠的帧。所得到的表示通过非自回归解码器解码为CAD命令序列。我们还开发了VideoCAD，一个通过多视图重渲染从现有CAD数据派生的大规模多视图视频基准。大量实验证明了VGGT-CAD在不同观测配置下进行视觉CAD重建的有效性。
 - id: paper-archcad-400k-an-open-large-scale-architectural-cad-dataset-2025
   name: ArchCAD-400K
   description: 'Derived from paper: ArchCAD-400K: An Open Large-Scale Architectural

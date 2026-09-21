@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-09-20T02:41:03Z'
+generated_at: '2026-09-21T02:39:13Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -2291,4 +2291,12 @@ assignments:
   - theory
   - application
   confidence: 0.68
+  evidence: method
+- paper_id: vggt-cad-reconstructing-parametric-cad-3d-model-with-geomet-2026
+  primary: method
+  secondary:
+  - benchmark
+  - theory
+  - application
+  confidence: 0.67
   evidence: method

@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-09-21T02:39:22Z'
+generated_at: '2026-09-22T02:43:22Z'
 jobs:
 - id: method
   topic_id: method
@@ -301,6 +301,8 @@ jobs:
   - caliper-metric-grounded-model-free-recognition-of-visually-2026
   - neusoga3d-a-neuro-symbolic-framework-for-explainable-3d-geo-2026
   - vggt-cad-reconstructing-parametric-cad-3d-model-with-geomet-2026
+  - semi-automated-reconstruction-of-indoor-geometry-from-360-de-2026
+  - vision2cad-a-visual-agent-harness-for-explicit-geometry-ref-2026
   top_tags:
   - CV
   - AI
@@ -310,11 +312,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: 2232b65e9ac83d6c
+  prompt_hash: 62452a26aecd4b86
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-09-21T02:42:41Z'
+  updated_at: '2026-09-22T02:44:53Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -564,6 +566,8 @@ jobs:
   - caliper-metric-grounded-model-free-recognition-of-visually-2026
   - neusoga3d-a-neuro-symbolic-framework-for-explainable-3d-geo-2026
   - vggt-cad-reconstructing-parametric-cad-3d-model-with-geomet-2026
+  - semi-automated-reconstruction-of-indoor-geometry-from-360-de-2026
+  - vision2cad-a-visual-agent-harness-for-explicit-geometry-ref-2026
   top_tags:
   - CV
   - AI
@@ -573,11 +577,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: 5abd6f327a1691dc
+  prompt_hash: da1a3af7f662a77b
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-09-21T02:40:46Z'
+  updated_at: '2026-09-22T02:44:42Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -780,6 +784,7 @@ jobs:
   - cggt-curve-grounded-geometry-transformer-for-3d-parametric-2026
   - depthbenchcad-when-does-deeper-auditing-yield-more-reliable-2026
   - caliper-metric-grounded-model-free-recognition-of-visually-2026
+  - vision2cad-a-visual-agent-harness-for-explicit-geometry-ref-2026
   top_tags:
   - CV
   - AI
@@ -789,11 +794,11 @@ jobs:
   - CL
   - HC
   - SY
-  prompt_hash: 2bc8c54e07911c5a
+  prompt_hash: 75a53e68f321f9c3
   status: done
-  attempts: 2
+  attempts: 1
   error: ''
-  updated_at: '2026-09-21T02:40:46Z'
+  updated_at: '2026-09-22T02:44:43Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -931,6 +936,8 @@ jobs:
   - caliper-metric-grounded-model-free-recognition-of-visually-2026
   - neusoga3d-a-neuro-symbolic-framework-for-explainable-3d-geo-2026
   - vggt-cad-reconstructing-parametric-cad-3d-model-with-geomet-2026
+  - semi-automated-reconstruction-of-indoor-geometry-from-360-de-2026
+  - vision2cad-a-visual-agent-harness-for-explicit-geometry-ref-2026
   top_tags:
   - CV
   - AI
@@ -940,11 +947,11 @@ jobs:
   - SE
   - CE
   - MA
-  prompt_hash: 9ed014f6ecc65796
+  prompt_hash: 450ad5f4338c2c0b
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-09-21T02:41:55Z'
+  updated_at: '2026-09-22T02:46:01Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -1008,9 +1015,9 @@ jobs:
   - AI
   prompt_hash: 3dbd2cb846fd9a32
   status: done
-  attempts: 33
+  attempts: 34
   error: ''
-  updated_at: '2026-09-21T02:41:55Z'
+  updated_at: '2026-09-22T02:44:53Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -1168,6 +1175,7 @@ jobs:
   - cadworld-computer-use-benchmark-for-long-horizon-computer-a-2026
   - neusoga3d-a-neuro-symbolic-framework-for-explainable-3d-geo-2026
   - vggt-cad-reconstructing-parametric-cad-3d-model-with-geomet-2026
+  - semi-automated-reconstruction-of-indoor-geometry-from-360-de-2026
   top_tags:
   - CV
   - LG
@@ -1177,8 +1185,8 @@ jobs:
   - CL
   - CG
   - HC
-  prompt_hash: de03dd2dfb6189ad
+  prompt_hash: 791ec4b61a343bd6
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-09-21T02:44:47Z'
+  updated_at: '2026-09-22T02:45:56Z'

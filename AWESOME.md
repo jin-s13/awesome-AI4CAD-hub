@@ -91,6 +91,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2026 | 39.5 | method | [Im2Struct: Recovering 3D Shape Structure from a Single RGB Image](https://openaccess.thecvf.com/content_cvpr_2018/papers/Niu_Im2Struct_Recovering_3D_CVPR_2018_paper.pdf) |  |
 | 2026 | 39.5 | method | [Learning Unsupervised Hierarchical Part Decomposition of 3D Objects from a Single RGB Image](https://openaccess.thecvf.com/content_CVPR_2020/papers/Paschalidou_Learning_Unsupervised_Hierarchical_Part_Decomposition_of_3D_Objects_From_a_CVPR_2020_paper.pdf) |  |
 | 2026 | 39.4 | method | [BIM-Edit: Benchmarking Large Language Models for IFC-Based Building Information Modeling](https://arxiv.org/abs/2606.20146v3) | Introduces BIM-Edit, a benchmark for evaluating LLMs on natural-language editing of Building Information Models in IFC format, revealing significant performance gaps. |
+| 2026 | 39.3 | method | [Vision2CAD: A Visual Agent Harness for Explicit Geometry Referencing and Localization in Parametric CAD Modeling](https://arxiv.org/abs/2609.22688v1) | Generating parametric CAD models requires accurate geometry and stable feature dependencies. Existing methods face challenges in selecting geometric references, interpreting sketc... |
 | 2026 | 38.8 | method | [RealCAD: Towards Real-World Image-to-CAD Reconstruction under Domain Shift and Parameter Bias](https://arxiv.org/abs/2608.30617v1) | Reconstructing editable Computer-Aided Design (CAD) models from images is essential for downstream modification, manufacturing, and design reuse. However, existing image-to-CAD me... |
 | 2026 | 38.8 | method | [TOOLCAD: Exploring Tool-Using Large Language Models in Text-to-CAD Generation with Reinforcement Learning](https://arxiv.org/abs/2604.07960v2) | ToolCAD uses LLMs as tool-using agents for text-to-CAD generation, trained via reinforcement learning in a CAD gym. |
 | 2026 | 37.8 | method | [BrepMFR: Enhancing machining feature recognition in B-rep models through deep learning and domain adaptation](https://www.sciencedirect.com/science/article/pii/S0167839624000529) |  |
@@ -101,6 +102,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2026 | 37.8 | method | [SketchGen: Generating Constrained CAD Sketches](https://proceedings.neurips.cc/paper_files/paper/2021/file/28891cb4ab421830acc36b1f5fd6c91e-Paper.pdf) |  |
 | 2026 | 37.6 | method | [TraceCAD: Trace-Guided Repair for Agentic CAD Generation](https://arxiv.org/abs/2608.03062v1) | LLM-based CAD agents produce executable parametric programs, but their correction loops may lose evidence about satisfied requirements, faulty operations, and prior repairs. We in... |
 | 2026 | 37.2 | method | [CvxNet: Learnable Convex Decomposition](https://openaccess.thecvf.com/content_CVPR_2020/papers/Deng_CvxNet_Learnable_Convex_Decomposition_CVPR_2020_paper.pdf) |  |
+| 2026 | 37.1 | method, application | [Semi-automated reconstruction of indoor geometry from 360-degree video for CFD-based airflow analysis in classrooms](https://arxiv.org/abs/2609.23425v1) | Computational Fluid Dynamics (CFD) is widely used to evaluate ventilation and contaminant transport in occupied buildings, but deployment at scale is limited by three bottlenecks:... |
 | 2026 | 36 | method | [Compatibility and Accuracy Verification of CADmesh-Based Complex Geometry Modeling in Geant4](https://arxiv.org/abs/2606.06508v1) | Evaluates CADmesh (STL/OBJ) import in Geant4, showing 100% success, low volume error, and a general interface reducing code lines. |
 | 2026 | 35.6 | method | [SplineNet: An Isogeometric Deep Learning Method for Complex Shells](https://arxiv.org/abs/2607.06026v1) | SplineNet integrates isogeometric analysis with deep learning for seamless CAD/CAE of complex shell structures using spline representations. |
 | 2026 | 35.4 | method | [HPNet: Deep Primitive Segmentation Using Hybrid Representations](http://openaccess.thecvf.com/content/ICCV2021/papers/Yan_HPNet_Deep_Primitive_Segmentation_Using_Hybrid_Representations_ICCV_2021_paper.pdf) |  |
@@ -319,4 +321,4 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 
 ---
 
-Total papers: **307**.
+Total papers: **309**.

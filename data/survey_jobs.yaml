@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-09-22T02:43:22Z'
+generated_at: '2026-09-23T02:41:57Z'
 jobs:
 - id: method
   topic_id: method
@@ -303,6 +303,7 @@ jobs:
   - vggt-cad-reconstructing-parametric-cad-3d-model-with-geomet-2026
   - semi-automated-reconstruction-of-indoor-geometry-from-360-de-2026
   - vision2cad-a-visual-agent-harness-for-explicit-geometry-ref-2026
+  - evidence-gated-multimodal-parsing-and-vectorization-of-archi-2026
   top_tags:
   - CV
   - AI
@@ -312,11 +313,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: 62452a26aecd4b86
+  prompt_hash: d10cf539b6287f2f
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-09-22T02:44:53Z'
+  updated_at: '2026-09-23T02:43:22Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -568,6 +569,7 @@ jobs:
   - vggt-cad-reconstructing-parametric-cad-3d-model-with-geomet-2026
   - semi-automated-reconstruction-of-indoor-geometry-from-360-de-2026
   - vision2cad-a-visual-agent-harness-for-explicit-geometry-ref-2026
+  - evidence-gated-multimodal-parsing-and-vectorization-of-archi-2026
   top_tags:
   - CV
   - AI
@@ -577,11 +579,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: da1a3af7f662a77b
+  prompt_hash: 43902ab60800cd43
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-09-22T02:44:42Z'
+  updated_at: '2026-09-23T02:43:28Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -785,6 +787,7 @@ jobs:
   - depthbenchcad-when-does-deeper-auditing-yield-more-reliable-2026
   - caliper-metric-grounded-model-free-recognition-of-visually-2026
   - vision2cad-a-visual-agent-harness-for-explicit-geometry-ref-2026
+  - evidence-gated-multimodal-parsing-and-vectorization-of-archi-2026
   top_tags:
   - CV
   - AI
@@ -794,11 +797,11 @@ jobs:
   - CL
   - HC
   - SY
-  prompt_hash: 75a53e68f321f9c3
+  prompt_hash: 1985f98ce511e1f2
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-09-22T02:44:43Z'
+  updated_at: '2026-09-23T02:44:55Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -949,9 +952,9 @@ jobs:
   - MA
   prompt_hash: 450ad5f4338c2c0b
   status: done
-  attempts: 1
+  attempts: 2
   error: ''
-  updated_at: '2026-09-22T02:46:01Z'
+  updated_at: '2026-09-23T02:43:28Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -1015,9 +1018,9 @@ jobs:
   - AI
   prompt_hash: 3dbd2cb846fd9a32
   status: done
-  attempts: 34
+  attempts: 35
   error: ''
-  updated_at: '2026-09-22T02:44:53Z'
+  updated_at: '2026-09-23T02:43:28Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -1176,6 +1179,7 @@ jobs:
   - neusoga3d-a-neuro-symbolic-framework-for-explainable-3d-geo-2026
   - vggt-cad-reconstructing-parametric-cad-3d-model-with-geomet-2026
   - semi-automated-reconstruction-of-indoor-geometry-from-360-de-2026
+  - evidence-gated-multimodal-parsing-and-vectorization-of-archi-2026
   top_tags:
   - CV
   - LG
@@ -1185,8 +1189,8 @@ jobs:
   - CL
   - CG
   - HC
-  prompt_hash: 791ec4b61a343bd6
+  prompt_hash: 8198412f829c51ca
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-09-22T02:45:56Z'
+  updated_at: '2026-09-23T02:44:50Z'

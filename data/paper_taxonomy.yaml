@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-09-22T02:43:14Z'
+generated_at: '2026-09-23T02:41:48Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -2316,3 +2316,11 @@ assignments:
   - system
   confidence: 0.68
   evidence: method
+- paper_id: evidence-gated-multimodal-parsing-and-vectorization-of-archi-2026
+  primary: benchmark
+  secondary:
+  - method
+  - system
+  - application
+  confidence: 0.66
+  evidence: benchmark

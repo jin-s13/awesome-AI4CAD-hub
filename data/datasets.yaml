@@ -1534,4 +1534,4 @@
   description_zh: 生成参数化CAD模型需要精确的几何和稳定的特征依赖关系。现有方法在选择几何参考、解释草图平面局部坐标以及建立相对于投影外部几何的草图约束方面面临挑战。我们提出Vision2CAD，一种将视觉语言模型（VLM）推理与确定性CAD内核操作相结合的视觉智能体工具框架。基于ID的接口支持显式几何选择，局部坐标桥将视图坐标转换为草图坐标，投影边定位支持外部草图约束。这些机制在支持的建模操作和约束类型内建立了特征依赖关系。我们还引入了几何显式引用数据集（GERD），该数据集在每个建模步骤中对齐了命令、几何状态和ID。在GERD-EVL和DeepCAD测试子集上，Vision2CAD将mIoU分别提高了11.1%和5.6%，并将Chamfer距离分别降低了17.3%和41.8%。参数编辑实验和消融研究进一步证明了参数化依赖关系的保持。
   notes_zh: 派生自论文：Vision2CAD：面向参数化CAD建模中显式几何引用与定位的视觉智能体工具框架
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/vision2cad-a-visual-agent-harness-for-explicit-geometry-ref-2026/teaser.png

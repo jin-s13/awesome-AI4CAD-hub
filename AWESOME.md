@@ -110,6 +110,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2026 | 33 | method | [Encoded but Not Actionable: Auditing the Decode-Generate-Steer Gap in Frozen LLMs for Geometric Constraints](https://arxiv.org/abs/2608.17843v1) | Large language models (LLMs) have demonstrated strong performance on structured reasoning tasks, but what they encode and whether it informs model behavior remain unclear. We inve... |
 | 2026 | 32.7 | method | [Engineering Sketch Generation for Computer-Aided Design](https://openaccess.thecvf.com/content/CVPR2021W/SketchDL/papers/Willis_Engineering_Sketch_Generation_for_Computer-Aided_Design_CVPRW_2021_paper.pdf) |  |
 | 2026 | 32.7 | method | [VQ-CAD: Computer-Aided Design model generation with vector quantized diffusion](https://www.sciencedirect.com/science/article/pii/S016783962400061X) |  |
+| 2026 | 30.5 | method, system | [Evidence-gated multimodal parsing and vectorization of architectural floor plans](https://arxiv.org/abs/2609.25615v1) | Architectural floor plans remain a high-friction barrier to archive digitization and early design-model preparation because heterogeneous graphics encode spatial semantics and edi... |
 | 2026 | 30.3 | method | [Learning New Tasks via Reusable Skills: Skill-Compositional Experts for Embodied Continual Learning](https://arxiv.org/abs/2606.15685v1) | Proposes Skill-Compositional Experts (SCE) for embodied continual learning, enabling robots to reuse skills and reduce forgetting. |
 | 2026 | 30.3 | method | [Spatially Accelerated Winding Numbers for Curved Geometry](https://arxiv.org/abs/2605.19200v1) | Accelerates generalized winding number queries on curved NURBS geometry using a bounding volume hierarchy with precomputed moments. |
 | 2026 | 30.2 | benchmark | [HistCAD: Geometrically Constrained Parametric History-based CAD Dataset](https://arxiv.org/abs/2602.19171) |  |
@@ -321,4 +322,4 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 
 ---
 
-Total papers: **309**.
+Total papers: **310**.

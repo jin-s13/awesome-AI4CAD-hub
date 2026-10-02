@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-10-01T03:25:00Z'
+generated_at: '2026-10-02T03:27:03Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -2301,13 +2301,13 @@ assignments:
   confidence: 0.67
   evidence: method
 - paper_id: semi-automated-reconstruction-of-indoor-geometry-from-360-de-2026
-  primary: benchmark
+  primary: method
   secondary:
-  - method
-  - theory
+  - benchmark
   - application
-  confidence: 0.66
-  evidence: benchmark
+  - theory
+  confidence: 0.67
+  evidence: method
 - paper_id: vision2cad-a-visual-agent-harness-for-explicit-geometry-ref-2026
   primary: method
   secondary:
@@ -2324,3 +2324,19 @@ assignments:
   - application
   confidence: 0.66
   evidence: benchmark
+- paper_id: canto-cad-native-transformer-operators-for-ai-aided-enginee-2026
+  primary: benchmark
+  secondary:
+  - method
+  - system
+  - theory
+  confidence: 0.68
+  evidence: benchmark
+- paper_id: cncgen-a-dataset-and-framework-for-machining-process-planni-2026
+  primary: method
+  secondary:
+  - benchmark
+  - application
+  - system
+  confidence: 0.37
+  evidence: method

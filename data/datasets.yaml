@@ -1535,3 +1535,27 @@
   notes_zh: 派生自论文：Vision2CAD：面向参数化CAD建模中显式几何引用与定位的视觉智能体工具框架
   year: 2026
   preview: /assets/papers/vision2cad-a-visual-agent-harness-for-explicit-geometry-ref-2026/teaser.png
+- id: paper-cncgen-a-dataset-and-framework-for-machining-process-planni-2026
+  name: CNCGEN
+  description: CNCGEN provides a dataset and learning framework for generating machining
+    process plans and toolpaths from B-rep models, improving workpiece geometry on
+    synthetic and real CNC records.
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2609.39738v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: CNCGEN: A Dataset and Framework for Machining Process
+    Planning and Toolpath Generation from B-rep Models'
+  related_papers:
+  - id: cncgen-a-dataset-and-framework-for-machining-process-planni-2026
+    title: 'CNCGEN: A Dataset and Framework for Machining Process Planning and Toolpath
+      Generation from B-rep Models'
+    url: https://arxiv.org/abs/2609.39738v1
+    title_zh: CNCGEN：面向B-rep模型的加工工艺规划与刀具路径生成的数据集与框架
+  name_zh: CNCGEN
+  description_zh: CNCGEN提供从B-rep模型生成加工工艺规划和刀具路径的数据集与学习框架，在合成和真实CNC记录上改善工件几何形状。
+  notes_zh: 派生自论文：CNCGEN：面向B-rep模型的加工工艺规划与刀具路径生成的数据集与框架
+  year: 2026
+  preview: /assets/placeholder.svg

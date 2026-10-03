@@ -1558,4 +1558,4 @@
   description_zh: CNCGEN提供从B-rep模型生成加工工艺规划和刀具路径的数据集与学习框架，在合成和真实CNC记录上改善工件几何形状。
   notes_zh: 派生自论文：CNCGEN：面向B-rep模型的加工工艺规划与刀具路径生成的数据集与框架
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: /assets/papers/cncgen-a-dataset-and-framework-for-machining-process-planni-2026/teaser.png

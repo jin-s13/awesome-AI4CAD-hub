@@ -8,7 +8,7 @@
   - cad
   - computer-vision
   - deep-learning
-  stars: 333
+  stars: 334
   links:
     github: https://github.com/bertjiazheng/Awesome-CAD
   sources:
@@ -45,7 +45,7 @@
   - cad-dataset
   - cad-kernel
   - text-to-cad
-  stars: 161
+  stars: 165
   links:
     github: https://github.com/mlightcad/awesome-cad
   sources:

@@ -71,6 +71,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2026 | 49.9 | method | [BrepCoder: A Unified Multimodal Large Language Model for Multi-task B-rep Reasoning](https://arxiv.org/abs/2602.22284v3) | BrepCoder is a unified multimodal LLM that performs multiple CAD reasoning tasks by converting B-rep into code and using two-stage training. |
 | 2026 | 49.3 | method | [BrepGaussian: CAD reconstruction from Multi-View Images with Gaussian Splatting](https://arxiv.org/abs/2602.21105v3) | BrepGaussian uses Gaussian Splatting to reconstruct B-Rep CAD models from multi-view images via a two-stage learning framework. |
 | 2026 | 49.2 | method | [AutoRegressive Generation with B-rep Holistic Token Sequence Representation](https://arxiv.org/abs/2601.16771v2) | BrepARG encodes B-rep geometry and topology into a holistic token sequence for autoregressive generation using a transformer, achieving SOTA performance. |
+| 2026 | 49.2 | method | [GraphCAD: Geometry-Aware Diffusion on Edge-Adjacency Graphs for CAD Generation](https://arxiv.org/abs/2610.30974v1) | Generative modeling for Computer-Aided Design (CAD) remains fundamentally challenged by the need to capture the intricate interplay between discrete topological connectivity and p... |
 | 2026 | 49 | method | [KDH-CAD: Knowledge-data hybrid CAD learning under data scarcity](https://arxiv.org/abs/2606.01702v1) | KDH-CAD combines pretrained foundation models and structured domain knowledge with small labeled data to achieve high accuracy in CAD classification under data scarcity. |
 | 2026 | 48.9 | method | [NeuSOGA3D: A Neuro-Symbolic Framework for Explainable 3D Geometric Reconstruction](https://arxiv.org/abs/2609.20323v1) | Three-dimensional reconstruction from unorganized point clouds remains a challenging problem in computer vision, geometric modeling, and computer-aided design. While neural implic... |
 | 2026 | 48.5 | method | [BRepMAE: Self-Supervised Masked BRep Autoencoders for Machining Feature Recognition](https://arxiv.org/abs/2602.22701v1) | Self-supervised masked BRep autoencoder for machining feature recognition, achieving high accuracy with limited training data. |
@@ -324,4 +325,4 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 
 ---
 
-Total papers: **312**.
+Total papers: **313**.

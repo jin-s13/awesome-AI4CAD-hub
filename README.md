@@ -28,8 +28,8 @@ citation signals, TLDRs, deep analysis notes, and literature-review style summar
 
 ## Snapshot
 
-- Papers indexed: **312**
-- Datasets indexed: **60**
+- Papers indexed: **313**
+- Datasets indexed: **61**
 - Papers with deep analysis: **126**
 - Papers matched with OpenAlex metadata: **0**
 - Research runs: **0**

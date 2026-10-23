@@ -1559,3 +1559,27 @@
   notes_zh: 派生自论文：CNCGEN：面向B-rep模型的加工工艺规划与刀具路径生成的数据集与框架
   year: 2026
   preview: /assets/papers/cncgen-a-dataset-and-framework-for-machining-process-planni-2026/teaser.png
+- id: paper-graphcad-geometry-aware-diffusion-on-edge-adjacency-graphs-2026
+  name: GraphCAD
+  description: Generative modeling for Computer-Aided Design (CAD) remains fundamentally
+    challenged by the need to capture the intricate interplay between discrete topological
+    connectivity and precise spatial geometry inherent in Boundary Representations
+    ...
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2610.30974v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: GraphCAD: Geometry-Aware Diffusion on Edge-Adjacency
+    Graphs for CAD Generation'
+  related_papers:
+  - id: graphcad-geometry-aware-diffusion-on-edge-adjacency-graphs-2026
+    title: 'GraphCAD: Geometry-Aware Diffusion on Edge-Adjacency Graphs for CAD Generation'
+    url: https://arxiv.org/abs/2610.30974v1
+    title_zh: GraphCAD：基于边邻接图的几何感知扩散用于CAD生成
+  name_zh: GraphCAD
+  description_zh: 面向计算机辅助设计（CAD）的生成建模面临根本性挑战，即需要捕捉边界表示（B-reps）中离散拓扑连接与精确空间几何之间错综复杂的相互作用。现有生成方法大多将CAD构建形式化为序列建模问题，因而缺乏显式的拓扑归纳偏置。在本工作中，我们提出GraphCAD，一种几何感知生成框架，其建模核心是边邻接图（EAG）——一种专为生成任务设计的基于图的CAD表示。GraphCAD采用混合图扩散公式来联合建模EAG的离散与连续分量，并引入一种几何感知去噪机制，将节点属性渲染为空间点集。这些点集由SE(3)-等变主干网络编码并融合到节点表示中，从而将生成过程锚定于物理几何。为支撑本研究，我们构建了EAGBench，一个大规模工程CAD模型数据集。大量实验表明，GraphCAD能够生成包含50多个面的复杂CAD模型，并与基于序列的基线相比，在几何保真度和分布对齐方面取得了最先进的性能。
+  notes_zh: 派生自论文：GraphCAD：基于边邻接图的几何感知扩散用于CAD生成
+  year: 2026
+  preview: /assets/placeholder.svg

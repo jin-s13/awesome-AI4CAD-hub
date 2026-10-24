@@ -14,6 +14,25 @@
   sources:
   - repo: bertjiazheng/Awesome-CAD
     category: github_project
+- id: github-mlightcad-awesome-cad
+  name: awesome-cad
+  type: GitHub
+  category: GitHub project
+  description: A curated list of valuable open-source CAD (Computer-Aided Design)
+    software, libraries, and tools, organized by category.
+  tags:
+  - 2d-cad
+  - 3d-cad
+  - cad
+  - cad-dataset
+  - cad-kernel
+  - text-to-cad
+  stars: 210
+  links:
+    github: https://github.com/mlightcad/awesome-cad
+  sources:
+  - repo: mlightcad/awesome-cad
+    category: github_project
 - id: github-bunnysocrazy-awesome-neural-cad
   name: Awesome-Neural-CAD
   type: GitHub
@@ -31,23 +50,4 @@
     github: https://github.com/BunnySoCrazy/Awesome-Neural-CAD
   sources:
   - repo: BunnySoCrazy/Awesome-Neural-CAD
-    category: github_project
-- id: github-mlightcad-awesome-cad
-  name: awesome-cad
-  type: GitHub
-  category: GitHub project
-  description: A curated list of valuable open-source CAD (Computer-Aided Design)
-    software, libraries, and tools, organized by category.
-  tags:
-  - 2d-cad
-  - 3d-cad
-  - cad
-  - cad-dataset
-  - cad-kernel
-  - text-to-cad
-  stars: 207
-  links:
-    github: https://github.com/mlightcad/awesome-cad
-  sources:
-  - repo: mlightcad/awesome-cad
     category: github_project

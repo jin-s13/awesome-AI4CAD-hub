@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-10-29T03:45:47Z'
+generated_at: '2026-10-30T03:48:10Z'
 jobs:
 - id: method
   topic_id: method
@@ -307,6 +307,7 @@ jobs:
   - canto-cad-native-transformer-operators-for-ai-aided-enginee-2026
   - cncgen-a-dataset-and-framework-for-machining-process-planni-2026
   - graphcad-geometry-aware-diffusion-on-edge-adjacency-graphs-2026
+  - cad-wam-anticipating-geometry-for-text-to-cad-generation-2026
   top_tags:
   - CV
   - AI
@@ -316,11 +317,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: 1ea2ca9b7f003c5b
+  prompt_hash: 9c755fd082ee62d0
   status: done
-  attempts: 7
+  attempts: 1
   error: ''
-  updated_at: '2026-10-29T03:45:50Z'
+  updated_at: '2026-10-30T03:50:25Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -576,6 +577,7 @@ jobs:
   - canto-cad-native-transformer-operators-for-ai-aided-enginee-2026
   - cncgen-a-dataset-and-framework-for-machining-process-planni-2026
   - graphcad-geometry-aware-diffusion-on-edge-adjacency-graphs-2026
+  - cad-wam-anticipating-geometry-for-text-to-cad-generation-2026
   top_tags:
   - CV
   - AI
@@ -585,11 +587,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: 10d656e5471d4b8a
+  prompt_hash: 7dbb3c68e86065e9
   status: done
-  attempts: 7
+  attempts: 1
   error: ''
-  updated_at: '2026-10-29T03:45:50Z'
+  updated_at: '2026-10-30T03:49:24Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -797,6 +799,7 @@ jobs:
   - canto-cad-native-transformer-operators-for-ai-aided-enginee-2026
   - cncgen-a-dataset-and-framework-for-machining-process-planni-2026
   - graphcad-geometry-aware-diffusion-on-edge-adjacency-graphs-2026
+  - cad-wam-anticipating-geometry-for-text-to-cad-generation-2026
   top_tags:
   - CV
   - AI
@@ -806,11 +809,11 @@ jobs:
   - CL
   - HC
   - SY
-  prompt_hash: 73182137b62a87f4
+  prompt_hash: 263d33a0088ed81d
   status: done
-  attempts: 7
+  attempts: 1
   error: ''
-  updated_at: '2026-10-29T03:45:50Z'
+  updated_at: '2026-10-30T03:50:43Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -952,6 +955,7 @@ jobs:
   - vision2cad-a-visual-agent-harness-for-explicit-geometry-ref-2026
   - canto-cad-native-transformer-operators-for-ai-aided-enginee-2026
   - graphcad-geometry-aware-diffusion-on-edge-adjacency-graphs-2026
+  - cad-wam-anticipating-geometry-for-text-to-cad-generation-2026
   top_tags:
   - CV
   - AI
@@ -961,11 +965,11 @@ jobs:
   - SE
   - CE
   - MA
-  prompt_hash: c379dfe345c381fc
+  prompt_hash: 3beb23847232f152
   status: done
-  attempts: 7
+  attempts: 1
   error: ''
-  updated_at: '2026-10-29T03:45:50Z'
+  updated_at: '2026-10-30T03:51:39Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -1029,9 +1033,9 @@ jobs:
   - AI
   prompt_hash: 3dbd2cb846fd9a32
   status: done
-  attempts: 71
+  attempts: 72
   error: ''
-  updated_at: '2026-10-29T03:45:50Z'
+  updated_at: '2026-10-30T03:50:43Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -1203,6 +1207,6 @@ jobs:
   - HC
   prompt_hash: 795c67d21beb2a33
   status: done
-  attempts: 28
+  attempts: 29
   error: ''
-  updated_at: '2026-10-29T03:45:50Z'
+  updated_at: '2026-10-30T03:50:43Z'

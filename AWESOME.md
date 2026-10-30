@@ -35,6 +35,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2026 | 63.1 | method | [HiFi-BRep: High-Fidelity Latent Representation for Robust B-Rep Generation](https://arxiv.org/abs/2608.16485v2) | HiFi-BRep introduces a topology-aware encoder and single-stage decoder for robust high-fidelity B-Rep generation, improving structural validity and geometric fidelity over state-o... |
 | 2026 | 63 | method, system | [ASSEMCAD: Production-Ready CAD Assembly Generation from Natural Language](https://arxiv.org/abs/2607.05123v1) | AssemCAD generates production-ready CAD assemblies from natural language using an axiom-grounded framework with ports, mates, and B-Rep validation. |
 | 2026 | 62.2 | method | [Brep2Shape: Boundary and Shape Representation Alignment via Self-Supervised Transformers](https://arxiv.org/abs/2602.07429v2) | Brep2Shape uses self-supervised Transformers to align B-rep boundaries with shape representations via spatial point prediction from Bézier control points. |
+| 2026 | 61.8 | method | [CAD-WAM: Anticipating Geometry for Text-to-CAD Generation](https://arxiv.org/abs/2610.39306v1) | Generating editable computer-aided design (CAD) models from text requires selecting operations that produce the intended changes to the geometry constructed so far. An incorrect o... |
 | 2026 | 60.3 | method, system | [ArtisanCAD: An Industrial-Level CAD Agent with Expert-Grounded Knowledge Distillation](https://arxiv.org/abs/2607.05750v2) | ArtisanCAD is an industrial CAD agent that uses expert knowledge distillation and a procedural CAD-IR representation to generate production-ready B-Rep models from ambiguous text... |
 | 2026 | 59.7 | method | [Text-to-CAD Evaluation with CADTests](https://arxiv.org/abs/2605.07807v1) | Introduces CADTestBench, a test-based benchmark for evaluating Text-to-CAD models using executable software tests. |
 | 2026 | 59 | method | [Arko-T: A Foundation Model for Text-to-Structured 3D Generation](https://arxiv.org/abs/2606.30429v1) | Arko-T is a 4B-parameter text-to-design model that generates editable parametric CAD programs from natural language, outperforming frontier LLMs at lower cost. |
@@ -325,4 +326,4 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 
 ---
 
-Total papers: **313**.
+Total papers: **314**.

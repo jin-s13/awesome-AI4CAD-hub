@@ -2807,7 +2807,7 @@
     status: planned
     run_status: planned
     report: resource/cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026/research.md
-    queued_at: '2026-11-06T04:31:05Z'
+    queued_at: '2026-11-07T03:59:06Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -3434,7 +3434,7 @@
     status: planned
     run_status: planned
     report: resource/cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026/research.md
-    queued_at: '2026-11-06T04:31:05Z'
+    queued_at: '2026-11-07T03:59:06Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -11973,7 +11973,7 @@
     status: planned
     run_status: planned
     report: resource/towards-high-fidelity-cad-generation-via-llm-driven-program-2026/research.md
-    queued_at: '2026-11-06T04:31:05Z'
+    queued_at: '2026-11-07T03:59:06Z'
   seed_expanded: true
   taxonomy:
     primary: method
@@ -47637,7 +47637,7 @@
     status: planned
     run_status: planned
     report: resource/hiercad-hierarchical-text-to-cad-design-via-structure-align-2026/research.md
-    queued_at: '2026-11-06T04:31:05Z'
+    queued_at: '2026-11-07T03:59:06Z'
 - id: text-aided-multi-modal-panoptic-symbol-spotting-for-cad-floo-2026
   title: Text-Aided Multi-Modal Panoptic Symbol Spotting for CAD Floor Plan Drawings
   authors:
@@ -53360,15 +53360,81 @@
         topic_heavy:
           rank: 125
           score: 35.0
+    keyword_scores:
+      AI for CAD: 8
+      computer-aided design: 9
+      neural CAD: 8
+      generative CAD: 0
+      parametric CAD: 0
+      B-Rep: 10
+      boundary representation: 10
+      constructive solid geometry: 0
+      CSG: 0
+      sketch extrusion: 0
+      CAD generation: 0
+      CAD reconstruction: 0
+      text-to-CAD: 0
+      image-to-CAD: 0
+      point cloud to CAD: 0
+      CAD program: 0
+    total: 45
   title_cn: CAD边界表示上的SO(3)-等变学习
   abstract_cn: 在边界表示（B-reps）上进行学习需要具备对零件姿态的鲁棒性，因为CAD模型并非以规范方向存储。现有的B-rep网络要么在世界坐标系下的坐标和法向量上操作，因而在旋转下性能下降；要么在每个面上使用局部参考系进行编码。局部坐标系可以实现不变性，但会将面间消息缩减为标量，并丢弃相邻面之间的相对朝向。我们提出SO3brep，一种在B-rep面邻接图上的SO(3)-等变图神经网络。节点特征在局部坐标系中计算，并通过Wigner
     D矩阵映射到共享坐标系。Clebsch-Gordan张量积将这些特征与相邻面之间的方向耦合，从而在消息传递过程中保留相对朝向，并且输出保持SE(3)-不变性。在三个面分割和两个分类基准测试中（测试零件经过随机旋转），SO3brep在比较的B-rep网络和等变点云网络中取得了最高准确率，且参数数量最少。其优势在标注零件数量少时最为显著，这是工业CAD中的典型场景。代码可在https://github.com/UGent-CVAMO/so3brep获取。
-  grade: skip
+  grade: must_read
   taxonomy:
     primary: benchmark
     secondary:
     - method
+    - application
     - system
-    - theory
-    confidence: 0.66
+    confidence: 0.67
     evidence: benchmark
+  tldr: SO3brep is an SO(3)-equivariant graph neural network for CAD B-reps that preserves
+    relative face orientations and achieves high accuracy on rotated segmentation
+    and classification benchmarks.
+  reasoning: The paper presents a well-motivated equivariant architecture for B-rep
+    learning, with strong theoretical grounding and empirical validation on rotated
+    benchmarks with code released. Its scope is limited to face segmentation and classification,
+    with no evidence for generative or reconstruction tasks and limited discussion
+    of dataset diversity.
+  has_real_world: true
+  analysis:
+    innovations:
+    - Proposes SO3brep, an SO(3)-equivariant graph neural network operating on the
+      B-rep face-adjacency graph.
+    - Computes node features in local frames and maps them into a shared frame using
+      Wigner D-matrices.
+    - Uses Clebsch-Gordan tensor products to couple local features with directions
+      between adjacent faces, preserving relative orientation during message passing.
+    - Produces SE(3)-invariant outputs for boundary representation learning under
+      arbitrary rotations.
+    - Achieves highest accuracy with the fewest parameters compared to B-rep networks
+      and equivariant point cloud networks.
+    methodology: SO3brep is an SO(3)-equivariant graph neural network on the B-rep
+      face-adjacency graph. Node features are computed in local frames and mapped
+      into a shared frame by Wigner D-matrices, while Clebsch-Gordan tensor products
+      couple these features with directions between adjacent faces to preserve relative
+      orientation. It is evaluated on three face-segmentation and two classification
+      benchmarks with randomly rotated test parts, compared against B-rep networks
+      and equivariant point cloud networks.
+    key_results: Across three face-segmentation and two classification benchmarks
+      with randomly rotated test parts, SO3brep achieves the highest accuracy among
+      the compared B-rep networks and equivariant point cloud networks, with the fewest
+      parameters. Its advantage is largest with few labeled parts.
+    limitations: []
+  tldr_cn: SO3brep 是用于 CAD B-rep 的 SO(3)-等变图神经网络，保留相邻面相对朝向，在随机旋转分割/分类基准上取得领先精度。
+  analysis_cn:
+    innovations:
+    - 提出 SO3brep，一种在 B-rep 面邻接图上运行的 SO(3)-等变图神经网络。
+    - 在局部坐标系中计算节点特征，并使用 Wigner D 矩阵将其映射到共享坐标系。
+    - 使用 Clebsch-Gordan 张量积将局部特征与相邻面之间的方向耦合，在消息传递过程中保留相对朝向。
+    - 为任意旋转下的边界表征学习产生 SE(3)-不变输出。
+    - 与 B-rep 网络和等变点云网络相比，以最少的参数实现最高精度。
+    methodology: SO3brep 是一种在 B-rep 面邻接图上运行的 SO(3)-等变图神经网络。节点特征在局部坐标系中计算，并由 Wigner
+      D 矩阵映射到共享坐标系；Clebsch-Gordan 张量积将这些特征与相邻面之间的方向耦合，以保留相对朝向。在三个面分割和两个分类基准上，使用随机旋转的测试部件进行评估，与
+      B-rep 网络和等变点云网络进行比较。
+    key_results: 在三个面分割和两个分类基准中，对于随机旋转的测试部件，SO3brep 在被比较的 B-rep 网络和等变点云网络中取得了最高准确率，且参数最少。其优势在标注样本较少时最为明显，这种设置常见于工业
+      CAD。
+    limitations: []
+    tech_stack: []

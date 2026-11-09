@@ -1,7 +1,7 @@
 # CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization
 
 - Status: planned
-- Generated at: 2026-11-08T03:42:42Z
+- Generated at: 2026-11-09T03:55:36Z
 - Read-first score: 70.9
 - Paper: https://arxiv.org/abs/2605.01171v3
 - Code: https://github.com/ghadinehme/CADFit.

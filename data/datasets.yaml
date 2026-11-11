@@ -831,6 +831,10 @@
       Generation with Large Language Models'
     url: https://arxiv.org/abs/2604.19773
     title_zh: 'PR-CAD: 基于大型语言模型的渐进式精炼实现统一可控且忠实的文本到CAD生成'
+  - id: gopr-cad-graph-of-operations-progressive-reasoning-for-cad-2026
+    title: 'GOPR-CAD: Graph-of-Operations Progressive Reasoning for CAD Generation'
+    url: https://arxiv.org/abs/2611.11470v1
+    title_zh: GOPR-CAD：用于CAD生成的操作图渐进式推理
   name_zh: PR-CAD
   description_zh: PR-CAD通过渐进式精炼统一文本到CAD生成与编辑，实现最先进的可控性和忠实性
   notes_zh: '派生自论文：PR-CAD: 基于大型语言模型的渐进式精炼实现统一可控且忠实的文本到CAD生成'

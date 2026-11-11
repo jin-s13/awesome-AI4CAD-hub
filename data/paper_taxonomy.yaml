@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-11-10T05:29:10Z'
+generated_at: '2026-11-11T03:59:21Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -2364,3 +2364,11 @@ assignments:
   - system
   confidence: 0.67
   evidence: benchmark
+- paper_id: gopr-cad-graph-of-operations-progressive-reasoning-for-cad-2026
+  primary: method
+  secondary:
+  - benchmark
+  - theory
+  - application
+  confidence: 0.68
+  evidence: method

@@ -106,6 +106,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2026 | 37.8 | method | [GAT-CADNet: Graph Attention Network for Panoptic Symbol Spotting in CAD Drawings](https://openaccess.thecvf.com/content/CVPR2022/papers/Zheng_GAT-CADNet_Graph_Attention_Network_for_Panoptic_Symbol_Spotting_in_CAD_CVPR_2022_paper.pdf) |  |
 | 2026 | 37.8 | method, application | [Reconstructing compact building models from point clouds using deep implicit fields](https://www.sciencedirect.com/science/article/pii/S0924271622002611) |  |
 | 2026 | 37.8 | method | [SketchGen: Generating Constrained CAD Sketches](https://proceedings.neurips.cc/paper_files/paper/2021/file/28891cb4ab421830acc36b1f5fd6c91e-Paper.pdf) |  |
+| 2026 | 37.7 | method, system | [GOPR-CAD: Graph-of-Operations Progressive Reasoning for CAD Generation](https://arxiv.org/abs/2611.11470v1) | Generating accurate CAD models requires substantial engineering expertise and careful control of geometry, topology, and mechanical constraints. Text-to-CAD aims to simplify this... |
 | 2026 | 37.6 | method | [TraceCAD: Trace-Guided Repair for Agentic CAD Generation](https://arxiv.org/abs/2608.03062v1) | LLM-based CAD agents produce executable parametric programs, but their correction loops may lose evidence about satisfied requirements, faulty operations, and prior repairs. We in... |
 | 2026 | 37.2 | method | [CvxNet: Learnable Convex Decomposition](https://openaccess.thecvf.com/content_CVPR_2020/papers/Deng_CvxNet_Learnable_Convex_Decomposition_CVPR_2020_paper.pdf) |  |
 | 2026 | 36 | method | [Compatibility and Accuracy Verification of CADmesh-Based Complex Geometry Modeling in Geant4](https://arxiv.org/abs/2606.06508v1) | Evaluates CADmesh (STL/OBJ) import in Geant4, showing 100% success, low volume error, and a general interface reducing code lines. |
@@ -327,4 +328,4 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 
 ---
 
-Total papers: **315**.
+Total papers: **316**.

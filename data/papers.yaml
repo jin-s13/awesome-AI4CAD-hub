@@ -2807,7 +2807,7 @@
     status: planned
     run_status: planned
     report: resource/cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026/research.md
-    queued_at: '2026-11-16T04:04:32Z'
+    queued_at: '2026-11-17T05:58:15Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -3434,7 +3434,7 @@
     status: planned
     run_status: planned
     report: resource/cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026/research.md
-    queued_at: '2026-11-16T04:04:32Z'
+    queued_at: '2026-11-17T05:58:15Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -11973,7 +11973,7 @@
     status: planned
     run_status: planned
     report: resource/towards-high-fidelity-cad-generation-via-llm-driven-program-2026/research.md
-    queued_at: '2026-11-16T04:04:32Z'
+    queued_at: '2026-11-17T05:58:15Z'
   seed_expanded: true
   taxonomy:
     primary: method
@@ -47637,7 +47637,7 @@
     status: planned
     run_status: planned
     report: resource/hiercad-hierarchical-text-to-cad-design-via-structure-align-2026/research.md
-    queued_at: '2026-11-16T04:04:32Z'
+    queued_at: '2026-11-17T05:58:15Z'
 - id: text-aided-multi-modal-panoptic-symbol-spotting-for-cad-floo-2026
   title: Text-Aided Multi-Modal Panoptic Symbol Spotting for CAD Floor Plan Drawings
   authors:
@@ -53585,11 +53585,29 @@
         topic_heavy:
           rank: 142
           score: 31.4
+    keyword_scores:
+      AI for CAD: 8
+      computer-aided design: 8
+      neural CAD: 5
+      generative CAD: 8
+      parametric CAD: 6
+      B-Rep: 7
+      boundary representation: 7
+      constructive solid geometry: 1
+      CSG: 1
+      sketch extrusion: 1
+      CAD generation: 9
+      CAD reconstruction: 2
+      text-to-CAD: 10
+      image-to-CAD: 1
+      point cloud to CAD: 1
+      CAD program: 5
+    total: 80
   title_cn: GOPR-CAD：用于CAD生成的操作图渐进式推理
   abstract_cn: 生成准确的CAD模型需要扎实的工程专业知识，并要精确控制几何、拓扑和机械约束。Text-to-CAD旨在简化这一过程，但当前基于LLM的方法往往直接生成CAD程序。在生成长代码的同时协调相互耦合的几何、拓扑和尺寸约束，语言模型仍然不够可靠。因此，即使程序可执行，仍可能生成结构错误的模型，而执行率和渲染外观可能无法揭示这类问题。为解决上述局限，我们提出GOPR-CAD——一种基于操作图渐进式推理（Graph-of-Operations
     Progressive Reasoning）的智能体式Text-to-CAD流水线。语言模型作为决策智能体，对封装的CAD操作进行选择，并逐步构建可执行操作图，再由确定性编译器将其转换为最终CAD模型。这种分离无需额外训练，并支持不同的语言模型。为了评估结构保真度，我们构建了MHCAD基准，其中包含来自《机械师手册》（Machinery's
     Handbook）的300个标准机械零件需求。这些需求具有显式结构，支持无参考的STEP/B-rep评估。GOPR-CAD在MHCAD上达到82.7%的结构良率，在外部CADPrompt子集上达到87.2%的结构良率。
-  grade: skip
+  grade: must_read
   taxonomy:
     primary: method
     secondary:
@@ -53598,3 +53616,56 @@
     - application
     confidence: 0.68
     evidence: method
+  tldr: GOPR-CAD uses an LLM agent to progressively build an executable operation
+    graph, compiled to CAD models, improving structural fidelity in text-to-CAD without
+    training.
+  reasoning: The paper presents a novel training-free agentic pipeline that separates
+    high-level reasoning from deterministic compilation, supported by a new structural
+    benchmark. Weaknesses include limited visible detail on operation granularity
+    and evaluation focused on structural yield rather than geometric accuracy.
+  has_real_world: true
+  analysis:
+    innovations:
+    - Proposes GOPR-CAD, an agentic Text-to-CAD pipeline based on Graph-of-Operations
+      Progressive Reasoning.
+    - Uses a language model as a decision agent over encapsulated CAD operations to
+      progressively construct an executable operation graph, which a deterministic
+      compiler converts into the final CAD model.
+    - The approach requires no additional training and supports different language
+      models.
+    - Introduces MHCAD, a benchmark of 300 standard mechanical part requirements derived
+      from Machinery's Handbook, enabling reference-free STEP/B-rep structural evaluation.
+    methodology: GOPR-CAD employs an agentic pipeline in which a language model acts
+      as a decision agent over encapsulated CAD operations and progressively builds
+      an executable operation graph; a deterministic compiler then converts this graph
+      into the final CAD model. Evaluation uses the MHCAD benchmark of 300 standard
+      mechanical part requirements from Machinery's Handbook with reference-free STEP/B-rep
+      structural evaluation and reports Structural Yield, including on an external
+      CADPrompt subset.
+    key_results: GOPR-CAD achieves 82.7% Structural Yield on the MHCAD benchmark and
+      87.2% Structural Yield on an external CADPrompt subset.
+    limitations:
+    - 'Identified limitation of current LLM-based methods: they often generate CAD
+      programs directly and remain unreliable when producing long code while coordinating
+      coupled geometric, topological, and dimensional constraints.'
+    - 'Identified limitation of current evaluation: executable programs may still
+      produce structurally incorrect models, which execution rate and rendered appearance
+      may fail to reveal.'
+  tldr_cn: GOPR-CAD以图操作渐进推理，让语言模型代理逐步构建可执行操作图并编译成CAD模型，无需训练即提升结构保真度。
+  analysis_cn:
+    innovations:
+    - 提出GOPR-CAD，一种基于图操作渐进推理（Graph-of-Operations Progressive Reasoning）的智能体式Text-to-CAD流水线。
+    - 使用语言模型作为封装CAD操作之上的决策代理，逐步构建可执行操作图，并由确定性编译器将其转换为最终CAD模型。
+    - 该方法无需额外训练，并支持不同的语言模型。
+    - 提出MHCAD基准，包含源自Machinery's Handbook的300个标准机械零件需求，支持无参考的STEP/B-rep结构评估。
+    methodology: GOPR-CAD采用智能体式流水线：语言模型作为封装CAD操作之上的决策代理，逐步构建可执行操作图；确定性编译器随后将该图转换为最终CAD模型。评估使用MHCAD基准（含300个源自Machinery's
+      Handbook的标准机械零件需求），进行无参考的STEP/B-rep结构评估，并报告结构产出率（Structural Yield），包括在外部CADPrompt子集上的结果。
+    key_results: GOPR-CAD在MHCAD基准上达到82.7%的结构产出率（Structural Yield），在外部CADPrompt子集上达到87.2%。
+    limitations:
+    - 现有基于LLM的方法常直接生成CAD程序，在生成长代码并协调几何、拓扑和尺寸约束时不可靠。
+    - 现有评估的局限：可执行程序仍可能生成结构错误的模型，执行率和渲染外观可能无法揭示这些问题。
+    tech_stack:
+    - LLM
+    - Graph-of-Operations Progressive Reasoning
+    - Deterministic compiler
+    - STEP/B-rep

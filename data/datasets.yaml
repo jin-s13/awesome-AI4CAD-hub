@@ -1095,6 +1095,11 @@
       for CFD-based airflow analysis in classrooms
     url: https://arxiv.org/abs/2609.23425v1
     title_zh: 基于360度视频的半自动室内几何重建，用于教室中基于CFD的气流分析
+  - id: generative-ai-driven-parametric-design-optimization-framewor-2026
+    title: Generative AI-Driven Parametric Design Optimization Framework for Vehicle
+      Closure Systems
+    url: https://arxiv.org/abs/2611.20451v1
+    title_zh: 生成式AI驱动的车辆开闭件系统参数化设计优化框架
   name_zh: AutoMate
   description_zh: 提出SB-GCN，利用参数化BREP表示预测CAD装配配合，新数据集，商用CAD工具中准确率72.2%。
   notes_zh: 派生自论文：AutoMate

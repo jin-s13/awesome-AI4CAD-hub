@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-11-17T05:58:13Z'
+generated_at: '2026-11-18T05:27:38Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -2372,3 +2372,35 @@ assignments:
   - application
   confidence: 0.68
   evidence: method
+- paper_id: cadmageddon-high-fidelity-cad-reconstruction-with-local-inf-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  - theory
+  confidence: 0.68
+  evidence: method
+- paper_id: generative-ai-driven-parametric-design-optimization-framewor-2026
+  primary: system
+  secondary:
+  - method
+  - benchmark
+  - theory
+  confidence: 0.67
+  evidence: system
+- paper_id: millbill-a-machining-agent-with-geometric-feedback-2026
+  primary: benchmark
+  secondary:
+  - application
+  - method
+  - theory
+  confidence: 0.37
+  evidence: benchmark
+- paper_id: brepa-graph-based-b-rep-pretraining-for-unified-cad-underst-2026
+  primary: application
+  secondary:
+  - benchmark
+  - theory
+  - method
+  confidence: 0.66
+  evidence: application

@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-11-17T05:58:19Z'
+generated_at: '2026-11-18T05:27:44Z'
 jobs:
 - id: method
   topic_id: method
@@ -310,6 +310,10 @@ jobs:
   - cad-wam-anticipating-geometry-for-text-to-cad-generation-2026
   - so-3-equivariant-learning-on-cad-boundary-representations-2026
   - gopr-cad-graph-of-operations-progressive-reasoning-for-cad-2026
+  - cadmageddon-high-fidelity-cad-reconstruction-with-local-inf-2026
+  - generative-ai-driven-parametric-design-optimization-framewor-2026
+  - millbill-a-machining-agent-with-geometric-feedback-2026
+  - brepa-graph-based-b-rep-pretraining-for-unified-cad-underst-2026
   top_tags:
   - CV
   - AI
@@ -319,11 +323,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: bd67d09f0f6d3289
+  prompt_hash: 915ad33f6d97fa97
   status: done
-  attempts: 7
+  attempts: 1
   error: ''
-  updated_at: '2026-11-17T05:58:22Z'
+  updated_at: '2026-11-18T05:29:23Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -582,6 +586,10 @@ jobs:
   - cad-wam-anticipating-geometry-for-text-to-cad-generation-2026
   - so-3-equivariant-learning-on-cad-boundary-representations-2026
   - gopr-cad-graph-of-operations-progressive-reasoning-for-cad-2026
+  - cadmageddon-high-fidelity-cad-reconstruction-with-local-inf-2026
+  - generative-ai-driven-parametric-design-optimization-framewor-2026
+  - millbill-a-machining-agent-with-geometric-feedback-2026
+  - brepa-graph-based-b-rep-pretraining-for-unified-cad-underst-2026
   top_tags:
   - CV
   - AI
@@ -591,11 +599,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: d9c203b58a597e16
+  prompt_hash: a25a27665d526578
   status: done
-  attempts: 7
+  attempts: 1
   error: ''
-  updated_at: '2026-11-17T05:58:22Z'
+  updated_at: '2026-11-18T05:29:21Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -805,6 +813,8 @@ jobs:
   - graphcad-geometry-aware-diffusion-on-edge-adjacency-graphs-2026
   - cad-wam-anticipating-geometry-for-text-to-cad-generation-2026
   - so-3-equivariant-learning-on-cad-boundary-representations-2026
+  - cadmageddon-high-fidelity-cad-reconstruction-with-local-inf-2026
+  - generative-ai-driven-parametric-design-optimization-framewor-2026
   top_tags:
   - CV
   - AI
@@ -814,11 +824,11 @@ jobs:
   - CL
   - HC
   - SY
-  prompt_hash: cd8eaf39d020c47b
+  prompt_hash: 4482823b90706437
   status: done
-  attempts: 12
+  attempts: 1
   error: ''
-  updated_at: '2026-11-17T05:58:22Z'
+  updated_at: '2026-11-18T05:30:36Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -962,6 +972,10 @@ jobs:
   - graphcad-geometry-aware-diffusion-on-edge-adjacency-graphs-2026
   - cad-wam-anticipating-geometry-for-text-to-cad-generation-2026
   - gopr-cad-graph-of-operations-progressive-reasoning-for-cad-2026
+  - cadmageddon-high-fidelity-cad-reconstruction-with-local-inf-2026
+  - generative-ai-driven-parametric-design-optimization-framewor-2026
+  - millbill-a-machining-agent-with-geometric-feedback-2026
+  - brepa-graph-based-b-rep-pretraining-for-unified-cad-underst-2026
   top_tags:
   - CV
   - AI
@@ -971,11 +985,11 @@ jobs:
   - SE
   - CE
   - MA
-  prompt_hash: 33b502a68a552a6a
+  prompt_hash: d12f17d5605b7959
   status: done
-  attempts: 7
+  attempts: 1
   error: ''
-  updated_at: '2026-11-17T05:58:22Z'
+  updated_at: '2026-11-18T05:30:57Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -1039,9 +1053,9 @@ jobs:
   - AI
   prompt_hash: 3dbd2cb846fd9a32
   status: done
-  attempts: 90
+  attempts: 91
   error: ''
-  updated_at: '2026-11-17T05:58:22Z'
+  updated_at: '2026-11-18T05:30:36Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -1204,6 +1218,8 @@ jobs:
   - cncgen-a-dataset-and-framework-for-machining-process-planni-2026
   - so-3-equivariant-learning-on-cad-boundary-representations-2026
   - gopr-cad-graph-of-operations-progressive-reasoning-for-cad-2026
+  - millbill-a-machining-agent-with-geometric-feedback-2026
+  - brepa-graph-based-b-rep-pretraining-for-unified-cad-underst-2026
   top_tags:
   - CV
   - LG
@@ -1213,8 +1229,8 @@ jobs:
   - CL
   - CG
   - HC
-  prompt_hash: 7fcf0f6618d31fed
+  prompt_hash: 1e6056bb443833a9
   status: done
-  attempts: 7
+  attempts: 1
   error: ''
-  updated_at: '2026-11-17T05:58:22Z'
+  updated_at: '2026-11-18T05:31:56Z'

@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-11-21T05:01:40Z'
+generated_at: '2026-11-22T04:22:26Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -2394,7 +2394,7 @@ assignments:
   - application
   - method
   - theory
-  confidence: 0.37
+  confidence: 0.67
   evidence: benchmark
 - paper_id: brepa-graph-based-b-rep-pretraining-for-unified-cad-underst-2026
   primary: application

@@ -2807,7 +2807,7 @@
     status: planned
     run_status: planned
     report: resource/cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026/research.md
-    queued_at: '2026-11-21T05:01:42Z'
+    queued_at: '2026-11-22T04:22:28Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -3434,7 +3434,7 @@
     status: planned
     run_status: planned
     report: resource/cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026/research.md
-    queued_at: '2026-11-21T05:01:42Z'
+    queued_at: '2026-11-22T04:22:28Z'
   seed_expanded: true
   taxonomy:
     primary: benchmark
@@ -11973,7 +11973,7 @@
     status: planned
     run_status: planned
     report: resource/towards-high-fidelity-cad-generation-via-llm-driven-program-2026/research.md
-    queued_at: '2026-11-21T05:01:42Z'
+    queued_at: '2026-11-22T04:22:28Z'
   seed_expanded: true
   taxonomy:
     primary: method
@@ -47637,7 +47637,7 @@
     status: planned
     run_status: planned
     report: resource/hiercad-hierarchical-text-to-cad-design-via-structure-align-2026/research.md
-    queued_at: '2026-11-21T05:01:42Z'
+    queued_at: '2026-11-22T04:22:28Z'
 - id: text-aided-multi-modal-panoptic-symbol-spotting-for-cad-floo-2026
   title: Text-Aided Multi-Modal Panoptic Symbol Spotting for CAD Floor Plan Drawings
   authors:
@@ -53836,6 +53836,7 @@
     - theory
     confidence: 0.68
     evidence: method
+  has_real_world: false
 - id: generative-ai-driven-parametric-design-optimization-framewor-2026
   title: Generative AI-Driven Parametric Design Optimization Framework for Vehicle
     Closure Systems
@@ -54128,17 +54129,79 @@
         topic_heavy:
           rank: 136
           score: 33.6
+    keyword_scores:
+      AI for CAD: 7
+      computer-aided design: 7
+      neural CAD: 1
+      generative CAD: 1
+      parametric CAD: 1
+      B-Rep: 9
+      boundary representation: 9
+      constructive solid geometry: 0
+      CSG: 0
+      sketch extrusion: 0
+      CAD generation: 1
+      CAD reconstruction: 0
+      text-to-CAD: 0
+      image-to-CAD: 0
+      point cloud to CAD: 0
+      CAD program: 3
+    total: 39
   title_cn: MillBill：具有几何反馈的加工智能体
   abstract_cn: 将CAD模型转化为加工程序既需要工艺知识，也需要几何精度。语言模型可以通过为每个零件编写几何与刀具路径代码来生成此类工作流，但这使得数值执行成为模型任务的一部分。我们提出MillBill，一个将加工决策与几何执行和验证相分离的智能体。给定边界表示（boundary-representation）的零件、毛坯和材料，一个本地部署的中等规模开源模型为分度三轴加工提出操作与切削参数。一个几何框架生成刀具路径、模拟材料去除，并返回反馈以优化加工方案。装夹规划考虑可用刀具能够物理达到的范围，而不仅仅是可见性。我们通过模拟加工后目标表面区域中处于指定公差范围内的比例来评估所生成的程序。使用Qwen3.8-27B，MillBill在评估的加工任务上优于自行构建几何与刀具路径工作流的前沿模型方法。代码：https://github.com/kulibinai/millbill
-  grade: skip
+  grade: worth_reading
   taxonomy:
     primary: benchmark
     secondary:
     - application
     - method
     - theory
-    confidence: 0.37
+    confidence: 0.67
     evidence: benchmark
+  tldr: MillBill is an agent that separates machining decisions from geometric execution,
+    using an open language model and geometric feedback to plan three-axis machining
+    for B-Rep parts.
+  reasoning: The paper presents a practical agentic framework that combines a local
+    open LLM with a geometric harness for machining planning, which is a strong contribution.
+    However, evaluation is simulation-based rather than real-world, and the abstract
+    does not detail benchmark breadth or comparative limitations.
+  has_real_world: false
+  analysis:
+    innovations:
+    - Separates machining decisions from geometric execution and verification, rather
+      than requiring language models to write geometry and toolpath code themselves.
+    - Introduces a geometric harness that generates toolpaths, simulates material
+      removal, and returns feedback for plan refinement.
+    - Setup planning accounts for what available cutters can physically reach, not
+      just visibility.
+    - Uses a locally hosted, mid-sized open model to propose operations and cutting
+      parameters for indexed three-axis machining.
+    - Evaluates machining programs by the fraction of target surface area within specified
+      tolerance after simulated machining.
+    methodology: Given a boundary-representation part, stock, and material, a locally
+      hosted, mid-sized open model proposes operations and cutting parameters for
+      indexed three-axis machining. A geometric harness generates toolpaths, simulates
+      material removal, and returns feedback for plan refinement. Resulting programs
+      are evaluated by the fraction of target surface area within the specified tolerance
+      after simulated machining, with comparison against frontier-model approaches
+      that construct their own geometry and toolpath workflows.
+    key_results: With Qwen3.8-27B, MillBill outperforms frontier-model approaches
+      that construct their own geometry and toolpath workflows on the evaluated machining
+      tasks, as measured by target surface area within specified tolerance after simulated
+      machining.
+    limitations: []
+  tldr_cn: MillBill将加工决策与几何执行分离，用开放语言模型和几何反馈规划三轴加工。
+  analysis_cn:
+    innovations:
+    - 将加工决策与几何执行和验证分离，而非要求语言模型自行编写几何与刀具路径代码。
+    - 引入geometric harness，生成刀具路径、模拟材料去除，并返回反馈用于方案细化。
+    - 装夹规划考虑可用刀具实际可达范围，而不仅仅是可见性。
+    - 使用本地部署的中型开放模型，为分度三轴加工提出工序和切削参数。
+    - 通过模拟加工后目标表面面积在指定公差内的比例来评估加工程序。
+    methodology: 给定边界表示（B-Rep）零件、毛坯和材料，本地部署的中型开放模型为分度三轴加工提出工序和切削参数。geometric harness生成刀具路径、模拟材料去除，并返回反馈用于方案细化。最终程序通过模拟加工后目标表面面积在指定公差内的比例进行评估，并与自行构建几何和刀具路径工作流的前沿模型方法进行比较。
+    key_results: 使用Qwen3.8-27B时，MillBill在评估的加工任务上优于自行构建几何与刀具路径工作流的前沿模型方法，衡量指标为模拟加工后目标表面面积处于指定公差内的比例。
+    limitations: []
+    tech_stack: []
 - id: brepa-graph-based-b-rep-pretraining-for-unified-cad-underst-2026
   title: 'BRepA: Graph-Based B-Rep Pretraining for Unified CAD Understanding and Generation'
   authors:

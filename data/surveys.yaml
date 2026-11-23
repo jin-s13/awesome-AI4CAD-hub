@@ -1,5 +1,5 @@
 schema_version: awesome-hub.surveys.v1
-generated_at: '2026-11-22T04:22:31Z'
+generated_at: '2026-11-23T05:00:52Z'
 topics:
 - id: method
   label: method
@@ -21,7 +21,7 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 39.0
+    methodology_quality: 39.1
     recency: 79.5
     reproducibility: 43.2
     topical_relevance: 25.0
@@ -228,7 +228,7 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 45.9
+    methodology_quality: 46.0
     recency: 80.7
     reproducibility: 38.8
     topical_relevance: 28.3
@@ -608,10 +608,10 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 53.9
+    methodology_quality: 54.1
     recency: 82.6
     reproducibility: 37.5
-    topical_relevance: 31.8
+    topical_relevance: 31.9
   top_papers:
   - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
     title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
@@ -1004,10 +1004,10 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 45.0
+    methodology_quality: 45.1
     recency: 78.4
     reproducibility: 39.1
-    topical_relevance: 27.9
+    topical_relevance: 28.0
   top_papers:
   - id: cadfit-precise-mesh-to-cad-program-generation-with-hybrid-o-2026
     title: 'CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization'

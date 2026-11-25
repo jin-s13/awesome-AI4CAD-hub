@@ -88,12 +88,14 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2026 | 46.9 | method | [AIMold: An Autonomous AI-based Pipeline for Complex Mold Design](https://arxiv.org/abs/2608.00800v1) | Introduces MoldCAD dataset and AI pipeline for automating complex injection mold design, including auxiliary components. |
 | 2026 | 46.2 | method | [Memory-Augmented Reinforcement Learning Agent for CAD Generation](https://arxiv.org/abs/2605.19748v1) | Proposes a memory-augmented reinforcement learning framework for CAD generation that improves success rate and geometric consistency on complex models. |
 | 2026 | 46.2 | method, application | [Semi-automated reconstruction of indoor geometry from 360-degree video for CFD-based airflow analysis in classrooms](https://arxiv.org/abs/2609.23425v1) | Presents a semi-automated workflow converting 360-degree videos of rooms into editable simulation-ready geometry assets via NeRF, SAM, ICP, and procedural modeling for CFD airflow... |
+| 2026 | 46 | method, application | [Boundary Representation-Driven Graph Transformer Modeling for Machining Operation Sequencing](https://arxiv.org/abs/2611.31661v1) | Machining process planning is inherently complex due to the interdependence between part geometry, machining operations, and evolving manufacturable states. Traditional approaches... |
 | 2026 | 45.2 | method | [Text-Aided Multi-Modal Panoptic Symbol Spotting for CAD Floor Plan Drawings](https://arxiv.org/abs/2607.12678v1) | Computer-Aided Design (CAD) floor plan drawings contain both graphical primitives and textual annotations, which provide complementary geometric and semantic cues for intelligent... |
 | 2026 | 45.2 | method | [Topology-First B-Rep Meshing](https://arxiv.org/abs/2604.02141v1) | A meshing algorithm that enforces exact B-Rep topology while allowing geometric tolerance, producing topologically correct meshes without post-hoc repairs. |
 | 2026 | 44.1 | method | [SECAD-Net: Self-Supervised CAD Reconstruction by Learning Sketch-Extrude Operations](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_SECAD-Net_Self-Supervised_CAD_Reconstruction_by_Learning_Sketch-Extrude_Operations_CVPR_2023_paper.pdf) |  |
 | 2026 | 43.2 | method | [A2Z-10M+: Geometric Deep Learning with A-to-Z BRep Annotations for AI-Assisted CAD Modeling and Reverse Engineering](https://arxiv.org/abs/2603.12605v1) | Reverse engineering and rapid prototyping of computer-aided design (CAD) models from 3D scans, sketches, or simple text prompts are vital in industrial product design. However, re... |
 | 2026 | 42.4 | method | [Autoregressive B-Rep Shape Generation with Parametric Surfaces](https://arxiv.org/abs/2607.17093) |  |
 | 2026 | 42.4 | method, application | [PolyGNN: Polyhedron-based Graph Neural Network for 3D Building Reconstruction from Point Clouds](https://www.sciencedirect.com/science/article/pii/S0924271624003691) |  |
+| 2026 | 41.8 | method | [Aqua2CAD : Observation-Guided Point Cloud Correction and Completion for CAD Reconstruction from Underwater Stereo Images](https://arxiv.org/abs/2611.32835v1) | Recovering editable computer-aided design (CAD) models from underwater stereo images requires accurate and complete geometry, yet stereo reconstruction produces displaced points a... |
 | 2026 | 41.8 | method | [Point2CAD: Reverse Engineering CAD Models from 3D Point Clouds](https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_Point2CAD_Reverse_Engineering_CAD_Models_from_3D_Point_Clouds_CVPR_2024_paper.pdf) |  |
 | 2026 | 41.5 | method | [VGGT-CAD: Reconstructing Parametric CAD 3D Model with Geometric Grounding](https://arxiv.org/abs/2609.21225v1) | Parametric CAD reconstruction requires recovering both precise geometry and editable modeling operations from visual observations, making it challenging under limited and ambiguou... |
 | 2026 | 40.1 | method | [SDM-NET: Deep Generative Network for Structured Deformable Mesh](https://dl.acm.org/doi/pdf/10.1145/3355089.3356488) |  |
@@ -332,4 +334,4 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 
 ---
 
-Total papers: **320**.
+Total papers: **322**.

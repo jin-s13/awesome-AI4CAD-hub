@@ -1100,6 +1100,11 @@
       Closure Systems
     url: https://arxiv.org/abs/2611.20451v1
     title_zh: 生成式AI驱动的车辆开闭件系统参数化设计优化框架
+  - id: boundary-representation-driven-graph-transformer-modeling-fo-2026
+    title: Boundary Representation-Driven Graph Transformer Modeling for Machining
+      Operation Sequencing
+    url: https://arxiv.org/abs/2611.31661v1
+    title_zh: 面向加工操作排序的边界表示驱动图Transformer建模
   name_zh: AutoMate
   description_zh: 提出SB-GCN，利用参数化BREP表示预测CAD装配配合，新数据集，商用CAD工具中准确率72.2%。
   notes_zh: 派生自论文：AutoMate

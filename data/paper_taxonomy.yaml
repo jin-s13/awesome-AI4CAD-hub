@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-11-24T07:50:24Z'
+generated_at: '2026-11-25T06:21:34Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -2404,3 +2404,19 @@ assignments:
   - method
   confidence: 0.66
   evidence: application
+- paper_id: boundary-representation-driven-graph-transformer-modeling-fo-2026
+  primary: method
+  secondary:
+  - system
+  - theory
+  - benchmark
+  confidence: 0.66
+  evidence: method
+- paper_id: aqua2cad-observation-guided-point-cloud-correction-and-com-2026
+  primary: benchmark
+  secondary:
+  - method
+  - system
+  - theory
+  confidence: 0.67
+  evidence: benchmark

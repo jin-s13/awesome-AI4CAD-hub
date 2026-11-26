@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-11-25T06:21:43Z'
+generated_at: '2026-11-26T06:13:22Z'
 jobs:
 - id: method
   topic_id: method
@@ -316,6 +316,7 @@ jobs:
   - brepa-graph-based-b-rep-pretraining-for-unified-cad-underst-2026
   - boundary-representation-driven-graph-transformer-modeling-fo-2026
   - aqua2cad-observation-guided-point-cloud-correction-and-com-2026
+  - controllable-cad-generation-and-interactive-editing-of-fluid-2026
   top_tags:
   - CV
   - AI
@@ -325,11 +326,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: 6daf5a19d2700632
+  prompt_hash: c0e7ff42f8648263
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-11-25T06:23:13Z'
+  updated_at: '2026-11-26T06:16:33Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -594,6 +595,7 @@ jobs:
   - brepa-graph-based-b-rep-pretraining-for-unified-cad-underst-2026
   - boundary-representation-driven-graph-transformer-modeling-fo-2026
   - aqua2cad-observation-guided-point-cloud-correction-and-com-2026
+  - controllable-cad-generation-and-interactive-editing-of-fluid-2026
   top_tags:
   - CV
   - AI
@@ -603,11 +605,11 @@ jobs:
   - SE
   - RO
   - CG
-  prompt_hash: bd51145cdfb24b2a
+  prompt_hash: db52e4bc3a8cb5c3
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-11-25T06:23:25Z'
+  updated_at: '2026-11-26T06:14:48Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -821,6 +823,7 @@ jobs:
   - generative-ai-driven-parametric-design-optimization-framewor-2026
   - boundary-representation-driven-graph-transformer-modeling-fo-2026
   - aqua2cad-observation-guided-point-cloud-correction-and-com-2026
+  - controllable-cad-generation-and-interactive-editing-of-fluid-2026
   top_tags:
   - CV
   - AI
@@ -830,11 +833,11 @@ jobs:
   - CL
   - HC
   - SY
-  prompt_hash: 12cbec9313cbbdf2
+  prompt_hash: 5ddae7f97654890a
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-11-25T06:24:31Z'
+  updated_at: '2026-11-26T06:17:46Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -984,6 +987,7 @@ jobs:
   - brepa-graph-based-b-rep-pretraining-for-unified-cad-underst-2026
   - boundary-representation-driven-graph-transformer-modeling-fo-2026
   - aqua2cad-observation-guided-point-cloud-correction-and-com-2026
+  - controllable-cad-generation-and-interactive-editing-of-fluid-2026
   top_tags:
   - CV
   - AI
@@ -993,11 +997,11 @@ jobs:
   - SE
   - CE
   - MA
-  prompt_hash: 9aaa3577ddcb9cdc
+  prompt_hash: bb3e1ea08c1a958d
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-11-25T06:24:48Z'
+  updated_at: '2026-11-26T06:17:58Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -1061,9 +1065,9 @@ jobs:
   - AI
   prompt_hash: 3dbd2cb846fd9a32
   status: done
-  attempts: 98
+  attempts: 99
   error: ''
-  updated_at: '2026-11-25T06:24:31Z'
+  updated_at: '2026-11-26T06:17:46Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -1239,6 +1243,6 @@ jobs:
   - HC
   prompt_hash: 1e6056bb443833a9
   status: done
-  attempts: 8
+  attempts: 9
   error: ''
-  updated_at: '2026-11-25T06:24:31Z'
+  updated_at: '2026-11-26T06:17:46Z'

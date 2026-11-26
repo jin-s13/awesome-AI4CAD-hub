@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-11-25T06:21:34Z'
+generated_at: '2026-11-26T06:13:18Z'
 assignments:
 - paper_id: a2z-10m-geometric-deep-learning-with-a-to-z-brep-annotatio-2026
   primary: benchmark
@@ -2420,3 +2420,11 @@ assignments:
   - theory
   confidence: 0.67
   evidence: benchmark
+- paper_id: controllable-cad-generation-and-interactive-editing-of-fluid-2026
+  primary: method
+  secondary:
+  - benchmark
+  - theory
+  - system
+  confidence: 0.68
+  evidence: method

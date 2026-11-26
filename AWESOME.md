@@ -58,6 +58,7 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 | 2026 | 55.3 | method | [Learning From Design Procedure To Generate CAD Programs for Data Augmentation](https://arxiv.org/abs/2603.06894v1) | Proposes a data augmentation method using LLMs to generate CAD programs conditioned on reference surfaces and modeling procedures, enhancing geometric diversity. |
 | 2026 | 54.7 | method | [Text-to-CAD Retrieval: a Strong Baseline](https://arxiv.org/abs/2605.05572v1) | Introduces text-to-CAD retrieval as a new task and proposes a strong baseline using multi-modal embeddings from procedural sequences and point clouds. |
 | 2026 | 54.4 | method | [DepthBenchCAD: When Does Deeper Auditing Yield More Reliable Conclusions?](https://arxiv.org/abs/2609.15122v1) | Studies fixed-budget evaluation of generative CAD models, showing deeper edit auditing can reduce reliability when template or generation variance dominates; calibration predicts... |
+| 2026 | 53.7 | method | [Controllable CAD Generation and Interactive Editing of Fluid Rotors](https://arxiv.org/abs/2611.33617v1) | Introduces VaneCraft, an agent-driven framework for controllable generation, inverse recovery, and editing of fluid rotor CAD models using unified analytical controls and PDE-base... |
 | 2026 | 53.7 | method | [MillBill: A Machining Agent with Geometric Feedback](https://arxiv.org/abs/2611.22565v1) | MillBill is an agent that separates machining decisions from geometric execution, using an open language model and geometric feedback to plan three-axis machining for B-Rep parts. |
 | 2026 | 53.6 | method | [BrepForge: Factorized B-rep Synthesis via Wireframe Composition and Boundary-Conditioned Surface Instantiation](https://arxiv.org/abs/2605.19411v1) | BrepForge factorizes B-rep synthesis into wireframe composition and boundary-conditioned surface instantiation, achieving superior topological validity and geometric complexity. |
 | 2026 | 53.5 | method | [Physics-in-the-Loop: A Hybrid Agentic Architecture for Validated CAD Engineering Design](https://arxiv.org/abs/2605.19717v1) | A hybrid agentic architecture that embeds physics-based tools into LLM-driven CAD generation for validated engineering design. |
@@ -334,4 +335,4 @@ A curated hub for AI papers, datasets, projects, and research for CAD, parametri
 
 ---
 
-Total papers: **322**.
+Total papers: **323**.

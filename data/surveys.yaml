@@ -1,5 +1,5 @@
 schema_version: awesome-hub.surveys.v1
-generated_at: '2026-11-26T06:13:22Z'
+generated_at: '2026-11-27T06:05:36Z'
 topics:
 - id: method
   label: method
@@ -24,7 +24,7 @@ topics:
     methodology_quality: 39.3
     recency: 79.7
     reproducibility: 43.3
-    topical_relevance: 25.0
+    topical_relevance: 25.1
   top_papers:
   - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
     title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
@@ -209,10 +209,10 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 46.1
+    methodology_quality: 46.2
     recency: 80.9
     reproducibility: 38.9
-    topical_relevance: 28.3
+    topical_relevance: 28.4
   top_papers:
   - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
     title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
@@ -399,7 +399,7 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 42.0
+    methodology_quality: 42.1
     recency: 79.7
     reproducibility: 39.7
     topical_relevance: 26.7
@@ -592,10 +592,10 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 54.1
+    methodology_quality: 54.3
     recency: 83.0
     reproducibility: 37.8
-    topical_relevance: 31.8
+    topical_relevance: 31.9
   top_papers:
   - id: cadbench-a-multimodal-benchmark-for-ai-assisted-cad-program-2026
     title: 'CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation'
